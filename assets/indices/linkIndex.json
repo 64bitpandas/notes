@@ -101,12 +101,12 @@
         },
         {
           "source": "/cs61b/",
-          "target": "/sorting/sorting-basics",
+          "target": "/algorithms/sorting",
           "text": "Sorting"
         },
         {
           "source": "/cs61b/",
-          "target": "/algorithms/sorting",
+          "target": "/algorithms/searching",
           "text": "Searching"
         },
         {
@@ -803,6 +803,13 @@
           "text": "Access Control"
         }
       ],
+      "/algorithms/searching": [
+        {
+          "source": "/cs61b/",
+          "target": "/algorithms/searching",
+          "text": "Searching"
+        }
+      ],
       "/algorithms/searching/binary-search": [
         {
           "source": "/cs61b/",
@@ -821,7 +828,7 @@
         {
           "source": "/cs61b/",
           "target": "/algorithms/sorting",
-          "text": "Searching"
+          "text": "Sorting"
         }
       ],
       "/arrays": [
@@ -1048,13 +1055,6 @@
           "text": "update"
         }
       ],
-      "/sorting/sorting-basics": [
-        {
-          "source": "/cs61b/",
-          "target": "/sorting/sorting-basics",
-          "text": "Sorting"
-        }
-      ],
       "/stacks-and-queues": [
         {
           "source": "/cs61b/abstract-data-types/collections/",
@@ -1181,12 +1181,12 @@
     },
     {
       "source": "/cs61b/",
-      "target": "/sorting/sorting-basics",
+      "target": "/algorithms/sorting",
       "text": "Sorting"
     },
     {
       "source": "/cs61b/",
-      "target": "/algorithms/sorting",
+      "target": "/algorithms/searching",
       "text": "Searching"
     },
     {
