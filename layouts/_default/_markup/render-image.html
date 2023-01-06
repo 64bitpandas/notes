@@ -4,7 +4,7 @@
 {{- if $external -}}
 <img src="{{ $src }}" width="{{ $width }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }} />
 {{- else -}}
-{{$fixedUrl := (cond (hasPrefix $src "/") $src (printf "%s%s" .Page.File.Dir $src)) | urlize}}
+{{$fixedUrl := (cond (hasPrefix $src "/") $src (printf "%s%s" .Page.File.Dir $src)) }}
 <img src="{{.Page.Site.BaseURL}}{{ $fixedUrl }}" width="{{ $width }}" alt="{{ .Text }}" {{ with .Title }}
   title="{{ . }}" {{ end }} />
 {{- end -}}

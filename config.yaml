@@ -28,6 +28,9 @@ menu:
     - name: "Feedback"
       url: "https://github.com/64bitpandas/notes/issues"
       weight: 10
+    - name: "Contribute"
+      url: "/contributing"
+      weight: 10
 
 params:
 

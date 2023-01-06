@@ -51,6 +51,11 @@
       "/cs61b/": [
         {
           "source": "/cs61b/",
+          "target": "/notes/cs61a",
+          "text": "Click here"
+        },
+        {
+          "source": "/cs61b/",
           "target": "/oop/access-control",
           "text": "Access Control"
         },
@@ -1463,6 +1468,13 @@
           "text": "More Resources"
         }
       ],
+      "/notes/cs61a": [
+        {
+          "source": "/cs61b/",
+          "target": "/notes/cs61a",
+          "text": "Click here"
+        }
+      ],
       "/objects": [
         {
           "source": "/cs61b/oop/inheritance",
@@ -1938,6 +1950,11 @@
       "source": "/cs61b/SUMMARY",
       "target": "/misc-topics/more-resources",
       "text": "More Resources"
+    },
+    {
+      "source": "/cs61b/",
+      "target": "/notes/cs61a",
+      "text": "Click here"
     },
     {
       "source": "/cs61b/",
