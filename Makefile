@@ -22,3 +22,6 @@ serve: ## Serve Quartz locally
 
 docker: ## Serve locally using Docker
 	docker run -it --volume=$(shell pwd):/quartz -p 1313:1313 ghcr.io/jackyzha0/quartz:hugo
+
+fonts:
+	wget -O fonts.zip $(FONT_URL) && unzip -o fonts.zip -d static/fonts && rm fonts.zip
