@@ -3,9 +3,10 @@ title: "Dijkstra's Algorithm"
 weight: 1
 ---
 
-{% hint style="warning" %}
-Before continuing, make sure you're comfortable with [Graphs](../../abstract-data-types/graphs.md), [Stacks and Queues](../../abstract-data-types/collections/stacks-and-queues.md), and [Shortest Paths](./).
-{% endhint %}
+> [!info] Content Note
+>
+> Before continuing, make sure you're comfortable with [Graphs](../../abstract-data-types/graphs.md), [Stacks and Queues](../../abstract-data-types/collections/stacks-and-queues.md), and [Shortest Paths](./).
+
 
 ## One sentence overview
 

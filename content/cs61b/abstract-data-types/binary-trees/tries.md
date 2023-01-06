@@ -1,5 +1,3 @@
-# Tries
-
 ## Main Ideas
 
 A **trie** is a specific implementation of a set and is short for **retrieval tree.**

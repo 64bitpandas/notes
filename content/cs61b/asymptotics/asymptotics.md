@@ -3,9 +3,10 @@ title: "Asymptotic Analysis Basics"
 weight: 1
 ---
 
-{% hint style="warning" %}
-This concept is a big reason why a strong math background is helpful for computer science, even when it's not obvious that there are connections! Make sure you're comfortable with Calculus concepts up to [power series](http://tutorial.math.lamar.edu/Classes/CalcII/PowerSeries.aspx).
-{% endhint %}
+> [!info] Content Note
+>
+> This concept is a big reason why a strong math background is helpful for computer science, even when it's not obvious that there are connections! Make sure you're comfortable with Calculus concepts up to [power series](http://tutorial.math.lamar.edu/Classes/CalcII/PowerSeries.aspx).
+
 
 ## An Abstract Introduction to Asymptotic Analysis
 

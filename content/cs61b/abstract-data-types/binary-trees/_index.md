@@ -4,11 +4,9 @@ BookCollapseSection: true
 weight: 20
 ---
 
-# Binary Trees
-
-{% hint style="success" %}
-"The most important concept in computer science" - Josh Hug
-{% endhint %}
+> [!quote] &nbsp;
+>
+> "The most important concept in computer science" - Josh Hug
 
 ## Humble Origins
 
@@ -55,11 +53,8 @@ There are **three important operations** that trees should support: **find, inse
 
 ### **Find**
 
-Finding a value in a tree uses Binary Search. Click the link below to read up on it!
+Finding a value in a tree uses the [Binary Search](../../algorithms/searching/binary-search.md) algorithm. 
 
-{% content-ref url="../../algorithms/searching/binary-search.md" %}
-[binary-search.md](../../algorithms/searching/binary-search.md)
-{% endcontent-ref %}
 
 ### Insert
 
@@ -130,11 +125,7 @@ While trees are extremely versatile and fantastic for a variety of applications,
 
 Check out these pages for information on how to go through each element of a tree!
 
-{% content-ref url="../../algorithms/searching/depth-first-search-dfs.md" %}
-[depth-first-search-dfs.md](../../algorithms/searching/depth-first-search-dfs.md)
-{% endcontent-ref %}
+[Depth First Search](../../algorithms/searching/depth-first-search-dfs.md)
 
-{% content-ref url="../../algorithms/searching/breadth-first-search-bfs.md" %}
-[breadth-first-search-bfs.md](../../algorithms/searching/breadth-first-search-bfs.md)
-{% endcontent-ref %}
+[Breadth First Search](../../algorithms/searching/breadth-first-search-bfs.md)
 

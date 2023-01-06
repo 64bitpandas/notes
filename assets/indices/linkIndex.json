@@ -76,6 +76,11 @@
         },
         {
           "source": "/cs61b/",
+          "target": "/contributing",
+          "text": "contributing guide"
+        },
+        {
+          "source": "/cs61b/",
           "target": "/abstract-data-types/union-find-disjoint-sets",
           "text": "Union Find (Disjoint Sets)"
         },
@@ -101,7 +106,7 @@
         },
         {
           "source": "/cs61b/",
-          "target": "/algorithms/searching/",
+          "target": "/algorithms/sorting",
           "text": "Searching"
         },
         {
@@ -120,198 +125,11 @@
           "text": "Exceptions"
         }
       ],
-      "/cs61b/SUMMARY": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/CS61B-Index",
-          "text": "Welcome"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/oop/inheritance",
-          "text": "Inheritance"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/oop/access-control",
-          "text": "Access Control"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/oop/dynamic-method-selection",
-          "text": "Dynamic Method Selection"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/oop/objects",
-          "text": "Java Objects"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/oop/generics",
-          "text": "Generic Types"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/asymptotics/asymptotics",
-          "text": "Asymptotic Analysis Basics"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/asymptotics/amortization",
-          "text": "Amortization"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/asymptotics/asymptotics-practice",
-          "text": "Asymptotics Practice"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/collections/README",
-          "text": "Collections"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/collections/arrays",
-          "text": "Arrays"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/collections/linked-lists",
-          "text": "Linked Lists"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/collections/sets",
-          "text": "Sets"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/collections/stacks-and-queues",
-          "text": "Stacks and Queues"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/binary-trees/README",
-          "text": "Binary Trees"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/binary-trees/heaps",
-          "text": "Heaps"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/binary-trees/balanced-search-structures",
-          "text": "Balanced BSTs"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/binary-trees/tries",
-          "text": "Tries"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/graphs",
-          "text": "Graphs"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/hashing",
-          "text": "Hashing and Hash Tables"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/union-find-disjoint-sets",
-          "text": "Union Find (Disjoint Sets)"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/comparables-and-comparators",
-          "text": "Comparables and Comparators"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/sorting/sorting-basics",
-          "text": "Sorting"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/minimax",
-          "text": "Minimax Algorithm"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/searching/README",
-          "text": "Searching"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/searching/binary-search",
-          "text": "Binary Search"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/searching/depth-first-search-dfs",
-          "text": "Depth First Search (DFS)"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/searching/breadth-first-search-bfs",
-          "text": "Breadth First Search (BFS)"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/shortest-paths/README",
-          "text": "Shortest Paths"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/shortest-paths/dijkstras-algorithm",
-          "text": "Dijkstra's Algorithm"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/shortest-paths/a-search",
-          "text": "A* Search"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/minimum-spanning-trees/README",
-          "text": "Minimum Spanning Trees"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/minimum-spanning-trees/prims-algorithm",
-          "text": "Prim's Algorithm"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/minimum-spanning-trees/kruskals-algorithm",
-          "text": "Kruskal's Algorithm"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/misc-topics/modular-arithmetic",
-          "text": "Modular Arithmetic and Bit Manipulation"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/misc-topics/exceptions",
-          "text": "Exceptions"
-        },
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/misc-topics/more-resources",
-          "text": "More Resources"
-        }
-      ],
       "/cs61b/abstract-data-types/binary-trees/": [
         {
           "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/binary-search",
-          "text": "binary-search.md"
+          "text": "Binary Search"
         },
         {
           "source": "/cs61b/abstract-data-types/binary-trees/",
@@ -336,12 +154,12 @@
         {
           "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/depth-first-search-dfs",
-          "text": "depth-first-search-dfs.md"
+          "text": "Depth First Search"
         },
         {
           "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/breadth-first-search-bfs",
-          "text": "breadth-first-search-bfs.md"
+          "text": "Breadth First Search"
         }
       ],
       "/cs61b/abstract-data-types/binary-trees/balanced-search-structures": [
@@ -420,6 +238,11 @@
         }
       ],
       "/cs61b/abstract-data-types/collections/sets": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/sets",
+          "target": "/contributing",
+          "text": "help make it better!"
+        },
         {
           "source": "/cs61b/abstract-data-types/collections/sets",
           "target": "/../../asymptotics/amortization",
@@ -519,7 +342,7 @@
       "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm": [
         {
           "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
-          "target": "/./README",
+          "target": "/./",
           "text": "Minimum Spanning Trees"
         },
         {
@@ -726,21 +549,21 @@
         {
           "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/binary-search",
-          "text": "binary-search.md"
+          "text": "Binary Search"
         }
       ],
       "/../../algorithms/searching/breadth-first-search-bfs": [
         {
           "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/breadth-first-search-bfs",
-          "text": "breadth-first-search-bfs.md"
+          "text": "Breadth First Search"
         }
       ],
       "/../../algorithms/searching/depth-first-search-dfs": [
         {
           "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/depth-first-search-dfs",
-          "text": "depth-first-search-dfs.md"
+          "text": "Depth First Search"
         }
       ],
       "/../../algorithms/shortest-paths/dijkstras-algorithm": [
@@ -930,73 +753,17 @@
           "text": "Minimum Spanning Trees"
         },
         {
+          "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
+          "target": "/./",
+          "text": "Minimum Spanning Trees"
+        },
+        {
           "source": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
           "target": "/./",
           "text": "Shortest Paths"
         }
       ],
-      "/./README": [
-        {
-          "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
-          "target": "/./README",
-          "text": "Minimum Spanning Trees"
-        }
-      ],
-      "/CS61B-Index": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/CS61B-Index",
-          "text": "Welcome"
-        }
-      ],
-      "/abstract-data-types/binary-trees/README": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/binary-trees/README",
-          "text": "Binary Trees"
-        }
-      ],
-      "/abstract-data-types/binary-trees/balanced-search-structures": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/binary-trees/balanced-search-structures",
-          "text": "Balanced BSTs"
-        }
-      ],
-      "/abstract-data-types/binary-trees/heaps": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/binary-trees/heaps",
-          "text": "Heaps"
-        }
-      ],
-      "/abstract-data-types/binary-trees/tries": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/binary-trees/tries",
-          "text": "Tries"
-        }
-      ],
-      "/abstract-data-types/collections/README": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/collections/README",
-          "text": "Collections"
-        }
-      ],
-      "/abstract-data-types/collections/arrays": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/collections/arrays",
-          "text": "Arrays"
-        }
-      ],
       "/abstract-data-types/collections/linked-lists": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/collections/linked-lists",
-          "text": "Linked Lists"
-        },
         {
           "source": "/cs61b/",
           "target": "/abstract-data-types/collections/linked-lists",
@@ -1005,11 +772,6 @@
       ],
       "/abstract-data-types/collections/sets": [
         {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/collections/sets",
-          "text": "Sets"
-        },
-        {
           "source": "/cs61b/",
           "target": "/abstract-data-types/collections/sets",
           "text": "Sets"
@@ -1017,43 +779,12 @@
       ],
       "/abstract-data-types/collections/stacks-and-queues": [
         {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/collections/stacks-and-queues",
-          "text": "Stacks and Queues"
-        },
-        {
           "source": "/cs61b/",
           "target": "/abstract-data-types/collections/stacks-and-queues",
           "text": "Stacks and Queues"
         }
       ],
-      "/abstract-data-types/comparables-and-comparators": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/comparables-and-comparators",
-          "text": "Comparables and Comparators"
-        }
-      ],
-      "/abstract-data-types/graphs": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/graphs",
-          "text": "Graphs"
-        }
-      ],
-      "/abstract-data-types/hashing": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/hashing",
-          "text": "Hashing and Hash Tables"
-        }
-      ],
       "/abstract-data-types/union-find-disjoint-sets": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/abstract-data-types/union-find-disjoint-sets",
-          "text": "Union Find (Disjoint Sets)"
-        },
         {
           "source": "/cs61b/",
           "target": "/abstract-data-types/union-find-disjoint-sets",
@@ -1072,72 +803,11 @@
           "text": "Access Control"
         }
       ],
-      "/algorithms/minimax": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/minimax",
-          "text": "Minimax Algorithm"
-        }
-      ],
-      "/algorithms/minimum-spanning-trees/README": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/minimum-spanning-trees/README",
-          "text": "Minimum Spanning Trees"
-        }
-      ],
-      "/algorithms/minimum-spanning-trees/kruskals-algorithm": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/minimum-spanning-trees/kruskals-algorithm",
-          "text": "Kruskal's Algorithm"
-        }
-      ],
-      "/algorithms/minimum-spanning-trees/prims-algorithm": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/minimum-spanning-trees/prims-algorithm",
-          "text": "Prim's Algorithm"
-        }
-      ],
-      "/algorithms/searching/": [
-        {
-          "source": "/cs61b/",
-          "target": "/algorithms/searching/",
-          "text": "Searching"
-        }
-      ],
-      "/algorithms/searching/README": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/searching/README",
-          "text": "Searching"
-        }
-      ],
       "/algorithms/searching/binary-search": [
         {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/searching/binary-search",
-          "text": "Binary Search"
-        },
-        {
           "source": "/cs61b/",
           "target": "/algorithms/searching/binary-search",
           "text": "Binary Search"
-        }
-      ],
-      "/algorithms/searching/breadth-first-search-bfs": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/searching/breadth-first-search-bfs",
-          "text": "Breadth First Search (BFS)"
-        }
-      ],
-      "/algorithms/searching/depth-first-search-dfs": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/searching/depth-first-search-dfs",
-          "text": "Depth First Search (DFS)"
         }
       ],
       "/algorithms/shortest-paths/": [
@@ -1147,25 +817,11 @@
           "text": "Shortest Paths"
         }
       ],
-      "/algorithms/shortest-paths/README": [
+      "/algorithms/sorting": [
         {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/shortest-paths/README",
-          "text": "Shortest Paths"
-        }
-      ],
-      "/algorithms/shortest-paths/a-search": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/shortest-paths/a-search",
-          "text": "A* Search"
-        }
-      ],
-      "/algorithms/shortest-paths/dijkstras-algorithm": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/algorithms/shortest-paths/dijkstras-algorithm",
-          "text": "Dijkstra's Algorithm"
+          "source": "/cs61b/",
+          "target": "/algorithms/sorting",
+          "text": "Searching"
         }
       ],
       "/arrays": [
@@ -1204,26 +860,7 @@
           "text": "try some problems!"
         }
       ],
-      "/asymptotics/amortization": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/asymptotics/amortization",
-          "text": "Amortization"
-        }
-      ],
-      "/asymptotics/asymptotics": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/asymptotics/asymptotics",
-          "text": "Asymptotic Analysis Basics"
-        }
-      ],
       "/asymptotics/asymptotics-practice": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/asymptotics/asymptotics-practice",
-          "text": "Asymptotics Practice"
-        },
         {
           "source": "/cs61b/",
           "target": "/asymptotics/asymptotics-practice",
@@ -1235,6 +872,18 @@
           "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/balanced-search-structures",
           "text": "Balanced BSTs"
+        }
+      ],
+      "/contributing": [
+        {
+          "source": "/cs61b/",
+          "target": "/contributing",
+          "text": "contributing guide"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/sets",
+          "target": "/contributing",
+          "text": "help make it better!"
         }
       ],
       "/depth-first-search-dfs": [
@@ -1296,28 +945,9 @@
       ],
       "/misc-topics/exceptions": [
         {
-          "source": "/cs61b/SUMMARY",
-          "target": "/misc-topics/exceptions",
-          "text": "Exceptions"
-        },
-        {
           "source": "/cs61b/",
           "target": "/misc-topics/exceptions",
           "text": "Exceptions"
-        }
-      ],
-      "/misc-topics/modular-arithmetic": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/misc-topics/modular-arithmetic",
-          "text": "Modular Arithmetic and Bit Manipulation"
-        }
-      ],
-      "/misc-topics/more-resources": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/misc-topics/more-resources",
-          "text": "More Resources"
         }
       ],
       "/notes/cs61a": [
@@ -1336,22 +966,12 @@
       ],
       "/oop/access-control": [
         {
-          "source": "/cs61b/SUMMARY",
-          "target": "/oop/access-control",
-          "text": "Access Control"
-        },
-        {
           "source": "/cs61b/",
           "target": "/oop/access-control",
           "text": "Access Control"
         }
       ],
       "/oop/dynamic-method-selection": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/oop/dynamic-method-selection",
-          "text": "Dynamic Method Selection"
-        },
         {
           "source": "/cs61b/",
           "target": "/oop/dynamic-method-selection",
@@ -1360,28 +980,9 @@
       ],
       "/oop/generics": [
         {
-          "source": "/cs61b/SUMMARY",
-          "target": "/oop/generics",
-          "text": "Generic Types"
-        },
-        {
           "source": "/cs61b/",
           "target": "/oop/generics",
           "text": "Generic Types"
-        }
-      ],
-      "/oop/inheritance": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/oop/inheritance",
-          "text": "Inheritance"
-        }
-      ],
-      "/oop/objects": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/oop/objects",
-          "text": "Java Objects"
         }
       ],
       "/sets": [
@@ -1448,11 +1049,6 @@
         }
       ],
       "/sorting/sorting-basics": [
-        {
-          "source": "/cs61b/SUMMARY",
-          "target": "/sorting/sorting-basics",
-          "text": "Sorting"
-        },
         {
           "source": "/cs61b/",
           "target": "/sorting/sorting-basics",
@@ -1534,191 +1130,6 @@
       "text": "Troubleshooting and FAQ"
     },
     {
-      "source": "/cs61b/SUMMARY",
-      "target": "/CS61B-Index",
-      "text": "Welcome"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/oop/inheritance",
-      "text": "Inheritance"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/oop/access-control",
-      "text": "Access Control"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/oop/dynamic-method-selection",
-      "text": "Dynamic Method Selection"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/oop/objects",
-      "text": "Java Objects"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/oop/generics",
-      "text": "Generic Types"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/asymptotics/asymptotics",
-      "text": "Asymptotic Analysis Basics"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/asymptotics/amortization",
-      "text": "Amortization"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/asymptotics/asymptotics-practice",
-      "text": "Asymptotics Practice"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/collections/README",
-      "text": "Collections"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/collections/arrays",
-      "text": "Arrays"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/collections/linked-lists",
-      "text": "Linked Lists"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/collections/sets",
-      "text": "Sets"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/collections/stacks-and-queues",
-      "text": "Stacks and Queues"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/binary-trees/README",
-      "text": "Binary Trees"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/binary-trees/heaps",
-      "text": "Heaps"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/binary-trees/balanced-search-structures",
-      "text": "Balanced BSTs"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/binary-trees/tries",
-      "text": "Tries"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/graphs",
-      "text": "Graphs"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/hashing",
-      "text": "Hashing and Hash Tables"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/union-find-disjoint-sets",
-      "text": "Union Find (Disjoint Sets)"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/abstract-data-types/comparables-and-comparators",
-      "text": "Comparables and Comparators"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/sorting/sorting-basics",
-      "text": "Sorting"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/algorithms/minimax",
-      "text": "Minimax Algorithm"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/algorithms/searching/README",
-      "text": "Searching"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/algorithms/searching/binary-search",
-      "text": "Binary Search"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/algorithms/searching/depth-first-search-dfs",
-      "text": "Depth First Search (DFS)"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/algorithms/searching/breadth-first-search-bfs",
-      "text": "Breadth First Search (BFS)"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/algorithms/shortest-paths/README",
-      "text": "Shortest Paths"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/algorithms/shortest-paths/dijkstras-algorithm",
-      "text": "Dijkstra's Algorithm"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/algorithms/shortest-paths/a-search",
-      "text": "A* Search"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/algorithms/minimum-spanning-trees/README",
-      "text": "Minimum Spanning Trees"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/algorithms/minimum-spanning-trees/prims-algorithm",
-      "text": "Prim's Algorithm"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/algorithms/minimum-spanning-trees/kruskals-algorithm",
-      "text": "Kruskal's Algorithm"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/misc-topics/modular-arithmetic",
-      "text": "Modular Arithmetic and Bit Manipulation"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/misc-topics/exceptions",
-      "text": "Exceptions"
-    },
-    {
-      "source": "/cs61b/SUMMARY",
-      "target": "/misc-topics/more-resources",
-      "text": "More Resources"
-    },
-    {
       "source": "/cs61b/",
       "target": "/notes/cs61a",
       "text": "Click here"
@@ -1745,6 +1156,11 @@
     },
     {
       "source": "/cs61b/",
+      "target": "/contributing",
+      "text": "contributing guide"
+    },
+    {
+      "source": "/cs61b/",
       "target": "/abstract-data-types/union-find-disjoint-sets",
       "text": "Union Find (Disjoint Sets)"
     },
@@ -1770,7 +1186,7 @@
     },
     {
       "source": "/cs61b/",
-      "target": "/algorithms/searching/",
+      "target": "/algorithms/sorting",
       "text": "Searching"
     },
     {
@@ -1791,7 +1207,7 @@
     {
       "source": "/cs61b/abstract-data-types/binary-trees/",
       "target": "/../../algorithms/searching/binary-search",
-      "text": "binary-search.md"
+      "text": "Binary Search"
     },
     {
       "source": "/cs61b/abstract-data-types/binary-trees/",
@@ -1816,12 +1232,12 @@
     {
       "source": "/cs61b/abstract-data-types/binary-trees/",
       "target": "/../../algorithms/searching/depth-first-search-dfs",
-      "text": "depth-first-search-dfs.md"
+      "text": "Depth First Search"
     },
     {
       "source": "/cs61b/abstract-data-types/binary-trees/",
       "target": "/../../algorithms/searching/breadth-first-search-bfs",
-      "text": "breadth-first-search-bfs.md"
+      "text": "Breadth First Search"
     },
     {
       "source": "/cs61b/abstract-data-types/binary-trees/balanced-search-structures",
@@ -1887,6 +1303,11 @@
       "source": "/cs61b/abstract-data-types/collections/linked-lists",
       "target": "/arrays",
       "text": "Arrays"
+    },
+    {
+      "source": "/cs61b/abstract-data-types/collections/sets",
+      "target": "/contributing",
+      "text": "help make it better!"
     },
     {
       "source": "/cs61b/abstract-data-types/collections/sets",
@@ -1975,7 +1396,7 @@
     },
     {
       "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
-      "target": "/./README",
+      "target": "/./",
       "text": "Minimum Spanning Trees"
     },
     {

@@ -72,10 +72,10 @@ These are **not** inherited:
 * Any **private** variables and methods
 * All constructors
 
-{% hint style="info" %}
-**Quick sidenote!**\
-****All objects automatically extend the `Object` class whether you like it or not. See [References, Objects, and Types in Java](objects.md) **** for more about this behavior.
-{% endhint %}
+
+> [!info] **Quick sidenote!**
+> 
+> All objects automatically extend the `Object` class whether you like it or not. See [References, Objects, and Types in Java](objects.md) for more about this behavior.
 
 ### Constructor magic 🏗
 

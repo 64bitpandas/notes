@@ -45,32 +45,32 @@ public class C extends P.A { ... }
 
 ```
 
-{% tabs %}
-{% tab title="Question 1" %}
+{{< tabs "q1" >}}
+{{< tab "Question 1" >}}
 Which variables can be accessed in B?
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Answer" %}
+{{< tab "Answer" >}}
 `def` and `prot` since B is in the same package as A.
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 2" %}
+{{< tabs "q2" >}}
+{{< tab "Question 2" >}}
 Which variables can be accessed in C?
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Answer" %}
+{{< tab "Answer" >}}
 `prot` only, since C is in a different package but extends A.
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 3" %}
+{{< tabs "q3" >}}
+{{< tab "Question 3" >}}
 Which variables can be accessed in NestedA?
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Answer" %}
+{{< tab "Answer" >}}
 None of them, because NestedA is static and cannot reference any non-static variables.
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}

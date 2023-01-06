@@ -1,4 +1,3 @@
-# Stacks and Queues
 
 Stacks and queues are two very common data structures used for a variety of applications from [CPU processes](https://www.tutorialspoint.com/operating\_system/os\_processes.htm) to [finding shortest paths using Dijkstra's Algorithm](../../algorithms/shortest-paths/dijkstras-algorithm.md). Fundamentally, they are very similar in structure and **only differ by the order in which items are popped from them**.
 

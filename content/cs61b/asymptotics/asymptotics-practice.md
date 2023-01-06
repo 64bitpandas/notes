@@ -1,8 +1,8 @@
 # Asymptotics Practice
 
-{% hint style="warning" %}
-Make sure to review [Asymptotic Analysis Basics](asymptotics.md) before proceeding with these problems.
-{% endhint %}
+> [!info] Content Note
+>
+> Make sure to review [Asymptotic Analysis Basics](asymptotics.md) before proceeding with these problems.
 
 ## Introduction
 
@@ -10,14 +10,14 @@ Asymptotics is a very intuition-based concept that often doesn't have a set algo
 
 With that said, here are some problems of increasing difficulty for you to enjoy 😊
 
-{% hint style="info" %}
-For all of the below problems, assume that all undefined functions have a constant O(1) complexity.
-{% endhint %}
+> [!hint] Read before you do the problems!
+>
+> For all of the below problems, assume that all undefined functions have a constant O(1) complexity.
 
 ## Loops
 
-{% tabs %}
-{% tab title="Question 1" %}
+{{< tabs "q1" >}}
+{{< tab "Question 1" >}}
 What runtime does this function have?
 
 ```java
@@ -28,9 +28,9 @@ void throwHalfOfMyItems(int n) {
     }
 }
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q1 Answer" %}
+{{< tab "Q1 Answer" >}}
 $
 \Theta(n)
 $
@@ -38,11 +38,11 @@ $
 **Explanation:** The method `throwItem()` runs `n/2` times. Using the simplification rules, we can extract the constant `1/2` to simply get `n`.
 
 ![Keep the change, ya filthy animal.](<../img/assets/image (40).png>)
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 2a" %}
+{{< tabs "q2a" >}}
+{{< tab "Question 2a" >}}
 What runtime does this function have?
 
 ```java
@@ -56,9 +56,9 @@ void lootShulkerBoxes(int n) {
     }       
 }
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q2a Answer" %}
+{{< tab "Q2a Answer" >}}
 $
 \Theta(n^2)
 $
@@ -67,11 +67,11 @@ $
 So, we get: $\Theta(n * n * 64)$ which simplifies into `n^2`
 
 ![That's a lot of items to loot...](<../img/assets/image (41).png>)
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 2b" %}
+{{< tabs "q2b" >}}
+{{< tab "Question 2b" >}}
 I've tweaked the previous problem a little 😁 Try to spot the difference and see if it changes the runtime at all!
 
 ```java
@@ -85,9 +85,9 @@ void lootShulkerBoxes(int n, int stacksToLoot) {
     }       
 }
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q2b Answer" %}
+{{< tab "Q2b Answer" >}}
 $
 \Theta(n)
 $
@@ -95,15 +95,15 @@ $
 **Explanation:** Even though `stacksToLoot` is a user input, we're only concerned about finding the runtime for `n` so `stacksToLoot` can be treated like a constant! Therefore, we now have $\Theta(n * s* 64)$ where `s = stacksToLoot` which simplifies into `n`.
 
 ![ok now this is getting a bit overboard](<../img/assets/image (42).png>)
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Recursion
 
 The following two problems are inspired by [this worksheet](https://inst.eecs.berkeley.edu/\~cs61b/sp20/materials/disc/discussion8.pdf).
 
-{% tabs %}
-{% tab title="Question 3" %}
+{{< tabs "q3" >}}
+{{< tab "Question 3" >}}
 TREEEEEEEEE recursion 🌳🌲🌴
 
 ```java
@@ -115,9 +115,9 @@ void plantJungleSaplings(int n) {
     }
 }
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q3 Answer" %}
+{{< tab "Q3 Answer" >}}
 $
 \Theta(4^n)
 $
@@ -135,11 +135,11 @@ $
 And if you remember your power series, you'll know that this sum is equal to $4^{n+1}-1$ which simplifies into the final answer.
 
 ![an image that makes you long for TreeCapacitator](<../img/assets/image (49).png>)
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 4" %}
+{{< tabs "q4" >}}
+{{< tab "Question 4" >}}
 Let's replace the 4 in the previous problem with **n** and see what insanity ensues.
 
 ```java
@@ -151,9 +151,9 @@ void plantCrazySaplings(int n) {
     }
 }
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q4 Answer" %}
+{{< tab "Q4 Answer" >}}
 $
 \Theta(n!)
 $
@@ -175,13 +175,13 @@ n!\sum_{i=1}^{n} \frac{1}{i!}
 $
 
 Hey, that looks a lot like the Taylor series for $e$! Since `e` is a constant, it simply reduces to `n!`.
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Best and Worst Case Runtimes
 
-{% tabs %}
-{% tab title="Question 5" %}
+{{< tabs "q5" >}}
+{{< tab "Question 5" >}}
 Here's a case where the best case and worst case runtimes are different. Can you figure out what they are? (Let `n = items.length`).
 
 ```java
@@ -198,9 +198,9 @@ Item[] hopperSort(Item[] items) {
     } 
 }
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q5 Answer" %}
+{{< tab "Q5 Answer" >}}
 **Best Case:** $\Theta(n)$ if the array is nearly sorted except for a couple values. In this case, the `while` loop will only run a small number of times, so the only loop left is the for loop.
 
 **Worst Case:** $\Theta(n^2)$if the array is totally reversed. This will cause the `while` loop to run on the order of `O(n)` times, resulting in a nested loop.
@@ -208,11 +208,11 @@ Item[] hopperSort(Item[] items) {
 **Note:** HopperSort is literally just Insertion Sort 😎🤣
 
 ![hoppers rate 64/64](<../img/assets/image (45).png>)
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 6" %}
+{{< tabs "q6" >}}
+{{< tab "Question 6" >}}
 Here's a mutual recursion problem! What are the best and worst cases for `explodeTNT(n)`? What are their runtimes?
 
 ```java
@@ -232,9 +232,9 @@ void digDirts(int n, boolean isTNT) {
     removeDirt(); // not implemented, assume O(1) runtime
 }
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q6 Answer" %}
+{{< tab "Q6 Answer" >}}
 **Best Case:** $\Theta(\log(n))$ if n is even. This will result in n being halved every function call.
 
 **Worst Case:** $\Theta(n)$if n is odd. See the tree below for an illustration of what happens in this case- hopefully the diagram will make it clearer as to why it's O(n).
@@ -242,15 +242,15 @@ void digDirts(int n, boolean isTNT) {
 ![A diagram of what happens in the worst and best cases.](<../img/assets/image (46).png>)
 
 ![don't play with tnt, kids](<../img/assets/image (47).png>)
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Challenge Problems
 
 These problems are quite difficult. Don't be concerned if you don't feel confident in solving them (I certainly don't).
 
-{% tabs %}
-{% tab title="Question 7" %}
+{{< tabs "q7" >}}
+{{< tab "Question 7" >}}
 A huge disaster :ooo
 
 ```java
@@ -273,17 +273,17 @@ public int PNH(char[] arr, int start, int end) {
     return PNH(arr, start, mid) + PNH(arr, mid + 1, end);
 }
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q7 Answer" %}
+{{< tab "Q7 Answer" >}}
 **Best Case:** $\Theta(n\log(n))$ If none of the characters in char\[] is 'a', then each call to PNH does $\Theta(n)$ work. Total work per layer is always N, with logN layers total.
 
 **Worst Case:** $\Theta(n!)$ All of characters in char\[] is 'a'. In this case, the for loop recursive calls will dominate the runtime, because it'll be the main part of the recursive tree. The interval start to end is decreased by one in the for loop recursive calls, while that interval is halved in the return statement recursive calls. This means the return statement recursive calls will reach the base case in logn levels, while the recursive calls in the for loop will take n levels. Thus, we can proceed with the same analysis as question 4.
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 8" %}
+{{< tabs "q8" >}}
+{{< tab "Question 8" >}}
 Congrats for making it this far! By now you should be an expert in asymptotic analysis :P Here's one last problem:
 
 ```java
@@ -305,11 +305,11 @@ public int lastOne(char[] arr, int start, int end) {
     }
 }
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q8 Answer" %}
+{{< tab "Q8 Answer" >}}
 **Best Case:** $\Theta(n)$ if the else if case is always true. This will produce a tree with height n/2, where each height does constant work.
 
 **Worst Case:** $\Theta(3^n)$ if else if case is never true. Sorry no diagram yet :((
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}

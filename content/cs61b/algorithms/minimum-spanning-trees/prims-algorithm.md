@@ -3,9 +3,9 @@ title: "Prim's Algorithm"
 weight: 2
 ---
 
-{% hint style="warning" %}
-Before reading, review [Minimum Spanning Trees](./README), as that is the foundation of Prim's algorithm!
-{% endhint %}
+> [!info] Content Note
+>
+> Before reading, review [Minimum Spanning Trees](./), as that is the foundation of Prim's algorithm!
 
 ## Conceptual Overview
 

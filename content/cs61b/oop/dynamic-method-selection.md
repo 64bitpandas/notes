@@ -3,9 +3,9 @@ weight: 3
 ---
 # Dynamic Method Selection
 
-{% hint style="warning" %}
-This is a **very tricky topic**. Make sure you are comfortable with [inheritance](inheritance.md) and [access control ](access-control.md)before proceeding!
-{% endhint %}
+> [!warning] Content Note
+>
+> This is a **very tricky topic**. Make sure you are comfortable with [inheritance](inheritance.md) and [access control](access-control.md)before proceeding!
 
 Inheritance is great and all, but it does have some issues. One of the biggest issues lies in overriding: **if two methods have exactly the same name and signature, which one do we call?**
 
@@ -22,37 +22,37 @@ public class Shiba extends Dog {
 }
 ```
 
-{% tabs %}
-{% tab title="Question 1" %}
-Which method is called when we run**:**
+{{< tabs "q1" >}}
+{{< tab "Question 1" >}}
+Which method is called when we run:
 
 ```java
 Dog rarePupper = new Dog();
 rarePupper.eat();
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q1 Answer" %}
-It's **A** :dog: Dog doesn't know anything about `Shiba` or any other classes, so we can just look at the Dog.
-{% endtab %}
-{% endtabs %}
+{{< tab "Q1 Answer" >}}
+It's **A** 🐕 Dog doesn't know anything about `Shiba` or any other classes, so we can just look at the Dog.
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 2" %}
+{{< tabs "q2" >}}
+{{< tab "Question 2" >}}
 What about when we call:
 
 ```java
 Shiba doge = new Shiba();
 rarePupper.eat();
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q2 Answer" %}
+{{< tab "Q2 Answer" >}}
 This calls **C**! This works intuitively because `Shiba` overrides `Dog` so all `Shibas` will use C instead of A.
 
 ![](<../img/assets/image (8).png>)
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Things Get Wonky: Mismatched Types
 
@@ -84,25 +84,25 @@ public class Shiba extends Dog {
 }
 ```
 
-{% tabs %}
-{% tab title="Question 3" %}
+{{< tabs "q3" >}}
+{{< tab "Question 3" >}}
 Which method(s) run when we call:
 
 ```java
 Dog rarePupper = new Shiba();
 rarePupper.playWith(rarePupper); // aww rarePupper is lonely :(
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q3 Answer" %}
+{{< tab "Q3 Answer" >}}
 **E** is called! What happens is that the **dynamic type** is chosen to **select the method from,** but the **static type** is used to **select the parameters.** `rarePupper`'s **** dynamic type is `Shiba` but its static type is `Dog` so `Shiba.playWith(Dog)` is chosen as the method.
 
 ![rarePupper in action](<../img/assets/image (10).png>)
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 4" %}
+{{< tabs "q4" >}}
+{{< tab "Question 4" >}}
 Which is called when we run**:**
 
 ```java
@@ -110,17 +110,17 @@ Dog rarePupper = new Shiba();
 Shiba doge = new Shiba();
 rarePupper.playWith(doge); // rarePupper is happy :) borks all around
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q4 Answer" %}
+{{< tab "Q4 Answer" >}}
 **E** is called again! Bet ya didn't see that coming 😎
 
 **Why is it not F? I thought doge and rarePupper were both** `Shiba`**?**\
 ****When the compiler chooses a method, it **always** starts at the **static method.** Then, it keeps going down the inheritance tree until it hits the **dynamic method.** Since F has a **different signature** than D, it isn't an **overriding method** and thus the compiler won't see it. But E is (since it has the same signature as D), so that is why it is chosen instead.
 
 ![bork bork bork :DDD](<../img/assets/image (11).png>)
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Adding more insanity: Static vs. Dynamic
 
@@ -156,51 +156,51 @@ public class Shiba extends Dog {
 }
 ```
 
-{% tabs %}
-{% tab title="Question 5" %}
+{{< tabs "q5" >}}
+{{< tab "Question 5" >}}
 What prints out when we run:
 
 ```java
 Dog d = new Shiba();
 System.out.println(d.getType());
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q5 Answer" %}
+{{< tab "Q5 Answer" >}}
 `cute doggo` gets printed because `getType()` is a static method! Therefore, Java looks at the **static type** of `d`, which is `Dog`. \
 (If `getType()` weren't static, then `shiba inu` would have been printed as usual.)
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 6" %}
+{{< tabs "q6" >}}
+{{< tab "Question 6" >}}
 What prints out when we run:
 
 ```java
 Shiba s = new Shiba();
 System.out.println(s);
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q6 Answer" %}
+{{< tab "Q6 Answer" >}}
 `cute doggo` also gets printed!! This is because static methods **cannot be overridden.** When `toString()` is called in `Dog`, it doesn't choose `Shiba`'s `getType()` because `getType()` is static and the static type is `Dog`.
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 7" %}
+{{< tabs "q7" >}}
+{{< tab "Question 7" >}}
 What prints out when we run:
 
 ```java
 Dog d = new Shiba();
 System.out.println(((Shiba)d).getType());
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q7 Answer" %}
-This time, `shiba inu` gets printed. This is because casting temporarily changes the **static type:** since the static type of `d` is **** `Shiba` in line 2, it chooses the `getType()` from `Shiba`.
-{% endtab %}
-{% endtabs %}
+{{< tab "Q7 Answer" >}}
+This time, `shiba inu` gets printed. This is because casting temporarily changes the **static type:** since the static type of `d` is `Shiba` in line 2, it chooses the `getType()` from `Shiba`.
+{{< /tab >}}
+{{< /tabs >}}
 
 ## That's all, folks!
 

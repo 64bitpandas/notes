@@ -3,9 +3,10 @@ title: "A* Search"
 weight: 999
 ---
 
-{% hint style="warning" %}
-In order to understand A\*, you'll need to review [Dijkstra's Algorithm](dijkstras-algorithm.md) first! Come back after you're done with that 😉
-{% endhint %}
+> [!info] Content Note
+>
+> In order to understand A\*, you'll need to be comfortable [Dijkstra's Algorithm](dijkstras-algorithm.md) first!
+
 
 ## A\* Algorithm
 

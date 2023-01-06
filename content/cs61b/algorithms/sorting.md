@@ -3,11 +3,9 @@ title: "Sorting"
 weight: 998
 ---
 
-# Sorting
-
-{% hint style="info" %}
-For more information about specific sorting algorithms covered in 61B, see my [guide on sorting](https://docs.google.com/document/d/1dUfzdh5V3okrwFbB9o0PgtEBaLHyCqJFwpQWyQ53IeU/edit) that covers all of the sorts in far greater detail 🙂
-{% endhint %}
+> [!important] Sorting Guide
+>
+> For more information about specific sorting algorithms covered in 61B, see my [guide on sorting](https://docs.google.com/document/d/1dUfzdh5V3okrwFbB9o0PgtEBaLHyCqJFwpQWyQ53IeU/edit) that covers all of the sorts in far greater detail 🙂
 
 ## Why sort?
 

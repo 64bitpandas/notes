@@ -1,8 +1,8 @@
 # Amortization
 
-{% hint style="warning" %}
-Please read [Asymptotic Analysis Basics](asymptotics.md) first. If you don't, none of this will make any sense!
-{% endhint %}
+> [!info] Content Note
+>
+> Please read [Asymptotic Analysis Basics](asymptotics.md) first. If you don't, none of this will make any sense!
 
 **Amortization** means **spreading out.**
 
@@ -30,8 +30,8 @@ Finally, we can add in the new element!
 
 **Let's analyze the runtime of this operation.**
 
-* A single resizing will take $\Theta(n)$ time**.**
-* Adding a single element will take $\Theta(1)$ time**.**
+* A single resizing will take $\Theta(n)$ time.
+* Adding a single element will take $\Theta(1)$ time.
 * Together, a single operation will take $\Theta(n+1)$ time, which simplifies into  $\Theta(n)$ .
 * Since we're doing a n-operation n times, **the end result is a resizing function that is**$\Theta(n^2)$. **We can do better with the power of amortization!**
 

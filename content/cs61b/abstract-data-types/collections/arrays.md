@@ -1,10 +1,9 @@
-# Arrays
 
-{% hint style="info" %}
-This page assumes prior knowledge of Python lists from CS61A or equivalent.
-{% endhint %}
+> [!info] Content Note
+>
+> This page assumes prior knowledge of Python lists from CS61A or equivalent.
 
-Arrays are a very popular data structure that stores an indexed list of data. \
+Arrays are a very popular data structure that stores an indexed list of data. 
 
 
 ![An artistic interpretation of a new int\[5\] {6, 1, 2, 3, 99};](<../../img/assets/image (37).png>)

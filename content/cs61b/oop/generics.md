@@ -32,7 +32,7 @@ On the other hand, `String` is an **Actual Type Argument** that replaces `SomeTy
 
 ## Generic Subtypes
 
-Like in _\*\*_[Dynamic Method Selection](dynamic-method-selection.md), adding inheritance makes things tricky! Let's look at an example:
+Like in [Dynamic Method Selection](dynamic-method-selection.md), adding inheritance makes things tricky! Let's look at an example:
 
 ```java
 List<String> LS = new ArrayList<String>();
@@ -40,40 +40,38 @@ List<Object> LO = LS; // Line 3
 LO.add(42); // Line 4
 String s = LS.get(0); // Line 5
 ```
-
-{% tabs %}
-{% tab title="Question 1" %}
+{{< tabs "q1" >}}
+{{< tab "Question 1" >}}
 Will **line 3** error?
-{% endtab %}
-
-{% tab title="Q1 Answer" %}
+{{< /tab >}}
+{{< tab "Q1 Answer" >}}
 **No**, line 3 is valid and will not error! This is because Object is a **superclass** of String. Generics work in a very similar way to the [inheritance rules](inheritance.md).
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 2" %}
+{{< tabs "q2" >}}
+{{< tab "Question 2" >}}
 Will **line 4** error?
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q2 Answer" %}
+{{< tab "Q2 Answer" >}}
 **No**, line 4 is valid and will not error! This is because LO is a **list of Objects** and integers are a **subtype** of Object, as all things are.
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Question 3" %}
+{{< tabs "q3" >}}
+{{< tab "Question 3" >}}
 Will **line 5** error?
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q3 Answer" %}
+{{< tab "Q3 Answer" >}}
 **Yes,** line 5 will error! This is because we put 42 into LO, which is an integer. Since LO is pointing to the same object as LS, 42 is also in LS! That means we are trying to assign a String equal to an integer.
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% hint style="info" %}
-Arrays have slightly different behavior than this and will throw an `ArrayStoreException` if types are mismatched in any way.
-{% endhint %}
+> [!info] Content Note
+>
+> Arrays have slightly different behavior than this and will throw an `ArrayStoreException` if types are mismatched in any way.
 
 ## Type Bounds
 

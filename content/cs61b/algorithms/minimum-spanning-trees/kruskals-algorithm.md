@@ -3,9 +3,10 @@ title: "Kruskal's Algorithm"
 weight: 1
 ---
 
-{% hint style="warning" %}
-Before reading, review [Minimum Spanning Trees](./) and [Union Find (Disjoint Sets)](../../abstract-data-types/union-find-disjoint-sets.md) as they both make Kruskal's algorithm possible!
-{% endhint %}
+> [!info] Content Note
+>
+> Before reading, review [Minimum Spanning Trees](./) and [Union Find (Disjoint Sets)](../../abstract-data-types/union-find-disjoint-sets.md) as they both make Kruskal's algorithm possible!
+
 
 ## Conceptual Overview
 

@@ -1,5 +1,3 @@
-# Heaps
-
 ## What are Heaps?
 
 A heap is a **specific order of storing data,** often in a list. Heaps are very similar to binary trees, but have some differences:

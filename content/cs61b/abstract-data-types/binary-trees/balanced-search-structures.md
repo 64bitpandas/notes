@@ -1,8 +1,8 @@
-# Balanced BSTs
 
-{% hint style="warning" %}
-Please read [Binary Trees](./) before continuing!
-{% endhint %}
+> [!info] Content Note
+>
+> Please read [Binary Trees](./) before continuing!
+
 
 **Balanced Binary Search Trees** are an even more specific subcategory of binary trees that have an important property: **they are always bushy.**
 

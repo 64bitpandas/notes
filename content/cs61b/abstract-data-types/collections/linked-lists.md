@@ -1,8 +1,8 @@
-# Linked Lists
 
-{% hint style="info" %}
-This page assumes prior knowledge of linked lists from CS61A or equivalent. I'll assume you have already worked with basic singly linked lists before.
-{% endhint %}
+> [!info] Content Note
+>
+> This page assumes prior knowledge of linked lists from CS61A or equivalent. I'll assume you have already worked with basic singly linked lists before.
+
 
 The linked list is an extremely common recursive data structure that allows storage and access of an arbitrary amount of data.
 
