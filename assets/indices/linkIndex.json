@@ -120,73 +120,6 @@
           "text": "Exceptions"
         }
       ],
-      "/cs61b/CS61B-Index": [
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/oop/access-control",
-          "text": "Access Control"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/oop/dynamic-method-selection",
-          "text": "Dynamic Method Selection"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/oop/generics",
-          "text": "Generic Types"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/asymptotics/asymptotics-practice",
-          "text": "Asymptotics Practice"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/abstract-data-types/union-find-disjoint-sets",
-          "text": "Union Find (Disjoint Sets)"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/abstract-data-types/collections/stacks-and-queues",
-          "text": "Stacks and Queues"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/abstract-data-types/collections/linked-lists",
-          "text": "Linked Lists"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/abstract-data-types/collections/sets",
-          "text": "Sets"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/sorting/sorting-basics",
-          "text": "Sorting"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/algorithms/searching/",
-          "text": "Searching"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/algorithms/searching/binary-search",
-          "text": "Binary Search"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/algorithms/shortest-paths/",
-          "text": "Shortest Paths"
-        },
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/misc-topics/exceptions",
-          "text": "Exceptions"
-        }
-      ],
       "/cs61b/SUMMARY": [
         {
           "source": "/cs61b/SUMMARY",
@@ -374,39 +307,39 @@
           "text": "More Resources"
         }
       ],
-      "/cs61b/abstract-data-types/binary-trees/README": [
+      "/cs61b/abstract-data-types/binary-trees/": [
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/binary-search",
           "text": "binary-search.md"
         },
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/balanced-search-structures",
           "text": "Balanced BSTs"
         },
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../graphs",
           "text": "Graphs"
         },
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/tries",
           "text": "Tries"
         },
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../hashing",
           "text": "Hash Tables"
         },
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/depth-first-search-dfs",
           "text": "depth-first-search-dfs.md"
         },
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/breadth-first-search-bfs",
           "text": "breadth-first-search-bfs.md"
         }
@@ -430,29 +363,29 @@
           "text": "Sets"
         }
       ],
-      "/cs61b/abstract-data-types/collections/README": [
+      "/cs61b/abstract-data-types/collections/": [
         {
-          "source": "/cs61b/abstract-data-types/collections/README",
+          "source": "/cs61b/abstract-data-types/collections/",
           "target": "/arrays",
           "text": "ArrayLists"
         },
         {
-          "source": "/cs61b/abstract-data-types/collections/README",
+          "source": "/cs61b/abstract-data-types/collections/",
           "target": "/linked-lists",
           "text": "Linked Lists"
         },
         {
-          "source": "/cs61b/abstract-data-types/collections/README",
+          "source": "/cs61b/abstract-data-types/collections/",
           "target": "/sets",
           "text": "Sets"
         },
         {
-          "source": "/cs61b/abstract-data-types/collections/README",
+          "source": "/cs61b/abstract-data-types/collections/",
           "target": "/../hashing",
           "text": "Hashing and Hash Tables"
         },
         {
-          "source": "/cs61b/abstract-data-types/collections/README",
+          "source": "/cs61b/abstract-data-types/collections/",
           "target": "/stacks-and-queues",
           "text": "Stacks and Queues"
         }
@@ -598,23 +531,6 @@
           "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
           "target": "/../shortest-paths/dijkstras-algorithm",
           "text": "Dijkstra's"
-        }
-      ],
-      "/cs61b/algorithms/searching/README": [
-        {
-          "source": "/cs61b/algorithms/searching/README",
-          "target": "/binary-search",
-          "text": "binary-search.md"
-        },
-        {
-          "source": "/cs61b/algorithms/searching/README",
-          "target": "/depth-first-search-dfs",
-          "text": "depth-first-search-dfs.md"
-        },
-        {
-          "source": "/cs61b/algorithms/searching/README",
-          "target": "/breadth-first-search-bfs",
-          "text": "breadth-first-search-bfs.md"
         }
       ],
       "/cs61b/algorithms/searching/binary-search": [
@@ -808,21 +724,21 @@
       ],
       "/../../algorithms/searching/binary-search": [
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/binary-search",
           "text": "binary-search.md"
         }
       ],
       "/../../algorithms/searching/breadth-first-search-bfs": [
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/breadth-first-search-bfs",
           "text": "breadth-first-search-bfs.md"
         }
       ],
       "/../../algorithms/searching/depth-first-search-dfs": [
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../../algorithms/searching/depth-first-search-dfs",
           "text": "depth-first-search-dfs.md"
         }
@@ -949,14 +865,14 @@
       ],
       "/../graphs": [
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../graphs",
           "text": "Graphs"
         }
       ],
       "/../hashing": [
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../hashing",
           "text": "Hash Tables"
         },
@@ -966,7 +882,7 @@
           "text": "Hashing and Hash Tables"
         },
         {
-          "source": "/cs61b/abstract-data-types/collections/README",
+          "source": "/cs61b/abstract-data-types/collections/",
           "target": "/../hashing",
           "text": "Hashing and Hash Tables"
         }
@@ -1077,11 +993,6 @@
       ],
       "/abstract-data-types/collections/linked-lists": [
         {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/abstract-data-types/collections/linked-lists",
-          "text": "Linked Lists"
-        },
-        {
           "source": "/cs61b/SUMMARY",
           "target": "/abstract-data-types/collections/linked-lists",
           "text": "Linked Lists"
@@ -1094,11 +1005,6 @@
       ],
       "/abstract-data-types/collections/sets": [
         {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/abstract-data-types/collections/sets",
-          "text": "Sets"
-        },
-        {
           "source": "/cs61b/SUMMARY",
           "target": "/abstract-data-types/collections/sets",
           "text": "Sets"
@@ -1110,11 +1016,6 @@
         }
       ],
       "/abstract-data-types/collections/stacks-and-queues": [
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/abstract-data-types/collections/stacks-and-queues",
-          "text": "Stacks and Queues"
-        },
         {
           "source": "/cs61b/SUMMARY",
           "target": "/abstract-data-types/collections/stacks-and-queues",
@@ -1148,11 +1049,6 @@
         }
       ],
       "/abstract-data-types/union-find-disjoint-sets": [
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/abstract-data-types/union-find-disjoint-sets",
-          "text": "Union Find (Disjoint Sets)"
-        },
         {
           "source": "/cs61b/SUMMARY",
           "target": "/abstract-data-types/union-find-disjoint-sets",
@@ -1206,11 +1102,6 @@
       ],
       "/algorithms/searching/": [
         {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/algorithms/searching/",
-          "text": "Searching"
-        },
-        {
           "source": "/cs61b/",
           "target": "/algorithms/searching/",
           "text": "Searching"
@@ -1224,11 +1115,6 @@
         }
       ],
       "/algorithms/searching/binary-search": [
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/algorithms/searching/binary-search",
-          "text": "Binary Search"
-        },
         {
           "source": "/cs61b/SUMMARY",
           "target": "/algorithms/searching/binary-search",
@@ -1255,11 +1141,6 @@
         }
       ],
       "/algorithms/shortest-paths/": [
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/algorithms/shortest-paths/",
-          "text": "Shortest Paths"
-        },
         {
           "source": "/cs61b/",
           "target": "/algorithms/shortest-paths/",
@@ -1289,7 +1170,7 @@
       ],
       "/arrays": [
         {
-          "source": "/cs61b/abstract-data-types/collections/README",
+          "source": "/cs61b/abstract-data-types/collections/",
           "target": "/arrays",
           "text": "ArrayLists"
         },
@@ -1339,11 +1220,6 @@
       ],
       "/asymptotics/asymptotics-practice": [
         {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/asymptotics/asymptotics-practice",
-          "text": "Asymptotics Practice"
-        },
-        {
           "source": "/cs61b/SUMMARY",
           "target": "/asymptotics/asymptotics-practice",
           "text": "Asymptotics Practice"
@@ -1356,31 +1232,12 @@
       ],
       "/balanced-search-structures": [
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/balanced-search-structures",
           "text": "Balanced BSTs"
         }
       ],
-      "/binary-search": [
-        {
-          "source": "/cs61b/algorithms/searching/README",
-          "target": "/binary-search",
-          "text": "binary-search.md"
-        }
-      ],
-      "/breadth-first-search-bfs": [
-        {
-          "source": "/cs61b/algorithms/searching/README",
-          "target": "/breadth-first-search-bfs",
-          "text": "breadth-first-search-bfs.md"
-        }
-      ],
       "/depth-first-search-dfs": [
-        {
-          "source": "/cs61b/algorithms/searching/README",
-          "target": "/depth-first-search-dfs",
-          "text": "depth-first-search-dfs.md"
-        },
         {
           "source": "/cs61b/algorithms/searching/breadth-first-search-bfs",
           "target": "/depth-first-search-dfs",
@@ -1432,17 +1289,12 @@
       ],
       "/linked-lists": [
         {
-          "source": "/cs61b/abstract-data-types/collections/README",
+          "source": "/cs61b/abstract-data-types/collections/",
           "target": "/linked-lists",
           "text": "Linked Lists"
         }
       ],
       "/misc-topics/exceptions": [
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/misc-topics/exceptions",
-          "text": "Exceptions"
-        },
         {
           "source": "/cs61b/SUMMARY",
           "target": "/misc-topics/exceptions",
@@ -1484,11 +1336,6 @@
       ],
       "/oop/access-control": [
         {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/oop/access-control",
-          "text": "Access Control"
-        },
-        {
           "source": "/cs61b/SUMMARY",
           "target": "/oop/access-control",
           "text": "Access Control"
@@ -1501,11 +1348,6 @@
       ],
       "/oop/dynamic-method-selection": [
         {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/oop/dynamic-method-selection",
-          "text": "Dynamic Method Selection"
-        },
-        {
           "source": "/cs61b/SUMMARY",
           "target": "/oop/dynamic-method-selection",
           "text": "Dynamic Method Selection"
@@ -1517,11 +1359,6 @@
         }
       ],
       "/oop/generics": [
-        {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/oop/generics",
-          "text": "Generic Types"
-        },
         {
           "source": "/cs61b/SUMMARY",
           "target": "/oop/generics",
@@ -1549,7 +1386,7 @@
       ],
       "/sets": [
         {
-          "source": "/cs61b/abstract-data-types/collections/README",
+          "source": "/cs61b/abstract-data-types/collections/",
           "target": "/sets",
           "text": "Sets"
         }
@@ -1612,11 +1449,6 @@
       ],
       "/sorting/sorting-basics": [
         {
-          "source": "/cs61b/CS61B-Index",
-          "target": "/sorting/sorting-basics",
-          "text": "Sorting"
-        },
-        {
           "source": "/cs61b/SUMMARY",
           "target": "/sorting/sorting-basics",
           "text": "Sorting"
@@ -1629,7 +1461,7 @@
       ],
       "/stacks-and-queues": [
         {
-          "source": "/cs61b/abstract-data-types/collections/README",
+          "source": "/cs61b/abstract-data-types/collections/",
           "target": "/stacks-and-queues",
           "text": "Stacks and Queues"
         },
@@ -1648,7 +1480,7 @@
       ],
       "/tries": [
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/README",
+          "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/tries",
           "text": "Tries"
         }
@@ -1700,71 +1532,6 @@
       "source": "/",
       "target": "/setup/troubleshooting",
       "text": "Troubleshooting and FAQ"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/oop/access-control",
-      "text": "Access Control"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/oop/dynamic-method-selection",
-      "text": "Dynamic Method Selection"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/oop/generics",
-      "text": "Generic Types"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/asymptotics/asymptotics-practice",
-      "text": "Asymptotics Practice"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/abstract-data-types/union-find-disjoint-sets",
-      "text": "Union Find (Disjoint Sets)"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/abstract-data-types/collections/stacks-and-queues",
-      "text": "Stacks and Queues"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/abstract-data-types/collections/linked-lists",
-      "text": "Linked Lists"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/abstract-data-types/collections/sets",
-      "text": "Sets"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/sorting/sorting-basics",
-      "text": "Sorting"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/algorithms/searching/",
-      "text": "Searching"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/algorithms/searching/binary-search",
-      "text": "Binary Search"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/algorithms/shortest-paths/",
-      "text": "Shortest Paths"
-    },
-    {
-      "source": "/cs61b/CS61B-Index",
-      "target": "/misc-topics/exceptions",
-      "text": "Exceptions"
     },
     {
       "source": "/cs61b/SUMMARY",
@@ -2022,37 +1789,37 @@
       "text": "Exceptions"
     },
     {
-      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "source": "/cs61b/abstract-data-types/binary-trees/",
       "target": "/../../algorithms/searching/binary-search",
       "text": "binary-search.md"
     },
     {
-      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "source": "/cs61b/abstract-data-types/binary-trees/",
       "target": "/balanced-search-structures",
       "text": "Balanced BSTs"
     },
     {
-      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "source": "/cs61b/abstract-data-types/binary-trees/",
       "target": "/../graphs",
       "text": "Graphs"
     },
     {
-      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "source": "/cs61b/abstract-data-types/binary-trees/",
       "target": "/tries",
       "text": "Tries"
     },
     {
-      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "source": "/cs61b/abstract-data-types/binary-trees/",
       "target": "/../hashing",
       "text": "Hash Tables"
     },
     {
-      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "source": "/cs61b/abstract-data-types/binary-trees/",
       "target": "/../../algorithms/searching/depth-first-search-dfs",
       "text": "depth-first-search-dfs.md"
     },
     {
-      "source": "/cs61b/abstract-data-types/binary-trees/README",
+      "source": "/cs61b/abstract-data-types/binary-trees/",
       "target": "/../../algorithms/searching/breadth-first-search-bfs",
       "text": "breadth-first-search-bfs.md"
     },
@@ -2072,27 +1839,27 @@
       "text": "Sets"
     },
     {
-      "source": "/cs61b/abstract-data-types/collections/README",
+      "source": "/cs61b/abstract-data-types/collections/",
       "target": "/arrays",
       "text": "ArrayLists"
     },
     {
-      "source": "/cs61b/abstract-data-types/collections/README",
+      "source": "/cs61b/abstract-data-types/collections/",
       "target": "/linked-lists",
       "text": "Linked Lists"
     },
     {
-      "source": "/cs61b/abstract-data-types/collections/README",
+      "source": "/cs61b/abstract-data-types/collections/",
       "target": "/sets",
       "text": "Sets"
     },
     {
-      "source": "/cs61b/abstract-data-types/collections/README",
+      "source": "/cs61b/abstract-data-types/collections/",
       "target": "/../hashing",
       "text": "Hashing and Hash Tables"
     },
     {
-      "source": "/cs61b/abstract-data-types/collections/README",
+      "source": "/cs61b/abstract-data-types/collections/",
       "target": "/stacks-and-queues",
       "text": "Stacks and Queues"
     },
@@ -2220,21 +1987,6 @@
       "source": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
       "target": "/../shortest-paths/dijkstras-algorithm",
       "text": "Dijkstra's"
-    },
-    {
-      "source": "/cs61b/algorithms/searching/README",
-      "target": "/binary-search",
-      "text": "binary-search.md"
-    },
-    {
-      "source": "/cs61b/algorithms/searching/README",
-      "target": "/depth-first-search-dfs",
-      "text": "depth-first-search-dfs.md"
-    },
-    {
-      "source": "/cs61b/algorithms/searching/README",
-      "target": "/breadth-first-search-bfs",
-      "text": "breadth-first-search-bfs.md"
     },
     {
       "source": "/cs61b/algorithms/searching/binary-search",

@@ -1,7 +1,6 @@
 ---
-description: ft. Doge and RarePupper
+weight: 3
 ---
-
 # Dynamic Method Selection
 
 {% hint style="warning" %}

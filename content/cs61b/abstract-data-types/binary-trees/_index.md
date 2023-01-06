@@ -1,3 +1,9 @@
+---
+linkTitle: "Binary Trees"
+BookCollapseSection: true
+weight: 20
+---
+
 # Binary Trees
 
 {% hint style="success" %}

@@ -1,4 +1,7 @@
-# Generic Types
+---
+title: "Generic Types"
+weight: 5
+---
 
 Sometimes, we want things to support **any type**, including user defined types that we don't know about! For example, it would make sense that we don't care what type we make a `List` out of, since it's just a whole bunch of objects put together.
 

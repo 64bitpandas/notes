@@ -1,4 +1,6 @@
-# Depth First Search (DFS)
+---
+title: "Depth First Search (DFS)"
+---
 
 ## Depth First Traversal
 

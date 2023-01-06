@@ -1,4 +1,7 @@
-# Hashing and Hash Tables
+---
+title: "Hashing and Hash Tables"
+weight: 992
+---
 
 ## Data Indexed Sets: Introduction
 

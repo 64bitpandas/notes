@@ -1,4 +1,6 @@
-# Graphs
+---
+weight: 990
+---
 
 ## Introduction
 

@@ -1,4 +1,7 @@
-# Java Objects
+---
+title: "Java Objects"
+weight: 4
+---
 
 There are two main categories of objects in Java: **Primitive Types** and **Reference Types.** This page will give a brief overview of both, and close off with some info about the mystical **Object** class.
 

@@ -1,8 +1,7 @@
 ---
-description: Special thanks to Arin for writing this page!
+title: "Prim's Algorithm"
+weight: 2
 ---
-
-# Prim's Algorithm
 
 {% hint style="warning" %}
 Before reading, review [Minimum Spanning Trees](./README), as that is the foundation of Prim's algorithm!

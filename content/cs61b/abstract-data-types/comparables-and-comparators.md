@@ -1,4 +1,6 @@
-# Comparables and Comparators
+---
+weight: 999
+---
 
 ## What is it?
 

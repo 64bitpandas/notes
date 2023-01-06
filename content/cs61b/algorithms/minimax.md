@@ -1,4 +1,7 @@
-# Minimax Algorithm
+---
+title: "Minimax Algorithm"
+weight: 999
+---
 
 ## Game Trees
 
@@ -61,11 +64,6 @@ Here are the step-by-step instructions on how to process a node:
    3. If $\alpha \ge \beta$**,** then prune the rest of the branches (stop this loop).
 3. Set the value of this node to the biggest (MaxNode) or smallest (MinNode) value seen.
 
-The pseudocode for alpha-beta pruning is as follows:
-
-```python
-```
-
 This is a pretty tough concept to grasp, and that's why I've illustrated how it works below. Read on!
 
 ## A Story of Minimax Nodes: An Intuitive Understanding
@@ -94,8 +92,8 @@ _NOTE: The 5's in the above image should all be 7's. This will be corrected soon
 
 ## Practice Problems
 
-{% tabs %}
-{% tab title="Question 1" %}
+{{< tabs "minimax-q1" >}}
+{{< tab "Question 1" >}}
 Here's a tree. Figure out:
 
 * What values each of the nodes report
@@ -103,14 +101,14 @@ Here's a tree. Figure out:
 * The alpha and beta values at each visited node
 
 ![](<../img/assets/image (34).png>)
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q1 Answer" %}
+{{% tab "Q1 Answer" %}}
 Here's my answer! The green arrows denote the order in which the nodes are visited. Note that the branches are pruned every time **alpha is greater than beta.**
 
 ![](<../img/assets/image (35).png>)
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
 This was just an ordinary problem and **might not be enough to ensure that you fully understand minimax trees**! Here are some checks you can do to ensure that your understanding is strong:
 

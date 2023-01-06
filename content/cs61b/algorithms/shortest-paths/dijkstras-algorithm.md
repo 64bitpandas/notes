@@ -1,8 +1,7 @@
 ---
-description: Special thanks to Arin for writing this page!
+title: "Dijkstra's Algorithm"
+weight: 1
 ---
-
-# Dijkstra's Algorithm
 
 {% hint style="warning" %}
 Before continuing, make sure you're comfortable with [Graphs](../../abstract-data-types/graphs.md), [Stacks and Queues](../../abstract-data-types/collections/stacks-and-queues.md), and [Shortest Paths](./).

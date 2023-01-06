@@ -1,4 +1,8 @@
-# Collections
+---
+linkTitle: "Collections"
+BookCollapseSection: true
+weight: 10
+---
 
 ![An overview of all the Collections in Java.](<../../img/assets/image (3).png>)
 

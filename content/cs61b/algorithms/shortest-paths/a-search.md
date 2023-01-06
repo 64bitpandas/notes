@@ -1,8 +1,7 @@
 ---
-description: Special thanks to Arin for writing this page!
+title: "A* Search"
+weight: 999
 ---
-
-# A\* Search
 
 {% hint style="warning" %}
 In order to understand A\*, you'll need to review [Dijkstra's Algorithm](dijkstras-algorithm.md) first! Come back after you're done with that 😉

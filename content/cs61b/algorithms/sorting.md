@@ -1,3 +1,8 @@
+---
+title: "Sorting"
+weight: 998
+---
+
 # Sorting
 
 {% hint style="info" %}

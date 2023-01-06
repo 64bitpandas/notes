@@ -1,4 +1,6 @@
-# Inheritance
+---
+weight: 1
+---
 
 ## What is inheritance?
 

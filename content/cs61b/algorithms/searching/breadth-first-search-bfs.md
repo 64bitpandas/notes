@@ -1,4 +1,6 @@
-# Breadth First Search (BFS)
+---
+title: "Breadth First Search (DFS)"
+---
 
 Breadth First Search (BFS), like [Depth First Search (DFS)](depth-first-search-dfs.md), is a method of **traversing a graph.** BFS simply traverses in a different order, but otherwise is very similar to DFS.
 

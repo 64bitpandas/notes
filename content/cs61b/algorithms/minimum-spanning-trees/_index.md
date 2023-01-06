@@ -1,12 +1,12 @@
 ---
-description: Special thanks to Arin for writing this page!
+linkTitle: "Minimum Spanning Trees"
+BookCollapseSection: true
+weight: 30
 ---
-
-# Minimum Spanning Trees
 
 ## Spanning Tree Definition
 
-A **spanning tree** T is a subgraph of a graph G where T:
+A **spanning tree** $T$ is a subgraph of a graph $G$ where $T$:
 
 * Is connected (there's a path to every vertex)
 * Is acyclic (no cycles)

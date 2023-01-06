@@ -1,3 +1,8 @@
+---
+title: "Union Find (Disjoint Sets)"
+weight: 993
+---
+
 # Union Find (Disjoint Sets)
 
 {% hint style="info" %}
