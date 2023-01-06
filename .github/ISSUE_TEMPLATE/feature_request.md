@@ -1,20 +1,27 @@
 ---
-name: Feature request
-about: Suggest an idea or improvement for Amethyst
+name: Content request
+about: Suggest new content or additional sections
 title: ''
 labels: enhancement
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Which course is this request for?**
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+Examples: CS61A, Data102...
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Briefly describe the addition**
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+Add more details here.
+
+**Do you already have the content requested? (select one)**
+ - [ ] Yes, and I've made a pull request for it (link it below)
+ - [ ] Yes, but it's not in the correct format and I need help converting it (link any existing content below)
+ - [ ] No, I'm just making a suggestion
+ - [ ] Other (write more details below)
+
+
+**Additional details and context**
+
+Add links/references here!

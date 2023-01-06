@@ -115,6 +115,73 @@
           "text": "Exceptions"
         }
       ],
+      "/cs61b/CS61B-Index": [
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/oop/access-control",
+          "text": "Access Control"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/oop/dynamic-method-selection",
+          "text": "Dynamic Method Selection"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/oop/generics",
+          "text": "Generic Types"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/asymptotics/asymptotics-practice",
+          "text": "Asymptotics Practice"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/abstract-data-types/union-find-disjoint-sets",
+          "text": "Union Find (Disjoint Sets)"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/abstract-data-types/collections/stacks-and-queues",
+          "text": "Stacks and Queues"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/abstract-data-types/collections/linked-lists",
+          "text": "Linked Lists"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/abstract-data-types/collections/sets",
+          "text": "Sets"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/sorting/sorting-basics",
+          "text": "Sorting"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/algorithms/searching/",
+          "text": "Searching"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/algorithms/searching/binary-search",
+          "text": "Binary Search"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/algorithms/shortest-paths/",
+          "text": "Shortest Paths"
+        },
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/misc-topics/exceptions",
+          "text": "Exceptions"
+        }
+      ],
       "/cs61b/SUMMARY": [
         {
           "source": "/cs61b/SUMMARY",
@@ -688,147 +755,6 @@
           "target": "/../abstract-data-types/collections/",
           "text": "collections"
         }
-      ],
-      "/features/languages": [
-        {
-          "source": "/features/languages",
-          "target": "/setup/config",
-          "text": "config"
-        }
-      ],
-      "/setup/config": [
-        {
-          "source": "/setup/config",
-          "target": "/features/language",
-          "text": "Chinese, Japanese, and Korean support"
-        },
-        {
-          "source": "/setup/config",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        }
-      ],
-      "/setup/editing": [
-        {
-          "source": "/setup/editing",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        }
-      ],
-      "/setup/hosting": [
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/custom-Domain",
-          "text": "Learn how to set it up with Amethyst"
-        },
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/ignore-notes",
-          "text": "Excluding pages from being published"
-        },
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
-        },
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        }
-      ],
-      "/setup/obsidian": [
-        {
-          "source": "/setup/obsidian",
-          "target": "/setup/setup",
-          "text": "setup"
-        },
-        {
-          "source": "/setup/obsidian",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        }
-      ],
-      "/setup/preview-changes": [
-        {
-          "source": "/setup/preview-changes",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        }
-      ],
-      "/setup/setup": [
-        {
-          "source": "/setup/setup",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
-        },
-        {
-          "source": "/setup/setup",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        }
-      ],
-      "/setup/troubleshooting": [
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/features/latex",
-          "text": "LaTeX"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/ignore-notes",
-          "text": "excluding pages from being published"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/obsidian",
-          "text": "Obsidian"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "the 'how to edit' guide"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "the hosting guide"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/config",
-          "text": "customization guide"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "local editing"
-        }
       ]
     },
     "backlinks": {
@@ -1146,6 +1072,11 @@
       ],
       "/abstract-data-types/collections/linked-lists": [
         {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/abstract-data-types/collections/linked-lists",
+          "text": "Linked Lists"
+        },
+        {
           "source": "/cs61b/SUMMARY",
           "target": "/abstract-data-types/collections/linked-lists",
           "text": "Linked Lists"
@@ -1158,6 +1089,11 @@
       ],
       "/abstract-data-types/collections/sets": [
         {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/abstract-data-types/collections/sets",
+          "text": "Sets"
+        },
+        {
           "source": "/cs61b/SUMMARY",
           "target": "/abstract-data-types/collections/sets",
           "text": "Sets"
@@ -1169,6 +1105,11 @@
         }
       ],
       "/abstract-data-types/collections/stacks-and-queues": [
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/abstract-data-types/collections/stacks-and-queues",
+          "text": "Stacks and Queues"
+        },
         {
           "source": "/cs61b/SUMMARY",
           "target": "/abstract-data-types/collections/stacks-and-queues",
@@ -1202,6 +1143,11 @@
         }
       ],
       "/abstract-data-types/union-find-disjoint-sets": [
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/abstract-data-types/union-find-disjoint-sets",
+          "text": "Union Find (Disjoint Sets)"
+        },
         {
           "source": "/cs61b/SUMMARY",
           "target": "/abstract-data-types/union-find-disjoint-sets",
@@ -1255,6 +1201,11 @@
       ],
       "/algorithms/searching/": [
         {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/algorithms/searching/",
+          "text": "Searching"
+        },
+        {
           "source": "/cs61b/",
           "target": "/algorithms/searching/",
           "text": "Searching"
@@ -1268,6 +1219,11 @@
         }
       ],
       "/algorithms/searching/binary-search": [
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/algorithms/searching/binary-search",
+          "text": "Binary Search"
+        },
         {
           "source": "/cs61b/SUMMARY",
           "target": "/algorithms/searching/binary-search",
@@ -1294,6 +1250,11 @@
         }
       ],
       "/algorithms/shortest-paths/": [
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/algorithms/shortest-paths/",
+          "text": "Shortest Paths"
+        },
         {
           "source": "/cs61b/",
           "target": "/algorithms/shortest-paths/",
@@ -1373,6 +1334,11 @@
       ],
       "/asymptotics/asymptotics-practice": [
         {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/asymptotics/asymptotics-practice",
+          "text": "Asymptotics Practice"
+        },
+        {
           "source": "/cs61b/SUMMARY",
           "target": "/asymptotics/asymptotics-practice",
           "text": "Asymptotics Practice"
@@ -1435,20 +1401,6 @@
           "text": "Dynamic Method Selection"
         }
       ],
-      "/features/language": [
-        {
-          "source": "/setup/config",
-          "target": "/features/language",
-          "text": "Chinese, Japanese, and Korean support"
-        }
-      ],
-      "/features/latex": [
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/features/latex",
-          "text": "LaTeX"
-        }
-      ],
       "/generics": [
         {
           "source": "/cs61b/oop/inheritance",
@@ -1481,6 +1433,11 @@
         }
       ],
       "/misc-topics/exceptions": [
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/misc-topics/exceptions",
+          "text": "Exceptions"
+        },
         {
           "source": "/cs61b/SUMMARY",
           "target": "/misc-topics/exceptions",
@@ -1515,6 +1472,11 @@
       ],
       "/oop/access-control": [
         {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/oop/access-control",
+          "text": "Access Control"
+        },
+        {
           "source": "/cs61b/SUMMARY",
           "target": "/oop/access-control",
           "text": "Access Control"
@@ -1527,6 +1489,11 @@
       ],
       "/oop/dynamic-method-selection": [
         {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/oop/dynamic-method-selection",
+          "text": "Dynamic Method Selection"
+        },
+        {
           "source": "/cs61b/SUMMARY",
           "target": "/oop/dynamic-method-selection",
           "text": "Dynamic Method Selection"
@@ -1538,6 +1505,11 @@
         }
       ],
       "/oop/generics": [
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/oop/generics",
+          "text": "Generic Types"
+        },
         {
           "source": "/cs61b/SUMMARY",
           "target": "/oop/generics",
@@ -1575,28 +1547,6 @@
           "source": "/",
           "target": "/setup/config",
           "text": "Customizing Amethyst"
-        },
-        {
-          "source": "/features/languages",
-          "target": "/setup/config",
-          "text": "config"
-        },
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/config",
-          "text": "customization guide"
-        }
-      ],
-      "/setup/custom-Domain": [
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/custom-Domain",
-          "text": "Learn how to set it up with Amethyst"
         }
       ],
       "/setup/editing": [
@@ -1604,21 +1554,6 @@
           "source": "/",
           "target": "/setup/editing",
           "text": "Editing Notes in Amethyst"
-        },
-        {
-          "source": "/setup/setup",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "the 'how to edit' guide"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "local editing"
         }
       ],
       "/setup/hosting": [
@@ -1626,43 +1561,6 @@
           "source": "/",
           "target": "/setup/hosting",
           "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/setup/preview-changes",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "the hosting guide"
-        }
-      ],
-      "/setup/ignore-notes": [
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/ignore-notes",
-          "text": "Excluding pages from being published"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/ignore-notes",
-          "text": "excluding pages from being published"
         }
       ],
       "/setup/obsidian": [
@@ -1670,31 +1568,11 @@
           "source": "/",
           "target": "/setup/obsidian",
           "text": "How to setup your Obsidian Vault to work with Amethyst"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/obsidian",
-          "text": "Obsidian"
         }
       ],
       "/setup/preview-changes": [
         {
           "source": "/",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        },
-        {
-          "source": "/setup/obsidian",
           "target": "/setup/preview-changes",
           "text": "Preview Changes"
         }
@@ -1704,11 +1582,6 @@
           "source": "/",
           "target": "/setup/setup",
           "text": "Setup your own Amethyst instance"
-        },
-        {
-          "source": "/setup/obsidian",
-          "target": "/setup/setup",
-          "text": "setup"
         }
       ],
       "/setup/troubleshooting": [
@@ -1716,26 +1589,6 @@
           "source": "/",
           "target": "/setup/troubleshooting",
           "text": "Troubleshooting and FAQ"
-        },
-        {
-          "source": "/setup/config",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/setup/setup",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
         }
       ],
       "/setup/updating": [
@@ -1746,6 +1599,11 @@
         }
       ],
       "/sorting/sorting-basics": [
+        {
+          "source": "/cs61b/CS61B-Index",
+          "target": "/sorting/sorting-basics",
+          "text": "Sorting"
+        },
         {
           "source": "/cs61b/SUMMARY",
           "target": "/sorting/sorting-basics",
@@ -1830,6 +1688,71 @@
       "source": "/",
       "target": "/setup/troubleshooting",
       "text": "Troubleshooting and FAQ"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/oop/access-control",
+      "text": "Access Control"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/oop/dynamic-method-selection",
+      "text": "Dynamic Method Selection"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/oop/generics",
+      "text": "Generic Types"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/asymptotics/asymptotics-practice",
+      "text": "Asymptotics Practice"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/abstract-data-types/union-find-disjoint-sets",
+      "text": "Union Find (Disjoint Sets)"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/abstract-data-types/collections/stacks-and-queues",
+      "text": "Stacks and Queues"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/abstract-data-types/collections/linked-lists",
+      "text": "Linked Lists"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/abstract-data-types/collections/sets",
+      "text": "Sets"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/sorting/sorting-basics",
+      "text": "Sorting"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/algorithms/searching/",
+      "text": "Searching"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/algorithms/searching/binary-search",
+      "text": "Binary Search"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/algorithms/shortest-paths/",
+      "text": "Shortest Paths"
+    },
+    {
+      "source": "/cs61b/CS61B-Index",
+      "target": "/misc-topics/exceptions",
+      "text": "Exceptions"
     },
     {
       "source": "/cs61b/SUMMARY",
@@ -2415,131 +2338,6 @@
       "source": "/cs61b/oop/objects",
       "target": "/../abstract-data-types/collections/",
       "text": "collections"
-    },
-    {
-      "source": "/features/languages",
-      "target": "/setup/config",
-      "text": "config"
-    },
-    {
-      "source": "/setup/config",
-      "target": "/features/language",
-      "text": "Chinese, Japanese, and Korean support"
-    },
-    {
-      "source": "/setup/config",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
-    },
-    {
-      "source": "/setup/editing",
-      "target": "/setup/obsidian",
-      "text": "How to setup your Obsidian Vault to work with Amethyst"
-    },
-    {
-      "source": "/setup/editing",
-      "target": "/setup/preview-changes",
-      "text": "Preview Changes"
-    },
-    {
-      "source": "/setup/editing",
-      "target": "/setup/hosting",
-      "text": "Hosting Amethyst online!"
-    },
-    {
-      "source": "/setup/editing",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
-    },
-    {
-      "source": "/setup/hosting",
-      "target": "/setup/custom-Domain",
-      "text": "Learn how to set it up with Amethyst"
-    },
-    {
-      "source": "/setup/hosting",
-      "target": "/setup/ignore-notes",
-      "text": "Excluding pages from being published"
-    },
-    {
-      "source": "/setup/hosting",
-      "target": "/setup/config",
-      "text": "Customizing Amethyst"
-    },
-    {
-      "source": "/setup/hosting",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
-    },
-    {
-      "source": "/setup/obsidian",
-      "target": "/setup/setup",
-      "text": "setup"
-    },
-    {
-      "source": "/setup/obsidian",
-      "target": "/setup/preview-changes",
-      "text": "Preview Changes"
-    },
-    {
-      "source": "/setup/preview-changes",
-      "target": "/setup/hosting",
-      "text": "Hosting Amethyst online!"
-    },
-    {
-      "source": "/setup/setup",
-      "target": "/setup/editing",
-      "text": "Editing Notes in Amethyst"
-    },
-    {
-      "source": "/setup/setup",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/features/latex",
-      "text": "LaTeX"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/hosting",
-      "text": "hosting"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/ignore-notes",
-      "text": "excluding pages from being published"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/hosting",
-      "text": "hosting"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/obsidian",
-      "text": "Obsidian"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/editing",
-      "text": "the 'how to edit' guide"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/hosting",
-      "text": "the hosting guide"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/config",
-      "text": "customization guide"
-    },
-    {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/editing",
-      "text": "local editing"
     }
   ]
 }
