@@ -2,6 +2,11 @@
 title: "SQL Basics"
 weight: 0
 ---
+## Relevant Materials
+[Note 1](coursenotes/n01-SQLPart1.pdf)
+[Note 2](coursenotes/n02-SQLPart2.pdf)
+[Discussion 1](https://docs.google.com/presentation/d/1PZ7R8iKSm3gHUapi9l-WAlv_TWKQ-1VvAF98ZnEHW-o/edit)
+
 ## What is SQL?
 
 **S**tructured **Q**uery **L**anguage (/ˈsiːkwəl/) is a highly standardized syntax for performing operations on a **database**.
@@ -240,3 +245,4 @@ WITH name(col1, col2) AS
 name2(col1, col2) AS (SELECT ...),
 SELECT ...
 ```
+
