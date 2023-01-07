@@ -13,6 +13,78 @@
           "text": "contribution guide"
         }
       ],
+      "/cs186/CS186-Index": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/00-SQL-Basics",
+          "text": "00 SQL Basics"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/01-Disks-Buffers-Files",
+          "text": "01 Disks, Buffers, Files"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/02-Cost-Analysis",
+          "text": "02 Cost Analysis"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/03-B+-Trees",
+          "text": "03 B+ Trees"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/04-Sorting-and-Hashing",
+          "text": "04 Sorting and Hashing"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/05-Iterators-and-Joins",
+          "text": "05 Iterators and Joins"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/06-Relational-Algebra",
+          "text": "06 Relational Algebra"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/07-Query-Optimization",
+          "text": "07 Query Optimization"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/08-Transactions",
+          "text": "08 Transactions"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/09-Parallel-Query-Processing",
+          "text": "09 Parallel Query Processing"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/10-Recovery",
+          "text": "10 Recovery"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/11-Distributed-Transactions",
+          "text": "11 Distributed Transactions"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/12-ER-Diagrams",
+          "text": "12 ER Diagrams"
+        },
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/13-Extras",
+          "text": "13 Extras"
+        }
+      ],
       "/cs61b/": [
         {
           "source": "/cs61b/",
@@ -728,6 +800,104 @@
           "text": "Shortest Paths"
         }
       ],
+      "/00-SQL-Basics": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/00-SQL-Basics",
+          "text": "00 SQL Basics"
+        }
+      ],
+      "/01-Disks-Buffers-Files": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/01-Disks-Buffers-Files",
+          "text": "01 Disks, Buffers, Files"
+        }
+      ],
+      "/02-Cost-Analysis": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/02-Cost-Analysis",
+          "text": "02 Cost Analysis"
+        }
+      ],
+      "/03-B+-Trees": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/03-B+-Trees",
+          "text": "03 B+ Trees"
+        }
+      ],
+      "/04-Sorting-and-Hashing": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/04-Sorting-and-Hashing",
+          "text": "04 Sorting and Hashing"
+        }
+      ],
+      "/05-Iterators-and-Joins": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/05-Iterators-and-Joins",
+          "text": "05 Iterators and Joins"
+        }
+      ],
+      "/06-Relational-Algebra": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/06-Relational-Algebra",
+          "text": "06 Relational Algebra"
+        }
+      ],
+      "/07-Query-Optimization": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/07-Query-Optimization",
+          "text": "07 Query Optimization"
+        }
+      ],
+      "/08-Transactions": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/08-Transactions",
+          "text": "08 Transactions"
+        }
+      ],
+      "/09-Parallel-Query-Processing": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/09-Parallel-Query-Processing",
+          "text": "09 Parallel Query Processing"
+        }
+      ],
+      "/10-Recovery": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/10-Recovery",
+          "text": "10 Recovery"
+        }
+      ],
+      "/11-Distributed-Transactions": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/11-Distributed-Transactions",
+          "text": "11 Distributed Transactions"
+        }
+      ],
+      "/12-ER-Diagrams": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/12-ER-Diagrams",
+          "text": "12 ER Diagrams"
+        }
+      ],
+      "/13-Extras": [
+        {
+          "source": "/cs186/CS186-Index",
+          "target": "/13-Extras",
+          "text": "13 Extras"
+        }
+      ],
       "/abstract-data-types/collections/linked-lists": [
         {
           "source": "/cs61b/",
@@ -1007,6 +1177,76 @@
       "source": "/",
       "target": "/contributing",
       "text": "contribution guide"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/00-SQL-Basics",
+      "text": "00 SQL Basics"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/01-Disks-Buffers-Files",
+      "text": "01 Disks, Buffers, Files"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/02-Cost-Analysis",
+      "text": "02 Cost Analysis"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/03-B+-Trees",
+      "text": "03 B+ Trees"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/04-Sorting-and-Hashing",
+      "text": "04 Sorting and Hashing"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/05-Iterators-and-Joins",
+      "text": "05 Iterators and Joins"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/06-Relational-Algebra",
+      "text": "06 Relational Algebra"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/07-Query-Optimization",
+      "text": "07 Query Optimization"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/08-Transactions",
+      "text": "08 Transactions"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/09-Parallel-Query-Processing",
+      "text": "09 Parallel Query Processing"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/10-Recovery",
+      "text": "10 Recovery"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/11-Distributed-Transactions",
+      "text": "11 Distributed Transactions"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/12-ER-Diagrams",
+      "text": "12 ER Diagrams"
+    },
+    {
+      "source": "/cs186/CS186-Index",
+      "target": "/13-Extras",
+      "text": "13 Extras"
     },
     {
       "source": "/cs61b/",
