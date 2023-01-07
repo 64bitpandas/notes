@@ -23,13 +23,24 @@ I recognize that the course notes for 186 can be *very* dense sometimes, and don
 
 **This isn't a replacement for lectures and other course content.** You probably need to look at those first, and come here if something isn't sticking!
 
-> [!important] Please read this before continuing
+> [!important] Please read this first!
 > 
-> [What is an I/O and why should I care?](ios.md IO>)
+> [What is an I/O and why should I care?](io)
 
 ## Disclaimer
 
 Although I am a 186 TA, these notes are not official course content. They have not been reviewed or approved by an instructor, and there may be inaccurate or missing information. Please don't bother the other course staff with questions about the content here- contact me instead (email or office hours).
+
+## Concept Maps
+
+### Database Implementation
+![implementation](concept-implementation.png)
+
+### Database Design
+![design](concept-design.png)
+
+### ACID
+![acid](concept-acid.png)
 
 ## Prerequisites
 
@@ -43,13 +54,13 @@ In addition, knowledge from the last part of [CS61C](https://cs61c.org) is assum
  - Knowing how computers store memory, the different types of memory (disk, RAM, cache), and why we have them
  - How data is stored on disk (files, pages, records)
 
-Unsure about prerequisite content? You can review my [CS61B notes](/cs61b) if needed. I'll cover the main points from 61C in the section below, since they're important enough to go over again.
+Unsure about prerequisite content? You can review my [CS61B notes](/cs61b) if needed. I'll cover the main points from 61C at the start of [Disks, Buffers, Files](cs186/01%20Disks,%20Buffers,%20Files.md).
 
 ## How to contribute
 
 See the [contributing guide](/contributing) for more details!
 
-One particular addition that needs to be made is an entry on Functional Dependencies. I don't have notes written for this since it was not covered when I took the course.
+Two particular additions that need to be made are entries for Functional Dependencies and NoSQL. I don't have notes written for this since these topics were not covered when I took the course.
 
 
 
