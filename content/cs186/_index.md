@@ -19,7 +19,9 @@ This is a **non-comprehensive** guide to databases written with an intention to 
 * [Database transactions and Concurrency](<cs186/08 Transactions>)
 * [Entity-Relationship Diagrams](<cs186/12 ER Diagrams>)
 
-This guide is written to be as easy to follow and digestible as possible😀I've included lots of diagrams, practice problems, and more intuitive explanations instead of the more straightforward approach most textbooks use. **This isn't a replacement for lectures and other course content.** You probably need to look at those first, and come here if something isn't sticking!
+I recognize that the course notes for 186 can be *very* dense sometimes, and don't cover 100% of the information you need to do well on projects and exams. While this also doesn't covery everything, I try to focus on content that the notes don't.
+
+**This isn't a replacement for lectures and other course content.** You probably need to look at those first, and come here if something isn't sticking!
 
 ## Disclaimer
 

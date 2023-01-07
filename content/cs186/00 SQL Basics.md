@@ -1,4 +1,7 @@
-# SQL Basics
+---
+title: "SQL Basics"
+weight: 0
+---
 
 ## Relational Terminology
 
