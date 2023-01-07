@@ -23,10 +23,27 @@ I recognize that the course notes for 186 can be *very* dense sometimes, and don
 
 **This isn't a replacement for lectures and other course content.** You probably need to look at those first, and come here if something isn't sticking!
 
+> [!important] Please read this before continuing
+> 
+> [What is an I/O and why should I care?](ios.md IO>)
+
 ## Disclaimer
 
 Although I am a 186 TA, these notes are not official course content. They have not been reviewed or approved by an instructor, and there may be inaccurate or missing information. Please don't bother the other course staff with questions about the content here- contact me instead (email or office hours).
 
+## Prerequisites
+
+CS 186 projects are done in Java. Knowledge of [CS61B](/cs61b) concepts are assumed. Specifically, you should understand:
+ - OOP fundamentals such as classes, inheritance, and objects and implement them in Java
+ - Binary trees, their runtime proprties, and implementation of efficient search and insert algorithms
+ - Basic hashing and sorting algorithms
+ - Use an IDE (preferably IntelliJ or VSCode) and its debugger to step through code and create breakpoints
+
+In addition, knowledge from the last part of [CS61C](https://cs61c.org) is assumed and will be very useful for the first part of 186. This includes:
+ - Knowing how computers store memory, the different types of memory (disk, RAM, cache), and why we have them
+ - How data is stored on disk (files, pages, records)
+
+Unsure about prerequisite content? You can review my [CS61B notes](/cs61b) if needed. I'll cover the main points from 61C in the section below, since they're important enough to go over again.
 
 ## How to contribute
 
