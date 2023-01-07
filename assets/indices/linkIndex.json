@@ -4,48 +4,13 @@
       "/": [
         {
           "source": "/",
-          "target": "/setup/setup",
-          "text": "Setup your own Amethyst instance"
+          "target": "/cs61b/",
+          "text": "CS 61B: Data Structures and Algorithms"
         },
         {
           "source": "/",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
-        },
-        {
-          "source": "/",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
-        },
-        {
-          "source": "/",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        },
-        {
-          "source": "/",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
-        },
-        {
-          "source": "/",
-          "target": "/setup/updating",
-          "text": "update"
-        },
-        {
-          "source": "/",
-          "target": "/tags/setup",
-          "text": "setup-related notes"
-        },
-        {
-          "source": "/",
-          "target": "/setup/troubleshooting",
-          "text": "Troubleshooting and FAQ"
+          "target": "/contributing",
+          "text": "contribution guide"
         }
       ],
       "/cs61b/": [
@@ -883,6 +848,11 @@
       ],
       "/contributing": [
         {
+          "source": "/",
+          "target": "/contributing",
+          "text": "contribution guide"
+        },
+        {
           "source": "/cs61b/",
           "target": "/contributing",
           "text": "contributing guide"
@@ -891,6 +861,13 @@
           "source": "/cs61b/abstract-data-types/collections/sets",
           "target": "/contributing",
           "text": "help make it better!"
+        }
+      ],
+      "/cs61b/": [
+        {
+          "source": "/",
+          "target": "/cs61b/",
+          "text": "CS 61B: Data Structures and Algorithms"
         }
       ],
       "/depth-first-search-dfs": [
@@ -999,62 +976,6 @@
           "text": "Sets"
         }
       ],
-      "/setup/config": [
-        {
-          "source": "/",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
-        }
-      ],
-      "/setup/editing": [
-        {
-          "source": "/",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
-        }
-      ],
-      "/setup/hosting": [
-        {
-          "source": "/",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        }
-      ],
-      "/setup/obsidian": [
-        {
-          "source": "/",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
-        }
-      ],
-      "/setup/preview-changes": [
-        {
-          "source": "/",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        }
-      ],
-      "/setup/setup": [
-        {
-          "source": "/",
-          "target": "/setup/setup",
-          "text": "Setup your own Amethyst instance"
-        }
-      ],
-      "/setup/troubleshooting": [
-        {
-          "source": "/",
-          "target": "/setup/troubleshooting",
-          "text": "Troubleshooting and FAQ"
-        }
-      ],
-      "/setup/updating": [
-        {
-          "source": "/",
-          "target": "/setup/updating",
-          "text": "update"
-        }
-      ],
       "/stacks-and-queues": [
         {
           "source": "/cs61b/abstract-data-types/collections/",
@@ -1065,13 +986,6 @@
           "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
           "target": "/stacks-and-queues",
           "text": "Priority Queues"
-        }
-      ],
-      "/tags/setup": [
-        {
-          "source": "/",
-          "target": "/tags/setup",
-          "text": "setup-related notes"
         }
       ],
       "/tries": [
@@ -1086,48 +1000,13 @@
   "links": [
     {
       "source": "/",
-      "target": "/setup/setup",
-      "text": "Setup your own Amethyst instance"
+      "target": "/cs61b/",
+      "text": "CS 61B: Data Structures and Algorithms"
     },
     {
       "source": "/",
-      "target": "/setup/editing",
-      "text": "Editing Notes in Amethyst"
-    },
-    {
-      "source": "/",
-      "target": "/setup/obsidian",
-      "text": "How to setup your Obsidian Vault to work with Amethyst"
-    },
-    {
-      "source": "/",
-      "target": "/setup/preview-changes",
-      "text": "Preview Changes"
-    },
-    {
-      "source": "/",
-      "target": "/setup/hosting",
-      "text": "Hosting Amethyst online!"
-    },
-    {
-      "source": "/",
-      "target": "/setup/config",
-      "text": "Customizing Amethyst"
-    },
-    {
-      "source": "/",
-      "target": "/setup/updating",
-      "text": "update"
-    },
-    {
-      "source": "/",
-      "target": "/tags/setup",
-      "text": "setup-related notes"
-    },
-    {
-      "source": "/",
-      "target": "/setup/troubleshooting",
-      "text": "Troubleshooting and FAQ"
+      "target": "/contributing",
+      "text": "contribution guide"
     },
     {
       "source": "/cs61b/",
