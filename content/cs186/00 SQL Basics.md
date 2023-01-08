@@ -3,9 +3,9 @@ title: "SQL Basics"
 weight: 0
 ---
 ## Relevant Materials
-[Note 1](coursenotes/n01-SQLPart1.pdf)
-[Note 2](coursenotes/n02-SQLPart2.pdf)
-[Discussion 1](https://docs.google.com/presentation/d/1PZ7R8iKSm3gHUapi9l-WAlv_TWKQ-1VvAF98ZnEHW-o/edit)
+ - [Note 1](https://notes.bencuan.me/cs186/coursenotes/n01-SQLPart1.pdf)
+ - [Note 2](https://notes.bencuan.me/cs186/coursenotes/n02-SQLPart2.pdf)
+ - [Discussion 1](https://docs.google.com/presentation/d/1PZ7R8iKSm3gHUapi9l-WAlv_TWKQ-1VvAF98ZnEHW-o/edit)
 
 ## What is SQL?
 
@@ -122,7 +122,7 @@ Whenever you want to do something that requires the `GROUP BY` to have been done
 
 ### Practice Problems
 
-Still unsure about querying and aggregation? [Here are some of my old 61A discussion slides](<coursenotes/61A Discussion 12.pdf>) that have some practice problems (back when we still taught SQL). All of the tables referenced are already preloaded for you in [code.cs61a.org](https://code.cs61a.org).
+Still unsure about querying and aggregation? [Here are some of my old 61A discussion slides](<https://notes.bencuan.me/cs186/coursenotes/61A%20Discussion%2012.pdf>) that have some practice problems (back when we still taught SQL). All of the tables referenced are already preloaded for you in [code.cs61a.org](https://code.cs61a.org).
 
 
 ## Logical Processing Order
@@ -152,13 +152,13 @@ However, since ORDER BY and LIMIT come afterwards, we are allowed to use aliases
 If we have two tables and need to access information from both in a query, we will need to join the two tables together!
 
 For this section, we will use the following tables as examples:
-![](Pasted%20image%2020230107122706.png)
+![](SQL%20Basics/Pasted%20image%2020230107122706.png)
 
 ### Cartesian Product
 By default, if a join (`SELECT ... FROM a, b...`) is done in SQL without specifying a type, a **cross product** (Cartesian product) is calculated. Every row in table `a` (the left table) is combined with every row in table `b` to create $R_a * R_b$ rows ($R_a$ = number of rows in table `a`). 
 
 In the example below, since `clubs` had $2$ rows and `members` had $4$ rows, we should expect the result to have $3 \times 4 = 12$ rows. Note that most of these rows are pretty useless, since there is no correlation between the member and the club they were joined with.
-![|500](Pasted%20image%2020230107122726.png)
+![|500](SQL%20Basics/Pasted%20image%2020230107122726.png)
 
 ### Inner Join
 
@@ -175,7 +175,7 @@ An inner join takes only the rows in which a particular attribute (or list of at
     ```
 
 In the example below, we only keep the clubs CSM and OCF, and only keep the members that are in those two clubs:
-![](Pasted%20image%2020230107122849.png)
+![](SQL%20Basics/Pasted%20image%2020230107122849.png)
 
 ### Natural Join
 
@@ -186,10 +186,10 @@ If the columns `alias` and `club` were both named the same thing, then `SELECT .
 ### Outer Join
 
 Left outer joins return all matched rows (as in an inner join), AND additionally preserves all unmatched rows from the left table. Any non-matching fields will be filled in with null values.
-![](Pasted%20image%2020230107123046.png)
+![](SQL%20Basics/Pasted%20image%2020230107123046.png)
 
 A right outer join is the same as the left outer join, except it preserves unmatched rows from the right table instead. Flipping the table order on a left outer join creates an equivalent right outer join:
-![](Pasted%20image%2020230107123142.png)
+![](SQL%20Basics/Pasted%20image%2020230107123142.png)
 
 A full outer join returns all rows, matched or unmatched, from the tables on both sides of the join clause. 
 

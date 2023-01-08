@@ -1,8 +1,7 @@
 ## Relevant Materials
 
-[Note 3](coursenotes/n03-DisksFiles.pdf)
-[Discussion 2](https://docs.google.com/presentation/d/10pKMJVZAA44ABJkIJXw9JhGd1nSQvvrf1qzEO770Ap8/edit#slide=id.g11049acc126_0_4)
-
+ - [Note 3](https://notes.bencuan.me/cs186/coursenotes/n03-DisksFiles.pdf)
+ - [Discussion 2](https://docs.google.com/presentation/d/10pKMJVZAA44ABJkIJXw9JhGd1nSQvvrf1qzEO770Ap8/edit#slide=id.g11049acc126_0_4)
 
 ## Introduction
 
@@ -15,10 +14,10 @@ Before reading this section, review the page [What is an I/O and why should I ca
 
 > [!summary] Summary
 > 
-> **Disks** are physical devices good at storing a huge amount of data.
-> **Files** are stored on the disk and represent one table.
-> **Databases** are collections of one or more tables.
-> **Pages** are the basic building block of files. A file is generally made up of many pages.
+>  **Disks** are physical devices good at storing a huge amount of data.<br>
+> **Files** are stored on the disk and represent one table.<br>
+> **Databases** are collections of one or more tables.<br>
+> **Pages** are the basic building block of files. A file is generally made up of many pages.<br>
 > **Records** represent single rows in the table. Many records can be stored on the same page.
 > 
 > When records from a database need to be accessed, they are copied from the disk to the **buffer** in memory one page at a time.
@@ -37,7 +36,7 @@ Here's the hierarchy of physical memory devices that modern computers use. The m
 Hard drives are magnetic disks that contain tracks of data around a cylinder. 
 HDD's are generally good for sequential reading, but bad for random reads.
 
-![Untitled](Disks,%20Buffers,%20Files/Untitled%201.png)
+![Untitled|400](Disks,%20Buffers,%20Files/Untitled%201.png)
 
 **Disk Latency = Queueing Time + Controller Time + Seek Time + Rotation Time + Transfer Time**
 - Queuing Time: amount of time it takes for the job to be taken off the OS queue
@@ -88,7 +87,7 @@ There are two approaches to actually implementing heap files.
 
 The first is the **linked list implementation**, where we have two linked lists: one of full data pages, and one of pages that still have free space. To insert a value into the file, we can ignore all of the full pages and just traverse the free pages, stopping at the first page that has enough free space to support the insertion.
 
-![](Pasted%20image%2020230107153137.png)
+![ll](Disks,%20Buffers,%20Files/Pasted%20image%2020230107153137.png)
 
 Here's an example of a common question you'll face about files:
 {{< tabs "q1" >}}
@@ -106,7 +105,7 @@ Suppose you have a linked list implementation illustrated in the image above (3 
 {{< /tabs >}}
 
 The second type of heap file is a **page directory implementation.** Here, instead of a linked list of data pages, we'll store a linked list of header pages:
-![](Pasted%20image%2020230107153729.png)
+![](Disks,%20Buffers,%20Files/Pasted%20image%2020230107153729.png)
 Each header page then contains a list of pointers to data pages, as well as a pointer to the next header page.
 
 {{< tabs "q2" >}}
@@ -145,7 +144,8 @@ If records are fixed length, we can pack them densely, which maximizes the amoun
  - We can easily append new records, but to delete, we would need to rearrange the records that come after the deleted record, which can get expensive.
 
 We can also have **unpacked** fixed length records:
-  ![unpacked|300](Disks,%20Buffers,%20Files/Untitled%203.png)
+
+![unpacked|300](Disks,%20Buffers,%20Files/Untitled%203.png)
 - To do this, we will:
     - Keep a **bitmap** of free and empty slots in the header (one bit for each slot, rounded up to the nearest byte).
     - To add, find an empty slot in the bitmap and mark it as filled.
