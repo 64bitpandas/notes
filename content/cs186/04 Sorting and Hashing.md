@@ -1,4 +1,3 @@
-# Sorting and Hashing
 
 When dealing with disk operations, traditional sorting algorithms tend to create lots of random accesses and can be quite slow. We’ll explore a few strategies for creating optimized algorithms for sorting databases.
 
@@ -11,7 +10,6 @@ Single-pass streaming is an approach for mapping inputs to their desired outputs
 ![Untitled](Sorting%20and%20Hashing/Untitled.png)
 
 **Optimization: double buffering**
-
 - The main thread runs the function that converts inputs into outputs.
 - A second I/O thread runs simultaneously to handle the filling and draining of input and output buffers.
 - If the main thread is ready for a new buffer to compute, swap buffers between the two threads.
@@ -24,8 +22,7 @@ Single-pass streaming is an approach for mapping inputs to their desired outputs
 
 For larger input sets that span multiple pages, several passes are required. In each pass, pages are merged together and double in size.
 
-**Runtime Analysis**
-
+**I/O Cost Analysis**
 - Suppose we have $N$ pages.
 - In every pass, we read and write each page in file, causing $2N$ IO’s.
 - The number of passes is logarithmic in nature: $\lceil \log_2 N \rceil + 1$

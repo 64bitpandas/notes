@@ -121,7 +121,7 @@ Suppose you have 5 header pages, and each header page can store pointers to 30 d
 {{< /tabs >}}
 
 ### Sorted File Implementation
-Don't worry too much about this. We'll explore a better way of maintaining sorted order when we discuss index files in [B+ Trees](03%20B+%20Trees.md).
+Don't worry too much about this. We'll explore a better way of maintaining sorted order when we discuss index files in [B+ Trees](02%20B+%20Trees.md).
 
 ## Records
 
@@ -178,3 +178,34 @@ The slot directory in a slotted page implementation has the following items:
 - free space pointer (4 bytes)
 - (record pointer + record size) tuple for every record (8N bytes)
 
+## Practice Problems
+
+{{< tabs "q3" >}}
+{{< tab "Question 3" >}}
+Suppose we have the clubs table from the previous section:
+```sql
+CREATE TABLE clubs(
+	name TEXT PRIMARY KEY,
+	alias TEXT,
+	members INTEGER
+);
+```
+
+What is the maximum number of records that can fit on a 1 KiB (1024 byte) page, assuming all fields are not null?
+{{< /tab >}}
+{{< tab "Q3 Answer" >}}
+**50 records.**
+
+The maximum number of records is achieved when each record is as small as possible. This occurs when both of the text variables have a length of 0. So the smallest record contains:
+ - 4 byte pointer to `name`,
+ - 4 byte pointer to `alias`,
+ - 4 byte integer `members`.
+
+In total, each minimum-size record is 12 bytes long. However, each record also requires a pointer and a record length value to be stored in the footer (4 bytes each), meaning each record effectively takes 20 bytes in the page.
+
+The slot directory always contains the slot count and free space pointer (4+4 = 8 bytes), so let's subtract 8 bytes from 1024 to get 1016 bytes remaining for use for records.
+
+Finally, let's divide 1016 by 20 to get the number of records that can fit:
+$$\lfloor 1016/20 \rfloor = 50$$
+{{< /tab >}}
+{{< /tabs >}}
