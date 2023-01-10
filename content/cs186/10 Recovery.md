@@ -1,25 +1,24 @@
-# Recovery
+## Introduction
 
 **Recovery** is the process of making databases resilient to failure. Specifically, recovery enforces **durability** (a committed transaction remains persistent) and **atomicity** (either all of the operations in a transaction complete, or none of them).
 
 **Assumptions:**
-
 - We use strict two-phase locking for concurrency control.
 - Updates happen in-place: transactions that modify data overwrite entries in the database.
+
+## Relevant Materials
 
 ## Steal/No Force
 
 ### No Steal Policy
 
 Don’t allow buffer pool frames with uncommitted updates to be replaced or flushed to disk.
-
 - Achieves atomicity
 - Can cause poor performance due to pinned pages limiting buffer replacement
 
 ### Force Policy
 
 Before commit, ensure that every update is forced onto the disk.
-
 - Achieves durability
 - Can cause poor performance due to high random IO
 
@@ -28,7 +27,6 @@ A simplistic attempt at recovery (that doesn’t actually work) would be to comb
 ### Steal No-Force Policy
 
 Steal No-Force is the most efficient approach, but also complicated:
-
 - No Force: flush dirty pages as little as possible, and only when convenient, before commits. Allow for redoing modifications. (Can complicate durability)
 - Steal: allow buffer pool frames to be replaced whenever convenient. (Can complicate atomicity)
 
@@ -108,8 +106,7 @@ Specifically, the following happens:
 
 ### ARIES Normal Operation
 
-**Start Transaction:**
-
+**Start Transaction:**``
 - Write START to log
 - Update transactions table with new transaction
 - Set the following values
@@ -119,22 +116,18 @@ Specifically, the following happens:
     - If `recLSN` is null, then set it to `LSN` (i.e. first time this page is dirty)
 
 **Flush Page:**
-
 - Flush log up to and including `pageLSN`
 - Remove page from DPT and buffer pool
 
 **Fetch page:** 
-
 - Create new entry in DPT and buffer pool
 
 **Commit:**
-
 - Write commit record to log
 - Flush log up to entry
 - Update transaction table status to commit
 
 **Abort:**
-
 - Write abort record to log
 - Find first action to undo from `lastLSN`
 - Start to undo changes
@@ -145,7 +138,6 @@ Specifically, the following happens:
 ## Crash Recovery
 
 ### Summary
-
 - Start from a checkpoint from the master record
 - Analysis phase: figure out which transactions committed and which ones failed
 - REDO phase: repeat the history of the log and reconstruct the state of the database before the crash.
@@ -185,6 +177,4 @@ Specifically, the following happens:
 ![Untitled](Recovery/Untitled%202.png)
 
 ### What happens if DB crashes during crash recovery?
-
-- During analysis: no serious consequences, simply restart from the beginning of crash recovery
-- During REDO: no serious consequences, can detect redos and
+Nothing! Crash recovery is inherently durable, because it still follows the same rules as write-ahead logging in that log records are always written before any changes are made. If recovery doesn't complete, then we can simply start over from the beginning of recovery and try again.
