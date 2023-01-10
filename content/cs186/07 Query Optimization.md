@@ -1,4 +1,4 @@
-# Query Optimization
+## Introduction
 
 **Query optimization** is the bridge between a declarative language (like SQL, where you describe “what” you want) and an imperative language (like Java, which describes how the answer is actually computed).
 
@@ -149,7 +149,7 @@ Suppose $R(a,b,c)$ has 1000 tuples and $S(a)$ has 500 tuples. We have the follow
 
 `SELECT * FROM R WHERE c = 42`:
 
-- We have no information, so by default $$S=1
+- We have no information, so by default $S=1$
 - $1000 \times 1/10 = 100$ tuples.
 
 `SELECT * FROM R WHERE a <= 25`:
