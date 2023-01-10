@@ -1,4 +1,6 @@
-# Parallel Query Processing
+## Relevant Materials
+
+## Parallelism
 
 Parallelism helps us break down a big problem into small, independent chunks. The idea is that a lot of machines all working on the same problem at the same time will finish the problem more quickly.
 
@@ -84,7 +86,7 @@ Here are some examples of parallel operations:
 - Unique key: easy for range/hash, need to broadcast request for RR. If response received, overwrite in correct machine. Otherwise, insert anywhere
 - Hashing: just
 
-## Measuring Parallelism
+## Measuring Parallelism (Problem solving strategies)
 
 **Network cost:** amount of data we need to send over the network to perform an operation
 

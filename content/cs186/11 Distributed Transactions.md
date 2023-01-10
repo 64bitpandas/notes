@@ -58,7 +58,7 @@ Suppose multiple machines have running transactions, and each machine has its ow
 
 To evaluate deadlock, union all of the waits-for graphs and check for cycles.
 
-## 2PC Timing
+## 2PC Timing (Problem solving strategies)
 
 The best case time for a transaction to complete using 2PC:
 
