@@ -1,6 +1,9 @@
-# Transactions
+## Introduction
 
 Transactions are collections of operations that can be treated like a single unit.
+
+## Relevant Materials
+
 
 ## ACID and Concurrency
 
