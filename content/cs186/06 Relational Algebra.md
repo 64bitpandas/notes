@@ -1,3 +1,8 @@
+---
+title: "Relational Algebra"
+weight: 60
+---
+
 ## Introduction
 
 **Relational algebra** is a language that represents a logical query plan for translating SQL queries into underlying actions. This is useful because SQL queries don't save information for the *order* in which operations are carried out. As you'll see, several different ways of processing the same query could lead to the same result.
@@ -5,6 +10,8 @@
 It represents *how* we perform operations on sets to achieve the desired result. In contrast, [relational calculus](https://en.wikipedia.org/wiki/Relational_calculus) represents the result (the *what* of a calculation). We won't cover relational calculus in this class, since everything that can be represented with relational calculus can be equivalently represented in relational algebra.
 
 ## Relevant Materials
+ - [Note 9](https://notes.bencuan.me/cs186/coursenotes/n09-RelAlg.pdf)
+ - [Discussion 6](https://docs.google.com/presentation/d/1qMc6ihzx2xA0wUhn5Ahgb53MXsT6A6P6igzcftze1y8/edit)
 
 ## Operators
 

@@ -1,6 +1,6 @@
 ---
 title: "SQL Basics"
-weight: 0
+weight: 1
 ---
 ## Relevant Materials
  - [Note 1](https://notes.bencuan.me/cs186/coursenotes/n01-SQLPart1.pdf)

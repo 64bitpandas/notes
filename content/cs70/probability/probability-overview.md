@@ -1,4 +1,6 @@
-# Overview
+---
+weight: -1
+---
 
 The probability section of this guide will likely never be fully completed, due to the fact that the [Prob 140 textbook](http://prob140.org/textbook/content/README.html) is such an excellent resource in probability theory. Go read it and do the problems!
 
@@ -8,12 +10,12 @@ TL;DR don't use this section of the guide, just read the 140 textbook.
 
 Here is a running list of topics in this section:
 
-* [**Counting**](counting.md) provides us an intuitive method of figuring out how many possible ways there are to do something.
-* [**Discrete probability distributions**](discrete-probability.md), such as the Binomial or Geometric distributions, describe the probabilities of a finite set of outcomes.
-* [**Continuous probability distributions**](continuous-probability.md), such as the Poisson or Normal distributions, help us model real values, like lifetime or height.
-* ****[**Markov chains**](markov-chains.md) model transitions between discrete states.
-* [**Expectation and variance**](expectation-and-variance.md) are tools to describe the characteristics of a random variable or distribution.
-* [**Concentration inequalities**](concentration-inequalities.md) allow us to approximate bounds for random variables when we only know their expectation and/or variance.
+* [**Counting**](/cs70/probability/counting.md) provides us an intuitive method of figuring out how many possible ways there are to do something.
+* [**Discrete probability distributions**](/cs70/probability/discrete-probability.md), such as the Binomial or Geometric distributions, describe the probabilities of a finite set of outcomes.
+* [**Continuous probability distributions**](/cs70/probability/continuous-probability.md), such as the Poisson or Normal distributions, help us model real values, like lifetime or height.
+* [**Markov chains**](/cs70/probability/markov-chains.md) model transitions between discrete states.
+* [**Expectation and variance**](/cs70/probability/expectation-and-variance.md) are tools to describe the characteristics of a random variable or distribution.
+* [**Concentration inequalities**](/cs70/probability/concentration-inequalities.md) allow us to approximate bounds for random variables when we only know their expectation and/or variance.
 
 There is far more to explore in learning the basics of probability- not everything is included in this list!
 

@@ -1,4 +1,6 @@
-# Expectation and Variance
+---
+weight: 40
+---
 
 The expectation of a random variable, $E(X)$, is the average of possible values weighted by their probabilities. Formally, it can be defined in two ways:
 

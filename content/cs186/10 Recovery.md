@@ -1,3 +1,8 @@
+---
+title: "Recovery"
+weight: 100
+---
+
 ## Introduction
 
 **Recovery** is the process of making databases resilient to failure. Specifically, recovery enforces **durability** (a committed transaction remains persistent) and **atomicity** (either all of the operations in a transaction complete, or none of them).
@@ -7,6 +12,8 @@
 - Updates happen in-place: transactions that modify data overwrite entries in the database.
 
 ## Relevant Materials
+ - [Note 13](https://notes.bencuan.me/cs186/coursenotes/n13-Recovery.pdf)
+ - [Discussion 9](https://docs.google.com/presentation/d/1K9BNas4NYQbRSB8q_EswPepjwVj-cijxQOsZEIYTNsY/edit?usp=sharing)
 
 ## Steal/No Force
 

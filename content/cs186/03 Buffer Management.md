@@ -1,9 +1,18 @@
+---
+title: "Buffer Management"
+weight: 30
+---
+
 ## Introduction
 So far, we've established the fact that the disk is slow, and memory is fast- and that one of the biggest challenges in database implementation is in minimizing the number of times we need to incur I/Os by transferring data in between disk and memory.
 
 Since memory is limited, we need to figure out a clever way to re-use information once it's read into memory, while still allowing new information to come in when needed. This way, we can minimize the number of times we need to read the disk in order to find something.
 
 The system that does this is the **buffer manager.** It employs a **page replacement policy** to decide which pages to evict when the buffer is full and a new page is read from disk.
+
+## Relevant Materials
+ - [Note 5](https://notes.bencuan.me/cs186/coursenotes/n05-BufferMgmt.pdf)
+ - [Discussion 3](https://docs.google.com/presentation/d/1ZZxV_EziQJd47w3MNo72X4z8c7upX4KGiMqvuEI-vnM/edit#slide=id.g157c8825e69_0_0): view this for buffer management walkthroughs!
 
 ## Page Replacement Policies
 

@@ -1,4 +1,6 @@
-# Hashing and the Union Bound
+---
+weight: 30
+---
 
 A hash function assigns a value to each member in a set. It's often useful to determine the probability of collisions: where two different items are assigned the same hash value.
 

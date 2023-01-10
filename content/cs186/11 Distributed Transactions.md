@@ -1,3 +1,8 @@
+---
+title: "Distributed Transactions"
+weight: 110
+---
+
 ## Introduction
 In some situations (like in datacenters), the computation needed for transactions gets to be too great for a single computer to handle.
 
@@ -6,7 +11,8 @@ One solution for this is to build *wide*- connect a whole bunch of computers tog
 One such challenge is how we can still preserve ACID properties of transactions when each computer is working independently. What happens if one computer crashes?
 
 ## Relevant Materials
-
+ - [Note 16](https://notes.bencuan.me/cs186/coursenotes/n16-DistXact.pdf)
+ - [Discussion 12](https://docs.google.com/presentation/d/1G1A93sgcPWIDSZklHyqya62VFqMbsFnSnKap9vi8AG0/edit)
 
 
 ## Two Phase Commit

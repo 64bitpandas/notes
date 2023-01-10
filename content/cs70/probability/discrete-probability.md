@@ -1,4 +1,6 @@
-# Discrete Probability
+---
+weight: 20
+---
 
 ## Probability Basics
 

@@ -1,4 +1,7 @@
-# Countability
+---
+title: "Countability"
+weight: 980
+---
 
 
 
@@ -26,7 +29,7 @@ A **bijection,** also known as an **isomorphism,** is a mapping that is **both o
 ## Countability
 
 A set $S$ is **countable** if there is a **bijection from S to the set of natural numbers** $\mathbb{N}$**or a subset of N.** In other words, $S$and $\mathbb{N}$have the **same cardinality.** \
-****This should make intuitive sense because the natural numbers are, by definition, countable (we can start from 1, then 2, then 3... and hit them all), so if we can somehow number off some elements in a group and count them that way, then those elements are countable!
+This should make intuitive sense because the natural numbers are, by definition, countable (we can start from 1, then 2, then 3... and hit them all), so if we can somehow number off some elements in a group and count them that way, then those elements are countable!
 
 #### Proving that something is countable:
 
@@ -83,7 +86,16 @@ This can be used to prove that real numbers are not countable.
 
 Here's a demonstration of the diagonalization argument in action:
 
-{% embed url="https://www.youtube.com/watch?v=elvOZm0d4H0" %}
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/elvOZm0d4H0"
+    frameborder="0"
+    allow="encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
 
 **Continuum hypothesis:** there is no set with cardinality between the naturals and the reals.
 

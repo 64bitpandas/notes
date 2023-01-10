@@ -25,7 +25,7 @@ Arrays are a very popular data structure that stores an indexed list of data.
 
 **Copying**
 
-* Simply assigning `int[] c = b` will copy the **pointer** to array b! Not the values! See [Java Objects](../../oop/objects.md) for a discussion on why this is significant.
+* Simply assigning `int[] c = b` will copy the **pointer** to array b! Not the values! See [Java Objects](/cs61b/oop/objects.md) for a discussion on why this is significant.
 * Use `System.arraycopy(source, start, target, startTarget, amountToCopy)` to **shallow copy** the values (or pointers) in the array. That is, if an array is holding **reference types,** only the pointers will be copied and not the actual values of the reference objects being held.
 * `System.arraycopy(b, 0, x, 3, 2)` is equivalent to `x[3:5] = b[0:2]` in Python.
 
@@ -42,6 +42,6 @@ Arrays are a very popular data structure that stores an indexed list of data.
 
 Java has another built-in type that uses an array under the hood, which is the `ArrayList`. Here's how ArrayLists are different from normal arrays:
 
-* ArrayLists can resize arbitrarily. (They use something similar to the array case study in the [Amortization](../../asymptotics/amortization.md#what-if-we-doubled-the-size-instead-of-adding-one) page.
-* ArrayLists use [Generic Types](../../oop/generics.md) and therefore do not support primitive types like `int`.
-* ArrayLists have all behaviors expected from the [Collections](./) interface.
+* ArrayLists can resize arbitrarily. (They use something similar to the array case study in the [Amortization](/cs61b/asymptotics/amortization.md#what-if-we-doubled-the-size-instead-of-adding-one) page.
+* ArrayLists use [Generic Types](/cs61b/oop/generics) and therefore do not support primitive types like `int`.
+* ArrayLists have all behaviors expected from the [Collections](/cs61b/collections) interface.

@@ -75,7 +75,4 @@ public class Kruskals() {
 
 Left as an exercise to the reader 😉
 
-{% hint style="info" %}
-Someone's been reading too much [LADR](https://www.springer.com/gp/book/9783319110790)...\
 (The answer is $\Theta(E\log(E))$by the way. Try to convince yourself why!)
-{% endhint %}

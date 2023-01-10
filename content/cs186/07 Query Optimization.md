@@ -1,3 +1,8 @@
+---
+title: "Query Optimization"
+weight: 70
+---
+
 ## Introduction
 
 **Query optimization** is the bridge between a declarative language (like SQL, where you describe “what” you want) and an imperative language (like Java, which describes how the answer is actually computed). Here, we built the translator that converts SQL into logic that a computer can understand.
@@ -5,7 +10,8 @@
 If you think about it, this can be really complicated- there's lots of ways to execute a query (i.e. many equivalent relational algebra statements), and we have to somehow figure out which one is the best *without* executing any of them!
 
 ## Relevant Materials
-
+ - [Note 10](https://notes.bencuan.me/cs186/coursenotes/n10-QueryOpt.pdf)
+ - [Discussion 7](https://docs.google.com/presentation/d/1rvAz_Ms1uxLiyQqGmv-R_xU9NqOjNVzYEWekrtHNuDc/edit)
 
 ## System R Optimizers
 The System R query optimizer framework was conceptualized in the 1970s, and lays the framework for most modern query optimizers today. This is what we will be studying in this class.
@@ -60,9 +66,10 @@ Below are some charts from discussion of some common cases you might run into, a
  - `|c|` corresponds to the number of *distinct values* in column c.
  - If we have an index on the column, we should also know `|c|`, and the max/min values.
 
-![[Pasted image 20230109180143.png]]
-![[Pasted image 20230109180153.png]]![[Pasted image 20230109180200.png]]
-![[Pasted image 20230109180209.png]]
+![se1](<Sorting and Hashing/Pasted image 20230109180143.png>)
+![se2](<Sorting and Hashing/Pasted image 20230109180153.png>)
+![se3](<Sorting and Hashing/Pasted image 20230109180200.png>)
+![se4](<Sorting and Hashing/Pasted image 20230109180209.png>)
 
 To get the number of records in the output, we take the **floor** of the result of multiplying the selectivity estimate with the number of records in the input.
 
@@ -195,7 +202,9 @@ GROUP BY S.b;
 
 #### Pass 1
 We're given the following possible single table access plans for Pass 1:
-![[Pasted image 20230109182021.png]]
+![sp1](<Sorting and Hashing/Pasted image 20230109182021.png>)
+
+
 (In reality, we'd need to do selectivity estimation to find those numbers, but since you already did some [[#Selectivity Estimation Practice|practice]]) we'll skip it for now.)
 
 The first step is to identify the minimum cost accesses for each of the tables:
@@ -211,7 +220,7 @@ In summary, four plans would advance: b, d, e, f.
 #### Pass i
 
 Now for the 2nd pass, we will consider some ways to join two tables together:
-![[Pasted image 20230109182429.png]]
+![sp1](<Sorting and Hashing/Pasted image 20230109182429.png>)
 
 Let's start again by identifying the best way to join each combination of tables together:
  - (b) is the best way to join $R$ with $S$.

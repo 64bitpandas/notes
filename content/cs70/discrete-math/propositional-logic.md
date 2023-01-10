@@ -1,4 +1,6 @@
-# Propositional Logic
+---
+weight: 910
+---
 
 ## What are Propositions?
 
@@ -91,34 +93,34 @@ You could think about the parentheses almost like defining a **scope** of variab
 
 ## Exercises
 
-{% tabs %}
-{% tab title="Q1" %}
+{{< tabs "q1" >}}
+{{< tab "Q1" >}}
 Is the expression $\forall x \exists y (Q(x,y) \implies P(x))$equivalent to the expression $\forall x ((\exists y \ Q(x,y)) \implies P(x))$?\
 (Source: Discussion 0 2a)
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Answer 1" %}
+{{< tab "Answer 1" >}}
 **No**, they are not equivalent. We can see this more clearly by converting the implication $Q \implies P$ to $\lnot Q \lor P$ as was demonstrated in the Truth Table section above.\
 \
 On the left side, this conversion is straightforward, yielding $\forall x \exists y (\lnot Q(x,y) \lor P(x))$.
 
 On the right side, we'll need to invoke De Morgan's Laws to convert the 'exists' into a 'for all' since it was negated. This yields $\forall x (\forall y\lnot(Q(x,y)) \lor P(x))$which is not the same thing!
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
-{% tabs %}
-{% tab title="Q2" %}
+{{< tabs "q2" >}}
+{{< tab "Q2" >}}
 An integer $a$is said to _divide_ another integer $b$ if $a$is a multiple of $b$. Write this idea out using propositional logic (a divides b can be written as $a \mid b$).
 
 **Note:** This idea is going to be important for a lot of future sections!
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Answer 2" %}
+{{< tab "Answer 2" >}}
 $a \mid b \iff (\exists q \in \mathbb{Z})(a = qb)$
 
 In plain English: "There exists an integer $q$such that when we multiply $q$with $b$, we get $a$."
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Resources
 

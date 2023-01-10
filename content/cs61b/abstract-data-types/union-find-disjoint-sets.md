@@ -9,7 +9,7 @@ weight: 993
 >
 > This is not a complete entry, because I feel like existing course materials already cover this in an extremely intuitive manner. See[ lab 14](https://inst.eecs.berkeley.edu/~cs61b/sp20/materials/lab/lab14/index.html) for an guide on how to implement your own Union Find structure!
 
-The Union Find data structure is a way of representing a bunch of nodes that are connected to each other in subsets. It's used in [Kruskal's Algorithm](../algorithms/minimum-spanning-trees/kruskals-algorithm.md) among other things.
+The Union Find data structure is a way of representing a bunch of nodes that are connected to each other in subsets. It's used in [Kruskal's Algorithm](/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm.md) among other things.
 
 Union Find is named as such because it supports two functions, **find** (which returns the group that a value is contained in), and **union** (which connects two values to form a single group).
 

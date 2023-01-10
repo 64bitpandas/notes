@@ -1,3 +1,7 @@
+---
+title: "Iterators and Joins"
+weight: 50
+---
 ## Introduction
 
 As you may have seen already, some SQL queries involve joining lots of tables together to get the data we need. However, that joining comes at a cost- every join multiplies the number of rows in the output by the number of rows in the table! 
@@ -14,6 +18,8 @@ For this reason, it's very important that we try to optimize the join operation 
 ## Relevant Materials
 
  - [Loop Join Animations](https://cs186berkeley.net/resources/join-animations/)
+ - [Discussion 6](https://docs.google.com/presentation/d/1qMc6ihzx2xA0wUhn5Ahgb53MXsT6A6P6igzcftze1y8/edit#slide=id.g116533ba7b8_0_1198)
+ - [Note 8](https://notes.bencuan.me/cs186/coursenotes/n08-Joins.pdf)
 
 
 ## Cost Notation
@@ -151,7 +157,7 @@ Let's look at the example from Discussion 6:
 #### Number of Passes
 Like hashing, our goal is to make the partitions small enough to fit in the buffer. But now that we have two tables, **we only need one of them to fit**! This is because we can put the smaller table into memory, then stream the larger table in one page at a time using one buffer frame.
 
-![[Pasted image 20230109172013.png|300]]
+![np](<Sorting and Hashing/Pasted image 20230109172013.png|300>)
 As you can see in the image above, as long as one of the tables fits in $B-2$ pages, we're all set for the Build and Probe stage.
 
 In each stage, of the Partitioning step, we create $B-1$ partitions, so we solve for the number of recursive passes $x$ in the following manner:

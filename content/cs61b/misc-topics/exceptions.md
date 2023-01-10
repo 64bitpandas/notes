@@ -71,22 +71,22 @@ static String tryCatchFinally() {
     }
 ```
 
-{% tabs %}
-{% tab title="Q1" %}
+{{< tabs "q1" >}}
+{{< tab "Q1" >}}
 What will be printed (and in what order) when `tryCatchFinally()` is run?
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q1 Answer" %}
+{{< tab "Q1 Answer" >}}
 First, `trying` will be printed.
 
 Since an Exception is thrown, the catch block will run next, so `catching` is printed next.
 
 Since finally blocks _always_ run regardless of result, `finally` is printed last.
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{ < /tabs "q2" >}}
 
-{% tabs %}
-{% tab title="Q2" %}
+{{< tabs >}}
+{{< tab "Q2" >}}
 Suppose the same code were run, but without the `catch` block. What would this code do?
 
 ```java
@@ -99,14 +99,14 @@ static String tryFinally() {
         }
 }
 ```
-{% endtab %}
+{{< /tab >}}
 
-{% tab title="Q2 Answer" %}
+{{< tab "Q2 Answer" >}}
 If the try block throws an uncaught Exception (i.e. if catch block does not exist or catch block does not handle the type of Exception that is thrown in the try block), Java halts execution of the try block, **executes the finally block**, then raises a runtime error.\
 \
 So, the following sequence would occur:\
 1\. `trying` is printed.\
 2\. `finally` is printed.\
 3\. The program exits with a `RuntimeException`.
-{% endtab %}
-{% endtabs %}
+{{< /tab >}}
+{{ < /tabs >}}

@@ -13,76 +13,240 @@
           "text": "contribution guide"
         }
       ],
-      "/cs186/CS186-Index": [
+      "/cs162/CS162-Index": [
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/00-SQL-Basics",
-          "text": "00 SQL Basics"
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-1-OS-Basics",
+          "text": "Chapter 1 OS Basics"
         },
         {
-          "source": "/cs186/CS186-Index",
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-2-Processes",
+          "text": "Chapter 2 Processes"
+        },
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-3-Threads",
+          "text": "Chapter 3 Threads"
+        },
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-4-I-O",
+          "text": "Chapter 4 I O"
+        },
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-5-Synchronization",
+          "text": "Chapter 5 Synchronization"
+        },
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-6-Scheduling",
+          "text": "Chapter 6 Scheduling"
+        },
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-7-Address-Translation",
+          "text": "Chapter 7 Address Translation"
+        },
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-8-Caching",
+          "text": "Chapter 8 Caching"
+        },
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-9-File-Systems",
+          "text": "Chapter 9 File Systems"
+        },
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Appendix-A-GDB-foobars",
+          "text": "Appendix A GDB foobars"
+        },
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Appendix-B-Midterm-Reference",
+          "text": "Appendix B Midterm Reference"
+        }
+      ],
+      "/cs168/TCP": [
+        {
+          "source": "/cs168/TCP",
+          "target": "/reliability",
+          "text": "reliability"
+        },
+        {
+          "source": "/cs168/TCP",
+          "target": "/congestion-control",
+          "text": "congestion control"
+        }
+      ],
+      "/cs168/congestion-control": [
+        {
+          "source": "/cs168/congestion-control",
+          "target": "/resource-sharing-packet-and-circuit-switching",
+          "text": "resource sharing (packet and circuit switching)"
+        }
+      ],
+      "/cs168/ethernet": [
+        {
+          "source": "/cs168/ethernet",
+          "target": "/",
+          "text": "#Pure ALOHA random access"
+        }
+      ],
+      "/cs168/final-review": [
+        {
+          "source": "/cs168/final-review",
+          "target": "/",
+          "text": "#SDN"
+        }
+      ],
+      "/cs168/interdomain-routing-bgp": [
+        {
+          "source": "/cs168/interdomain-routing-bgp",
+          "target": "/intradomain-routing",
+          "text": "intradomain routing"
+        },
+        {
+          "source": "/cs168/interdomain-routing-bgp",
+          "target": "/addressing-ip",
+          "text": "addressing (ip)"
+        },
+        {
+          "source": "/cs168/interdomain-routing-bgp",
+          "target": "/intradomain-routing",
+          "text": "intradomain routing"
+        }
+      ],
+      "/cs168/internet-organization-and-layers": [
+        {
+          "source": "/cs168/internet-organization-and-layers",
+          "target": "/07-Networking",
+          "text": "07 Networking"
+        }
+      ],
+      "/cs168/intradomain-routing": [
+        {
+          "source": "/cs168/intradomain-routing",
+          "target": "/06-Graphs",
+          "text": "06 Graphs#Bellman Ford Shortest Paths with Negative Edge Lengths"
+        }
+      ],
+      "/cs186/": [
+        {
+          "source": "/cs186/",
+          "target": "/cs186/00-SQL-Basics",
+          "text": "SQL syntax"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs186/04-Sorting-and-Hashing",
+          "text": "How to improve popular sorting and hashing algorithms to work well with limited memory"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs186/05-Iterators-and-Joins",
+          "text": "Join algorithms"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs186/07-Query-Optimization",
+          "text": "Query optimization"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs186/09-Parallel-Query-Processing",
+          "text": "Parallel query processing"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs186/10-Recovery",
+          "text": "Crash Recovery (AERIES)"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs186/08-Transactions",
+          "text": "Database transactions and Concurrency"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs186/12-ER-Diagrams",
+          "text": "Entity-Relationship Diagrams"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/io",
+          "text": "What is an I/O and why should I care?"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs61b",
+          "text": "CS61B"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs61b",
+          "text": "CS61B notes"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs186/01-Disks-Buffers-Files",
+          "text": "Disks, Buffers, Files"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/contributing",
+          "text": "contributing guide"
+        }
+      ],
+      "/cs186/00-SQL-Basics": [
+        {
+          "source": "/cs186/00-SQL-Basics",
+          "target": "/",
+          "text": "table creation"
+        },
+        {
+          "source": "/cs186/00-SQL-Basics",
           "target": "/01-Disks-Buffers-Files",
-          "text": "01 Disks, Buffers, Files"
+          "text": "next section"
+        }
+      ],
+      "/cs186/01-Disks-Buffers-Files": [
+        {
+          "source": "/cs186/01-Disks-Buffers-Files",
+          "target": "/00-SQL-Basics",
+          "text": "SQL"
         },
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/02-Cost-Analysis",
-          "text": "02 Cost Analysis"
+          "source": "/cs186/01-Disks-Buffers-Files",
+          "target": "/io",
+          "text": "What is an I/O and why should I care?"
         },
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/03-B+-Trees",
-          "text": "03 B+ Trees"
-        },
-        {
-          "source": "/cs186/CS186-Index",
-          "target": "/04-Sorting-and-Hashing",
-          "text": "04 Sorting and Hashing"
-        },
-        {
-          "source": "/cs186/CS186-Index",
-          "target": "/05-Iterators-and-Joins",
-          "text": "05 Iterators and Joins"
-        },
-        {
-          "source": "/cs186/CS186-Index",
-          "target": "/06-Relational-Algebra",
-          "text": "06 Relational Algebra"
-        },
-        {
-          "source": "/cs186/CS186-Index",
-          "target": "/07-Query-Optimization",
-          "text": "07 Query Optimization"
-        },
-        {
-          "source": "/cs186/CS186-Index",
-          "target": "/08-Transactions",
-          "text": "08 Transactions"
-        },
-        {
-          "source": "/cs186/CS186-Index",
-          "target": "/09-Parallel-Query-Processing",
-          "text": "09 Parallel Query Processing"
-        },
-        {
-          "source": "/cs186/CS186-Index",
-          "target": "/10-Recovery",
-          "text": "10 Recovery"
-        },
-        {
-          "source": "/cs186/CS186-Index",
+          "source": "/cs186/01-Disks-Buffers-Files",
           "target": "/11-Distributed-Transactions",
-          "text": "11 Distributed Transactions"
+          "text": "Distributed Transactions"
         },
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/12-ER-Diagrams",
-          "text": "12 ER Diagrams"
-        },
+          "source": "/cs186/01-Disks-Buffers-Files",
+          "target": "/02-B+-Trees",
+          "text": "B+ Trees"
+        }
+      ],
+      "/cs186/07-Query-Optimization": [
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/13-Extras",
-          "text": "13 Extras"
+          "source": "/cs186/07-Query-Optimization",
+          "target": "/",
+          "text": "practice"
+        }
+      ],
+      "/cs186/io": [
+        {
+          "source": "/cs186/io",
+          "target": "/cs186/07-Query-Optimization",
+          "text": "query optimization"
         }
       ],
       "/cs61b/": [
@@ -93,22 +257,12 @@
         },
         {
           "source": "/cs61b/",
-          "target": "/oop/access-control",
-          "text": "Access Control"
-        },
-        {
-          "source": "/cs61b/",
-          "target": "/oop/dynamic-method-selection",
+          "target": "/cs61b/oop/dynamic-method-selection",
           "text": "Dynamic Method Selection"
         },
         {
           "source": "/cs61b/",
-          "target": "/oop/generics",
-          "text": "Generic Types"
-        },
-        {
-          "source": "/cs61b/",
-          "target": "/asymptotics/asymptotics-practice",
+          "target": "/cs61b/asymptotics/asymptotics-practice",
           "text": "Asymptotics Practice"
         },
         {
@@ -118,22 +272,22 @@
         },
         {
           "source": "/cs61b/",
-          "target": "/abstract-data-types/union-find-disjoint-sets",
+          "target": "/cs61b/abstract-data-types/union-find-disjoint-sets",
           "text": "Union Find (Disjoint Sets)"
         },
         {
           "source": "/cs61b/",
-          "target": "/abstract-data-types/collections/stacks-and-queues",
+          "target": "/cs61b/abstract-data-types/collections/stacks-and-queues",
           "text": "Stacks and Queues"
         },
         {
           "source": "/cs61b/",
-          "target": "/abstract-data-types/collections/linked-lists",
+          "target": "/cs61b/abstract-data-types/collections/linked-lists",
           "text": "Linked Lists"
         },
         {
           "source": "/cs61b/",
-          "target": "/abstract-data-types/collections/sets",
+          "target": "/cs61b/abstract-data-types/collections/sets",
           "text": "Sets"
         },
         {
@@ -143,22 +297,22 @@
         },
         {
           "source": "/cs61b/",
-          "target": "/algorithms/searching",
+          "target": "/cs61b/algorithms/searching",
           "text": "Searching"
         },
         {
           "source": "/cs61b/",
-          "target": "/algorithms/searching/binary-search",
+          "target": "/cs61b/algorithms/searching/binary-search",
           "text": "Binary Search"
         },
         {
           "source": "/cs61b/",
-          "target": "/algorithms/shortest-paths/",
+          "target": "/cs61b/algorithms/shortest-paths/",
           "text": "Shortest Paths"
         },
         {
           "source": "/cs61b/",
-          "target": "/misc-topics/exceptions",
+          "target": "/cs61b/misc-topics/exceptions",
           "text": "Exceptions"
         }
       ],
@@ -202,28 +356,23 @@
       "/cs61b/abstract-data-types/binary-trees/balanced-search-structures": [
         {
           "source": "/cs61b/abstract-data-types/binary-trees/balanced-search-structures",
-          "target": "/./",
+          "target": "/cs61b/binary-trees",
           "text": "Binary Trees"
         }
       ],
       "/cs61b/abstract-data-types/binary-trees/tries": [
         {
           "source": "/cs61b/abstract-data-types/binary-trees/tries",
-          "target": "/../hashing",
+          "target": "/cs61b/abstract-data-types/hashing",
           "text": "Hashing and Hash Tables"
         },
         {
           "source": "/cs61b/abstract-data-types/binary-trees/tries",
-          "target": "/../collections/sets",
+          "target": "/cs61b/abstract-data-types/collections/sets",
           "text": "Sets"
         }
       ],
       "/cs61b/abstract-data-types/collections/": [
-        {
-          "source": "/cs61b/abstract-data-types/collections/",
-          "target": "/arrays",
-          "text": "ArrayLists"
-        },
         {
           "source": "/cs61b/abstract-data-types/collections/",
           "target": "/linked-lists",
@@ -231,39 +380,34 @@
         },
         {
           "source": "/cs61b/abstract-data-types/collections/",
-          "target": "/sets",
+          "target": "/cs61b/abstract-data-types/collections/sets",
           "text": "Sets"
         },
         {
           "source": "/cs61b/abstract-data-types/collections/",
-          "target": "/../hashing",
+          "target": "/cs61b/abstract-data-types/hashing",
           "text": "Hashing and Hash Tables"
         },
         {
           "source": "/cs61b/abstract-data-types/collections/",
-          "target": "/stacks-and-queues",
+          "target": "/cs61b/abstract-data-types/collections/stacks-and-queues",
           "text": "Stacks and Queues"
         }
       ],
       "/cs61b/abstract-data-types/collections/arrays": [
         {
           "source": "/cs61b/abstract-data-types/collections/arrays",
-          "target": "/../../oop/objects",
+          "target": "/cs61b/oop/objects",
           "text": "Java Objects"
         },
         {
           "source": "/cs61b/abstract-data-types/collections/arrays",
-          "target": "/../../asymptotics/amortization",
-          "text": "Amortization"
-        },
-        {
-          "source": "/cs61b/abstract-data-types/collections/arrays",
-          "target": "/../../oop/generics",
+          "target": "/cs61b/oop/generics",
           "text": "Generic Types"
         },
         {
           "source": "/cs61b/abstract-data-types/collections/arrays",
-          "target": "/./",
+          "target": "/cs61b/collections",
           "text": "Collections"
         }
       ],
@@ -289,68 +433,63 @@
       "/cs61b/abstract-data-types/collections/stacks-and-queues": [
         {
           "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
-          "target": "/../../algorithms/shortest-paths/dijkstras-algorithm",
+          "target": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
           "text": "finding shortest paths using Dijkstra's Algorithm"
-        },
-        {
-          "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
-          "target": "/stacks-and-queues",
-          "text": "Priority Queues"
         }
       ],
       "/cs61b/abstract-data-types/graphs": [
         {
           "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/searching/depth-first-search-dfs",
+          "target": "/cs61b/algorithms/searching/depth-first-search-dfs",
           "text": "Depth First Search (DFS)"
         },
         {
           "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/searching/breadth-first-search-bfs",
+          "target": "/cs61b/algorithms/searching/breadth-first-search-bfs",
           "text": "Breadth First Search (BFS)"
         },
         {
           "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/minimum-spanning-trees/",
+          "target": "/cs61b/algorithms/minimum-spanning-trees/",
           "text": "Minimum Spanning Trees"
         },
         {
           "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/shortest-paths/",
+          "target": "/cs61b/algorithms/shortest-paths/",
           "text": "Shortest Paths"
         },
         {
           "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/shortest-paths/dijkstras-algorithm",
+          "target": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
           "text": "Dijkstra's Algorithm"
         },
         {
           "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/shortest-paths/a-search",
+          "target": "/cs61b/algorithms/shortest-paths/a-search",
           "text": "A* Search"
         },
         {
           "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/minimum-spanning-trees/prims-algorithm",
+          "target": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
           "text": "Prim's Algorithm"
         },
         {
           "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "target": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
           "text": "Kruskal's Algorithm"
         }
       ],
       "/cs61b/abstract-data-types/hashing": [
         {
           "source": "/cs61b/abstract-data-types/hashing",
-          "target": "/../asymptotics/amortization",
+          "target": "/cs61b/asymptotics/amortization",
           "text": "Amortization"
         }
       ],
       "/cs61b/abstract-data-types/union-find-disjoint-sets": [
         {
           "source": "/cs61b/abstract-data-types/union-find-disjoint-sets",
-          "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "target": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
           "text": "Kruskal's Algorithm"
         }
       ],
@@ -536,9 +675,385 @@
           "target": "/../abstract-data-types/collections/",
           "text": "collections"
         }
+      ],
+      "/cs70/": [
+        {
+          "source": "/cs70/",
+          "target": "/contributing",
+          "text": "contributing guide"
+        },
+        {
+          "source": "/cs70/",
+          "target": "/cs70/latex-reference",
+          "text": "LaTeX Reference"
+        }
+      ],
+      "/cs70/SUMMARY": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/CS70-Index",
+          "text": "Welcome"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/latex-reference",
+          "text": "LaTeX Reference"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/overview",
+          "text": "Overview"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/propositional-logic",
+          "text": "Propositional Logic"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/proofs",
+          "text": "Proofs"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/stable-matching",
+          "text": "Stable Matching"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/graphs",
+          "text": "Graphs"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/modular-arithmetic",
+          "text": "Modular Arithmetic"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/rsa-cryptography",
+          "text": "RSA Cryptography"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/polynomials",
+          "text": "Polynomials"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/countability",
+          "text": "Countability"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/computability",
+          "text": "Computability"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/probability-overview",
+          "text": "Overview"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/counting",
+          "text": "Counting"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/discrete-probability",
+          "text": "Discrete Probability"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/hashing-and-the-union-bound",
+          "text": "Hashing and the Union Bound"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/expectation-and-variance",
+          "text": "Expectation and Variance"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/concentration-inequalities",
+          "text": "Concentration Inequalities"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/continuous-probability",
+          "text": "Continuous Probability"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/markov-chains",
+          "text": "Markov Chains"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/the-beta-family",
+          "text": "The Beta Family"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/the-gamma-family",
+          "text": "The Gamma Family"
+        },
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/conditional-expectation-and-variance",
+          "text": "Conditional Expectation and Variance"
+        }
+      ],
+      "/cs70/discrete-math/modular-arithmetic": [
+        {
+          "source": "/cs70/discrete-math/modular-arithmetic",
+          "target": "/rsa-cryptography",
+          "text": "cryptography"
+        },
+        {
+          "source": "/cs70/discrete-math/modular-arithmetic",
+          "target": "/polynomials",
+          "text": "error correction"
+        },
+        {
+          "source": "/cs70/discrete-math/modular-arithmetic",
+          "target": "/rsa-cryptography",
+          "text": "RSA Cryptography"
+        }
+      ],
+      "/cs70/discrete-math/overview": [
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/propositional-logic",
+          "text": "Propositional logic"
+        },
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/proofs",
+          "text": "Proofs"
+        },
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/stable-matching",
+          "text": "Stable Matching"
+        },
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/classes/cs70/discrete-math/graphs",
+          "text": "Graph theory"
+        },
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/modular-arithmetic",
+          "text": "Modular arithmetic"
+        },
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/rsa-cryptography",
+          "text": "RSA Cryptography"
+        },
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/polynomials",
+          "text": "Polynomials"
+        }
+      ],
+      "/cs70/discrete-math/rsa-cryptography": [
+        {
+          "source": "/cs70/discrete-math/rsa-cryptography",
+          "target": "/polynomials",
+          "text": "soon"
+        },
+        {
+          "source": "/cs70/discrete-math/rsa-cryptography",
+          "target": "/modular-arithmetic",
+          "text": "Euclid's Extended Algorithm"
+        }
+      ],
+      "/cs70/probability/probability-overview": [
+        {
+          "source": "/cs70/probability/probability-overview",
+          "target": "/counting",
+          "text": "Counting"
+        },
+        {
+          "source": "/cs70/probability/probability-overview",
+          "target": "/discrete-probability",
+          "text": "Discrete probability distributions"
+        },
+        {
+          "source": "/cs70/probability/probability-overview",
+          "target": "/continuous-probability",
+          "text": "Continuous probability distributions"
+        },
+        {
+          "source": "/cs70/probability/probability-overview",
+          "target": "/markov-chains",
+          "text": "Markov chains"
+        },
+        {
+          "source": "/cs70/probability/probability-overview",
+          "target": "/expectation-and-variance",
+          "text": "Expectation and variance"
+        },
+        {
+          "source": "/cs70/probability/probability-overview",
+          "target": "/concentration-inequalities",
+          "text": "Concentration inequalities"
+        }
+      ],
+      "/data102/MIDTERM-1-INDEX": [
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/review",
+          "text": "review"
+        },
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/binary-decision-making",
+          "text": "binary decision making"
+        },
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/hypothesis-testing",
+          "text": "hypothesis testing"
+        },
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/decision-theory",
+          "text": "decision theory"
+        },
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/parameter-estimation",
+          "text": "parameter estimation"
+        },
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/sampling",
+          "text": "sampling"
+        },
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/roc-curves",
+          "text": "roc curves"
+        },
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/regression-and-glms",
+          "text": "regression and glms"
+        }
+      ],
+      "/data102/MIDTERM-2-INDEX": [
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/nonparametric-methods",
+          "text": "nonparametric methods"
+        },
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/interpretability",
+          "text": "interpretability"
+        },
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/causality",
+          "text": "causality"
+        },
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/concentration-inequalities",
+          "text": "concentration inequalities"
+        },
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/bandits",
+          "text": "bandits"
+        },
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/07-Markov-Decision-Processes",
+          "text": "07 Markov Decision Processes"
+        },
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/10-Reinforcement-Learning",
+          "text": "10 Reinforcement Learning"
+        }
+      ],
+      "/data102/causality": [
+        {
+          "source": "/data102/causality",
+          "target": "/04-Bayes-Nets",
+          "text": "04 Bayes Nets"
+        }
+      ],
+      "/data102/decision-theory": [
+        {
+          "source": "/data102/decision-theory",
+          "target": "/binary-decision-making",
+          "text": "binary decision making"
+        },
+        {
+          "source": "/data102/decision-theory",
+          "target": "/hypothesis-testing",
+          "text": "hypothesis testing"
+        }
+      ],
+      "/data102/hypothesis-testing": [
+        {
+          "source": "/data102/hypothesis-testing",
+          "target": "/binary-decision-making",
+          "text": "binary decision making"
+        }
+      ],
+      "/data102/regression-and-glms": [
+        {
+          "source": "/data102/regression-and-glms",
+          "target": "/",
+          "text": "#Model Checking"
+        },
+        {
+          "source": "/data102/regression-and-glms",
+          "target": "/",
+          "text": "#Credible Intervals"
+        }
       ]
     },
     "backlinks": {
+      "/": [
+        {
+          "source": "/cs168/ethernet",
+          "target": "/",
+          "text": "#Pure ALOHA random access"
+        },
+        {
+          "source": "/cs168/final-review",
+          "target": "/",
+          "text": "#SDN"
+        },
+        {
+          "source": "/cs186/00-SQL-Basics",
+          "target": "/",
+          "text": "table creation"
+        },
+        {
+          "source": "/cs186/07-Query-Optimization",
+          "target": "/",
+          "text": "practice"
+        },
+        {
+          "source": "/data102/regression-and-glms",
+          "target": "/",
+          "text": "#Model Checking"
+        },
+        {
+          "source": "/data102/regression-and-glms",
+          "target": "/",
+          "text": "#Credible Intervals"
+        }
+      ],
       "/../../abstract-data-types/binary-trees/": [
         {
           "source": "/cs61b/algorithms/searching/binary-search",
@@ -603,37 +1118,11 @@
           "text": "Depth First Search"
         }
       ],
-      "/../../algorithms/shortest-paths/dijkstras-algorithm": [
-        {
-          "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
-          "target": "/../../algorithms/shortest-paths/dijkstras-algorithm",
-          "text": "finding shortest paths using Dijkstra's Algorithm"
-        }
-      ],
       "/../../asymptotics/amortization": [
-        {
-          "source": "/cs61b/abstract-data-types/collections/arrays",
-          "target": "/../../asymptotics/amortization",
-          "text": "Amortization"
-        },
         {
           "source": "/cs61b/abstract-data-types/collections/sets",
           "target": "/../../asymptotics/amortization",
           "text": "resized"
-        }
-      ],
-      "/../../oop/generics": [
-        {
-          "source": "/cs61b/abstract-data-types/collections/arrays",
-          "target": "/../../oop/generics",
-          "text": "Generic Types"
-        }
-      ],
-      "/../../oop/objects": [
-        {
-          "source": "/cs61b/abstract-data-types/collections/arrays",
-          "target": "/../../oop/objects",
-          "text": "Java Objects"
         }
       ],
       "/../abstract-data-types/collections/": [
@@ -648,81 +1137,6 @@
           "text": "collections"
         }
       ],
-      "/../algorithms/minimum-spanning-trees/": [
-        {
-          "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/minimum-spanning-trees/",
-          "text": "Minimum Spanning Trees"
-        }
-      ],
-      "/../algorithms/minimum-spanning-trees/kruskals-algorithm": [
-        {
-          "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
-          "text": "Kruskal's Algorithm"
-        },
-        {
-          "source": "/cs61b/abstract-data-types/union-find-disjoint-sets",
-          "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
-          "text": "Kruskal's Algorithm"
-        }
-      ],
-      "/../algorithms/minimum-spanning-trees/prims-algorithm": [
-        {
-          "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/minimum-spanning-trees/prims-algorithm",
-          "text": "Prim's Algorithm"
-        }
-      ],
-      "/../algorithms/searching/breadth-first-search-bfs": [
-        {
-          "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/searching/breadth-first-search-bfs",
-          "text": "Breadth First Search (BFS)"
-        }
-      ],
-      "/../algorithms/searching/depth-first-search-dfs": [
-        {
-          "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/searching/depth-first-search-dfs",
-          "text": "Depth First Search (DFS)"
-        }
-      ],
-      "/../algorithms/shortest-paths/": [
-        {
-          "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/shortest-paths/",
-          "text": "Shortest Paths"
-        }
-      ],
-      "/../algorithms/shortest-paths/a-search": [
-        {
-          "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/shortest-paths/a-search",
-          "text": "A* Search"
-        }
-      ],
-      "/../algorithms/shortest-paths/dijkstras-algorithm": [
-        {
-          "source": "/cs61b/abstract-data-types/graphs",
-          "target": "/../algorithms/shortest-paths/dijkstras-algorithm",
-          "text": "Dijkstra's Algorithm"
-        }
-      ],
-      "/../asymptotics/amortization": [
-        {
-          "source": "/cs61b/abstract-data-types/hashing",
-          "target": "/../asymptotics/amortization",
-          "text": "Amortization"
-        }
-      ],
-      "/../collections/sets": [
-        {
-          "source": "/cs61b/abstract-data-types/binary-trees/tries",
-          "target": "/../collections/sets",
-          "text": "Sets"
-        }
-      ],
       "/../graphs": [
         {
           "source": "/cs61b/abstract-data-types/binary-trees/",
@@ -735,16 +1149,6 @@
           "source": "/cs61b/abstract-data-types/binary-trees/",
           "target": "/../hashing",
           "text": "Hash Tables"
-        },
-        {
-          "source": "/cs61b/abstract-data-types/binary-trees/tries",
-          "target": "/../hashing",
-          "text": "Hashing and Hash Tables"
-        },
-        {
-          "source": "/cs61b/abstract-data-types/collections/",
-          "target": "/../hashing",
-          "text": "Hashing and Hash Tables"
         }
       ],
       "/../misc-topics/modular-arithmetic": [
@@ -775,16 +1179,6 @@
       ],
       "/./": [
         {
-          "source": "/cs61b/abstract-data-types/binary-trees/balanced-search-structures",
-          "target": "/./",
-          "text": "Binary Trees"
-        },
-        {
-          "source": "/cs61b/abstract-data-types/collections/arrays",
-          "target": "/./",
-          "text": "Collections"
-        },
-        {
           "source": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
           "target": "/./",
           "text": "Minimum Spanning Trees"
@@ -802,128 +1196,149 @@
       ],
       "/00-SQL-Basics": [
         {
-          "source": "/cs186/CS186-Index",
+          "source": "/cs186/01-Disks-Buffers-Files",
           "target": "/00-SQL-Basics",
-          "text": "00 SQL Basics"
+          "text": "SQL"
         }
       ],
       "/01-Disks-Buffers-Files": [
         {
-          "source": "/cs186/CS186-Index",
+          "source": "/cs186/00-SQL-Basics",
           "target": "/01-Disks-Buffers-Files",
-          "text": "01 Disks, Buffers, Files"
+          "text": "next section"
         }
       ],
-      "/02-Cost-Analysis": [
+      "/02-B+-Trees": [
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/02-Cost-Analysis",
-          "text": "02 Cost Analysis"
+          "source": "/cs186/01-Disks-Buffers-Files",
+          "target": "/02-B+-Trees",
+          "text": "B+ Trees"
         }
       ],
-      "/03-B+-Trees": [
+      "/04-Bayes-Nets": [
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/03-B+-Trees",
-          "text": "03 B+ Trees"
+          "source": "/data102/causality",
+          "target": "/04-Bayes-Nets",
+          "text": "04 Bayes Nets"
         }
       ],
-      "/04-Sorting-and-Hashing": [
+      "/06-Graphs": [
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/04-Sorting-and-Hashing",
-          "text": "04 Sorting and Hashing"
+          "source": "/cs168/intradomain-routing",
+          "target": "/06-Graphs",
+          "text": "06 Graphs#Bellman Ford Shortest Paths with Negative Edge Lengths"
         }
       ],
-      "/05-Iterators-and-Joins": [
+      "/07-Markov-Decision-Processes": [
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/05-Iterators-and-Joins",
-          "text": "05 Iterators and Joins"
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/07-Markov-Decision-Processes",
+          "text": "07 Markov Decision Processes"
         }
       ],
-      "/06-Relational-Algebra": [
+      "/07-Networking": [
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/06-Relational-Algebra",
-          "text": "06 Relational Algebra"
+          "source": "/cs168/internet-organization-and-layers",
+          "target": "/07-Networking",
+          "text": "07 Networking"
         }
       ],
-      "/07-Query-Optimization": [
+      "/10-Reinforcement-Learning": [
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/07-Query-Optimization",
-          "text": "07 Query Optimization"
-        }
-      ],
-      "/08-Transactions": [
-        {
-          "source": "/cs186/CS186-Index",
-          "target": "/08-Transactions",
-          "text": "08 Transactions"
-        }
-      ],
-      "/09-Parallel-Query-Processing": [
-        {
-          "source": "/cs186/CS186-Index",
-          "target": "/09-Parallel-Query-Processing",
-          "text": "09 Parallel Query Processing"
-        }
-      ],
-      "/10-Recovery": [
-        {
-          "source": "/cs186/CS186-Index",
-          "target": "/10-Recovery",
-          "text": "10 Recovery"
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/10-Reinforcement-Learning",
+          "text": "10 Reinforcement Learning"
         }
       ],
       "/11-Distributed-Transactions": [
         {
-          "source": "/cs186/CS186-Index",
+          "source": "/cs186/01-Disks-Buffers-Files",
           "target": "/11-Distributed-Transactions",
-          "text": "11 Distributed Transactions"
+          "text": "Distributed Transactions"
         }
       ],
-      "/12-ER-Diagrams": [
+      "/Appendix-A-GDB-foobars": [
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/12-ER-Diagrams",
-          "text": "12 ER Diagrams"
+          "source": "/cs162/CS162-Index",
+          "target": "/Appendix-A-GDB-foobars",
+          "text": "Appendix A GDB foobars"
         }
       ],
-      "/13-Extras": [
+      "/Appendix-B-Midterm-Reference": [
         {
-          "source": "/cs186/CS186-Index",
-          "target": "/13-Extras",
-          "text": "13 Extras"
+          "source": "/cs162/CS162-Index",
+          "target": "/Appendix-B-Midterm-Reference",
+          "text": "Appendix B Midterm Reference"
         }
       ],
-      "/abstract-data-types/collections/linked-lists": [
+      "/CS70-Index": [
         {
-          "source": "/cs61b/",
-          "target": "/abstract-data-types/collections/linked-lists",
-          "text": "Linked Lists"
+          "source": "/cs70/SUMMARY",
+          "target": "/CS70-Index",
+          "text": "Welcome"
         }
       ],
-      "/abstract-data-types/collections/sets": [
+      "/Chapter-1-OS-Basics": [
         {
-          "source": "/cs61b/",
-          "target": "/abstract-data-types/collections/sets",
-          "text": "Sets"
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-1-OS-Basics",
+          "text": "Chapter 1 OS Basics"
         }
       ],
-      "/abstract-data-types/collections/stacks-and-queues": [
+      "/Chapter-2-Processes": [
         {
-          "source": "/cs61b/",
-          "target": "/abstract-data-types/collections/stacks-and-queues",
-          "text": "Stacks and Queues"
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-2-Processes",
+          "text": "Chapter 2 Processes"
         }
       ],
-      "/abstract-data-types/union-find-disjoint-sets": [
+      "/Chapter-3-Threads": [
         {
-          "source": "/cs61b/",
-          "target": "/abstract-data-types/union-find-disjoint-sets",
-          "text": "Union Find (Disjoint Sets)"
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-3-Threads",
+          "text": "Chapter 3 Threads"
+        }
+      ],
+      "/Chapter-4-I-O": [
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-4-I-O",
+          "text": "Chapter 4 I O"
+        }
+      ],
+      "/Chapter-5-Synchronization": [
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-5-Synchronization",
+          "text": "Chapter 5 Synchronization"
+        }
+      ],
+      "/Chapter-6-Scheduling": [
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-6-Scheduling",
+          "text": "Chapter 6 Scheduling"
+        }
+      ],
+      "/Chapter-7-Address-Translation": [
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-7-Address-Translation",
+          "text": "Chapter 7 Address Translation"
+        }
+      ],
+      "/Chapter-8-Caching": [
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-8-Caching",
+          "text": "Chapter 8 Caching"
+        }
+      ],
+      "/Chapter-9-File-Systems": [
+        {
+          "source": "/cs162/CS162-Index",
+          "target": "/Chapter-9-File-Systems",
+          "text": "Chapter 9 File Systems"
         }
       ],
       "/access-control": [
@@ -938,25 +1353,11 @@
           "text": "Access Control"
         }
       ],
-      "/algorithms/searching": [
+      "/addressing-ip": [
         {
-          "source": "/cs61b/",
-          "target": "/algorithms/searching",
-          "text": "Searching"
-        }
-      ],
-      "/algorithms/searching/binary-search": [
-        {
-          "source": "/cs61b/",
-          "target": "/algorithms/searching/binary-search",
-          "text": "Binary Search"
-        }
-      ],
-      "/algorithms/shortest-paths/": [
-        {
-          "source": "/cs61b/",
-          "target": "/algorithms/shortest-paths/",
-          "text": "Shortest Paths"
+          "source": "/cs168/interdomain-routing-bgp",
+          "target": "/addressing-ip",
+          "text": "addressing (ip)"
         }
       ],
       "/algorithms/sorting": [
@@ -967,11 +1368,6 @@
         }
       ],
       "/arrays": [
-        {
-          "source": "/cs61b/abstract-data-types/collections/",
-          "target": "/arrays",
-          "text": "ArrayLists"
-        },
         {
           "source": "/cs61b/abstract-data-types/collections/linked-lists",
           "target": "/arrays",
@@ -1002,13 +1398,6 @@
           "text": "try some problems!"
         }
       ],
-      "/asymptotics/asymptotics-practice": [
-        {
-          "source": "/cs61b/",
-          "target": "/asymptotics/asymptotics-practice",
-          "text": "Asymptotics Practice"
-        }
-      ],
       "/balanced-search-structures": [
         {
           "source": "/cs61b/abstract-data-types/binary-trees/",
@@ -1016,11 +1405,80 @@
           "text": "Balanced BSTs"
         }
       ],
+      "/bandits": [
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/bandits",
+          "text": "bandits"
+        }
+      ],
+      "/binary-decision-making": [
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/binary-decision-making",
+          "text": "binary decision making"
+        },
+        {
+          "source": "/data102/decision-theory",
+          "target": "/binary-decision-making",
+          "text": "binary decision making"
+        },
+        {
+          "source": "/data102/hypothesis-testing",
+          "target": "/binary-decision-making",
+          "text": "binary decision making"
+        }
+      ],
+      "/causality": [
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/causality",
+          "text": "causality"
+        }
+      ],
+      "/classes/cs70/discrete-math/graphs": [
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/classes/cs70/discrete-math/graphs",
+          "text": "Graph theory"
+        }
+      ],
+      "/concentration-inequalities": [
+        {
+          "source": "/cs70/probability/probability-overview",
+          "target": "/concentration-inequalities",
+          "text": "Concentration inequalities"
+        },
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/concentration-inequalities",
+          "text": "concentration inequalities"
+        }
+      ],
+      "/congestion-control": [
+        {
+          "source": "/cs168/TCP",
+          "target": "/congestion-control",
+          "text": "congestion control"
+        }
+      ],
+      "/continuous-probability": [
+        {
+          "source": "/cs70/probability/probability-overview",
+          "target": "/continuous-probability",
+          "text": "Continuous probability distributions"
+        }
+      ],
       "/contributing": [
         {
           "source": "/",
           "target": "/contributing",
           "text": "contribution guide"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/contributing",
+          "text": "contributing guide"
         },
         {
           "source": "/cs61b/",
@@ -1031,6 +1489,98 @@
           "source": "/cs61b/abstract-data-types/collections/sets",
           "target": "/contributing",
           "text": "help make it better!"
+        },
+        {
+          "source": "/cs70/",
+          "target": "/contributing",
+          "text": "contributing guide"
+        }
+      ],
+      "/counting": [
+        {
+          "source": "/cs70/probability/probability-overview",
+          "target": "/counting",
+          "text": "Counting"
+        }
+      ],
+      "/cs186/00-SQL-Basics": [
+        {
+          "source": "/cs186/",
+          "target": "/cs186/00-SQL-Basics",
+          "text": "SQL syntax"
+        }
+      ],
+      "/cs186/01-Disks-Buffers-Files": [
+        {
+          "source": "/cs186/",
+          "target": "/cs186/01-Disks-Buffers-Files",
+          "text": "Disks, Buffers, Files"
+        }
+      ],
+      "/cs186/04-Sorting-and-Hashing": [
+        {
+          "source": "/cs186/",
+          "target": "/cs186/04-Sorting-and-Hashing",
+          "text": "How to improve popular sorting and hashing algorithms to work well with limited memory"
+        }
+      ],
+      "/cs186/05-Iterators-and-Joins": [
+        {
+          "source": "/cs186/",
+          "target": "/cs186/05-Iterators-and-Joins",
+          "text": "Join algorithms"
+        }
+      ],
+      "/cs186/07-Query-Optimization": [
+        {
+          "source": "/cs186/",
+          "target": "/cs186/07-Query-Optimization",
+          "text": "Query optimization"
+        },
+        {
+          "source": "/cs186/io",
+          "target": "/cs186/07-Query-Optimization",
+          "text": "query optimization"
+        }
+      ],
+      "/cs186/08-Transactions": [
+        {
+          "source": "/cs186/",
+          "target": "/cs186/08-Transactions",
+          "text": "Database transactions and Concurrency"
+        }
+      ],
+      "/cs186/09-Parallel-Query-Processing": [
+        {
+          "source": "/cs186/",
+          "target": "/cs186/09-Parallel-Query-Processing",
+          "text": "Parallel query processing"
+        }
+      ],
+      "/cs186/10-Recovery": [
+        {
+          "source": "/cs186/",
+          "target": "/cs186/10-Recovery",
+          "text": "Crash Recovery (AERIES)"
+        }
+      ],
+      "/cs186/12-ER-Diagrams": [
+        {
+          "source": "/cs186/",
+          "target": "/cs186/12-ER-Diagrams",
+          "text": "Entity-Relationship Diagrams"
+        }
+      ],
+      "/cs61b": [
+        {
+          "source": "/cs186/",
+          "target": "/cs61b",
+          "text": "CS61B"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs61b",
+          "text": "CS61B notes"
         }
       ],
       "/cs61b/": [
@@ -1038,6 +1588,216 @@
           "source": "/",
           "target": "/cs61b/",
           "text": "CS 61B: Data Structures and Algorithms"
+        }
+      ],
+      "/cs61b/abstract-data-types/collections/linked-lists": [
+        {
+          "source": "/cs61b/",
+          "target": "/cs61b/abstract-data-types/collections/linked-lists",
+          "text": "Linked Lists"
+        }
+      ],
+      "/cs61b/abstract-data-types/collections/sets": [
+        {
+          "source": "/cs61b/",
+          "target": "/cs61b/abstract-data-types/collections/sets",
+          "text": "Sets"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/tries",
+          "target": "/cs61b/abstract-data-types/collections/sets",
+          "text": "Sets"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/",
+          "target": "/cs61b/abstract-data-types/collections/sets",
+          "text": "Sets"
+        }
+      ],
+      "/cs61b/abstract-data-types/collections/stacks-and-queues": [
+        {
+          "source": "/cs61b/",
+          "target": "/cs61b/abstract-data-types/collections/stacks-and-queues",
+          "text": "Stacks and Queues"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/",
+          "target": "/cs61b/abstract-data-types/collections/stacks-and-queues",
+          "text": "Stacks and Queues"
+        }
+      ],
+      "/cs61b/abstract-data-types/hashing": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/tries",
+          "target": "/cs61b/abstract-data-types/hashing",
+          "text": "Hashing and Hash Tables"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/collections/",
+          "target": "/cs61b/abstract-data-types/hashing",
+          "text": "Hashing and Hash Tables"
+        }
+      ],
+      "/cs61b/abstract-data-types/union-find-disjoint-sets": [
+        {
+          "source": "/cs61b/",
+          "target": "/cs61b/abstract-data-types/union-find-disjoint-sets",
+          "text": "Union Find (Disjoint Sets)"
+        }
+      ],
+      "/cs61b/algorithms/minimum-spanning-trees/": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/cs61b/algorithms/minimum-spanning-trees/",
+          "text": "Minimum Spanning Trees"
+        }
+      ],
+      "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "text": "Kruskal's Algorithm"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/union-find-disjoint-sets",
+          "target": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
+          "text": "Kruskal's Algorithm"
+        }
+      ],
+      "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
+          "text": "Prim's Algorithm"
+        }
+      ],
+      "/cs61b/algorithms/searching": [
+        {
+          "source": "/cs61b/",
+          "target": "/cs61b/algorithms/searching",
+          "text": "Searching"
+        }
+      ],
+      "/cs61b/algorithms/searching/binary-search": [
+        {
+          "source": "/cs61b/",
+          "target": "/cs61b/algorithms/searching/binary-search",
+          "text": "Binary Search"
+        }
+      ],
+      "/cs61b/algorithms/searching/breadth-first-search-bfs": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/cs61b/algorithms/searching/breadth-first-search-bfs",
+          "text": "Breadth First Search (BFS)"
+        }
+      ],
+      "/cs61b/algorithms/searching/depth-first-search-dfs": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/cs61b/algorithms/searching/depth-first-search-dfs",
+          "text": "Depth First Search (DFS)"
+        }
+      ],
+      "/cs61b/algorithms/shortest-paths/": [
+        {
+          "source": "/cs61b/",
+          "target": "/cs61b/algorithms/shortest-paths/",
+          "text": "Shortest Paths"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/cs61b/algorithms/shortest-paths/",
+          "text": "Shortest Paths"
+        }
+      ],
+      "/cs61b/algorithms/shortest-paths/a-search": [
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/cs61b/algorithms/shortest-paths/a-search",
+          "text": "A* Search"
+        }
+      ],
+      "/cs61b/algorithms/shortest-paths/dijkstras-algorithm": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
+          "target": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
+          "text": "finding shortest paths using Dijkstra's Algorithm"
+        },
+        {
+          "source": "/cs61b/abstract-data-types/graphs",
+          "target": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
+          "text": "Dijkstra's Algorithm"
+        }
+      ],
+      "/cs61b/asymptotics/amortization": [
+        {
+          "source": "/cs61b/abstract-data-types/hashing",
+          "target": "/cs61b/asymptotics/amortization",
+          "text": "Amortization"
+        }
+      ],
+      "/cs61b/asymptotics/asymptotics-practice": [
+        {
+          "source": "/cs61b/",
+          "target": "/cs61b/asymptotics/asymptotics-practice",
+          "text": "Asymptotics Practice"
+        }
+      ],
+      "/cs61b/binary-trees": [
+        {
+          "source": "/cs61b/abstract-data-types/binary-trees/balanced-search-structures",
+          "target": "/cs61b/binary-trees",
+          "text": "Binary Trees"
+        }
+      ],
+      "/cs61b/collections": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/arrays",
+          "target": "/cs61b/collections",
+          "text": "Collections"
+        }
+      ],
+      "/cs61b/misc-topics/exceptions": [
+        {
+          "source": "/cs61b/",
+          "target": "/cs61b/misc-topics/exceptions",
+          "text": "Exceptions"
+        }
+      ],
+      "/cs61b/oop/dynamic-method-selection": [
+        {
+          "source": "/cs61b/",
+          "target": "/cs61b/oop/dynamic-method-selection",
+          "text": "Dynamic Method Selection"
+        }
+      ],
+      "/cs61b/oop/generics": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/arrays",
+          "target": "/cs61b/oop/generics",
+          "text": "Generic Types"
+        }
+      ],
+      "/cs61b/oop/objects": [
+        {
+          "source": "/cs61b/abstract-data-types/collections/arrays",
+          "target": "/cs61b/oop/objects",
+          "text": "Java Objects"
+        }
+      ],
+      "/cs70/latex-reference": [
+        {
+          "source": "/cs70/",
+          "target": "/cs70/latex-reference",
+          "text": "LaTeX Reference"
+        }
+      ],
+      "/decision-theory": [
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/decision-theory",
+          "text": "decision theory"
         }
       ],
       "/depth-first-search-dfs": [
@@ -1054,6 +1814,83 @@
           "text": "Dijkstra's Algorithm"
         }
       ],
+      "/discrete-math/computability": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/computability",
+          "text": "Computability"
+        }
+      ],
+      "/discrete-math/countability": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/countability",
+          "text": "Countability"
+        }
+      ],
+      "/discrete-math/graphs": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/graphs",
+          "text": "Graphs"
+        }
+      ],
+      "/discrete-math/modular-arithmetic": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/modular-arithmetic",
+          "text": "Modular Arithmetic"
+        }
+      ],
+      "/discrete-math/overview": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/overview",
+          "text": "Overview"
+        }
+      ],
+      "/discrete-math/polynomials": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/polynomials",
+          "text": "Polynomials"
+        }
+      ],
+      "/discrete-math/proofs": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/proofs",
+          "text": "Proofs"
+        }
+      ],
+      "/discrete-math/propositional-logic": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/propositional-logic",
+          "text": "Propositional Logic"
+        }
+      ],
+      "/discrete-math/rsa-cryptography": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/rsa-cryptography",
+          "text": "RSA Cryptography"
+        }
+      ],
+      "/discrete-math/stable-matching": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/discrete-math/stable-matching",
+          "text": "Stable Matching"
+        }
+      ],
+      "/discrete-probability": [
+        {
+          "source": "/cs70/probability/probability-overview",
+          "target": "/discrete-probability",
+          "text": "Discrete probability distributions"
+        }
+      ],
       "/dynamic-method-selection": [
         {
           "source": "/cs61b/oop/generics",
@@ -1066,11 +1903,30 @@
           "text": "Dynamic Method Selection"
         }
       ],
+      "/expectation-and-variance": [
+        {
+          "source": "/cs70/probability/probability-overview",
+          "target": "/expectation-and-variance",
+          "text": "Expectation and variance"
+        }
+      ],
       "/generics": [
         {
           "source": "/cs61b/oop/inheritance",
           "target": "/generics",
           "text": "Generic Types"
+        }
+      ],
+      "/hypothesis-testing": [
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/hypothesis-testing",
+          "text": "hypothesis testing"
+        },
+        {
+          "source": "/data102/decision-theory",
+          "target": "/hypothesis-testing",
+          "text": "hypothesis testing"
         }
       ],
       "/inheritance": [
@@ -1090,6 +1946,44 @@
           "text": "inheritance rules"
         }
       ],
+      "/interpretability": [
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/interpretability",
+          "text": "interpretability"
+        }
+      ],
+      "/intradomain-routing": [
+        {
+          "source": "/cs168/interdomain-routing-bgp",
+          "target": "/intradomain-routing",
+          "text": "intradomain routing"
+        },
+        {
+          "source": "/cs168/interdomain-routing-bgp",
+          "target": "/intradomain-routing",
+          "text": "intradomain routing"
+        }
+      ],
+      "/io": [
+        {
+          "source": "/cs186/01-Disks-Buffers-Files",
+          "target": "/io",
+          "text": "What is an I/O and why should I care?"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/io",
+          "text": "What is an I/O and why should I care?"
+        }
+      ],
+      "/latex-reference": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/latex-reference",
+          "text": "LaTeX Reference"
+        }
+      ],
       "/linked-lists": [
         {
           "source": "/cs61b/abstract-data-types/collections/",
@@ -1097,11 +1991,30 @@
           "text": "Linked Lists"
         }
       ],
-      "/misc-topics/exceptions": [
+      "/markov-chains": [
         {
-          "source": "/cs61b/",
-          "target": "/misc-topics/exceptions",
-          "text": "Exceptions"
+          "source": "/cs70/probability/probability-overview",
+          "target": "/markov-chains",
+          "text": "Markov chains"
+        }
+      ],
+      "/modular-arithmetic": [
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/modular-arithmetic",
+          "text": "Modular arithmetic"
+        },
+        {
+          "source": "/cs70/discrete-math/rsa-cryptography",
+          "target": "/modular-arithmetic",
+          "text": "Euclid's Extended Algorithm"
+        }
+      ],
+      "/nonparametric-methods": [
+        {
+          "source": "/data102/MIDTERM-2-INDEX",
+          "target": "/nonparametric-methods",
+          "text": "nonparametric methods"
         }
       ],
       "/notes/cs61a": [
@@ -1118,44 +2031,185 @@
           "text": "References, Objects, and Types in Java"
         }
       ],
-      "/oop/access-control": [
+      "/parameter-estimation": [
         {
-          "source": "/cs61b/",
-          "target": "/oop/access-control",
-          "text": "Access Control"
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/parameter-estimation",
+          "text": "parameter estimation"
         }
       ],
-      "/oop/dynamic-method-selection": [
+      "/polynomials": [
         {
-          "source": "/cs61b/",
-          "target": "/oop/dynamic-method-selection",
-          "text": "Dynamic Method Selection"
-        }
-      ],
-      "/oop/generics": [
-        {
-          "source": "/cs61b/",
-          "target": "/oop/generics",
-          "text": "Generic Types"
-        }
-      ],
-      "/sets": [
-        {
-          "source": "/cs61b/abstract-data-types/collections/",
-          "target": "/sets",
-          "text": "Sets"
-        }
-      ],
-      "/stacks-and-queues": [
-        {
-          "source": "/cs61b/abstract-data-types/collections/",
-          "target": "/stacks-and-queues",
-          "text": "Stacks and Queues"
+          "source": "/cs70/discrete-math/modular-arithmetic",
+          "target": "/polynomials",
+          "text": "error correction"
         },
         {
-          "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
-          "target": "/stacks-and-queues",
-          "text": "Priority Queues"
+          "source": "/cs70/discrete-math/overview",
+          "target": "/polynomials",
+          "text": "Polynomials"
+        },
+        {
+          "source": "/cs70/discrete-math/rsa-cryptography",
+          "target": "/polynomials",
+          "text": "soon"
+        }
+      ],
+      "/probability/concentration-inequalities": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/concentration-inequalities",
+          "text": "Concentration Inequalities"
+        }
+      ],
+      "/probability/conditional-expectation-and-variance": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/conditional-expectation-and-variance",
+          "text": "Conditional Expectation and Variance"
+        }
+      ],
+      "/probability/continuous-probability": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/continuous-probability",
+          "text": "Continuous Probability"
+        }
+      ],
+      "/probability/counting": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/counting",
+          "text": "Counting"
+        }
+      ],
+      "/probability/discrete-probability": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/discrete-probability",
+          "text": "Discrete Probability"
+        }
+      ],
+      "/probability/expectation-and-variance": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/expectation-and-variance",
+          "text": "Expectation and Variance"
+        }
+      ],
+      "/probability/hashing-and-the-union-bound": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/hashing-and-the-union-bound",
+          "text": "Hashing and the Union Bound"
+        }
+      ],
+      "/probability/markov-chains": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/markov-chains",
+          "text": "Markov Chains"
+        }
+      ],
+      "/probability/probability-overview": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/probability-overview",
+          "text": "Overview"
+        }
+      ],
+      "/probability/the-beta-family": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/the-beta-family",
+          "text": "The Beta Family"
+        }
+      ],
+      "/probability/the-gamma-family": [
+        {
+          "source": "/cs70/SUMMARY",
+          "target": "/probability/the-gamma-family",
+          "text": "The Gamma Family"
+        }
+      ],
+      "/proofs": [
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/proofs",
+          "text": "Proofs"
+        }
+      ],
+      "/propositional-logic": [
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/propositional-logic",
+          "text": "Propositional logic"
+        }
+      ],
+      "/regression-and-glms": [
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/regression-and-glms",
+          "text": "regression and glms"
+        }
+      ],
+      "/reliability": [
+        {
+          "source": "/cs168/TCP",
+          "target": "/reliability",
+          "text": "reliability"
+        }
+      ],
+      "/resource-sharing-packet-and-circuit-switching": [
+        {
+          "source": "/cs168/congestion-control",
+          "target": "/resource-sharing-packet-and-circuit-switching",
+          "text": "resource sharing (packet and circuit switching)"
+        }
+      ],
+      "/review": [
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/review",
+          "text": "review"
+        }
+      ],
+      "/roc-curves": [
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/roc-curves",
+          "text": "roc curves"
+        }
+      ],
+      "/rsa-cryptography": [
+        {
+          "source": "/cs70/discrete-math/modular-arithmetic",
+          "target": "/rsa-cryptography",
+          "text": "cryptography"
+        },
+        {
+          "source": "/cs70/discrete-math/modular-arithmetic",
+          "target": "/rsa-cryptography",
+          "text": "RSA Cryptography"
+        },
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/rsa-cryptography",
+          "text": "RSA Cryptography"
+        }
+      ],
+      "/sampling": [
+        {
+          "source": "/data102/MIDTERM-1-INDEX",
+          "target": "/sampling",
+          "text": "sampling"
+        }
+      ],
+      "/stable-matching": [
+        {
+          "source": "/cs70/discrete-math/overview",
+          "target": "/stable-matching",
+          "text": "Stable Matching"
         }
       ],
       "/tries": [
@@ -1179,74 +2233,214 @@
       "text": "contribution guide"
     },
     {
-      "source": "/cs186/CS186-Index",
-      "target": "/00-SQL-Basics",
-      "text": "00 SQL Basics"
+      "source": "/cs162/CS162-Index",
+      "target": "/Chapter-1-OS-Basics",
+      "text": "Chapter 1 OS Basics"
     },
     {
-      "source": "/cs186/CS186-Index",
+      "source": "/cs162/CS162-Index",
+      "target": "/Chapter-2-Processes",
+      "text": "Chapter 2 Processes"
+    },
+    {
+      "source": "/cs162/CS162-Index",
+      "target": "/Chapter-3-Threads",
+      "text": "Chapter 3 Threads"
+    },
+    {
+      "source": "/cs162/CS162-Index",
+      "target": "/Chapter-4-I-O",
+      "text": "Chapter 4 I O"
+    },
+    {
+      "source": "/cs162/CS162-Index",
+      "target": "/Chapter-5-Synchronization",
+      "text": "Chapter 5 Synchronization"
+    },
+    {
+      "source": "/cs162/CS162-Index",
+      "target": "/Chapter-6-Scheduling",
+      "text": "Chapter 6 Scheduling"
+    },
+    {
+      "source": "/cs162/CS162-Index",
+      "target": "/Chapter-7-Address-Translation",
+      "text": "Chapter 7 Address Translation"
+    },
+    {
+      "source": "/cs162/CS162-Index",
+      "target": "/Chapter-8-Caching",
+      "text": "Chapter 8 Caching"
+    },
+    {
+      "source": "/cs162/CS162-Index",
+      "target": "/Chapter-9-File-Systems",
+      "text": "Chapter 9 File Systems"
+    },
+    {
+      "source": "/cs162/CS162-Index",
+      "target": "/Appendix-A-GDB-foobars",
+      "text": "Appendix A GDB foobars"
+    },
+    {
+      "source": "/cs162/CS162-Index",
+      "target": "/Appendix-B-Midterm-Reference",
+      "text": "Appendix B Midterm Reference"
+    },
+    {
+      "source": "/cs168/TCP",
+      "target": "/reliability",
+      "text": "reliability"
+    },
+    {
+      "source": "/cs168/TCP",
+      "target": "/congestion-control",
+      "text": "congestion control"
+    },
+    {
+      "source": "/cs168/congestion-control",
+      "target": "/resource-sharing-packet-and-circuit-switching",
+      "text": "resource sharing (packet and circuit switching)"
+    },
+    {
+      "source": "/cs168/ethernet",
+      "target": "/",
+      "text": "#Pure ALOHA random access"
+    },
+    {
+      "source": "/cs168/final-review",
+      "target": "/",
+      "text": "#SDN"
+    },
+    {
+      "source": "/cs168/interdomain-routing-bgp",
+      "target": "/intradomain-routing",
+      "text": "intradomain routing"
+    },
+    {
+      "source": "/cs168/interdomain-routing-bgp",
+      "target": "/addressing-ip",
+      "text": "addressing (ip)"
+    },
+    {
+      "source": "/cs168/interdomain-routing-bgp",
+      "target": "/intradomain-routing",
+      "text": "intradomain routing"
+    },
+    {
+      "source": "/cs168/internet-organization-and-layers",
+      "target": "/07-Networking",
+      "text": "07 Networking"
+    },
+    {
+      "source": "/cs168/intradomain-routing",
+      "target": "/06-Graphs",
+      "text": "06 Graphs#Bellman Ford Shortest Paths with Negative Edge Lengths"
+    },
+    {
+      "source": "/cs186/00-SQL-Basics",
+      "target": "/",
+      "text": "table creation"
+    },
+    {
+      "source": "/cs186/00-SQL-Basics",
       "target": "/01-Disks-Buffers-Files",
-      "text": "01 Disks, Buffers, Files"
+      "text": "next section"
     },
     {
-      "source": "/cs186/CS186-Index",
-      "target": "/02-Cost-Analysis",
-      "text": "02 Cost Analysis"
+      "source": "/cs186/01-Disks-Buffers-Files",
+      "target": "/00-SQL-Basics",
+      "text": "SQL"
     },
     {
-      "source": "/cs186/CS186-Index",
-      "target": "/03-B+-Trees",
-      "text": "03 B+ Trees"
+      "source": "/cs186/01-Disks-Buffers-Files",
+      "target": "/io",
+      "text": "What is an I/O and why should I care?"
     },
     {
-      "source": "/cs186/CS186-Index",
-      "target": "/04-Sorting-and-Hashing",
-      "text": "04 Sorting and Hashing"
-    },
-    {
-      "source": "/cs186/CS186-Index",
-      "target": "/05-Iterators-and-Joins",
-      "text": "05 Iterators and Joins"
-    },
-    {
-      "source": "/cs186/CS186-Index",
-      "target": "/06-Relational-Algebra",
-      "text": "06 Relational Algebra"
-    },
-    {
-      "source": "/cs186/CS186-Index",
-      "target": "/07-Query-Optimization",
-      "text": "07 Query Optimization"
-    },
-    {
-      "source": "/cs186/CS186-Index",
-      "target": "/08-Transactions",
-      "text": "08 Transactions"
-    },
-    {
-      "source": "/cs186/CS186-Index",
-      "target": "/09-Parallel-Query-Processing",
-      "text": "09 Parallel Query Processing"
-    },
-    {
-      "source": "/cs186/CS186-Index",
-      "target": "/10-Recovery",
-      "text": "10 Recovery"
-    },
-    {
-      "source": "/cs186/CS186-Index",
+      "source": "/cs186/01-Disks-Buffers-Files",
       "target": "/11-Distributed-Transactions",
-      "text": "11 Distributed Transactions"
+      "text": "Distributed Transactions"
     },
     {
-      "source": "/cs186/CS186-Index",
-      "target": "/12-ER-Diagrams",
-      "text": "12 ER Diagrams"
+      "source": "/cs186/01-Disks-Buffers-Files",
+      "target": "/02-B+-Trees",
+      "text": "B+ Trees"
     },
     {
-      "source": "/cs186/CS186-Index",
-      "target": "/13-Extras",
-      "text": "13 Extras"
+      "source": "/cs186/07-Query-Optimization",
+      "target": "/",
+      "text": "practice"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/cs186/00-SQL-Basics",
+      "text": "SQL syntax"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/cs186/04-Sorting-and-Hashing",
+      "text": "How to improve popular sorting and hashing algorithms to work well with limited memory"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/cs186/05-Iterators-and-Joins",
+      "text": "Join algorithms"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/cs186/07-Query-Optimization",
+      "text": "Query optimization"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/cs186/09-Parallel-Query-Processing",
+      "text": "Parallel query processing"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/cs186/10-Recovery",
+      "text": "Crash Recovery (AERIES)"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/cs186/08-Transactions",
+      "text": "Database transactions and Concurrency"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/cs186/12-ER-Diagrams",
+      "text": "Entity-Relationship Diagrams"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/io",
+      "text": "What is an I/O and why should I care?"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/cs61b",
+      "text": "CS61B"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/cs61b",
+      "text": "CS61B notes"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/cs186/01-Disks-Buffers-Files",
+      "text": "Disks, Buffers, Files"
+    },
+    {
+      "source": "/cs186/",
+      "target": "/contributing",
+      "text": "contributing guide"
+    },
+    {
+      "source": "/cs186/io",
+      "target": "/cs186/07-Query-Optimization",
+      "text": "query optimization"
     },
     {
       "source": "/cs61b/",
@@ -1255,22 +2449,12 @@
     },
     {
       "source": "/cs61b/",
-      "target": "/oop/access-control",
-      "text": "Access Control"
-    },
-    {
-      "source": "/cs61b/",
-      "target": "/oop/dynamic-method-selection",
+      "target": "/cs61b/oop/dynamic-method-selection",
       "text": "Dynamic Method Selection"
     },
     {
       "source": "/cs61b/",
-      "target": "/oop/generics",
-      "text": "Generic Types"
-    },
-    {
-      "source": "/cs61b/",
-      "target": "/asymptotics/asymptotics-practice",
+      "target": "/cs61b/asymptotics/asymptotics-practice",
       "text": "Asymptotics Practice"
     },
     {
@@ -1280,22 +2464,22 @@
     },
     {
       "source": "/cs61b/",
-      "target": "/abstract-data-types/union-find-disjoint-sets",
+      "target": "/cs61b/abstract-data-types/union-find-disjoint-sets",
       "text": "Union Find (Disjoint Sets)"
     },
     {
       "source": "/cs61b/",
-      "target": "/abstract-data-types/collections/stacks-and-queues",
+      "target": "/cs61b/abstract-data-types/collections/stacks-and-queues",
       "text": "Stacks and Queues"
     },
     {
       "source": "/cs61b/",
-      "target": "/abstract-data-types/collections/linked-lists",
+      "target": "/cs61b/abstract-data-types/collections/linked-lists",
       "text": "Linked Lists"
     },
     {
       "source": "/cs61b/",
-      "target": "/abstract-data-types/collections/sets",
+      "target": "/cs61b/abstract-data-types/collections/sets",
       "text": "Sets"
     },
     {
@@ -1305,22 +2489,22 @@
     },
     {
       "source": "/cs61b/",
-      "target": "/algorithms/searching",
+      "target": "/cs61b/algorithms/searching",
       "text": "Searching"
     },
     {
       "source": "/cs61b/",
-      "target": "/algorithms/searching/binary-search",
+      "target": "/cs61b/algorithms/searching/binary-search",
       "text": "Binary Search"
     },
     {
       "source": "/cs61b/",
-      "target": "/algorithms/shortest-paths/",
+      "target": "/cs61b/algorithms/shortest-paths/",
       "text": "Shortest Paths"
     },
     {
       "source": "/cs61b/",
-      "target": "/misc-topics/exceptions",
+      "target": "/cs61b/misc-topics/exceptions",
       "text": "Exceptions"
     },
     {
@@ -1360,23 +2544,18 @@
     },
     {
       "source": "/cs61b/abstract-data-types/binary-trees/balanced-search-structures",
-      "target": "/./",
+      "target": "/cs61b/binary-trees",
       "text": "Binary Trees"
     },
     {
       "source": "/cs61b/abstract-data-types/binary-trees/tries",
-      "target": "/../hashing",
+      "target": "/cs61b/abstract-data-types/hashing",
       "text": "Hashing and Hash Tables"
     },
     {
       "source": "/cs61b/abstract-data-types/binary-trees/tries",
-      "target": "/../collections/sets",
+      "target": "/cs61b/abstract-data-types/collections/sets",
       "text": "Sets"
-    },
-    {
-      "source": "/cs61b/abstract-data-types/collections/",
-      "target": "/arrays",
-      "text": "ArrayLists"
     },
     {
       "source": "/cs61b/abstract-data-types/collections/",
@@ -1385,37 +2564,32 @@
     },
     {
       "source": "/cs61b/abstract-data-types/collections/",
-      "target": "/sets",
+      "target": "/cs61b/abstract-data-types/collections/sets",
       "text": "Sets"
     },
     {
       "source": "/cs61b/abstract-data-types/collections/",
-      "target": "/../hashing",
+      "target": "/cs61b/abstract-data-types/hashing",
       "text": "Hashing and Hash Tables"
     },
     {
       "source": "/cs61b/abstract-data-types/collections/",
-      "target": "/stacks-and-queues",
+      "target": "/cs61b/abstract-data-types/collections/stacks-and-queues",
       "text": "Stacks and Queues"
     },
     {
       "source": "/cs61b/abstract-data-types/collections/arrays",
-      "target": "/../../oop/objects",
+      "target": "/cs61b/oop/objects",
       "text": "Java Objects"
     },
     {
       "source": "/cs61b/abstract-data-types/collections/arrays",
-      "target": "/../../asymptotics/amortization",
-      "text": "Amortization"
-    },
-    {
-      "source": "/cs61b/abstract-data-types/collections/arrays",
-      "target": "/../../oop/generics",
+      "target": "/cs61b/oop/generics",
       "text": "Generic Types"
     },
     {
       "source": "/cs61b/abstract-data-types/collections/arrays",
-      "target": "/./",
+      "target": "/cs61b/collections",
       "text": "Collections"
     },
     {
@@ -1435,62 +2609,57 @@
     },
     {
       "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
-      "target": "/../../algorithms/shortest-paths/dijkstras-algorithm",
+      "target": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
       "text": "finding shortest paths using Dijkstra's Algorithm"
     },
     {
-      "source": "/cs61b/abstract-data-types/collections/stacks-and-queues",
-      "target": "/stacks-and-queues",
-      "text": "Priority Queues"
-    },
-    {
       "source": "/cs61b/abstract-data-types/graphs",
-      "target": "/../algorithms/searching/depth-first-search-dfs",
+      "target": "/cs61b/algorithms/searching/depth-first-search-dfs",
       "text": "Depth First Search (DFS)"
     },
     {
       "source": "/cs61b/abstract-data-types/graphs",
-      "target": "/../algorithms/searching/breadth-first-search-bfs",
+      "target": "/cs61b/algorithms/searching/breadth-first-search-bfs",
       "text": "Breadth First Search (BFS)"
     },
     {
       "source": "/cs61b/abstract-data-types/graphs",
-      "target": "/../algorithms/minimum-spanning-trees/",
+      "target": "/cs61b/algorithms/minimum-spanning-trees/",
       "text": "Minimum Spanning Trees"
     },
     {
       "source": "/cs61b/abstract-data-types/graphs",
-      "target": "/../algorithms/shortest-paths/",
+      "target": "/cs61b/algorithms/shortest-paths/",
       "text": "Shortest Paths"
     },
     {
       "source": "/cs61b/abstract-data-types/graphs",
-      "target": "/../algorithms/shortest-paths/dijkstras-algorithm",
+      "target": "/cs61b/algorithms/shortest-paths/dijkstras-algorithm",
       "text": "Dijkstra's Algorithm"
     },
     {
       "source": "/cs61b/abstract-data-types/graphs",
-      "target": "/../algorithms/shortest-paths/a-search",
+      "target": "/cs61b/algorithms/shortest-paths/a-search",
       "text": "A* Search"
     },
     {
       "source": "/cs61b/abstract-data-types/graphs",
-      "target": "/../algorithms/minimum-spanning-trees/prims-algorithm",
+      "target": "/cs61b/algorithms/minimum-spanning-trees/prims-algorithm",
       "text": "Prim's Algorithm"
     },
     {
       "source": "/cs61b/abstract-data-types/graphs",
-      "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
+      "target": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
       "text": "Kruskal's Algorithm"
     },
     {
       "source": "/cs61b/abstract-data-types/hashing",
-      "target": "/../asymptotics/amortization",
+      "target": "/cs61b/asymptotics/amortization",
       "text": "Amortization"
     },
     {
       "source": "/cs61b/abstract-data-types/union-find-disjoint-sets",
-      "target": "/../algorithms/minimum-spanning-trees/kruskals-algorithm",
+      "target": "/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm",
       "text": "Kruskal's Algorithm"
     },
     {
@@ -1647,6 +2816,326 @@
       "source": "/cs61b/oop/objects",
       "target": "/../abstract-data-types/collections/",
       "text": "collections"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/CS70-Index",
+      "text": "Welcome"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/latex-reference",
+      "text": "LaTeX Reference"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/discrete-math/overview",
+      "text": "Overview"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/discrete-math/propositional-logic",
+      "text": "Propositional Logic"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/discrete-math/proofs",
+      "text": "Proofs"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/discrete-math/stable-matching",
+      "text": "Stable Matching"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/discrete-math/graphs",
+      "text": "Graphs"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/discrete-math/modular-arithmetic",
+      "text": "Modular Arithmetic"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/discrete-math/rsa-cryptography",
+      "text": "RSA Cryptography"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/discrete-math/polynomials",
+      "text": "Polynomials"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/discrete-math/countability",
+      "text": "Countability"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/discrete-math/computability",
+      "text": "Computability"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/probability/probability-overview",
+      "text": "Overview"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/probability/counting",
+      "text": "Counting"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/probability/discrete-probability",
+      "text": "Discrete Probability"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/probability/hashing-and-the-union-bound",
+      "text": "Hashing and the Union Bound"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/probability/expectation-and-variance",
+      "text": "Expectation and Variance"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/probability/concentration-inequalities",
+      "text": "Concentration Inequalities"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/probability/continuous-probability",
+      "text": "Continuous Probability"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/probability/markov-chains",
+      "text": "Markov Chains"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/probability/the-beta-family",
+      "text": "The Beta Family"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/probability/the-gamma-family",
+      "text": "The Gamma Family"
+    },
+    {
+      "source": "/cs70/SUMMARY",
+      "target": "/probability/conditional-expectation-and-variance",
+      "text": "Conditional Expectation and Variance"
+    },
+    {
+      "source": "/cs70/",
+      "target": "/contributing",
+      "text": "contributing guide"
+    },
+    {
+      "source": "/cs70/",
+      "target": "/cs70/latex-reference",
+      "text": "LaTeX Reference"
+    },
+    {
+      "source": "/cs70/discrete-math/modular-arithmetic",
+      "target": "/rsa-cryptography",
+      "text": "cryptography"
+    },
+    {
+      "source": "/cs70/discrete-math/modular-arithmetic",
+      "target": "/polynomials",
+      "text": "error correction"
+    },
+    {
+      "source": "/cs70/discrete-math/modular-arithmetic",
+      "target": "/rsa-cryptography",
+      "text": "RSA Cryptography"
+    },
+    {
+      "source": "/cs70/discrete-math/overview",
+      "target": "/propositional-logic",
+      "text": "Propositional logic"
+    },
+    {
+      "source": "/cs70/discrete-math/overview",
+      "target": "/proofs",
+      "text": "Proofs"
+    },
+    {
+      "source": "/cs70/discrete-math/overview",
+      "target": "/stable-matching",
+      "text": "Stable Matching"
+    },
+    {
+      "source": "/cs70/discrete-math/overview",
+      "target": "/classes/cs70/discrete-math/graphs",
+      "text": "Graph theory"
+    },
+    {
+      "source": "/cs70/discrete-math/overview",
+      "target": "/modular-arithmetic",
+      "text": "Modular arithmetic"
+    },
+    {
+      "source": "/cs70/discrete-math/overview",
+      "target": "/rsa-cryptography",
+      "text": "RSA Cryptography"
+    },
+    {
+      "source": "/cs70/discrete-math/overview",
+      "target": "/polynomials",
+      "text": "Polynomials"
+    },
+    {
+      "source": "/cs70/discrete-math/rsa-cryptography",
+      "target": "/polynomials",
+      "text": "soon"
+    },
+    {
+      "source": "/cs70/discrete-math/rsa-cryptography",
+      "target": "/modular-arithmetic",
+      "text": "Euclid's Extended Algorithm"
+    },
+    {
+      "source": "/cs70/probability/probability-overview",
+      "target": "/counting",
+      "text": "Counting"
+    },
+    {
+      "source": "/cs70/probability/probability-overview",
+      "target": "/discrete-probability",
+      "text": "Discrete probability distributions"
+    },
+    {
+      "source": "/cs70/probability/probability-overview",
+      "target": "/continuous-probability",
+      "text": "Continuous probability distributions"
+    },
+    {
+      "source": "/cs70/probability/probability-overview",
+      "target": "/markov-chains",
+      "text": "Markov chains"
+    },
+    {
+      "source": "/cs70/probability/probability-overview",
+      "target": "/expectation-and-variance",
+      "text": "Expectation and variance"
+    },
+    {
+      "source": "/cs70/probability/probability-overview",
+      "target": "/concentration-inequalities",
+      "text": "Concentration inequalities"
+    },
+    {
+      "source": "/data102/MIDTERM-1-INDEX",
+      "target": "/review",
+      "text": "review"
+    },
+    {
+      "source": "/data102/MIDTERM-1-INDEX",
+      "target": "/binary-decision-making",
+      "text": "binary decision making"
+    },
+    {
+      "source": "/data102/MIDTERM-1-INDEX",
+      "target": "/hypothesis-testing",
+      "text": "hypothesis testing"
+    },
+    {
+      "source": "/data102/MIDTERM-1-INDEX",
+      "target": "/decision-theory",
+      "text": "decision theory"
+    },
+    {
+      "source": "/data102/MIDTERM-1-INDEX",
+      "target": "/parameter-estimation",
+      "text": "parameter estimation"
+    },
+    {
+      "source": "/data102/MIDTERM-1-INDEX",
+      "target": "/sampling",
+      "text": "sampling"
+    },
+    {
+      "source": "/data102/MIDTERM-1-INDEX",
+      "target": "/roc-curves",
+      "text": "roc curves"
+    },
+    {
+      "source": "/data102/MIDTERM-1-INDEX",
+      "target": "/regression-and-glms",
+      "text": "regression and glms"
+    },
+    {
+      "source": "/data102/MIDTERM-2-INDEX",
+      "target": "/nonparametric-methods",
+      "text": "nonparametric methods"
+    },
+    {
+      "source": "/data102/MIDTERM-2-INDEX",
+      "target": "/interpretability",
+      "text": "interpretability"
+    },
+    {
+      "source": "/data102/MIDTERM-2-INDEX",
+      "target": "/causality",
+      "text": "causality"
+    },
+    {
+      "source": "/data102/MIDTERM-2-INDEX",
+      "target": "/concentration-inequalities",
+      "text": "concentration inequalities"
+    },
+    {
+      "source": "/data102/MIDTERM-2-INDEX",
+      "target": "/bandits",
+      "text": "bandits"
+    },
+    {
+      "source": "/data102/MIDTERM-2-INDEX",
+      "target": "/07-Markov-Decision-Processes",
+      "text": "07 Markov Decision Processes"
+    },
+    {
+      "source": "/data102/MIDTERM-2-INDEX",
+      "target": "/10-Reinforcement-Learning",
+      "text": "10 Reinforcement Learning"
+    },
+    {
+      "source": "/data102/causality",
+      "target": "/04-Bayes-Nets",
+      "text": "04 Bayes Nets"
+    },
+    {
+      "source": "/data102/decision-theory",
+      "target": "/binary-decision-making",
+      "text": "binary decision making"
+    },
+    {
+      "source": "/data102/decision-theory",
+      "target": "/hypothesis-testing",
+      "text": "hypothesis testing"
+    },
+    {
+      "source": "/data102/hypothesis-testing",
+      "target": "/binary-decision-making",
+      "text": "binary decision making"
+    },
+    {
+      "source": "/data102/regression-and-glms",
+      "target": "/",
+      "text": "#Model Checking"
+    },
+    {
+      "source": "/data102/regression-and-glms",
+      "target": "/",
+      "text": "#Credible Intervals"
     }
   ]
 }

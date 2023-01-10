@@ -1,4 +1,6 @@
-# Conditional Expectation and Variance
+---
+weight: 90
+---
 
 Properties:
 

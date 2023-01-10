@@ -1,5 +1,16 @@
+---
+title: "Sorting and Hashing"
+weight: 40
+---
+
 ## Introduction
 When dealing with disk operations, traditional sorting algorithms tend to create lots of random accesses and can be quite slow. We’ll explore a few strategies for creating optimized algorithms for sorting databases that work around our limited memory and buffer management abilities.
+
+## Relevant Materials
+ - [Note 6: Sorting](https://notes.bencuan.me/cs186/coursenotes/n06-Sorting.pdf)
+ - [Note 7: Hashing](https://notes.bencuan.me/cs186/coursenotes/n07-Hashing.pdf)
+ - [Discussion 4: Sorting](https://docs.google.com/presentation/d/1ZZxV_EziQJd47w3MNo72X4z8c7upX4KGiMqvuEI-vnM/edit#slide=id.g157c8825e69_0_1744)
+ - [Discussion 5: Hashing](https://docs.google.com/presentation/d/1vsnH3HhD5SlBZpfnLkeUAoYLeoD9jOQ_0ADcS5A7hR0/edit#slide=id.g4fe834b467_0_0)
 
 ## Single-Pass Streaming
 
@@ -34,7 +45,7 @@ For larger input sets that span multiple pages, several passes are required. In 
 
 In a typical system, we have more than 3 buffer pages available to us at a time. So, we can merge more than two pages at a time. Let's walk through how this might look like (with the example from Discussion 4):
 
-![[Pasted image 20230108224822.png]]
+![ms](<Sorting and Hashing/Pasted image 20230108224822.png>)
 
 ### Pass 0
 In the example above, we have 8 data pages of 2 records each. Since we can only fit 4 pages in the buffer at once, we will need multiple passes.
@@ -51,7 +62,7 @@ This process takes $2N$ I/Os, where $N$ is the total number of pages, because we
 
 ### Pass 1
 For the next pass, we *do* need an output buffer, since we must persist data in between runs to combine them. This is what it might look like in memory:
-![[Pasted image 20230108225437.png]]
+![p1](<Sorting and Hashing/Pasted image 20230108225437.png>)
 Now that we're using general external merge sort, you can see that we can merge up to 3 sorted runs at the same time ($N-1$). But since only 2 were created, the final input buffer will be left empty. 
 
 The process of sorting in-memory is as follows:

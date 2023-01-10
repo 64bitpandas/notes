@@ -1,6 +1,9 @@
-# Continuous Probability
-
+---
+weight: 60
+---
 ![Credit: Huiyi Zhang](<../img/assets/image (21).png>)
+
+(Credit: Huiyi Zhang)
 
 All of the continuous probability distributions are deeply connected. Above is a chart describing some of their relationships.
 

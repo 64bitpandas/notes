@@ -103,7 +103,7 @@ Here's a tree. Figure out:
 ![](<../img/assets/image (34).png>)
 {{< /tab >}}
 
-{{% tab "Q1 Answer" %}}
+{{< tab "Q1 Answer" >}}
 Here's my answer! The green arrows denote the order in which the nodes are visited. Note that the branches are pruned every time **alpha is greater than beta.**
 
 ![](<../img/assets/image (35).png>)

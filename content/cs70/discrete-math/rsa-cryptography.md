@@ -1,8 +1,11 @@
-# RSA Cryptography
+---
+title: "RSA Cryptography"
+weight: 960
+---
 
 ## Introduction
 
-The internet is built upon the fact that stuff needs to go from point A to point B quickly, accurately, and securely. We'll talk about the **secure** part of that now (the accurate part will be addressed [soon](polynomials.md)!).
+The internet is built upon the fact that stuff needs to go from point A to point B quickly, accurately, and securely. We'll talk about the **secure** part of that now (the accurate part will be addressed [soon](/cs70/discrete-math/polynomials.md)!).
 
 One of the ways we can make sure our top-secret messages can't get intercepted is to **encrypt** them- mix them up to become incomprehensible using some secret code, then decrypt it at the other end. This has a major problem though- how can you agree to use the same secret code as someone else if you've never met them before?
 
@@ -32,7 +35,7 @@ Let our two prime numbers be $p = 5, q = 11$. (In the real world, these would be
 
 The first step is to **choose our public key.** We know e must be relatively prime to $(p-1)(q-1) = (4)(10) = 40$. A small number that satisfies this is $3$, so we can go ahead and use that. Therefore, our public key is $(N, e) = (55, 3)$.
 
-The next step is to **compute the private key.** Using the formula,  $d = 3^{-1} \pmod{40}$. We could use [Euclid's Extended Algorithm](modular-arithmetic.md#using-euclids-extended-algorithm-for-inverses) to compute this value, which ends up being $27$. Therefore, $d = 27$.
+The next step is to **compute the private key.** Using the formula,  $d = 3^{-1} \pmod{40}$. We could use [Euclid's Extended Algorithm](/cs70/discrete-math/modular-arithmetic.md#using-euclids-extended-algorithm-for-inverses) to compute this value, which ends up being $27$. Therefore, $d = 27$.
 
 After we have computed our keys, we must **encrypt the message.** This yields $y = x^3 \pmod{55}$for some arbitrary message $x$.
 

@@ -1,3 +1,8 @@
+---
+title: "E-R Diagrams"
+weight: 120
+---
+
 ## Introduction
 
 Production databases have a lot of tables with complicated relationships. **Entity Relationship (ER) Diagrams** help us organize databases in a visual manner.
@@ -15,6 +20,10 @@ Here are some parts of database design:
 - Security Design: who accesses what, and how
 
 ER Diagrams help us with *conceptual design.*
+
+## Relevant Materials 
+ - [Note 13](https://notes.bencuan.me/cs186/coursenotes/n13-DBDesign.pdf)
+ - [Discussion 10](https://docs.google.com/presentation/d/1qRrHbZ2zTLDUjrUJ5cn3jaAU1On0apKizWqfTKVGMwg/edit#slide=id.g5202e50430_0_0)
 
 ## Data Models
 

@@ -1,8 +1,9 @@
 ---
-description: A list of frequently used mathematical notation bits.
+title: "LaTeX Reference"
+weight: 5
 ---
 
-# LaTeX Reference
+# 
 
 ### Basics
 

@@ -1,4 +1,7 @@
-# Computability
+---
+title: "Computability"
+weight: 999
+---
 
 Computability is the study of a massively important question:  **do there exist any problems that are impossible for a computer to solve?**
 
@@ -8,7 +11,15 @@ It turns out that the above question itself is impossible to solve: in other wor
 
 This was originally proposed by Alan Turing- he proved the nonexistence by attempting to feed the Halting Problem into itself: if the Halting Problem doesn't halt, then it is supposed to output an answer. That means that the Halting Problem would state that the Halting Problem halts, even though it didn't. This paradox led to demonstrating that the Halting Problem simply cannot be solved.
 
-{% embed url="https://www.youtube.com/watch?v=macM_MtS_w4" %}
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/macM_MtS_w4"
+    frameborder="0"
+    allow="encrypted-media"
+    allowfullscreen
+>
+</iframe>
 
 ## Reductions
 

@@ -10,10 +10,10 @@ weight: 10
 
 ## Sub-Interfaces
 
-* **Lists** are indexed sequences with duplication. The two most common types are [**ArrayLists**](arrays.md#array-lists)  and [**Linked Lists**](linked-lists.md).
-* [**Sets**](sets.md)  are non-indexed sequences with no duplication. (That is, every value in a set is unique.)
-* **Maps** are key-value pairs. See [Hashing and Hash Tables](../hashing.md) for a description on one common map implementation, the HashMap. All keys in a map must be unique, but values can be duplicated.
-* [**Stacks and Queues**](stacks-and-queues.md)  are two ordered collections that have two core behaviors:
+* **Lists** are indexed sequences with duplication. The two most common types are [**ArrayLists**](/cs61b/abstract-data-types/collections/arrays.md#array-lists)  and [**Linked Lists**](linked-lists.md).
+* [**Sets**](/cs61b/abstract-data-types/collections/sets.md)  are non-indexed sequences with no duplication. (That is, every value in a set is unique.)
+* **Maps** are key-value pairs. See [Hashing and Hash Tables](/cs61b/abstract-data-types/hashing.md) for a description on one common map implementation, the HashMap. All keys in a map must be unique, but values can be duplicated.
+* [**Stacks and Queues**](/cs61b/abstract-data-types/collections/stacks-and-queues.md)  are two ordered collections that have two core behaviors:
   * push(T x): puts x on the top.
   * pop(): Removes the first item. (See the stacks and queues page for more information.)
 

@@ -1,3 +1,8 @@
+---
+title: "Transactions and ACID"
+weight: 80
+---
+
 ## What is a transaction?
 
 Transactions are collections of operations that can be treated like a single unit. The primary reason why we need transactions is to obey the **ACID** properties:
@@ -11,7 +16,9 @@ Transactions support two main operations:
 - ABORT: indicates an unsuccessful transaction, changes should be reverted
 
 ## Relevant Materials
-
+ - [Note 11](https://notes.bencuan.me/cs186/coursenotes/n11-Xact1.pdf)
+ - [Note 12](https://notes.bencuan.me/cs186/coursenotes/n12-Xact2.pdf)
+ - [Discussion 8](https://docs.google.com/presentation/d/1nbqCBb3H-UZSKJLm3INSS3-rhTNw8vWJti9wlcXL2uI/edit)
 
 ## Serializability
 As previously mentioned, transactions must be treated like a single unit, even if they are actually made up of many smaller operations. However, it's often inefficient to only run one transaction at a time-- whenever a transaction tries to read something from the disk, we can start running another transaction while waiting for the data to be retrieved.
@@ -121,26 +128,26 @@ Waits-for graphs are very similar to conflict dependency graphs, except that **r
 {{< tabs "q1" >}}
 {{< tab "Question 1" >}}
 (Fall 2022 MT2) Draw the conflict dependency graph for the following schedule. Is this schedule conflict serializable?
-![[Pasted image 20230109222952.png]]
+![tp1](<Transactions/Pasted image 20230109222952.png>)
 {{< /tab >}}
 {{< tab "Answer" >}}
 To draw the conflict dependency graph, remember the rule of drawing an arrow from an earlier operation to a later operation if the two operations are in different transactions and at least one of them was a write:
-![[Pasted image 20230109223439.png]]
+![tp1a](<Transactions/Pasted image 20230109223439.png>)
 
 Then, we compress all of the arrows into their corresponding transactions, resulting in the following graph:
-![[Pasted image 20230109223458.png]]
+![tp1b](<Transactions/Pasted image 20230109223458.png>)
 
 Since there is a cycle from T2 to T5, this schedule is **not conflict serializable**.
 {{< /tab >}}
 {{< /tabs >}}
 
 
-{{< tabs "q3" >}}
-{{< tab "Question 3" >}}
+{{< tabs "q2" >}}
+{{< tab "Question 2" >}}
 (Spring 2022 MT2) Suppose we wanted to read the entire Page 1. What locks should we hold on each layer after granting the lock?
 
 Here is the original state:
-![[Pasted image 20230109225009.png]]
+![tp3](<Transactions/Pasted image 20230109225009.png>)
 {{< /tab >}}
 {{< tab "Answer" >}}
 

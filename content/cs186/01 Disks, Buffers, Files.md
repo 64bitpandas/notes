@@ -1,3 +1,8 @@
+---
+title: "Disks, Buffers, and Files"
+weight: 10
+---
+
 ## Relevant Materials
 
  - [Note 3](https://notes.bencuan.me/cs186/coursenotes/n03-DisksFiles.pdf)
@@ -5,9 +10,9 @@
 
 ## Introduction
 
-Now that we've taken a look at how humans can interface with databases using [SQL](<00 SQL Basics>), let's jump all the way down to the bottom and lay the foundations for how we can go from individual bytes to a fully functional database!
+Now that we've taken a look at how humans can interface with databases using [SQL](</cs186/00 SQL Basics>), let's jump all the way down to the bottom and lay the foundations for how we can go from individual bytes to a fully functional database!
 
-Before reading this section, review the page [What is an I/O and why should I care?](io) To reiterate the most important points from this section,
+Before reading this section, review the page [What is an I/O and why should I care?](/cs186/io) To reiterate the most important points from this section,
  - An I/O occurs when a page is transferred between disk and memory (either read or written).
  - Pages are always fetched in whole: it is impossible to read/write half of a page to memory.
  - For the purposes of this class, a "block" and a "page" on disk are considered the same thing.
@@ -52,7 +57,7 @@ HDD's are generally good for sequential reading, but bad for random reads.
 
 ## Files
 
-A **Database file (DB FILE)** is a collection of pages, which each contain a colection of records. Databases can span multiple machines and files in the filesystem (we'll explore this idea more in [Distributed Transactions](<11 Distributed Transactions.md>).
+A **Database file (DB FILE)** is a collection of pages, which each contain a colection of records. Databases can span multiple machines and files in the filesystem (we'll explore this idea more in [Distributed Transactions](<cs186/11 Distributed Transactions.md>).
 
 There are two main types of files: **heap files**, which are **unordered**, and **sorted files**, in which records are sorted on a key. As you could imagine, sorted files add a significant amount of complexity in exchange for possibly faster runtimes. In general, **range selections and lookups are faster in sorted files, while insertions, deletions, and updates are faster in heap files.**
 
@@ -85,43 +90,23 @@ As an exercise, think about what might happen to the runtime if we try to remove
 ### Heap File Implementation
 There are two approaches to actually implementing heap files.
 
+#### Linked List
 The first is the **linked list implementation**, where we have two linked lists: one of full data pages, and one of pages that still have free space. To insert a value into the file, we can ignore all of the full pages and just traverse the free pages, stopping at the first page that has enough free space to support the insertion.
 
 ![ll](Disks,%20Buffers,%20Files/Pasted%20image%2020230107153137.png)
 
-Here's an example of a common question you'll face about files:
-{{< tabs "q1" >}}
-{{< tab "Question 1" >}}
-Suppose you have a linked list implementation illustrated in the image above (3 full pages, and 3 pages with free space). In the worst case, how many I/Os will it take to insert a record into a free page? Assume there is enough space in an existing page in the file.
-{{< /tab >}}
-{{< tab "Q1 Answer" >}}
-**5 I/Os.** Here's the walkthrough- each step incurs one I/O:
-1. Read the header page to find the pointer to the first free page.
-2. Read the first free page, and realize that it doesn't have enough space! Luckily, it has the pointer to the second free page in it.
-3. Read the second free page. The same thing occurs.
-4. Read the third free page. Due to the problem statement we can assume that our data will fit here! So we will update the third page to insert the new data.
-5. Write the updated page back to disk.
-{{< /tab >}}
-{{< /tabs >}}
+You can find a common problem relating to heap files in the [[#practice-problems|Practice Problems section]].
 
+
+#### Page Directory
 The second type of heap file is a **page directory implementation.** Here, instead of a linked list of data pages, we'll store a linked list of header pages:
 ![](Disks,%20Buffers,%20Files/Pasted%20image%2020230107153729.png)
 Each header page then contains a list of pointers to data pages, as well as a pointer to the next header page.
 
-{{< tabs "q2" >}}
-{{< tab "Question 2" >}}
-Suppose you have 5 header pages, and each header page can store pointers to 30 data pages. What's the worst case I/O cost for inserting a record? *Do not* assume that an existing data page can hold the new data, but *do* assume that not all of the header pages are full.
-{{< /tab >}}
-{{< tab "Q2 Answer" >}}
-**7 I/Os.** In the worst case, all data pages are full, and all header pages are also full except for the very last one. So, the following must happen:
- - Incur 5 I/Os reading each of the 5 header pages. Since the page directory implementation stores metadata about whether data pages are full or not, we don't have to actually read in the data pages.
- - Create a new data page, and write it to disk, incurring 1 I/O.
- - Update the last header page with a pointer to the new page, incurring 1 I/O.
-{{< /tab >}}
-{{< /tabs >}}
+
 
 ### Sorted File Implementation
-Don't worry too much about this. We'll explore a better way of maintaining sorted order when we discuss index files in [B+ Trees](02%20B+%20Trees.md).
+Don't worry too much about this. We'll explore a better way of maintaining sorted order when we discuss index files in [B+ Trees](cs186/02%20B+%20Trees.md).
 
 ## Records
 
@@ -179,6 +164,35 @@ The slot directory in a slotted page implementation has the following items:
 - (record pointer + record size) tuple for every record (8N bytes)
 
 ## Practice Problems
+
+{{< tabs "q1" >}}
+{{< tab "Question 1" >}}
+
+![ll](Disks,%20Buffers,%20Files/Pasted%20image%2020230107153137.png)
+
+Suppose you have a linked list implementation illustrated in the image above (3 full pages, and 3 pages with free space). In the worst case, how many I/Os will it take to insert a record into a free page? Assume there is enough space in an existing page in the file.
+{{< /tab >}}
+{{< tab "Q1 Answer" >}}
+**5 I/Os.** Here's the walkthrough- each step incurs one I/O:
+1. Read the header page to find the pointer to the first free page.
+2. Read the first free page, and realize that it doesn't have enough space! Luckily, it has the pointer to the second free page in it.
+3. Read the second free page. The same thing occurs.
+4. Read the third free page. Due to the problem statement we can assume that our data will fit here! So we will update the third page to insert the new data.
+5. Write the updated page back to disk.
+{{< /tab >}}
+{{< /tabs >}}
+
+{{< tabs "q2" >}}
+{{< tab "Question 2" >}}
+Suppose you have 5 header pages, and each header page can store pointers to 30 data pages. What's the worst case I/O cost for inserting a record? *Do not* assume that an existing data page can hold the new data, but *do* assume that not all of the header pages are full.
+{{< /tab >}}
+{{< tab "Q2 Answer" >}}
+**7 I/Os.** In the worst case, all data pages are full, and all header pages are also full except for the very last one. So, the following must happen:
+ - Incur 5 I/Os reading each of the 5 header pages. Since the page directory implementation stores metadata about whether data pages are full or not, we don't have to actually read in the data pages.
+ - Create a new data page, and write it to disk, incurring 1 I/O.
+ - Update the last header page with a pointer to the new page, incurring 1 I/O.
+{{< /tab >}}
+{{< /tabs >}}
 
 {{< tabs "q3" >}}
 {{< tab "Question 3" >}}

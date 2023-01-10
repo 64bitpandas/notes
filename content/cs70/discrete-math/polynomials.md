@@ -1,4 +1,7 @@
-# Polynomials
+---
+title: "Polynomials"
+weight: 970
+---
 
 ## Introduction
 

@@ -49,7 +49,7 @@ In order to do this, we'll choose a **load ratio** at which to resize. This load
 
 When resizing, we must **recompute all the hash codes** so that we can balance out all of the buckets again.
 
-This has some cool runtime implications that are closely related to [Amortization](../asymptotics/amortization.md). Like what happened in the dynamically resizing array, resizing hash tables like this is also a $\Theta(1)$ operation. Nice!
+This has some cool runtime implications that are closely related to [Amortization](/cs61b/asymptotics/amortization.md). Like what happened in the dynamically resizing array, resizing hash tables like this is also a $\Theta(1)$ operation. Nice!
 
 ## Java Hash Tables
 

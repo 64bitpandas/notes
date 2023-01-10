@@ -1,7 +1,7 @@
 
 > [!info] Content Note
 >
-> Please read [Binary Trees](./) before continuing!
+> Please read [Binary Trees](/cs61b/binary-trees) before continuing!
 
 
 **Balanced Binary Search Trees** are an even more specific subcategory of binary trees that have an important property: **they are always bushy.**

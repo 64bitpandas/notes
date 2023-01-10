@@ -1,4 +1,7 @@
-# Overview
+---
+title: "Discrete Math Overview"
+weight: -1
+---
 
 ## What even is discrete math?
 

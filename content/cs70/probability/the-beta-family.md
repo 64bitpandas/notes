@@ -1,4 +1,6 @@
-# The Beta Family
+---
+weight: 80
+---
 
 The Beta distribution is a family of continuous distributions on \[0,1] with two parameters (commonly known as $\alpha$ and $\beta$, but also $r$ and $s$).
 

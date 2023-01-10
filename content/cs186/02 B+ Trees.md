@@ -1,3 +1,8 @@
+---
+title: "B+ Trees"
+weight: 20
+---
+
 ## Relevant Materials
  - [Note 4](https://notes.bencuan.me/cs186/coursenotes/n04-B+Trees.pdf)
  - [Discussion 3](https://docs.google.com/presentation/d/1sOlfZVFGWWl4xFW4X22L8uESvvb7SJYER8PEfRy1Wcg/edit): view this for B+ tree algorithm walkthroughs!

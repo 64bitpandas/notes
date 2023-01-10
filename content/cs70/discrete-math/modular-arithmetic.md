@@ -1,10 +1,13 @@
-# Modular Arithmetic
+---
+title: "Modular Arithmetic"
+weight: 950
+---
 
 ## What is Modular Arithmetic?
 
 Modular arithmetic is "clock math" - that is, when numbers wrap around back to 0 if they get too big. You could think about it like a **remainder:** $21 \pmod{10}$ for example can be read as "what is the remainder of 21 when it is divided by 10?" (it's 1, by the way.)
 
-This is an important concept in many aspects of computer science, namely [cryptography](rsa-cryptography.md) and [error correction](polynomials.md) among many others.
+This is an important concept in many aspects of computer science, namely [cryptography](/cs70/discrete-math/rsa-cryptography.md) and [error correction](/cs70/discrete-math/polynomials.md) among many others.
 
 ## Key Ideas
 
@@ -74,7 +77,16 @@ In other words, the GCD can be written as a scalar multiple of x and y. Since we
 
 The process can be tedious to compute by hand, but here's a nice video that walks through that process:
 
-{% embed url="https://www.youtube.com/watch?v=6KmhCKxFWOs" %}
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/6KmhCKxFWOs"
+    frameborder="0"
+    allow="encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
 
 ## The Chinese Remainder Theorem
 
@@ -92,22 +104,15 @@ Let $n_1 \cdots n_k$be positive coprime integers. (Any two of them must be relat
 
 Let $n_1, \ldots n_k$ be pairwise co-prime, i.e. $n_i$ and $n_j$ are co-prime for all $i \neq j$. The Chinese Remainder Theorem (CRT) tells us that there exist solutions to the following system of congruences:
 
-$
-\begin{align} 
-x &\equiv a_1 \pmod{n_1} \tag{1} \\
-x &\equiv a_2 \pmod{n_2} \tag{2} \\
-&\vdots \tag{$\vdots$} \\
- x &\equiv a_k \pmod{n_k} \tag{$k$} 
-\end{align}
-$
+![crt](../img/assets/crt.jpg)
 
 #### Uniqueness of CRT Solution
 
 Not only do we know that there is a unique solution $x$, but we can actually write out its exact value! Here it is:
 
-$
+$$
 x = \sum_{i=1}^k a_i b_i \pmod{N}
-$
+$$
 
 In this sum, $b_i = (\frac{N}{n_i}) \cdot (\frac{N}{n_i})^{-1} \mod n_i)$ , and $N$is the product of all primes $n_1, \cdots n_k$.  This sum is congruent to $a_i \mod n_i$for all valid values of $i$.
 
@@ -115,9 +120,15 @@ In this sum, $b_i = (\frac{N}{n_i}) \cdot (\frac{N}{n_i})^{-1} \mod n_i)$ , and 
 
 The Chinese Remainder Theorem often ties well together with the Extended Euclidean Algorithm, since we would need to find lots of inverse mods for each $b_i$. Also like the Extended Euclidean Algorithm, it's very hard to demonstrate the computation on a static webpage so here's another good video walkthrough!
 
-{% embed url="https://www.youtube.com/watch?v=zIFehsBHB8o" %}
-
-
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/zIFehsBHB8o"
+    frameborder="0"
+    allow="encrypted-media"
+    allowfullscreen
+>
+</iframe>
 
 ## Fermat's Little Theorem
 
@@ -133,5 +144,5 @@ If we multiply both sides by $a$, we can actually drop the restriction to $a$ an
 
 For prime $p$ and any integer $a$, $a^p \equiv a \pmod{p}$.
 
-For an application of Fermat's Little Theorem, head over to [RSA Cryptography](rsa-cryptography.md)!
+For an application of Fermat's Little Theorem, head over to [RSA Cryptography](/cs70/discrete-math/rsa-cryptography.md)!
 

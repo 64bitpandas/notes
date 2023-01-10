@@ -11,7 +11,7 @@ There are two main categories of objects in Java: **Primitive Types** and **Refe
 
 If you remember [environment diagrams](http://albertwu.org/cs61a/notes/environments), you may recall that some variables are put straight into the boxes, while others have an arrow pointing to them. The reason for this is that it actually denotes primitive vs. reference types! **Primitive types go straight in the box** because they aren't mutable (i.e. you can't change the objects contained in the box since they're just constant literals like numbers).
 
-**There are 8 primitive types in Java.** Here's a table of their properties! (If you don't know what "signed" means, go to [Modular Arithmetic and Bit Manipulation](../misc-topics/modular-arithmetic.md).)
+**There are 8 primitive types in Java.** Here's a table of their properties! (If you don't know what "signed" means, go to [Modular Arithmetic and Bit Manipulation](/cs61b/misc-topics/modular-arithmetic.md).)
 
 | Type    | Bits | Signed | Default | Examples                      |
 | ------- | ---- | ------ | ------- | ----------------------------- |
@@ -24,10 +24,9 @@ If you remember [environment diagrams](http://albertwu.org/cs61a/notes/environme
 | float   | 32   | yes    | 0.0     | 1.23f, -1.23e10f, .001f       |
 | double  | 64   | yes    | 0.0     | 1.23e256d, 1e1d, 1.2e-10d     |
 
-{% hint style="info" %}
-**A quick aside on Strings 🧵**\
-You may have noticed that strings are not on this list. That is because unlike in Python, they aren't a primitive type! Under the hood, Strings are a reference type that are very similar to a char array.
-{% endhint %}
+> [!hint]  A quick aside on Strings 🧵
+>
+> You may have noticed that strings are not on this list. That is because unlike in Python, they aren't a primitive type! Under the hood, Strings are a reference type that are very similar to a char array.
 
 ## Type Conversion
 
@@ -61,10 +60,9 @@ For **primitive types,** `y = x` means "**copy** **the bits** from y into a new 
 
 For **reference types,** `obj1 = obj2` means "**copy the address** stored in obj1 to obj2". Here, `obj1` and `obj2` are referring to the **exact same object,** and mutating one will change the other.
 
-{% hint style="info" %}
-**A clarification on reference type assignment**
-
-By mutating, I mean changing the **internals** of an object (for example, accessing an array index or doing something like `obj1.value = 1`. If you change the actual **address** of `obj2`, as in `obj2 = obj3`, this does **not** change `obj1` because `obj2` is now referring to a completely different object!
+> [!info] A clarification on reference type assignment
+>
+> By mutating, I mean changing the **internals** of an object (for example, accessing an array index or doing something like `obj1.value = 1`. If you change the actual **address** of `obj2`, as in `obj2 = obj3`, this does **not** change `obj1` because `obj2` is now referring to a completely different object!
 {% endhint %}
 
 ## The Object Class

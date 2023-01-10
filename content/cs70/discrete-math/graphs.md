@@ -1,8 +1,10 @@
-# Graphs
+---
+weight: 940
+---
 
-{% hint style="info" %}
-This is a second introduction to graphs that assumes you've at least seen them before. Take a look at the [61B version](https://cs61b.bencuan.me/abstract-data-types/graphs) if you feel lost!
-{% endhint %}
+> [!info] Content Note
+>
+> This is a second introduction to graphs that assumes you've at least seen them before. Take a look at the [61B version](/cs61b/abstract-data-types/graphs) if you feel lost!
 
 ## What's a graph?
 
@@ -141,6 +143,8 @@ Although nonplanar graphs don't share many of the nice properties planar graphs 
 
 There are two famous non-planar graphs that are worth taking a look into:
 
+![nonplanar graphs](../img/assets/nonplanar.png)
+
 #### K3,3
 
 $K_{3,3}$is also known as the "utility graph" because of its connection to a popular puzzle: given 3 houses and 3 utilities (water, gas, electric), how can we draw a line connecting each house to every utility without having any of the lines cross?
@@ -163,7 +167,7 @@ A striking fact: **ALL non-planar graphs contain either** $K_5$**or** $K_{3,3}$*
 
 A **graph coloring** assigns a color to each vertex such that **every edge has two different colors** on its two endpoints:
 
-Often, we would like to figure out the **minimum number of colors** (categories) **** it takes to properly color a graph. This could have many uses, from [register allocation](https://en.wikipedia.org/wiki/Register\_allocation) to [solving sudoku puzzles](https://medium.com/code-science/sudoku-solver-graph-coloring-8f1b4df47072).
+Often, we would like to figure out the **minimum number of colors** (categories) it takes to properly color a graph. This could have many uses, from [register allocation](https://en.wikipedia.org/wiki/Register\_allocation) to [solving sudoku puzzles](https://medium.com/code-science/sudoku-solver-graph-coloring-8f1b4df47072).
 
 ### Six Color Theorem
 

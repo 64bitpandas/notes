@@ -1,7 +1,7 @@
 
 > [!warning] Warning
 >
-> This page is incomplete. [help make it better!](contributing.md)
+> This page is incomplete. [help make it better!](/contributing.md)
 
 ## Basics
 

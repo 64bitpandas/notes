@@ -1,4 +1,6 @@
-# Counting
+---
+weight: 10
+---
 
 ## Introduction
 
@@ -28,7 +30,15 @@ In order to tackle these types of problems, we'll need to introduce the **combin
 
 ## Stars and Bars
 
-{% embed url="https://www.youtube.com/watch?v=UTCScjoPymA" %}
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/UTCScjoPymA"
+    frameborder="0"
+    allow="encrypted-media"
+    allowfullscreen
+>
+</iframe>
 
 When we need to split items into groups, it's sometimes nice to add **bars** that separate the items. This is great if there are particular classes of items rather than unique ones (if they're unique, just use slots.)
 

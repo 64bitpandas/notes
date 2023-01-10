@@ -1,4 +1,6 @@
-# Proofs
+---
+weight: 920
+---
 
 ## Introduction
 
@@ -12,7 +14,7 @@ In direct proofs, we can use the **definitions** directly to show that something
 
 **Direct Proof Form:**
 
-* **Goal:** $P \iff Q$****
+* **Goal:** $P \iff Q$
 * **Assume P.**
 * Do a bunch of steps using the definitions and assumptions created by the values and operators used.
 * **Therefore Q.**
@@ -24,11 +26,11 @@ Let $D_3$be the set of 3 digit natural numbers. Show that for all $n \in D_3$, i
 * First, let's make sure this makes sense. Let's try some examples:
   * if $n=605$, then $n$is divisible by 11. Its alternate sum is $6 - 0 + 5 = 11$. $11$is indeed divisible by 11, so this looks like it could be true!
 * Next, let's write this in propositional logic:
-  * $\forall n \in D_3, (11 \mid \mbox{alt sum of digits of n}) \implies 11 \mid n$
+  * $\forall n \in D_3, (11 \mid$ alt sum of digits of n $) \implies 11 \mid n$
 * Now, let's try to prove it starting with assuming that all $n$ are 3 digit natural numbers.
   * Let $a, b,$and $c$ represent the three digits of $n$such that $n = 100a + 10b + c$.
   * If the alternating sum of digits is divisible by 11, then $11 \mid a - b + c$.
-  * Using the definition of division, $a - b + c = 11k$for some natural number k. We're trying to prove that $n = 100a + 10b + c = 11m$for another integer $m$as well!
+  * Using the definition of division, $a - b + c = 11k$for some natural number k. We're trying to prove that $n = 100a + 10b + c = 11m$ for another integer $m$ as well!
   * Solve for $c$using the alternating sum to get $c = 11k + b - a$. Substitute this value into the second equation to get $100a + 10b + 11k + b - a = 11m$. Simplifying, this equation is equivalent to $99a + 11b + 11k = 11m$.
   * We know that **this must be true** because each individual term is multiplied by a number divisible by 11. Therefore, the entire number must also be divisible by 11.
 
@@ -38,14 +40,14 @@ As a reminder, the **contrapositive** of a statement $P \implies Q$is $\lnot Q \
 
 **Contraposition Form:**
 
-* **Goal:** $P \implies Q$****
+* **Goal:** $P \implies Q$
 * **Assume** $\lnot Q$.
 * Do a bunch of steps using another type of proof.
 * **Therefore** $\lnot P$.
 
 **Example:**
 
-For every $n \in \mathbb{N}, n^2 \mbox{even} \implies n \mbox {even}$
+For every $n \in \mathbb{N}, n^2$ even $\implies n$ even
 
 * If we try proving using a direct proof, we'll have to deal with the squared term (and square roots)! This might get nasty; we'd rather deal with the nicer right side.
 * First, let's find the **contrapositive of Q.** Q is "n is even", so the contrapositive is "n is odd".
@@ -62,7 +64,7 @@ Contradiction is a great choice for proving things that have **infinitely many c
 
 **Contradiction Form:**
 
-* **Goal:** $P \implies Q$****
+* **Goal:** $P \implies Q$
 * **Assume** $\lnot P$.
 * Do some steps here.
 * **Therefore,** $\lnot P$**is a contradiction.**

@@ -43,10 +43,10 @@ This content was ported from my original [61B Notes](https://cs61b.bencuan.me), 
 
 There are also plenty of practice problems to try out! Here's an non-exhaustive list of pages with those if you are mostly interested in them and not the conceptual content.
 
-* [Access Control](oop/access-control.md#practice)
-* [Dynamic Method Selection](oop/dynamic-method-selection.md)
-* [Generic Types](oop/generics.md#generic-subtypes)
-* [Asymptotics Practice](asymptotics/asymptotics-practice.md)
+* [Access Control](/cs61b/oop/access-control.md#practice)
+* [Dynamic Method Selection](/cs61b/oop/dynamic-method-selection.md)
+* [Generic Types](/cs61b/oop/generics.md#generic-subtypes)
+* [Asymptotics Practice](/cs61b/asymptotics/asymptotics-practice.md)
 
 
 
@@ -54,7 +54,7 @@ There are also plenty of practice problems to try out! Here's an non-exhaustive 
 
 See the [contributing guide](/contributing) for more details!
 
-The pages that could be most improved (in no particular order) are [Union Find (Disjoint Sets)](abstract-data-types/union-find-disjoint-sets.md), [Stacks and Queues](abstract-data-types/collections/stacks-and-queues.md), [Linked Lists](abstract-data-types/collections/linked-lists.md), [Sets](abstract-data-types/collections/sets.md), [Sorting](algorithms/sorting.md), [Searching](algorithms/searching.md), [Binary Search](algorithms/searching/binary-search.md), [Shortest Paths](algorithms/shortest-paths/), and [Exceptions](misc-topics/exceptions.md). Feel free to add whatever content you like (explanations, examples, practice problems, memes...) to these!
+The pages that could be most improved (in no particular order) are [Union Find (Disjoint Sets)](/cs61b/abstract-data-types/union-find-disjoint-sets), [Stacks and Queues](/cs61b/abstract-data-types/collections/stacks-and-queues), [Linked Lists](/cs61b/abstract-data-types/collections/linked-lists), [Sets](/cs61b/abstract-data-types/collections/sets), [Sorting](algorithms/sorting), [Searching](/cs61b/algorithms/searching), [Binary Search](/cs61b/algorithms/searching/binary-search), [Shortest Paths](/cs61b/algorithms/shortest-paths/), and [Exceptions](/cs61b/misc-topics/exceptions). Feel free to add whatever content you like (explanations, examples, practice problems, memes...) to these!
 
 Additionally, there are plenty of topics (Regex, Testing, Files/Scanners, Ranges, GUI just to name a few) that aren't currently covered in this guide. If you want to add one of these topics, please create an issue first but it will almost certainly be approved.
 

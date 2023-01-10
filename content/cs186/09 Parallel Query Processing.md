@@ -1,4 +1,11 @@
+---
+title: "Parallel Query Processing"
+weight: 90
+---
+
 ## Relevant Materials
+ - [Note 15](https://notes.bencuan.me/cs186/coursenotes/n15-PQP.pdf)
+ - [Discussion 11](https://docs.google.com/presentation/d/1QhHHveYGIzGynJdRyli5XnyXkNt2c_FX9AWtn5t1fQE/edit#slide=id.g12051cee1a3_0_2249)
 
 ## Parallelism
 
