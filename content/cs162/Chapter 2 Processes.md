@@ -1,4 +1,6 @@
-# Chapter 2. Processes
+---
+title: "Chapter 2: Processes"
+---
 
 # The Process Abstraction
 
@@ -124,9 +126,4 @@ To circumvent this protection, there are several methods:
 - Implemented as a fixed-size queue
 - EOF received when the last write descriptor is closed
 
-## Creating Processes
-
 **Threads are lighter (share data), processes are more strongly isolated**
-
-> Q2.1.
->

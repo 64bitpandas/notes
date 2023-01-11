@@ -1,5 +1,6 @@
-# Chapter 6. Scheduling
-
+---
+title: "Chapter 6: S cheduling"
+---
 # Introduction
 
 When multiple tasks need to be done on a single CPU, we need to figure out a way to distribute the work done by the CPU across all of the tasks. 

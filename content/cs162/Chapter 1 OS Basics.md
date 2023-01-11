@@ -1,4 +1,6 @@
-# Chapter 1. OS Basics
+---
+title: "Chapter 1: OS Basics"
+---
 
 # What is an operating system?
 

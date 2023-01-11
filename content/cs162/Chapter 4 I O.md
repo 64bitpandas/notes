@@ -1,4 +1,6 @@
-# Chapter 4. I/O
+---
+title: "Chapter 4: I/O"
+---
 
 # UNIX Abstraction: Everything is a File
 

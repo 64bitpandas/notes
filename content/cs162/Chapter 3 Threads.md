@@ -1,4 +1,6 @@
-# Chapter 3. Threads
+---
+title: "Chapter 3: Threads"
+---
 
 # The Thread Abstraction
 

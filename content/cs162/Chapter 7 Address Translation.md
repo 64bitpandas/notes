@@ -1,4 +1,6 @@
-# Chapter 7. Address Translation
+---
+title: "Chapter 7: Address Translation"
+---
 
 # Introduction
 

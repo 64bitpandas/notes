@@ -1,4 +1,6 @@
-# Chapter 5. Synchronization
+---
+title: "Chapter 5: Synchronization"
+---
 
 ## Race Conditions and Locks
 

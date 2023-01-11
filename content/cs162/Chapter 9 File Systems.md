@@ -1,4 +1,6 @@
-# Chapter 9. File Systems
+---
+title: "Chapter 9: File Systems"
+---
 
 # I/O
 

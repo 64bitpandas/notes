@@ -1,4 +1,6 @@
-# Chapter 8. Caching
+---
+title: "Chapter 8: Caching"
+---
 
 # Introduction
 

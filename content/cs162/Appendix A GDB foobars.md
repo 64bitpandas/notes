@@ -1,4 +1,6 @@
-# Appendix A: GDB foobars
+---
+title: "GDB Reference"
+---
 
 Run with args: `r <args>`
 
