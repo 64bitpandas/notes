@@ -1,5 +1,5 @@
 ---
-title: "CS 162"
+title: "CS 162: Operating Systems"
 BookCollapseSection: true
 ---
 

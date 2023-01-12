@@ -18,21 +18,16 @@ Here, you'll find a wide variety of content from basic concepts, practice proble
 Here are the courses that I currently have notes available for, and their statuses:
 
  - [CS 61B: Data Structures and Algorithms](cs61b/): full guide available for all course content, based on the Spring 2020 offering
+ - [CS 70: Discrete Math](cs70/): full guide available for discrete math; partial index available for probability. Based on the Fall 2020 offering
+ - [CS 186: Intro to Databases](cs186/): full guide available for all topics except NoSQL and FD's/Normalization. Based on the Fall 2022 offering
+ - [CS 162: Operating Systems](cs162/): course notes available for most topics. Based on the Fall 2021 offering
+ - [CS 168: Intro to the Internet](cs168/): course notes available for most topics. Based on the Fall 2022 offering
+ - [CS 61A: Structure and Interpretation of Computer Programs](cs61a/): resource index and meta-guide available. No course notes.
+ - [Data 102: Data, Inference, Decisions](data102/): course notes available for most topics. Based on the Fall 2022 offering
 
+Although I have personal notes for many other classes, they do not meet my quality standards for making them public at this time. If I have time at some point in the distant future, they may make an appearance, but don't count on this happening anytime soon.
 
-Here are courses that I am currently working on publishing notes for:
- - CS 70: Discrete Math notes available, Probability notes are nonexistent due to how good the Data 140 textbook is
- - CS 61A: creating an incomplete guide (will not cover all course content, since)
- - CS 186: currently under review
- - Data 102: complete, needs review
- - CS 168: complete, needs review
- - CS 188: mostly complete, needs review
- - CS 162: mostly complete, needs review
- - MCB C61: textbook companion available, needs introduction
-
-Here are some future notes that I may work on at some point:
- - Comprehensive psychology major notes (Psych 101, 114, 124, C126, C127, 131, 140, C143, 150)
- - Other CS courses that I have incomplete notes for (61C, 170, 161)
+If you made your own notes/resources for a CS, Data Science, or EE course and would like me to put a link to them here, let me know ([[contributing]])!
 
 ## Basic Principles
 

@@ -1,5 +1,5 @@
 ---
-linkTitle: "CS 186"
+linkTitle: "CS 186: Databases"
 title: "Welcome to CS186!"
 weight: 30
 BookCollapseSection: true

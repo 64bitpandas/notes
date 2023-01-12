@@ -1,6 +1,6 @@
 ---
 title: Welcome to CS61B!
-linktitle: CS 61B
+linktitle: "CS 61B: Data Structures"
 bookCollapseSection: true
 weight: 10
 ---

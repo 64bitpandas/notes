@@ -1,5 +1,5 @@
 ---
-title: "Data 102"
+title: "Data 102: Inference"
 BookCollapseSection: true
 ---
 

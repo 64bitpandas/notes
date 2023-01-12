@@ -1,5 +1,5 @@
 ---
-title: "CS 168"
+title: "CS 168: The Internet"
 BookCollapseSection: true
 ---
 
