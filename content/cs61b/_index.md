@@ -2,7 +2,7 @@
 title: Welcome to CS61B!
 linktitle: CS 61B
 bookCollapseSection: true
-weight: 20
+weight: 10
 ---
 
 # Welcome to my CS61B Guide!

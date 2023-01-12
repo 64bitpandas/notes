@@ -1,6 +1,7 @@
 ---
 linkTitle: "CS 70"
 BookCollapseSection: true
+weight: 20
 ---
 
 ## Welcome to my CS70 Guide!
