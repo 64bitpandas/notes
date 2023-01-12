@@ -1,4 +1,6 @@
-
+---
+weight: 70
+---
 ## What does nonparametric mean?
 
 Nonparametric methods make no assumptions about the distribution of the data or parameters; the null hypothesis is solely generated based on the data.
@@ -31,7 +33,7 @@ In this case, we must assume several things, such as linearity of data and the f
 On the other hand, K-nearest neighbors finds the $k$ points in the training set closest to a particular value, and uses majority vote at their $y$ values. KNN makes no assumptions about the underlying distribution other than that the training data is representative of the population/test data.
 
 Here's an example of some data that's not linearly separable in which logistic regression fails, but KNN is effective:
-![[Pasted image 20221017132113.png]]
+![[/data102/img/Pasted image 20221017132113.png]]
 
 
 **Pros:**
@@ -62,4 +64,56 @@ Random forests also have the benefit of controlling the depth of trees: when the
 
 ## Neural Networks
 
-![[09 Neural Networks]]
+**General idea:** Combine multiple simple regression models together to increase complexity of the overall model.
+
+### Gradient Ascent and Descent
+
+**The difference:** gradient ascent maximizes a log-likelihood function; gradient descent minimizes a loss function.
+
+Gradient Ascent algorithm:
+
+```python
+randomly init w
+while w not converged:
+	for weight in w:
+		weight = weight + learning_rate * gradient(log_likelihood(w), weight)
+```
+
+- convergence is when gradient = 0, or no change occurs between two runs
+- $w$ is a vector of $N$ weights
+- `gradient(log_liklihood(w), weight)` represents the operation $\nabla_{weight} \log l(\bold{w})$, which returns a vector of $N$ partial derivatives $\partial_{weight} \log l(w_i)$ for every weight $w_i$.
+
+Gradient Descent algorithm:
+
+```python
+randomly init w
+while w not converged:
+	for weight in w:
+		weight = weight - learning_rate * gradient(loss(y, x, w), weight)
+```
+
+- Basically the same as gradient ascent, except subtract the gradient of loss instead of adding the gradient of log likelihood.
+
+**Stochastic gradient ascent/descent:** only take one data point at a time to calculate the gradient. May cause inaccurate results.
+
+**Batch gradient ascent/descent:** Randomly takes a batch size of $m$ data points each time to compute the gradients. Good compromise in terms of performance and accuracy.
+
+### Multilayer Perceptron
+
+**Main idea:** make perceptrons take outputs from other perceptrons as their input.
+
+![Untitled](img/Untitled.png)
+
+**Universal functional approximator theorem:** a two-layer neural network with enough neurons can approximate any continuous function to any desired accuracy.
+
+In order to approximate nonlinear functions, each layer is separated by a nonlinear operator. Traditional neural nets have used the sigmoid function $\sigma(x) = \frac{1}{1 + e^{-w^Tx}}$, but due to faster computation the ReLU (rectified linear unit) function is often used instead. The graphs of these two functions are as follows:
+
+For every layer, we wrap the parameters around a function call. For example, here is a 2-layer network:
+
+$$
+f(x) = relu(x \cdot W_1 + b_1) \cdot W_2 + b_2
+$$
+
+- $x$ is an $1 \times i$ input vector
+- $W_1$ and $W_2$ are $i \times h$ weight parameter matrices, where $h$ is the hidden layer size parameter
+- $b_1$ and $b_2$ are $1 \times h$ bias parameter vectors

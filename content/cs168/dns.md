@@ -1,3 +1,7 @@
+---
+weight: 130
+---
+
 DNS (domain name system) was created as a solution to make IP addresses human-readable for users. 
 
 In the early days, DNS took the form of a standardized address book called hosts.txt maintained by Elizabeth Feinler at the Network Information Center. This included an IP address, user-friendly name, and properties such as supported protocols. Whenever someone wanted to look up a name, they would query for hosts.txt. However, this got troublesome due to increased burden on the NIC team, high bandwidth usage as the number of hosts increased, and having a single point of failure.

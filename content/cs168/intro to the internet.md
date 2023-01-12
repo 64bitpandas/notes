@@ -1,4 +1,6 @@
-# Intro to the Internet
+---
+weight: 1
+---
 
 ## About this Class
 
@@ -40,7 +42,7 @@ Since ISPs are often competing and may not cooperate to create the optimal route
 
 **Hostnames** are human-readable identifiers (like a domain, google.com).
  - Hostnames don't provide information about the location of a host. However, they can correspond to IP addresses that do.
-![[Pasted image 20220826114154.png]]
+![[/cs168/img/Pasted image 20220826114154.png]]
 
 
 **The main job of the Internet is to transfer data between end hosts.** This is more difficult than it seems because there are many considerations:

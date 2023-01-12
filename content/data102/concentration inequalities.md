@@ -1,3 +1,6 @@
+---
+weight: 100
+---
 
 The goal of concentration inequalities is to provide bounds on the probability of a random variable taking values in its tail (regions farthest away from the mean).
 

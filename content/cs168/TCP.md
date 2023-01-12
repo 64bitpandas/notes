@@ -1,3 +1,8 @@
+---
+weight: 100
+title: "TCP"
+---
+
 ## The Transport Layer
 The transport layer (L4) is built directly on top of the networking layer. Many different protocols exist on the transport layer, most notably TCP and UDP.
 
@@ -11,14 +16,8 @@ The main tasks of the transport layer include:
  - Avoid overloading the receiver (flow control)
  - Avoid overloading the network
 
-
-
-## 161 Recap
-![[07 Networking#TCP]]
-
-
 ## TCP Segments
-![[Pasted image 20221017034540.png]]
+![[/cs168/img/Pasted image 20221017034540.png]]
 
 Individual bytes in the bytestream are divided into segments, which are sent inside of a packet. (A TCP packet is just an IP packet whose data contains a TCP header and segment data.)
 
@@ -28,7 +27,7 @@ The **maximum segment size** (MSS) is equal to the MTU - (size of IP header) - (
 ## TCP Sequence Numbers
 > **Important:** TCP operates on bytes, not packets. Sequence numbers, ACKs, window sizes, etc. are all expressed in terms of bytes.
 
-![[Pasted image 20221017034958.png]]
+![[/cs168/img/Pasted image 20221017034958.png]]
 
 
 ## TCP Properties
@@ -53,7 +52,7 @@ If Host A and Host B are connected via TCP, hosts A and B can both be senders an
 
 
 ## TCP States
-![[Pasted image 20221017040812.png]]
+![[/cs168/img/Pasted image 20221017040812.png]]
 
 ## Congestion Control Implementation
 
@@ -114,10 +113,10 @@ While in fast recovery:
 
 
 ### State Machine
-![[Pasted image 20221025184701.png]]
+![[/cs168/img/Pasted image 20221025184701.png]]
 
 TCP Sawtooth
-![[Pasted image 20221024112005.png]]
+![[/cs168/img/Pasted image 20221024112005.png]]
 
 
 ## TCP Throughput
@@ -130,7 +129,7 @@ Assume:
  - ignore slow start throughput
 
 Since we go between half of $W_{max}$ and full, the average window size per RTT is equal to $\frac{3}{4}W_{max}$. Therefore, the average throughput is $\frac{3}{4}W_{max} \times \frac{MSS}{RTT}$.
-![[Pasted image 20221031211322.png]]
+![[/cs168/img/Pasted image 20221031211322.png]]
 On average, our loss rate is $p=1/A$ (where A Is the area under the curve in one of the periods). Using this, we can see that the area $A$ is equal to $\frac{3}{8}W_{max}^2$.
 
 Solving for $W_{max}$ and plugging it into the average throughput equation yields this formula for average throughput:

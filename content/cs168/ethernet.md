@@ -1,3 +1,7 @@
+---
+weight: 150
+---
+
 ## Shared Media
 In a radio network, nodes use a shared medium (the electromagnetic spectrum). As such, transmissions from different nodes might collide with one another, so we need a **multiple access protocol** to allocate the medium between users.
 
@@ -83,7 +87,7 @@ Hosts typically cache results in an ARP table (Neighbor table), which is refresh
 
 ### Example
 Suppose we have the following network topology:
-![[Pasted image 20221213130109.png|300]]
+![[/cs168/img/Pasted image 20221213130109.png|300]]
 
 If H1 wants to send a packet to the IP address `10.0.0.2`:
 1. Check the prefix to see if it's on the same subnet. (it is)
@@ -111,7 +115,7 @@ DHCP servers are added to the network, either as standalone or as a part of a ro
 The DHCP server leases IP addresses to hosts. If the lease is not renewed, the IP address will be returned to the pool and can be assigned to another host.
 
 ### DHCP handshake
-![[Pasted image 20221210183624.png]]
+![[/cs168/img/Pasted image 20221210183624.png]]
 
 Notes:
  - Discovery and request packets are **broadcast** by hosts, and have source IP 0.0.0.0, destination IP 255.255.255.255. This is because DHCP is built on IP, but no IP addresses are initially known.

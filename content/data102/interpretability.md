@@ -1,4 +1,6 @@
-
+---
+weight: 80
+---
 ## What do we look for in predictions?
 **Accuracy:** We want predictions to be close to the true values.
 **Simplicity:** We want the model to be easy to understand and trust.

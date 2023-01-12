@@ -1,3 +1,7 @@
+---
+weight: 40
+---
+
 
 Suppose we observe $n$ data points ($x_1$ to $x_n$).
 Let $\theta$ be some unknown parameter that describes the distribution the data points were sampled from.
@@ -8,13 +12,25 @@ As an example, let's say we are trying to quantify how good a product is based o
 
 
 ## Maximum Likelihood Estimation (MLE)
+[http://prob140.org/textbook/content/Chapter_20/01_Maximum_Likelihood.html](http://prob140.org/textbook/content/Chapter_20/01_Maximum_Likelihood.html)
+
+
 In a Frequentist approach, $\theta$ is fixed, so our goal is to find the best estimate for $\theta$ using the data given.
 
 Recall that **likelihood** is the probability of the data given the parameter, $$p(x_i | \theta)$$
 
-![[08 Machine Learning#Maximum Likelihood Estimation]]
 
+**Goal:** Given an iid sample of $N$ points $x_1, \cdots, x_N$, and a distribution described by a parameter $\theta$, what’s the value of $\theta$ that gives the highest probability of this set of points occurring in the probability distribution? (i.e. we want to maximize likelihood value)
 
+- Formal definition: find $\theta$ that maximizes $L(\theta) = \prod_{i=1}^N P_\theta(x_i)$, where $P_\theta$ is the probability of one data point $x_i$ occurring given a value of $\theta$.
+- $MLE(\theta | X=x) = argmax_\theta P(X=x|\theta) = argmax_\theta \ln P(X=x | \theta)$
+- Occurs when $\frac{\partial}{\partial \theta} L(\theta) = 0$
+- Calculating derivatives of products is pain, so we can monotonically transform the likelihood function using $\log$. Since $\max(f(x)) = \max(\log(f(x))$ we can find the maximum of the **log likelihood function:** $\log L(\theta)$
+
+Using MLE to predict CPT values given data points:
+
+- $P(Y=y) = MLE(\theta | (X,Y))$ = (# data points with $X=x$) / (# data points total)
+- $P(X=x|Y=y) = MLE(\theta | (X,Y))$ = (# data pooints where ($X=x, Y=y$) ) / (# data points where $Y=y$)
 
 ## Bayesian Parameter Estimation
 Now, $\theta$ is random. We then need to specify a **prior** $p(\theta)$ that represents what we believe the distribution for $\theta$ might look like.

@@ -1,4 +1,8 @@
-# Networking Command Line Tools
+---
+weight: 20
+linkTitle: "CLI Tools"
+title: "Networking Command Line Tools"
+---
 
 ## nslookup
 Resolves a hostname to an IP address (or the reverse).

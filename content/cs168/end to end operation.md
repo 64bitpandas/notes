@@ -1,10 +1,13 @@
+---
+weight: 160
+---
 
 Suppose we have the following scenario:
  - Host H1 boots up
  - Fetches small file from H5
  - Goes idle
  - Fetches two small files from H2
-![[Pasted image 20221210190305.png]]
+![[/cs168/img/Pasted image 20221210190305.png]]
 
 
 Here's what will happen:

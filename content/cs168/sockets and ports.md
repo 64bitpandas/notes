@@ -1,4 +1,6 @@
-# Sockets and Ports
+---
+weight: 70
+---
 
 ## Network Ports
 Switches and routers have **physical ports** where links connect to switches.

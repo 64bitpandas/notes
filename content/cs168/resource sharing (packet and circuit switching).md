@@ -1,4 +1,7 @@
-# Resource Sharing
+---
+weight: 50
+title: "Resource Sharing"
+---
 
 ## Statistical Multiplexing
 

@@ -1,3 +1,7 @@
+---
+weight: 110
+---
+
 **Main idea:** making repeated decisions based on feedback, factoring in the tradeoff between exploring new decisions or keeping existing good decisions
 
 ### Multi-Armed Bandit Framework

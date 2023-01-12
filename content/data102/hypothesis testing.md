@@ -1,3 +1,7 @@
+---
+weight: 20
+---
+
 ## Hypothesis Testing
 Hypothesis testing is a form of [[binary decision making]] (do we accept or reject the null hypothesis?).
 
@@ -27,7 +31,7 @@ If the null hypothesis is actually true, then the probability of obtaining any p
  - Issue: if we choose $p = 0.05$, we should expect that 1 in 20 tests will have a false positive result (https://xkcd.com/882/).
  - This is linked to the replication crisis (scientists pick and choose one test out of many, which increases the likelihood that it is a false positive).
  - Choosing the threshold = balancing false positives and false negatives. This tradeoff is context dependent. 
-	 - Larger threshold = fewer false negatives, more false positives (we don't actually know in most cases though) ![[Pasted image 20220902134338.png|400]]
+	 - Larger threshold = fewer false negatives, more false positives (we don't actually know in most cases though) ![[/data102/img/Pasted image 20220902134338.png|400]]
 
 ### Multiple Hypothesis Testing
 When conducting multiple NHST's, we need a way to measure an error rate that's related to *all* of the tests (since we're likely to see false positives).
@@ -66,7 +70,7 @@ General steps:
 3. Find the largest p-value under the line and use this as the threshold
 
 In the below example, we would set the B-H threshold to around .008, since that's where the biggest p-value exists still under the line.
-![[Pasted image 20220902140526.png]]
+![[/data102/img/Pasted image 20220902140526.png]]
 
 **Proof of Benjamini-Hochberg**: why does B-H control FDR?
 
@@ -106,7 +110,7 @@ However, we can't use B-H because we need to sort all of the tests' p-values bef
 
 
 ### LORD Procedure
-![[Pasted image 20220906144024.png]]
+![[/data102/img/Pasted image 20220906144024.png]]
 
 Breaking down this algorithm:
 - $\gamma_t$ gets smaller (decays) over time.

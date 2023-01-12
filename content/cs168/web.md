@@ -1,3 +1,7 @@
+---
+weight: 140
+---
+
 ## Origins
 In 1989, Tim Berners-Lee set out to solve a problem: there was a lot of information being stored digitally, and no way to find or access much of it. He created "Information Management: A Proposal" in which the concept of the "web" was first established.
 
@@ -97,7 +101,7 @@ Additional settings:
  - If-Modified-Since: (date)
 	 - If a resource has changed since date, respond with latest version. Otherwise, respond with 304 (not modified)
 
-![[Pasted image 20221108140614.png]]
+![[/cs168/img/Pasted image 20221108140614.png]]
 
 
 **Proxy servers** make requests on behalf of clients. This creates an extra layer of caching that can server multiple clients more quickly.

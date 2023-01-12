@@ -1,3 +1,7 @@
+---
+weight: 110
+---
+
 In general, the network is best-effort, meaning that packets are not guaranteed to be delivered successfully. How do we build reliability on top of an unreliable network?
 
 ## Semantics of correct delivery
@@ -10,11 +14,11 @@ The reliability goals of the transport and application layer are not guaranteed 
 
 
 ### Sending and receiving
-![[Pasted image 20221017030035.png|500]]
+![[/cs168/img/Pasted image 20221017030035.png|500]]
 **One way delay** is the amount of time it takes for a packet to reach the reciever from the sender; **Round trip time** is the amount of time it takes for a packet to go both to and from the receiver.
 
 Packets can be duplicated in this example, where the acknowledgement message was lost and so the sender retransmitted the data:
-![[Pasted image 20221017030246.png]]
+![[/cs168/img/Pasted image 20221017030246.png]]
 
 An **ack** represents an acknowledgement of a successful receipt of a packet; a **nack** (negative ack) represents a failure message saying that the packet was corrupted.
 
@@ -77,7 +81,7 @@ Rather than sending one ack corresponding to each individual packet, full inform
 
 Full information ACKs can get very long, so as a compromise we can just send a **cumulative ACK** with only the first of the two parts of the full information ACK. Cumulative acks tell senders how many packets to send, but not which ones to resend because they don't tell the sender exactly which packets were received. For example, if the ACK "n <= 4" was sent 3 times, we know that a packet must have been lost, but it could have been any number greater than 4.
 
-![[Pasted image 20221017032837.png]]
+![[/cs168/img/Pasted image 20221017032837.png]]
 
 
 ### Go Back N

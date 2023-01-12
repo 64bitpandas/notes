@@ -1,5 +1,7 @@
-# How the Internet is Organized: a high-level overview
-See also: [[07 Networking]] (cs161)
+---
+weight: 60
+title: "Internet Organization"
+---
 
 
 Currently, five internet layers exist:
@@ -23,18 +25,18 @@ This is the main difference between local (single network) and global (multi net
 Communication throughout the internet is standardized into **protocols**, which are agreements between parties on how to communicate.
 
 Protocols include both the syntax (how the data is formatted) and the semantics (how the data corresponds to states). They exist at many levels:
-![[Pasted image 20220907173818.png]]
+![[/cs168/img/Pasted image 20220907173818.png]]
 
 The primary benefit of having so many layers is abstraction- each layer only needs to deal with its specific assignment, and assume that all lower layers carry out their assignments.
 
 All layers need to be implemented on the end-host, in order to convert bits into application data. 
-![[Pasted image 20220907174540.png|500]]
+![[/cs168/img/Pasted image 20220907174540.png|500]]
 
 However, only L3 and below are supported by the network because the network does not support reliable delivery.
  - More specifically, switches implemented L1 and L2, and routers implemented L1, L2, and L3.
 
 Below is an example of a protocol diagram:
-![[Pasted image 20220907182007.png]]
+![[/cs168/img/Pasted image 20220907182007.png]]
 Notice that the datalink layers (ethernet, OTN) never communicate directly between each other; they send their information up to the IP network layer to be translated.
 
 ## End to End Principle

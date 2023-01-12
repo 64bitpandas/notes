@@ -1,6 +1,10 @@
+---
+weight: 170
+---
+
 ## Part 1
 
-Original questions: [[cs168_final_review_fa22.pdf]]
+Original questions: [final review part 1](https://notes.bencuan.me/cs168/cs168_final_review_fa22.pdf)
 
 ### 1.1
 **less aggressive** than normal TCP. 
@@ -34,7 +38,7 @@ Here's the sketch of a TCP connection between your computer (H) and the Gradesco
 
 ### 3
 Start with CWND=1 and SSTHRESH=50. All constants are in terms of numbers of MSS.
-![[Pasted image 20221213144250.png]]
+![[/cs168/img/Pasted image 20221213144250.png]]
 
 1. 9 ACKs are receieved: CWND += 9, so it becomes 10. (slow start)
 2. 8 ACKs are received: CWND += 8, so it becomes 18. (slow start)
@@ -94,7 +98,7 @@ $6 \times (1-p_D) = 5$
 $1 - p_D = 5/6$ so $p_D = 1/6$ 
 
 ### 5
-![[Pasted image 20221213145743.png]]
+![[/cs168/img/Pasted image 20221213145743.png]]
 
 #### 5.1
 If $A_1$ wants to message $A_3$, it will need to broadcast an ARP request to all hosts in A-Net. So $A_2, A_3, R_A$ will all see the request.
@@ -119,7 +123,7 @@ $R_A$ will have $A_1$ cached from its broadcast from 5.1, and $A_3$ cached from 
 
 ### 6
 Recall that DHCP has 4 parts:
-![[Pasted image 20221210183624.png|300]]
+![[/cs168/img/Pasted image 20221210183624.png|300]]
 1. Discovery is broadcast (source 0.0.0.0 since no IP is known yet, and destination is 255.255.255.255 since DHCP server also is unknown)
 	1. Client MAC is sent as source, with destination as FF:FF:FF:FF
 2. Offer is broadcast with source IP of the DHCP server, and destination IP 255.255.255.255 (since server doesn't know who requested it)
@@ -155,7 +159,7 @@ All servers on the same L2 network will all receive the same number of DHCP pack
  - Each host receives an ack, making $H$ acks total
 
 ### 7
-![[Pasted image 20221213151815.png]]
+![[/cs168/img/Pasted image 20221213151815.png]]
 Alice and Bob both want to access "www.tumblr.com".
 
 #### 7.1
@@ -188,7 +192,7 @@ Authoritative DNS servers can use IP geolocation to redirect users to closer con
 
 ## Part 2
 
-[[cs168_final_review2_fa22.pdf]]
+[final review part 2](https://notes.bencuan.me/cs168/cs168_final_review2_fa22.pdf)
 
 ### True False
 1. F, telephone networks use circuit switching and the modern internet uses packet switching.
@@ -290,4 +294,4 @@ The pipelined case is the same, but minus the first RTT for the exchange.
 ### SDN
 In a Software-Defined Network, the **control program** expresses the operator’s intentions for network control by configuring the switches in the **abstract network view** , which is part of the API provided by the **virtualization layer** that is based on the **global network view** it receives from the **network operating system** , which in turn uses the **switch interface (OpenFlow)** to control the physical switches.
 
-![[Pasted image 20221213172913.png|300]]
+![[/cs168/img/Pasted image 20221213172913.png|300]]

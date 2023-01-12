@@ -5,7 +5,7 @@ BookCollapseSection: true
 
 ## Welcome to my CS70 Guide!
 
-This is a **non-comprehensive** guide to discrete math and probability, specifically for computer science applications. It's based off of Berkeley's [CS70](https://www.eecs70.org/) material (and doubles as my notes for the course).
+This is a **non-comprehensive** guide to discrete math and probability, specifically for computer science applications. It's based off of Berkeley's [CS70](https://www.eecs70.org/) material from Fall 2020 (and doubles as my notes for the course).
 
 ### Who is this for?
 

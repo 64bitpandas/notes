@@ -1,3 +1,7 @@
+---
+weight: 60
+title: "Regression and GLMs"
+---
 
 ## Posterior Predictive Distribution
 
@@ -58,7 +62,7 @@ A $X$% credible interval is any $X$% mass density under the posterior distributi
 Credible intervals are not unique, since we can choose any value to be the lower bound. However, we are primarily interested in the narrowest credible interval (since this would have the most certainty). The narrowest credible interval is known as the **highest posteior density (HPD) interval**, or sometimes the Highest density interval (HDI).
 
 Ideally, we want credible intervals to be just wide enough to capture the total range of known data, while having a relatively small uncertainty. In the example below, Poisson is too narrow and Gaussian is too wide; negative binomial fits the data well.
-![[Pasted image 20221004131313.png]]
+![[/data102/img/Pasted image 20221004131313.png]]
 
 ## Model Checking
 In order to determine if a model is a good fit for our data, we need to 1) make sure it fits the training data, and 2) evaluate it on new data.

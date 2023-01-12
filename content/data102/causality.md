@@ -1,3 +1,7 @@
+---
+weight: 90
+---
+ 
  ## Prediction vs Causality
 
 **Prediction:** using $X$ data, can we guess what $y$ will be?
@@ -29,7 +33,7 @@ This is an example of variables with zero correlation still having a causal rela
 ## Structural Causal Models
 Structural Causal Models (SCMs, Graphical Models, Causal DAGs) are similar to [[04 Bayes Nets]], except that arrows show causality in addition to dependence.
 
-![[Pasted image 20221019224955.png]]
+![[/data102/img/Pasted image 20221019224955.png]]
 
 
 
@@ -64,14 +68,14 @@ $$\frac{P(Y=1|Z=1)/P(Y=0|Z=1)}{P(Y=1|Z=0)/P(Y=0|Z=0)}$$
 ### Simpson's Paradox
 Aggregated data and disaggregated data create different conclusions.
 
-For example, suppose two restaurants were rated as follows:![[Pasted image 20221019230752.png|200]]
+For example, suppose two restaurants were rated as follows:![[/data102/img/Pasted image 20221019230752.png|200]]
 Clearly, Restaurant B is better since it received a higher ratio of positive reviews.
 
 However, if we break up the data by year, the following is observed:
-![[Pasted image 20221019230832.png|400]]
+![[/data102/img/Pasted image 20221019230832.png|400]]
 Now, Restaurant A looks clearly better since it performed better in both 2019 and 2020.
 
-Simpson's Paradox isn't really a paradox, since it just occurs due to a confounding variable. In the example above, the confounding variable is the effect of the COVID-19 pandemic on making reviews more negative overall: ![[Pasted image 20221019230924.png|300]]
+Simpson's Paradox isn't really a paradox, since it just occurs due to a confounding variable. In the example above, the confounding variable is the effect of the COVID-19 pandemic on making reviews more negative overall: ![[/data102/img/Pasted image 20221019230924.png|300]]
 If we only look at the bottom half of this causal DAG, we can observe the results that we saw above without understanding why it occurs.
 
 If a confounding variable is present, we should condition on it and draw conclusions based on the disaggregated results.
@@ -82,15 +86,15 @@ Berkson's Paradox is very similar to Simpson's Paradox, but acts on a **collider
 
 For instance, only plotting perceived flavor with perceived appearance for bread at a bakery could seem to show no correlation:
 
-![[Pasted image 20221019231326.png]]
+![[/data102/img/Pasted image 20221019231326.png]]
 
 However, if we split the bread on display with the bread in the back, the following occurs:
-![[Pasted image 20221019231348.png]]
+![[/data102/img/Pasted image 20221019231348.png]]
 
 
 The DAG looks like the following.
 
-![[Pasted image 20221019231220.png]]
+![[/data102/img/Pasted image 20221019231220.png]]
 
 
 ## Potential Outcomes Framework
@@ -111,7 +115,7 @@ A **unit** is a single data point that we're trying to make causal inferences on
  - **fixed-sample model**: $Z_i$ are i.i.d, $Y$ are fixed and unknown (traditional)
 
 **Science Table:** displays units in a table. In reality, we can't observe the $Y$ corresponding to the outcome that didn't happen; the problem we need to solve is how we can fill these values in.
-![[Pasted image 20221025225351.png]]
+![[/data102/img/Pasted image 20221025225351.png]]
 
 
 
@@ -139,7 +143,7 @@ There are two main categories of methods for establishing causal inference:
 $$Y = \alpha + \beta X + \tau Z + \epsilon$$
  - $E[\epsilon] = 0$, and $\epsilon$ is independent of $Z$ and $X$. 
  - $X$ is the confounder, $Y$ is the outcome, and $Z$ is the treatment.
-	 - ![[Pasted image 20221026123414.png|300]]
+	 - ![[/data102/img/Pasted image 20221026123414.png|300]]
  - Assume we can't know $X$ (too many considerations).
  - The ATE is equal to $\tau$.
  - Using ordinary least squares, $\hat\tau = cov(Y,Z)/var(Z) = cov(\tau Z, Z)/var(Z) + cov(\beta X, Z)/var(Z)$.
@@ -179,7 +183,7 @@ This only works if there happen to be exact matches; approximate matching gets m
 Main idea: reweight the population to approximate the true potential outcome averages E(Y(0)) and E(Y(1)).
 
 
-![[Pasted image 20221028161315.png]] 
+![[/data102/img/Pasted image 20221028161315.png]] 
 IPW formula: 4 possibilities for values of $y_i$ and $z_i$. Sum up number of times each possibility occurs and divide them by how likely they are to be treated ($e(x)$).
  - The propensity score $e(X) = P(Z=1|X=x)$
  - Strategy:

@@ -1,4 +1,6 @@
-# Measuring Link Performance
+---
+weight: 40
+---
 
 ## Some values
 The **Bandwidth** of a link is the number of bits sent/received per unit time (measured in bps, bits per second).
@@ -15,4 +17,4 @@ The **Propagation delay** of a link is the time it takes a bit to travel along t
 
 **Router Capacity** is equal to the number of external ports multiplied by the speed of each port. 
  * Example: a router with 4 100Mbps ports and 1 1Gbps port will have a total capacity of 0.4 + 1 = 1.4Gbps.
-![[Pasted image 20220831185459.png]]
+![[/cs168/img/Pasted image 20220831185459.png]]

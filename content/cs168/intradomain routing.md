@@ -1,4 +1,7 @@
-# Introduction to Routing
+---
+title: "Introduction to Routing"
+weight: 30
+---
 
 ## Addressing and Naming
 
@@ -106,7 +109,7 @@ Routes that are unimportant and can be ignored:
 ## Distance-Vector Routing Protocols
 
 D-V routing protocols are very similar to the Bellman-Ford shortest path algorithm.
-[[06 Graphs#Bellman Ford Shortest Paths with Negative Edge Lengths]]
+[[/cs70/discrete-math/graphs#Bellman Ford Shortest Paths with Negative Edge Lengths|CS70 Notes on Graphs]]
 
 However, Distance-Vector routing is asynchronous and has incomplete state, since each router can collect information simultaneously but only knows about its own local state. This differs from the traditional version of Bellman-Ford, which is serial (only one calculation at one time, and the entire state is known).
 

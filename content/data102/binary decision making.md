@@ -1,4 +1,7 @@
-# Intro
+---
+weight: 10
+---
+
 Binary Decision Making is the simplest kind of decision we can make: 1 or 0, yes or now, true or false...
 
 ## Setup
@@ -11,7 +14,7 @@ Some examples of binary decisions are:
 
 ## Confusion Matrix
 A 2x2 table that helps us evaluate how effective our predictions were (columns) given reality (rows).
-![[img/Untitled 24.png]]
+![[/data102/img/Untitled 24.png]]
 
 
 ### Terminology

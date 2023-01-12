@@ -1,3 +1,7 @@
+---
+weight: 30
+---
+
 So far, in [[binary decision making]] and [[hypothesis testing]], we've explored how to make as few mistakes as possible when making binary predictions.
 
 ## Intro to Decision Theory

@@ -1,9 +1,11 @@
-
+---
+weight: 120
+---
 If the capacity of the output link is less than the capacity of the incoming links, then it is possible for too many packets to arrive at once, overloading the link.
 
 Here's a graph of the packet delay as a function of load, assuming that we use a simple queue:
 
-![[Pasted image 20221024085656.png]]
+![img](</cs168/img/Pasted image 20221024085656.png>)
 
 Fundamentally, congestion control is a resource allocation problem. However, it is very complex because changing one link can have a global impact, and these impacts need to be accounted for by every router on every flow change.
 
@@ -51,17 +53,17 @@ These three goals are not always compatible, so we aim to strike a reasonable ba
 After the initial rate is determined using Slow Start, TCP needs to dynamically adjust the rate to adapt to changes in available bandwidth.
 
 There is a tradeoff between efficiency (utilization of total available bandwidth) and fairness (how similar the allocations are for different flows). We can model this tradeoff using this graph:
-![[Pasted image 20221025113828.png]]
+![img](</cs168/img/Pasted image 20221025113828.png>)
  - The goal is to get as close to the center as possible (both on the efficiency and fairness lines).
 
 There are 4 methods of changing the rate. A = additive, M = multiplicative, I = increase, D = decrease.
  - **AIAD**:  can become more efficient, but will never converge to fairness since the slope of the line never changes
-	 - ![[Pasted image 20221025114116.png|300]]
+	 - ![[/cs168/img/Pasted image 20221025114116.png|300]]
  - **MIMD:** similarly to AIAD, can be more efficient but doesn't converge to fairness. 
-	 - ![[Pasted image 20221025114302.png|300]]
+	 - ![[/cs168/img/Pasted image 20221025114302.png|300]]
 	 - Slope of the line is always $x_2/x_1$ 
  - **MIAD:** maximially unfair; will allocate all of the capacity to one flow (converge to either X or Y axis)
  - **AIMD:** both efficient and fair
-	 - ![[Pasted image 20221025114502.png|300]]
+	 - ![[/cs168/img/Pasted image 20221025114502.png|300]]
 
 

@@ -1,4 +1,7 @@
-# Introduction
+---
+weight: 80
+title: "Interdomain Routing (BGP)"
+---
 
 In [[intradomain routing]], we primarily focused on processes for intradomain routing- where switches discover paths within their own networks.
 
@@ -13,7 +16,7 @@ On the other hand, a **Transit AS** carries packets on behalf of other ASes. The
 
 There are three basic kinds of relationships between ASes: customer (pays for usage), provider (is paid by others for usage), and peers (don't pay each other and are assumed to exchange roughly equal traffic).
 
-![[Pasted image 20220928162353.png|300]]
+![[/cs168/img/Pasted image 20220928162353.png|300]]
 
 Tier 1 ASes are at the top of the hierarchy:
  - typically span multiple continents
