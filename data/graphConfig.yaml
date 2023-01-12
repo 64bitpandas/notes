@@ -34,4 +34,10 @@ globalGraph:
 ### For all graphs ###
 
 paths:
-  - /moc: "#4388cc"
+  - /cs61b: "#4388cc"
+  - /data102: "#ba0af0"
+  - /cs70: "#70fa70"
+  - /cs61a: "#fbff22"
+  - /cs186: "#ffaf1c"
+  - /cs168: "#ff86a1"
+  - /cs162: "#ffdfdd"

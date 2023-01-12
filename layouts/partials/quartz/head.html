@@ -136,7 +136,7 @@ resources.Minify }}
       // clear the graph in case there is anything within it
       container.textContent = ""
 
-      const drawGlobal = isHome && {{$.Site.Data.graphConfig.enableGlobalGraph}};
+      const drawGlobal = true;
       drawGraph(
           {{strings.TrimRight "/" .Site.BaseURL}},
           drawGlobal,

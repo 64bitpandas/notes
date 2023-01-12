@@ -222,13 +222,6 @@
           "text": "intradomain routing"
         }
       ],
-      "/cs168/intradomain-routing": [
-        {
-          "source": "/cs168/intradomain-routing",
-          "target": "/06-Graphs",
-          "text": "06 Graphs#Bellman Ford Shortest Paths with Negative Edge Lengths"
-        }
-      ],
       "/cs186/": [
         {
           "source": "/cs186/",
@@ -347,6 +340,18 @@
           "source": "/cs186/io",
           "target": "/cs186/07-Query-Optimization",
           "text": "query optimization"
+        }
+      ],
+      "/cs61a/introduction": [
+        {
+          "source": "/cs61a/introduction",
+          "target": "/cs61a/resources",
+          "text": "here"
+        },
+        {
+          "source": "/cs61a/introduction",
+          "target": "/cs61a/midterm-tips",
+          "text": "here"
         }
       ],
       "/cs61b/": [
@@ -893,172 +898,73 @@
       "/data102/": [
         {
           "source": "/data102/",
-          "target": "/Intro-to-the-Internet",
-          "text": "Intro to the Internet"
+          "target": "/Binary-Decision-Making",
+          "text": "Binary Decision Making"
         },
         {
           "source": "/data102/",
-          "target": "/CLI",
-          "text": "CLI Tools"
+          "target": "/Hypothesis-Testing",
+          "text": "Hypothesis Testing"
         },
         {
           "source": "/data102/",
-          "target": "/Intradomain-Routing",
-          "text": "Intradomain Routing"
+          "target": "/Decision-Theory",
+          "text": "Decision Theory"
         },
         {
           "source": "/data102/",
-          "target": "/Measuring-Link-Performance",
-          "text": "Measuring Link Performance"
+          "target": "/Parameter-Estimation",
+          "text": "Parameter Estimation"
         },
         {
           "source": "/data102/",
-          "target": "/Resource-Sharing-Packet-and-Circuit-Switching",
-          "text": "Resource Sharing (Packet and Circuit Switching)"
+          "target": "/Sampling",
+          "text": "Sampling"
         },
         {
           "source": "/data102/",
-          "target": "/Internet-Organization-and-Layers",
-          "text": "Internet Organization and Layers"
+          "target": "/Regression-and-GLMs",
+          "text": "Regression and GLMs"
         },
         {
           "source": "/data102/",
-          "target": "/Sockets-and-Ports",
-          "text": "Sockets and Ports"
+          "target": "/Nonparametric-Methods",
+          "text": "Nonparametric Methods"
         },
         {
           "source": "/data102/",
-          "target": "/Addressing-IP",
-          "text": "Addressing (IP)"
+          "target": "/Interpretability",
+          "text": "Interpretability"
         },
         {
           "source": "/data102/",
-          "target": "/Interdomain-Routing-BGP",
-          "text": "Interdomain Routing (BGP)"
+          "target": "/Causality",
+          "text": "Causality"
         },
         {
           "source": "/data102/",
-          "target": "/TCP",
-          "text": "TCP"
+          "target": "/Concentration-Inequalities",
+          "text": "Concentration Inequalities"
         },
         {
           "source": "/data102/",
-          "target": "/Reliability",
-          "text": "Reliability"
+          "target": "/Bandits",
+          "text": "Bandits"
         },
         {
           "source": "/data102/",
-          "target": "/Congestion-Control",
-          "text": "Congestion Control"
+          "target": "/Markov-Decision-Processes",
+          "text": "Markov Decision Processes"
         },
         {
           "source": "/data102/",
-          "target": "/DNS",
-          "text": "DNS"
-        },
-        {
-          "source": "/data102/",
-          "target": "/Web",
-          "text": "Web"
-        },
-        {
-          "source": "/data102/",
-          "target": "/Ethernet",
-          "text": "Ethernet"
-        },
-        {
-          "source": "/data102/",
-          "target": "/End-to-End-Operation",
-          "text": "End to End Operation"
-        },
-        {
-          "source": "/data102/",
-          "target": "/Final-Review",
-          "text": "Final Review"
+          "target": "/Reinforcement-Learning",
+          "text": "Reinforcement Learning"
         },
         {
           "source": "/data102/",
           "target": "/contributing",
           "text": "contributing guide"
-        }
-      ],
-      "/data102/MIDTERM-1-INDEX": [
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/review",
-          "text": "review"
-        },
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/binary-decision-making",
-          "text": "binary decision making"
-        },
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/hypothesis-testing",
-          "text": "hypothesis testing"
-        },
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/decision-theory",
-          "text": "decision theory"
-        },
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/parameter-estimation",
-          "text": "parameter estimation"
-        },
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/sampling",
-          "text": "sampling"
-        },
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/roc-curves",
-          "text": "roc curves"
-        },
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/regression-and-glms",
-          "text": "regression and glms"
-        }
-      ],
-      "/data102/MIDTERM-2-INDEX": [
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/nonparametric-methods",
-          "text": "nonparametric methods"
-        },
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/interpretability",
-          "text": "interpretability"
-        },
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/causality",
-          "text": "causality"
-        },
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/concentration-inequalities",
-          "text": "concentration inequalities"
-        },
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/bandits",
-          "text": "bandits"
-        },
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/07-Markov-Decision-Processes",
-          "text": "07 Markov Decision Processes"
-        },
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/10-Reinforcement-Learning",
-          "text": "10 Reinforcement Learning"
         }
       ],
       "/data102/causality": [
@@ -1278,35 +1184,9 @@
           "text": "04 Bayes Nets"
         }
       ],
-      "/06-Graphs": [
-        {
-          "source": "/cs168/intradomain-routing",
-          "target": "/06-Graphs",
-          "text": "06 Graphs#Bellman Ford Shortest Paths with Negative Edge Lengths"
-        }
-      ],
-      "/07-Markov-Decision-Processes": [
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/07-Markov-Decision-Processes",
-          "text": "07 Markov Decision Processes"
-        }
-      ],
-      "/10-Reinforcement-Learning": [
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/10-Reinforcement-Learning",
-          "text": "10 Reinforcement Learning"
-        }
-      ],
       "/Addressing-IP": [
         {
           "source": "/cs168/",
-          "target": "/Addressing-IP",
-          "text": "Addressing (IP)"
-        },
-        {
-          "source": "/data102/",
           "target": "/Addressing-IP",
           "text": "Addressing (IP)"
         }
@@ -1318,16 +1198,32 @@
           "text": "GDB Reference"
         }
       ],
+      "/Bandits": [
+        {
+          "source": "/data102/",
+          "target": "/Bandits",
+          "text": "Bandits"
+        }
+      ],
+      "/Binary-Decision-Making": [
+        {
+          "source": "/data102/",
+          "target": "/Binary-Decision-Making",
+          "text": "Binary Decision Making"
+        }
+      ],
       "/CLI": [
         {
           "source": "/cs168/",
           "target": "/CLI",
           "text": "CLI Tools"
-        },
+        }
+      ],
+      "/Causality": [
         {
           "source": "/data102/",
-          "target": "/CLI",
-          "text": "CLI Tools"
+          "target": "/Causality",
+          "text": "Causality"
         }
       ],
       "/Chapter-1-OS-Basics": [
@@ -1393,14 +1289,16 @@
           "text": "File Systems"
         }
       ],
+      "/Concentration-Inequalities": [
+        {
+          "source": "/data102/",
+          "target": "/Concentration-Inequalities",
+          "text": "Concentration Inequalities"
+        }
+      ],
       "/Congestion-Control": [
         {
           "source": "/cs168/",
-          "target": "/Congestion-Control",
-          "text": "Congestion Control"
-        },
-        {
-          "source": "/data102/",
           "target": "/Congestion-Control",
           "text": "Congestion Control"
         }
@@ -1410,21 +1308,18 @@
           "source": "/cs168/",
           "target": "/DNS",
           "text": "DNS"
-        },
+        }
+      ],
+      "/Decision-Theory": [
         {
           "source": "/data102/",
-          "target": "/DNS",
-          "text": "DNS"
+          "target": "/Decision-Theory",
+          "text": "Decision Theory"
         }
       ],
       "/End-to-End-Operation": [
         {
           "source": "/cs168/",
-          "target": "/End-to-End-Operation",
-          "text": "End to End Operation"
-        },
-        {
-          "source": "/data102/",
           "target": "/End-to-End-Operation",
           "text": "End to End Operation"
         }
@@ -1434,11 +1329,6 @@
           "source": "/cs168/",
           "target": "/Ethernet",
           "text": "Ethernet"
-        },
-        {
-          "source": "/data102/",
-          "target": "/Ethernet",
-          "text": "Ethernet"
         }
       ],
       "/Final-Review": [
@@ -1446,21 +1336,18 @@
           "source": "/cs168/",
           "target": "/Final-Review",
           "text": "Final Review"
-        },
+        }
+      ],
+      "/Hypothesis-Testing": [
         {
           "source": "/data102/",
-          "target": "/Final-Review",
-          "text": "Final Review"
+          "target": "/Hypothesis-Testing",
+          "text": "Hypothesis Testing"
         }
       ],
       "/Interdomain-Routing-BGP": [
         {
           "source": "/cs168/",
-          "target": "/Interdomain-Routing-BGP",
-          "text": "Interdomain Routing (BGP)"
-        },
-        {
-          "source": "/data102/",
           "target": "/Interdomain-Routing-BGP",
           "text": "Interdomain Routing (BGP)"
         }
@@ -1470,21 +1357,18 @@
           "source": "/cs168/",
           "target": "/Internet-Organization-and-Layers",
           "text": "Internet Organization and Layers"
-        },
+        }
+      ],
+      "/Interpretability": [
         {
           "source": "/data102/",
-          "target": "/Internet-Organization-and-Layers",
-          "text": "Internet Organization and Layers"
+          "target": "/Interpretability",
+          "text": "Interpretability"
         }
       ],
       "/Intradomain-Routing": [
         {
           "source": "/cs168/",
-          "target": "/Intradomain-Routing",
-          "text": "Intradomain Routing"
-        },
-        {
-          "source": "/data102/",
           "target": "/Intradomain-Routing",
           "text": "Intradomain Routing"
         }
@@ -1494,11 +1378,13 @@
           "source": "/cs168/",
           "target": "/Intro-to-the-Internet",
           "text": "Intro to the Internet"
-        },
+        }
+      ],
+      "/Markov-Decision-Processes": [
         {
           "source": "/data102/",
-          "target": "/Intro-to-the-Internet",
-          "text": "Intro to the Internet"
+          "target": "/Markov-Decision-Processes",
+          "text": "Markov Decision Processes"
         }
       ],
       "/Measuring-Link-Performance": [
@@ -1506,21 +1392,39 @@
           "source": "/cs168/",
           "target": "/Measuring-Link-Performance",
           "text": "Measuring Link Performance"
-        },
+        }
+      ],
+      "/Nonparametric-Methods": [
         {
           "source": "/data102/",
-          "target": "/Measuring-Link-Performance",
-          "text": "Measuring Link Performance"
+          "target": "/Nonparametric-Methods",
+          "text": "Nonparametric Methods"
+        }
+      ],
+      "/Parameter-Estimation": [
+        {
+          "source": "/data102/",
+          "target": "/Parameter-Estimation",
+          "text": "Parameter Estimation"
+        }
+      ],
+      "/Regression-and-GLMs": [
+        {
+          "source": "/data102/",
+          "target": "/Regression-and-GLMs",
+          "text": "Regression and GLMs"
+        }
+      ],
+      "/Reinforcement-Learning": [
+        {
+          "source": "/data102/",
+          "target": "/Reinforcement-Learning",
+          "text": "Reinforcement Learning"
         }
       ],
       "/Reliability": [
         {
           "source": "/cs168/",
-          "target": "/Reliability",
-          "text": "Reliability"
-        },
-        {
-          "source": "/data102/",
           "target": "/Reliability",
           "text": "Reliability"
         }
@@ -1530,21 +1434,18 @@
           "source": "/cs168/",
           "target": "/Resource-Sharing-Packet-and-Circuit-Switching",
           "text": "Resource Sharing (Packet and Circuit Switching)"
-        },
+        }
+      ],
+      "/Sampling": [
         {
           "source": "/data102/",
-          "target": "/Resource-Sharing-Packet-and-Circuit-Switching",
-          "text": "Resource Sharing (Packet and Circuit Switching)"
+          "target": "/Sampling",
+          "text": "Sampling"
         }
       ],
       "/Sockets-and-Ports": [
         {
           "source": "/cs168/",
-          "target": "/Sockets-and-Ports",
-          "text": "Sockets and Ports"
-        },
-        {
-          "source": "/data102/",
           "target": "/Sockets-and-Ports",
           "text": "Sockets and Ports"
         }
@@ -1554,21 +1455,11 @@
           "source": "/cs168/",
           "target": "/TCP",
           "text": "TCP"
-        },
-        {
-          "source": "/data102/",
-          "target": "/TCP",
-          "text": "TCP"
         }
       ],
       "/Web": [
         {
           "source": "/cs168/",
-          "target": "/Web",
-          "text": "Web"
-        },
-        {
-          "source": "/data102/",
           "target": "/Web",
           "text": "Web"
         }
@@ -1637,19 +1528,7 @@
           "text": "Balanced BSTs"
         }
       ],
-      "/bandits": [
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/bandits",
-          "text": "bandits"
-        }
-      ],
       "/binary-decision-making": [
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/binary-decision-making",
-          "text": "binary decision making"
-        },
         {
           "source": "/data102/decision-theory",
           "target": "/binary-decision-making",
@@ -1661,25 +1540,11 @@
           "text": "binary decision making"
         }
       ],
-      "/causality": [
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/causality",
-          "text": "causality"
-        }
-      ],
       "/classes/cs70/discrete-math/graphs": [
         {
           "source": "/cs70/discrete-math/overview",
           "target": "/classes/cs70/discrete-math/graphs",
           "text": "Graph theory"
-        }
-      ],
-      "/concentration-inequalities": [
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/concentration-inequalities",
-          "text": "concentration inequalities"
         }
       ],
       "/congestion-control": [
@@ -1839,6 +1704,20 @@
           "source": "/cs186/01-Disks-Buffers-Files",
           "target": "/cs186/io",
           "text": "What is an I/O and why should I care?"
+        }
+      ],
+      "/cs61a/midterm-tips": [
+        {
+          "source": "/cs61a/introduction",
+          "target": "/cs61a/midterm-tips",
+          "text": "here"
+        }
+      ],
+      "/cs61a/resources": [
+        {
+          "source": "/cs61a/introduction",
+          "target": "/cs61a/resources",
+          "text": "here"
         }
       ],
       "/cs61b": [
@@ -2155,13 +2034,6 @@
           "text": "Data 102 notes"
         }
       ],
-      "/decision-theory": [
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/decision-theory",
-          "text": "decision theory"
-        }
-      ],
       "/depth-first-search-dfs": [
         {
           "source": "/cs61b/algorithms/searching/breadth-first-search-bfs",
@@ -2197,11 +2069,6 @@
       ],
       "/hypothesis-testing": [
         {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/hypothesis-testing",
-          "text": "hypothesis testing"
-        },
-        {
           "source": "/data102/decision-theory",
           "target": "/hypothesis-testing",
           "text": "hypothesis testing"
@@ -2222,13 +2089,6 @@
           "source": "/cs61b/oop/generics",
           "target": "/inheritance",
           "text": "inheritance rules"
-        }
-      ],
-      "/interpretability": [
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/interpretability",
-          "text": "interpretability"
         }
       ],
       "/intradomain-routing": [
@@ -2264,25 +2124,11 @@
           "text": "Modular arithmetic"
         }
       ],
-      "/nonparametric-methods": [
-        {
-          "source": "/data102/MIDTERM-2-INDEX",
-          "target": "/nonparametric-methods",
-          "text": "nonparametric methods"
-        }
-      ],
       "/objects": [
         {
           "source": "/cs61b/oop/inheritance",
           "target": "/objects",
           "text": "References, Objects, and Types in Java"
-        }
-      ],
-      "/parameter-estimation": [
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/parameter-estimation",
-          "text": "parameter estimation"
         }
       ],
       "/polynomials": [
@@ -2306,13 +2152,6 @@
           "text": "Propositional logic"
         }
       ],
-      "/regression-and-glms": [
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/regression-and-glms",
-          "text": "regression and glms"
-        }
-      ],
       "/reliability": [
         {
           "source": "/cs168/TCP",
@@ -2327,32 +2166,11 @@
           "text": "resource sharing (packet and circuit switching)"
         }
       ],
-      "/review": [
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/review",
-          "text": "review"
-        }
-      ],
-      "/roc-curves": [
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/roc-curves",
-          "text": "roc curves"
-        }
-      ],
       "/rsa-cryptography": [
         {
           "source": "/cs70/discrete-math/overview",
           "target": "/rsa-cryptography",
           "text": "RSA Cryptography"
-        }
-      ],
-      "/sampling": [
-        {
-          "source": "/data102/MIDTERM-1-INDEX",
-          "target": "/sampling",
-          "text": "sampling"
         }
       ],
       "/stable-matching": [
@@ -2578,11 +2396,6 @@
       "text": "intradomain routing"
     },
     {
-      "source": "/cs168/intradomain-routing",
-      "target": "/06-Graphs",
-      "text": "06 Graphs#Bellman Ford Shortest Paths with Negative Edge Lengths"
-    },
-    {
       "source": "/cs186/00-SQL-Basics",
       "target": "/",
       "text": "table creation"
@@ -2691,6 +2504,16 @@
       "source": "/cs186/io",
       "target": "/cs186/07-Query-Optimization",
       "text": "query optimization"
+    },
+    {
+      "source": "/cs61a/introduction",
+      "target": "/cs61a/resources",
+      "text": "here"
+    },
+    {
+      "source": "/cs61a/introduction",
+      "target": "/cs61a/midterm-tips",
+      "text": "here"
     },
     {
       "source": "/cs61b/",
@@ -3168,164 +2991,69 @@
       "text": "Concentration inequalities"
     },
     {
-      "source": "/data102/MIDTERM-1-INDEX",
-      "target": "/review",
-      "text": "review"
-    },
-    {
-      "source": "/data102/MIDTERM-1-INDEX",
-      "target": "/binary-decision-making",
-      "text": "binary decision making"
-    },
-    {
-      "source": "/data102/MIDTERM-1-INDEX",
-      "target": "/hypothesis-testing",
-      "text": "hypothesis testing"
-    },
-    {
-      "source": "/data102/MIDTERM-1-INDEX",
-      "target": "/decision-theory",
-      "text": "decision theory"
-    },
-    {
-      "source": "/data102/MIDTERM-1-INDEX",
-      "target": "/parameter-estimation",
-      "text": "parameter estimation"
-    },
-    {
-      "source": "/data102/MIDTERM-1-INDEX",
-      "target": "/sampling",
-      "text": "sampling"
-    },
-    {
-      "source": "/data102/MIDTERM-1-INDEX",
-      "target": "/roc-curves",
-      "text": "roc curves"
-    },
-    {
-      "source": "/data102/MIDTERM-1-INDEX",
-      "target": "/regression-and-glms",
-      "text": "regression and glms"
-    },
-    {
-      "source": "/data102/MIDTERM-2-INDEX",
-      "target": "/nonparametric-methods",
-      "text": "nonparametric methods"
-    },
-    {
-      "source": "/data102/MIDTERM-2-INDEX",
-      "target": "/interpretability",
-      "text": "interpretability"
-    },
-    {
-      "source": "/data102/MIDTERM-2-INDEX",
-      "target": "/causality",
-      "text": "causality"
-    },
-    {
-      "source": "/data102/MIDTERM-2-INDEX",
-      "target": "/concentration-inequalities",
-      "text": "concentration inequalities"
-    },
-    {
-      "source": "/data102/MIDTERM-2-INDEX",
-      "target": "/bandits",
-      "text": "bandits"
-    },
-    {
-      "source": "/data102/MIDTERM-2-INDEX",
-      "target": "/07-Markov-Decision-Processes",
-      "text": "07 Markov Decision Processes"
-    },
-    {
-      "source": "/data102/MIDTERM-2-INDEX",
-      "target": "/10-Reinforcement-Learning",
-      "text": "10 Reinforcement Learning"
+      "source": "/data102/",
+      "target": "/Binary-Decision-Making",
+      "text": "Binary Decision Making"
     },
     {
       "source": "/data102/",
-      "target": "/Intro-to-the-Internet",
-      "text": "Intro to the Internet"
+      "target": "/Hypothesis-Testing",
+      "text": "Hypothesis Testing"
     },
     {
       "source": "/data102/",
-      "target": "/CLI",
-      "text": "CLI Tools"
+      "target": "/Decision-Theory",
+      "text": "Decision Theory"
     },
     {
       "source": "/data102/",
-      "target": "/Intradomain-Routing",
-      "text": "Intradomain Routing"
+      "target": "/Parameter-Estimation",
+      "text": "Parameter Estimation"
     },
     {
       "source": "/data102/",
-      "target": "/Measuring-Link-Performance",
-      "text": "Measuring Link Performance"
+      "target": "/Sampling",
+      "text": "Sampling"
     },
     {
       "source": "/data102/",
-      "target": "/Resource-Sharing-Packet-and-Circuit-Switching",
-      "text": "Resource Sharing (Packet and Circuit Switching)"
+      "target": "/Regression-and-GLMs",
+      "text": "Regression and GLMs"
     },
     {
       "source": "/data102/",
-      "target": "/Internet-Organization-and-Layers",
-      "text": "Internet Organization and Layers"
+      "target": "/Nonparametric-Methods",
+      "text": "Nonparametric Methods"
     },
     {
       "source": "/data102/",
-      "target": "/Sockets-and-Ports",
-      "text": "Sockets and Ports"
+      "target": "/Interpretability",
+      "text": "Interpretability"
     },
     {
       "source": "/data102/",
-      "target": "/Addressing-IP",
-      "text": "Addressing (IP)"
+      "target": "/Causality",
+      "text": "Causality"
     },
     {
       "source": "/data102/",
-      "target": "/Interdomain-Routing-BGP",
-      "text": "Interdomain Routing (BGP)"
+      "target": "/Concentration-Inequalities",
+      "text": "Concentration Inequalities"
     },
     {
       "source": "/data102/",
-      "target": "/TCP",
-      "text": "TCP"
+      "target": "/Bandits",
+      "text": "Bandits"
     },
     {
       "source": "/data102/",
-      "target": "/Reliability",
-      "text": "Reliability"
+      "target": "/Markov-Decision-Processes",
+      "text": "Markov Decision Processes"
     },
     {
       "source": "/data102/",
-      "target": "/Congestion-Control",
-      "text": "Congestion Control"
-    },
-    {
-      "source": "/data102/",
-      "target": "/DNS",
-      "text": "DNS"
-    },
-    {
-      "source": "/data102/",
-      "target": "/Web",
-      "text": "Web"
-    },
-    {
-      "source": "/data102/",
-      "target": "/Ethernet",
-      "text": "Ethernet"
-    },
-    {
-      "source": "/data102/",
-      "target": "/End-to-End-Operation",
-      "text": "End to End Operation"
-    },
-    {
-      "source": "/data102/",
-      "target": "/Final-Review",
-      "text": "Final Review"
+      "target": "/Reinforcement-Learning",
+      "text": "Reinforcement Learning"
     },
     {
       "source": "/data102/",
