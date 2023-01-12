@@ -11,7 +11,7 @@ This is a **non-comprehensive** guide to databases written with an intention to 
 
 * [SQL syntax](<cs186/00 SQL Basics>)
 * [How to improve popular sorting and hashing algorithms to work well with limited memory](<cs186/04 Sorting and Hashing>)
-* [B+ trees](02%20B+%20Trees.md B+ Trees>) and other advanced indexing structures
+* [B+ trees](<cs186/02 B+ Trees>) and other advanced indexing structures
 * [Join algorithms](<cs186/05 Iterators and Joins>)
 * [Query optimization](<cs186/07 Query Optimization>)
 * [Parallel query processing](<cs186/09 Parallel Query Processing>)

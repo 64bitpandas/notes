@@ -9,6 +9,41 @@
         },
         {
           "source": "/",
+          "target": "/cs70/",
+          "text": "CS 70: Discrete Math"
+        },
+        {
+          "source": "/",
+          "target": "/cs186/",
+          "text": "CS 186: Intro to Databases"
+        },
+        {
+          "source": "/",
+          "target": "/cs162/",
+          "text": "CS 162: Operating Systems"
+        },
+        {
+          "source": "/",
+          "target": "/cs168/",
+          "text": "CS 168: Intro to the Internet"
+        },
+        {
+          "source": "/",
+          "target": "/cs61a/",
+          "text": "CS 61A: Structure and Interpretation of Computer Programs"
+        },
+        {
+          "source": "/",
+          "target": "/data102/",
+          "text": "Data 102: Data, Inference, Decisions"
+        },
+        {
+          "source": "/",
+          "target": "/contributing",
+          "text": "contributing"
+        },
+        {
+          "source": "/",
           "target": "/contributing",
           "text": "contribution guide"
         }
@@ -235,6 +270,11 @@
         },
         {
           "source": "/cs186/",
+          "target": "/cs186/02-B+-Trees",
+          "text": "B+ trees"
+        },
+        {
+          "source": "/cs186/",
           "target": "/cs186/05-Iterators-and-Joins",
           "text": "Join algorithms"
         },
@@ -342,14 +382,14 @@
           "text": "query optimization"
         }
       ],
-      "/cs61a/introduction": [
+      "/cs61a/": [
         {
-          "source": "/cs61a/introduction",
+          "source": "/cs61a/",
           "target": "/cs61a/resources",
           "text": "here"
         },
         {
-          "source": "/cs61a/introduction",
+          "source": "/cs61a/",
           "target": "/cs61a/midterm-tips",
           "text": "here"
         }
@@ -1558,6 +1598,11 @@
         {
           "source": "/",
           "target": "/contributing",
+          "text": "contributing"
+        },
+        {
+          "source": "/",
+          "target": "/contributing",
           "text": "contribution guide"
         },
         {
@@ -1596,6 +1641,13 @@
           "text": "contributing guide"
         }
       ],
+      "/cs162/": [
+        {
+          "source": "/",
+          "target": "/cs162/",
+          "text": "CS 162: Operating Systems"
+        }
+      ],
       "/cs162/Chapter-5-Synchronization": [
         {
           "source": "/cs162/",
@@ -1608,6 +1660,20 @@
           "source": "/cs162/",
           "target": "/cs162/Chapter-8-Caching",
           "text": "Caching"
+        }
+      ],
+      "/cs168/": [
+        {
+          "source": "/",
+          "target": "/cs168/",
+          "text": "CS 168: Intro to the Internet"
+        }
+      ],
+      "/cs186/": [
+        {
+          "source": "/",
+          "target": "/cs186/",
+          "text": "CS 186: Intro to Databases"
         }
       ],
       "/cs186/00%20SQL%20Basics": [
@@ -1636,6 +1702,11 @@
           "source": "/cs186/01-Disks-Buffers-Files",
           "target": "/cs186/02-B+-Trees",
           "text": "B+ Trees"
+        },
+        {
+          "source": "/cs186/",
+          "target": "/cs186/02-B+-Trees",
+          "text": "B+ trees"
         }
       ],
       "/cs186/04-Sorting-and-Hashing": [
@@ -1706,16 +1777,23 @@
           "text": "What is an I/O and why should I care?"
         }
       ],
+      "/cs61a/": [
+        {
+          "source": "/",
+          "target": "/cs61a/",
+          "text": "CS 61A: Structure and Interpretation of Computer Programs"
+        }
+      ],
       "/cs61a/midterm-tips": [
         {
-          "source": "/cs61a/introduction",
+          "source": "/cs61a/",
           "target": "/cs61a/midterm-tips",
           "text": "here"
         }
       ],
       "/cs61a/resources": [
         {
-          "source": "/cs61a/introduction",
+          "source": "/cs61a/",
           "target": "/cs61a/resources",
           "text": "here"
         }
@@ -1954,6 +2032,13 @@
           "text": "Java Objects"
         }
       ],
+      "/cs70/": [
+        {
+          "source": "/",
+          "target": "/cs70/",
+          "text": "CS 70: Discrete Math"
+        }
+      ],
       "/cs70/discrete-math/polynomials": [
         {
           "source": "/cs70/discrete-math/modular-arithmetic",
@@ -2025,6 +2110,13 @@
           "source": "/cs70/probability/probability-overview",
           "target": "/cs70/probability/markov-chains",
           "text": "Markov chains"
+        }
+      ],
+      "/data102/": [
+        {
+          "source": "/",
+          "target": "/data102/",
+          "text": "Data 102: Data, Inference, Decisions"
         }
       ],
       "/data102/concentration%20inequalities": [
@@ -2194,6 +2286,41 @@
       "source": "/",
       "target": "/cs61b/",
       "text": "CS 61B: Data Structures and Algorithms"
+    },
+    {
+      "source": "/",
+      "target": "/cs70/",
+      "text": "CS 70: Discrete Math"
+    },
+    {
+      "source": "/",
+      "target": "/cs186/",
+      "text": "CS 186: Intro to Databases"
+    },
+    {
+      "source": "/",
+      "target": "/cs162/",
+      "text": "CS 162: Operating Systems"
+    },
+    {
+      "source": "/",
+      "target": "/cs168/",
+      "text": "CS 168: Intro to the Internet"
+    },
+    {
+      "source": "/",
+      "target": "/cs61a/",
+      "text": "CS 61A: Structure and Interpretation of Computer Programs"
+    },
+    {
+      "source": "/",
+      "target": "/data102/",
+      "text": "Data 102: Data, Inference, Decisions"
+    },
+    {
+      "source": "/",
+      "target": "/contributing",
+      "text": "contributing"
     },
     {
       "source": "/",
@@ -2447,6 +2574,11 @@
     },
     {
       "source": "/cs186/",
+      "target": "/cs186/02-B+-Trees",
+      "text": "B+ trees"
+    },
+    {
+      "source": "/cs186/",
       "target": "/cs186/05-Iterators-and-Joins",
       "text": "Join algorithms"
     },
@@ -2506,12 +2638,12 @@
       "text": "query optimization"
     },
     {
-      "source": "/cs61a/introduction",
+      "source": "/cs61a/",
       "target": "/cs61a/resources",
       "text": "here"
     },
     {
-      "source": "/cs61a/introduction",
+      "source": "/cs61a/",
       "target": "/cs61a/midterm-tips",
       "text": "here"
     },

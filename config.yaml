@@ -13,6 +13,11 @@ markup:
   tableOfContents:
     startLevel: 1
 
+# Sitemap
+sitemap:
+  filename: sitemap.xml
+  priority: 0.5
+
 # Multi-lingual mode config
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
