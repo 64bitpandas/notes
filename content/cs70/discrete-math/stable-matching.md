@@ -19,7 +19,7 @@ A **pairing** is a set of job-candidate pairs that uniquely \(disjointly\) match
 
 Note that 'job' and 'candidate' can be replaced with any two arbitrary groups, as long as one group doesn't contain any items from the other group!
 
-A **rogue couple** is a single pair where neither person in the pair wants to be with the other person. If a pairing is **stable**, it cannot contain any rogue couples.
+A **rogue couple** is a single pair where both individuals would prefer being with each other over their currently matched partner. If a pairing is **stable**, it cannot contain any rogue couples.
 
 **x-optimal matching** is a stable pairing that favors the choices of group x over the other group. This group is **whichever group chooses**- In the example above, the pairing would be **job optimal**, and **candidate pessimal.** \(More on why later.\)
 
