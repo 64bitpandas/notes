@@ -1,5 +1,5 @@
 ---
-title: "Chapter 6: S cheduling"
+title: "Chapter 6: Scheduling"
 ---
 # Introduction
 

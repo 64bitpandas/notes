@@ -1,5 +1,10 @@
 ## Introduction
 
+> [!warning] Warning
+>
+> This page was originally written in Fall 2021. It is likely outdated. Please ask your TA for the latest information!
+
+
 I get asked a lot about whether I have any advice for doing well on 61A exams, so I thought it would be nice to type some of it out. The following is my opinion/experience only, so feel free to ignore some or all of it if something else is more effective for you!
 
 For a more complete guide, please visit [https://cs61a.org/articles/studying/](https://cs61a.org/articles/studying/)!
@@ -102,6 +107,6 @@ And last of all, remember that the exam is far more inconsequential than you mig
 
 **Q:** Will ____ be emphasized on the midterm?
 
-**A:** Not sure; I don’t write the exam. If it was emphasized on previous exams, OR it was specifically mentioned by Pamela that it would be on the exam, then the likelihood that it will be on this exam is high.
+**A:** Not sure; I don’t write the exam. If it was emphasized on previous exams, OR it was specifically mentioned by TA's or the instructor that it would be on the exam, then the likelihood that it will be on this exam is high.
 
 **GLHF!** 🥰

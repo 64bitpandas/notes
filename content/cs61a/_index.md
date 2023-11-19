@@ -5,6 +5,10 @@ BookCollapseSection: true
 
 ## Introduction
 
+> [!warning] Warning
+>
+> This page was originally written in Spring 2023. It is likely outdated. Please ask your TA for the latest information!
+
 ![Concept map](conceptmap.jpg)
 
 Being the largest course at Berkeley, CS 61A has a *lot* of existing resources- not to mention John DeNero's recorded lectures are everything you could ever hope for in a lecture. I just don't see how I could contribute any meaningful content note that hasn't been done extremely well multiple times already.
