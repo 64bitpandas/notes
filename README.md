@@ -26,7 +26,7 @@ If you made your own notes/resources for a CS, Data Science, or EE course and wo
 
 ## About this website
 
-My notes are hosted on [Netlify](https://www.netlify.com/) and are built on my custom [Amethyst theme](https://github.com/64bitpandas/amethyst) for [Hugo](https://https://gohugo.io/). You can view the source code [here](https://github.com/64bitpandas/notes).
+My notes are hosted on [GitHub Pages](https://pages.github.com/) and are built on my custom [Amethyst theme](https://github.com/64bitpandas/amethyst) for [Hugo](https://gohugo.io/). You can view the source code [here](https://github.com/64bitpandas/notes).
 
 All of the notes here are formatted in Markdown, and the majority was created using [Obsidian](https://obsidian.md/). These notes are a small fraction of my Obsidian vault; I intend to publish other small bits of it in various places such as my [blog](https://blog.bencuan.me), [devlog](https://devlog.bencuan.me), or [mastodon](https://hachyderm.io/@bencuan) if you're curious.
 
