@@ -42,7 +42,7 @@ Here are some principles that I try to follow when creating notes. I'll probably
 
 My notes are hosted on GitHub Pages and are built on my custom [Amethyst theme](https://github.com/64bitpandas/amethyst) for [Hugo](https://https://gohugo.io/). You can view the source code [here](https://github.com/64bitpandas/notes).
 
-All of the notes here are formatted in Markdown, and the majority was created using [Obsidian](https://obsidian.md/). These notes are a small fraction of my Obsidian vault; I intend to publish other small bits of it in various places such as my [blog](https://blog.bencuan.me), [devlog](https://devlog.bencuan.me), or [mastodon](https://hachyderm.io/@bencuan) if you're curious.
+All of the notes here are formatted in Markdown, and the majority was created using [Obsidian](https://obsidian.md/). These notes are a small fraction of my Obsidian vault; I intend to publish other small bits of it in various places such as my [blog](https://bencuan.me/blog) or [the Garden](https://garden.bencuan.me).
 
 If you're interested in contributing, take a look at the [contribution guide](/contributing.md).
 
