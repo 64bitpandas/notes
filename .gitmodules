@@ -1,3 +1,6 @@
 [submodule "themes/hugo-book"]
 	path = themes/hugo-book
 	url = https://github.com/alex-shpak/hugo-book
+[submodule "static/fonts"]
+	path = static/fonts
+	url = https://github.com/64bitpandas/fonts.git

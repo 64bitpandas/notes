@@ -3,11 +3,12 @@ $header-height: 80px;
 header {
     position: fixed;
     width: 100%;
-    padding: 0px 80px;
+    padding: 0px 30px;
     z-index: 9999;
     background-color: var(--header);
     margin: 0 !important;
     height: $header-height;
+    border-bottom: 2px solid var(--secondary);
 }
 
 .book-menu,
@@ -19,7 +20,7 @@ header {
 
 .book-header {
     display: flex;
-    padding: 30px;
+    padding: 45px 30px 15px 15px;
 }
 
 #page-title a {
@@ -100,6 +101,11 @@ pre::-webkit-scrollbar {
     color: var(--title);
     font-size: 2.25rem;
     padding-bottom: 1rem;
+
+    &.home {
+        font-family: var(--font-title);
+        font-weight: normal;
+    }
 }
 
 .book-toc-content {

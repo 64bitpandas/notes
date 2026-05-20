@@ -20,13 +20,29 @@ html {
 }
 
 
+html {
+  background-color: var(--light);
+}
+
 body {
   margin: 0;
   height: 100vh;
   width: 100vw;
   max-width: 100%;
   box-sizing: border-box;
-  background-color: var(--light);
+  background-color: transparent;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url('/img/background.png') repeat;
+    background-size: 320px auto;
+    opacity: 0.05;
+    pointer-events: none;
+    z-index: -1;
+  }
 }
 
 h1, h2, h3, h4, h5, h6, thead {
@@ -246,8 +262,18 @@ sup > a {
 
 #page-title {
   margin: 0;
+  font-size: 3rem;
+  line-height: 1;
   & > a {
-    font-family: var(--font-header);
+    font-family: var(--font-title);
+    font-weight: normal;
+    display: inline-flex;
+    align-items: center;
+    gap: 0;
+  }
+  .title-icon {
+    height: 1.5em;
+    width: auto;
   }
 }
 

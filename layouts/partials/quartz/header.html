@@ -3,7 +3,7 @@
     <label for="menu-control">
       <img src="{{ "svg/menu.svg" | relURL }}" class="book-icon" alt="Menu" />
     </label>
-    <h1 id="page-title"><a href="{{ "" | absLangURL }}">{{ .Site.Params.Title }}</a></h1>
+    <h1 id="page-title"><a href="{{ "" | absLangURL }}"><img src="{{ "favicon.png" | relURL }}" class="title-icon" alt="" />{{ .Site.Params.Title }}</a></h1>
     <div class="spacer"></div>
     <div id="search-icon" class="quartz-search">
       <p>{{ i18n "search" }}</p>

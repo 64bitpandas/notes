@@ -1,87 +1,90 @@
-// Replace this with your own font imports!
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+// Local font imports from static/fonts (64bitpandas/fonts submodule).
 
 :root {
-  --font-body: "PP Mori Light", "Source Sans Pro", sans-serif;
-  --font-header: "PP Mori Extrabold", "Source Sans Pro", sans-serif;
+  --font-body: "PP Telegraf", "Source Sans Pro", sans-serif;
+  --font-header: "PP Telegraf", "Source Sans Pro", sans-serif;
+  --font-title: "Crowd Pleaser", "PP Telegraf", sans-serif;
   --font-mono: "PP Fraktion Mono", "Fira Code", monospace;
 }
 
+// PP Telegraf — body & headings
+
 @font-face {
-  font-family: "PP Mori";
+  font-family: "PP Telegraf";
+  font-style: normal;
+  font-weight: 200;
+  src: url('fonts/Telegraf/PPTelegraf-Ultralight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "PP Telegraf";
+  font-style: italic;
+  font-weight: 200;
+  src: url('fonts/Telegraf/PPTelegraf-UltralightOblique.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "PP Telegraf";
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/Telegraf/PPTelegraf-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "PP Telegraf";
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/Telegraf/PPTelegraf-RegularOblique.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "PP Telegraf";
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/Telegraf/PPTelegraf-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "PP Telegraf";
+  font-style: italic;
+  font-weight: 700;
+  src: url('fonts/Telegraf/PPTelegraf-BoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "PP Telegraf";
+  font-style: normal;
+  font-weight: 800;
+  src: url('fonts/Telegraf/PPTelegraf-Ultrabold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "PP Telegraf";
+  font-style: italic;
+  font-weight: 800;
+  src: url('fonts/Telegraf/PPTelegraf-UltraboldOblique.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "PP Telegraf";
+  font-style: normal;
+  font-weight: 900;
+  src: url('fonts/Telegraf/PPTelegraf-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "PP Telegraf";
+  font-style: italic;
+  font-weight: 900;
+  src: url('fonts/Telegraf/PPTelegraf-BlackOblique.woff2') format('woff2');
+}
+
+// Crowd Pleaser — site title
+
+@font-face {
+  font-family: "Crowd Pleaser";
   font-style: normal;
   font-weight: normal;
-  src: url('fonts/PPMori-SemiBold.woff2');
-}
-
-@font-face {
-  font-family: "PP Mori";
-  font-style: normal;
-  font-weight: lighter;
-  src: url('fonts/PPMori-Book.woff2');
-}
-
-@font-face {
-  font-family: "PP Mori";
-  font-style: normal;
-  font-weight: bold;
-  src: url('fonts/PPMori-SemiBold.woff2');
-}
-
-@font-face {
-  font-family: "PP Mori";
-  font-style: normal;
-  font-weight: 1000;
-  src: url('fonts/PPMori-ExtraBold.woff2');
-}
-
-@font-face {
-  font-family: "PP Mori";
-  font-style: italic;
-  font-weight: normal;
-  src: url('fonts/PPMori-RegularItalic.woff2');
-}
-
-@font-face {
-  font-family: "PP Mori";
-  font-style: italic;
-  font-weight: bold;
-  src: url('fonts/PPMori-SemiBoldItalic.woff2');
-}
-
-
-
-@font-face {
-  font-family: "PP Fraktion Mono";
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/PPFraktionMono-Regular.woff2');
-}
-
-@font-face {
-  font-family: "PP Fraktion Mono";
-  font-style: normal;
-  font-weight: lighter;
-  src: url('fonts/PPFraktionMono-Bold.woff2');
-}
-
-@font-face {
-  font-family: "PP Fraktion Mono";
-  font-style: normal;
-  font-weight: bold;
-  src: url('fonts/PPFraktionMono-Bold.woff2');
-}
-
-@font-face {
-  font-family: "PP Fraktion Mono";
-  font-style: italic;
-  font-weight: normal;
-  src: url('fonts/PPFraktionMono-RegularItalic.woff2');
-}
-
-@font-face {
-  font-family: "PP Fraktion Mono";
-  font-style: italic;
-  font-weight: bold;
-  src: url('fonts/PPFraktionMono-BoldItalic.woff2');
+  src: url('fonts/Crowd%20Pleaser/crowd_pleaser-webfont.woff2') format('woff2'),
+       url('fonts/Crowd%20Pleaser/crowd_pleaser-webfont.woff') format('woff');
 }
