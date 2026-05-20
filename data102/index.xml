@@ -1,29 +1,204 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data 102: Inference on</title><link>https://notes.bencuan.me/data102/</link><description>Recent content in Data 102: Inference on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/data102/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/data102/binary-decision-making/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/binary-decision-making/</guid><description>Binary Decision Making is the simplest kind of decision we can make: 1 or 0, yes or now, true or false&amp;hellip;
-Setup # In reality, a value is either 0 or 1. However, we observe noisy data that isn&amp;rsquo;t always 100% accurate. Given this noisy data, we make a decision (also either 0 or 1).
-Some examples of binary decisions are:
-COVID testing (positive or negative) Fraud detection (fraud or no fraud) Confusion Matrix # A 2x2 table that helps us evaluate how effective our predictions were (columns) given reality (rows).</description></item><item><title/><link>https://notes.bencuan.me/data102/hypothesis-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/hypothesis-testing/</guid><description>Hypothesis Testing # Hypothesis testing is a form of [[binary decision making]] (do we accept or reject the null hypothesis?).
-Formulate null hypothesis, alternate hypothesis, and test statistic Compute value of test statistic based on data Simulate test statistic under null hypothesis many times Compare results to determine likelihood of result As an example of how this relates to binary decision making:
-Null hypothesis true: reality = 0 Alternative hypothesis true: reality = 1 Fail to reject null: decision = 0 Reject null: decision = 1 So if the null hypothesis is actually true but we end up rejecting it, then a false positive result has occurred.</description></item><item><title/><link>https://notes.bencuan.me/data102/decision-theory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/decision-theory/</guid><description>So far, in [[binary decision making]] and [[hypothesis testing]], we&amp;rsquo;ve explored how to make as few mistakes as possible when making binary predictions.
-Intro to Decision Theory # We can generalize a decision problem to the following:
-Suppose there is some unknown quantity of interest $\theta$. $\theta$ is random under a Bayesian approach, and fixed if frequentist. We collect/observe some data $X$. There is some true distribution that the data is drawn from, $p(X | \theta)$.</description></item><item><title/><link>https://notes.bencuan.me/data102/parameter-estimation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/parameter-estimation/</guid><description>Suppose we observe $n$ data points ($x_1$ to $x_n$). Let $\theta$ be some unknown parameter that describes the distribution the data points were sampled from.
-As an example, let&amp;rsquo;s say we are trying to quantify how good a product is based on how many positive and negative reviews it has.
-This means that data $x_i$ is either $0$ (bad review) or $1$ (good review) Let $p(x_i | \theta) = \theta^{x_i} (1-\theta)^{1-x_i}$.</description></item><item><title/><link>https://notes.bencuan.me/data102/sampling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/sampling/</guid><description>Intro # In practice, getting the exact probability of an inference is not required as long as we get a rough estimate (80% chance is basically the same as 80.15%, etc.).
-In order to cut down on the resources required to make inferences from a Bayes Net, we can use sampling techniques to approximate the true probability of a query.
-Prior Sampling # For all $i$ in topological order , sample $X_i$ from the CPT of $P(X_i | parents(X_i))$.</description></item><item><title>Regression and GLMs</title><link>https://notes.bencuan.me/data102/regression-and-glms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/regression-and-glms/</guid><description>Posterior Predictive Distribution # Posterior Predictive Distribution: &amp;ldquo;if we saw some data, what future data might we expect?&amp;rdquo;
-$P(x_{n+1}|x_1,\cdots,x_n)$ = $\int P(x_{n+1}|\theta)P(\theta|x_1,\cdots,x_n)d\theta$ $= E_{\theta|X}(P(x_{n+1}|\theta))$, which is an average with respect to the posterior. In practice, the posterior component is estimated.
-Linear Regression # $$Y = X\beta + \epsilon$$ where $Y$ is a $n \times 1$ vector, $X$ is a $n \times d$ matrix,
-$Y$ is unknown and fixed, $X$ is known and fixed, $\epsilon$ is unknown and random (sampled from i.</description></item><item><title/><link>https://notes.bencuan.me/data102/nonparametric-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/nonparametric-methods/</guid><description>What does nonparametric mean? # Nonparametric methods make no assumptions about the distribution of the data or parameters; the null hypothesis is solely generated based on the data.
-In some other contexts, the number of parameters in a nonparametric method is either infinite or grows with the number of data points.
-Supposing the true state of the world is $\theta$ and our data is $x$, parametric/forward models attempt to make some assumptions about $\theta$ that make us most likely to see the data $x$.</description></item><item><title/><link>https://notes.bencuan.me/data102/interpretability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/interpretability/</guid><description>What do we look for in predictions? # Accuracy: We want predictions to be close to the true values. Simplicity: We want the model to be easy to understand and trust. Interpretability: We want to be able to explain why the model behaved the way it did.
-Components of interpretability # What is it?
-transparency: understanding the model explanations: understanding the predictions When and why do we care?</description></item><item><title/><link>https://notes.bencuan.me/data102/causality/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/causality/</guid><description>Prediction vs Causality # Prediction: using $X$ data, can we guess what $y$ will be?
-Causation: does X cause y to change?
-Affects decisions Typically established via randomized experiments Case Studies in Causality # Confounding Factor # A Martian comes to Earth and observes that people using umbrellas have a higher probability of getting wet than people who do not. They infer that using an umbrella causes people to get wet.</description></item><item><title/><link>https://notes.bencuan.me/data102/concentration-inequalities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/concentration-inequalities/</guid><description>The goal of concentration inequalities is to provide bounds on the probability of a random variable taking values in its tail (regions farthest away from the mean).
-This is especially useful when we don&amp;rsquo;t know the distribution of a random variable, or we have a combination of other random variables (sample mean, quicksort, multi-arm bandit&amp;hellip;).
-Markov&amp;rsquo;s Inequality # If $X$ is a non-negative random variable with expectation $\mu$, then $$P(X \ge t) \le \frac{\mu}{t}$$</description></item><item><title/><link>https://notes.bencuan.me/data102/bandits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/bandits/</guid><description>Main idea: making repeated decisions based on feedback, factoring in the tradeoff between exploring new decisions or keeping existing good decisions
-Multi-Armed Bandit Framework # The Multi-Armed bandit problem arises when the following are true:
-We need to get the data as a part of the process Exploration/exploitation tradeoff (both have a cost) Stochastic: rewards are random Setup:
-Selection rounds $1, \cdots, T$ Arms (choices) $1, \cdots, K$ $P_i$: reward distribution for arm $i$ $\mu_i$: mean reward for $P_i$ distribution At each round $t$, choose an arm $A_t$ such that a reward $X_t \sim P_{A_t}$ is procured Define pseudo-regret at time $T$ as $\bar R_t = \sum_{t=1}^T (\mu^* - \mu_{A_t})$ where $\mu^*$ is the best mean possible.</description></item><item><title/><link>https://notes.bencuan.me/data102/Markov-Decision-Processes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/Markov-Decision-Processes/</guid><description>What is a Markov Decision Process? # A Markov Decision Process is a Markov model that solves nondeterministic search problems (where an action can result in multiple possible successor states).
-A MDP is defined by:
-A set of states $s$ A set of actions $a$ A transition model $T(s, a, s’)$ that represents the probability $P(s’ | s, a)$ - that the action $a$ taken at state $s$ will lead to a new state $s’$.</description></item><item><title/><link>https://notes.bencuan.me/data102/Reinforcement-Learning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/Reinforcement-Learning/</guid><description>Introduction # Reinforcement Learning (RL) is an example of online planning, where agents have no prior knowledge of rewards or transitions and must explore an environment before using an estimated policy.
-Model-based learning: attempts to estimate transition and reward functions with samples attained during exploration before solving MDP with estimates using value or policy iteration Model-free learning: attempts to estimate values/Q-values of states directly without construction a reward or transition model in MDP Passive reinforcement learning: agent is given a policy and learns the values of states under that policy.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data 102: Inference on</title><link>https://notes.bencuan.me/data102/</link><description>Recent content in Data 102: Inference on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/data102/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/data102/binary-decision-making/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/binary-decision-making/</guid><description>&lt;p&gt;Binary Decision Making is the simplest kind of decision we can make: 1 or 0, yes or now, true or false&amp;hellip;&lt;/p&gt;
+&lt;h2 id="setup"&gt;
+ Setup
+ &lt;a class="anchor" href="#setup"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In reality, a value is either 0 or 1.
+However, we observe noisy data that isn&amp;rsquo;t always 100% accurate. Given this noisy data, we make a decision (also either 0 or 1).&lt;/p&gt;
+&lt;p&gt;Some examples of binary decisions are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;COVID testing (positive or negative)&lt;/li&gt;
+&lt;li&gt;Fraud detection (fraud or no fraud)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="confusion-matrix"&gt;
+ Confusion Matrix
+ &lt;a class="anchor" href="#confusion-matrix"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;A 2x2 table that helps us evaluate how effective our predictions were (columns) given reality (rows).
+![[/data102/img/Untitled 24.png]]&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/data102/hypothesis-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/hypothesis-testing/</guid><description>&lt;h2 id="hypothesis-testing"&gt;
+ Hypothesis Testing
+ &lt;a class="anchor" href="#hypothesis-testing"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Hypothesis testing is a form of [[binary decision making]] (do we accept or reject the null hypothesis?).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Formulate null hypothesis, alternate hypothesis, and test statistic&lt;/li&gt;
+&lt;li&gt;Compute value of test statistic based on data&lt;/li&gt;
+&lt;li&gt;Simulate test statistic under null hypothesis many times&lt;/li&gt;
+&lt;li&gt;Compare results to determine likelihood of result&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As an example of how this relates to binary decision making:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Null hypothesis true: reality = 0&lt;/li&gt;
+&lt;li&gt;Alternative hypothesis true: reality = 1&lt;/li&gt;
+&lt;li&gt;Fail to reject null: decision = 0&lt;/li&gt;
+&lt;li&gt;Reject null: decision = 1
+So if the null hypothesis is actually true but we end up rejecting it, then a false positive result has occurred.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="p-value"&gt;
+ P Value
+ &lt;a class="anchor" href="#p-value"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;The P-value is the chance if the null hypothesis is true, that the test statistic is equal to or more extreme than the value observed in the data.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/data102/decision-theory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/decision-theory/</guid><description>&lt;p&gt;So far, in [[binary decision making]] and [[hypothesis testing]], we&amp;rsquo;ve explored how to make as few mistakes as possible when making binary predictions.&lt;/p&gt;
+&lt;h2 id="intro-to-decision-theory"&gt;
+ Intro to Decision Theory
+ &lt;a class="anchor" href="#intro-to-decision-theory"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;We can generalize a decision problem to the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Suppose there is some unknown quantity of interest $\theta$.
+&lt;ul&gt;
+&lt;li&gt;$\theta$ is random under a Bayesian approach, and fixed if frequentist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;We collect/observe some data $X$.&lt;/li&gt;
+&lt;li&gt;There is some true distribution that the data is drawn from, $p(X | \theta)$.&lt;/li&gt;
+&lt;li&gt;We are tasked to create a good &lt;strong&gt;estimator&lt;/strong&gt; $\delta(x)$ (also known as $\hat\theta$, which makes decisions based on the data.&lt;/li&gt;
+&lt;li&gt;In order to quantify how good/bad our estimator is, we can use a loss function $l(\delta(x), \theta)$, where higher loss values are worse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="loss-functions"&gt;
+ Loss Functions
+ &lt;a class="anchor" href="#loss-functions"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="01-loss"&gt;
+ 0/1 Loss
+ &lt;a class="anchor" href="#01-loss"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;In the case of binary decisions:&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/data102/parameter-estimation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/parameter-estimation/</guid><description>&lt;p&gt;Suppose we observe $n$ data points ($x_1$ to $x_n$).
+Let $\theta$ be some unknown parameter that describes the distribution the data points were sampled from.&lt;/p&gt;
+&lt;p&gt;As an example, let&amp;rsquo;s say we are trying to quantify how good a product is based on how many positive and negative reviews it has.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This means that data $x_i$ is either $0$ (bad review) or $1$ (good review)&lt;/li&gt;
+&lt;li&gt;Let $p(x_i | \theta) = \theta^{x_i} (1-\theta)^{1-x_i}$. This means that reviews are positive with probability $\theta$, and negative with probability $1-\theta$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="maximum-likelihood-estimation-mle"&gt;
+ Maximum Likelihood Estimation (MLE)
+ &lt;a class="anchor" href="#maximum-likelihood-estimation-mle"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter_20/01_Maximum_Likelihood.html" rel="noopener"&gt;http://prob140.org/textbook/content/Chapter_20/01_Maximum_Likelihood.html&lt;/a&gt;&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/data102/sampling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/sampling/</guid><description>&lt;h2 id="intro"&gt;
+ Intro
+ &lt;a class="anchor" href="#intro"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In practice, getting the exact probability of an inference is not required as long as we get a rough estimate (80% chance is basically the same as 80.15%, etc.).&lt;/p&gt;
+&lt;p&gt;In order to cut down on the resources required to make inferences from a Bayes Net, we can use sampling techniques to approximate the true probability of a query.&lt;/p&gt;
+&lt;h3 id="prior-sampling"&gt;
+ Prior Sampling
+ &lt;a class="anchor" href="#prior-sampling"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;For all $i$ in topological order , sample $X_i$ from the CPT of $P(X_i | parents(X_i))$.&lt;/p&gt;</description></item><item><title>Regression and GLMs</title><link>https://notes.bencuan.me/data102/regression-and-glms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/regression-and-glms/</guid><description>&lt;h2 id="posterior-predictive-distribution"&gt;
+ Posterior Predictive Distribution
+ &lt;a class="anchor" href="#posterior-predictive-distribution"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Posterior Predictive Distribution:&lt;/strong&gt; &amp;ldquo;if we saw some data, what future data might we expect?&amp;rdquo;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$P(x_{n+1}|x_1,\cdots,x_n)$ = $\int P(x_{n+1}|\theta)P(\theta|x_1,\cdots,x_n)d\theta$&lt;/li&gt;
+&lt;li&gt;$= E_{\theta|X}(P(x_{n+1}|\theta))$, which is an average with respect to the posterior.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In practice, the posterior component is estimated.&lt;/p&gt;
+&lt;h2 id="linear-regression"&gt;
+ Linear Regression
+ &lt;a class="anchor" href="#linear-regression"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;$$Y = X\beta + \epsilon$$
+where $Y$ is a $n \times 1$ vector, $X$ is a $n \times d$ matrix,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$Y$ is unknown and fixed,&lt;/li&gt;
+&lt;li&gt;$X$ is known and fixed,&lt;/li&gt;
+&lt;li&gt;$\epsilon$ is unknown and random (sampled from i.i.d Normal distributions).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We can calculate the squared ($L_2$) loss by using $L = \frac{1}{n}||Y-X\beta||^2$ to find that $\hat\beta = (X^TX)^{-1}X^TY$.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/data102/nonparametric-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/nonparametric-methods/</guid><description>&lt;h2 id="what-does-nonparametric-mean"&gt;
+ What does nonparametric mean?
+ &lt;a class="anchor" href="#what-does-nonparametric-mean"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Nonparametric methods make no assumptions about the distribution of the data or parameters; the null hypothesis is solely generated based on the data.&lt;/p&gt;
+&lt;p&gt;In some other contexts, the number of parameters in a nonparametric method is either infinite or grows with the number of data points.&lt;/p&gt;
+&lt;p&gt;Supposing the true state of the world is $\theta$ and our data is $x$, parametric/forward models attempt to make some assumptions about $\theta$ that make us most likely to see the data $x$. Nonparametric models go the other direction, allowing us to directly infer $\theta$ based on the observed data.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/data102/interpretability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/interpretability/</guid><description>&lt;h2 id="what-do-we-look-for-in-predictions"&gt;
+ What do we look for in predictions?
+ &lt;a class="anchor" href="#what-do-we-look-for-in-predictions"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Accuracy:&lt;/strong&gt; We want predictions to be close to the true values.
+&lt;strong&gt;Simplicity:&lt;/strong&gt; We want the model to be easy to understand and trust.
+&lt;strong&gt;Interpretability:&lt;/strong&gt; We want to be able to explain why the model behaved the way it did.&lt;/p&gt;
+&lt;h2 id="components-of-interpretability"&gt;
+ Components of interpretability
+ &lt;a class="anchor" href="#components-of-interpretability"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What is it?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;transparency: understanding the model&lt;/li&gt;
+&lt;li&gt;explanations: understanding the predictions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;When and why do we care?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/data102/causality/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/causality/</guid><description>&lt;h2 id="prediction-vs-causality"&gt;
+ Prediction vs Causality
+ &lt;a class="anchor" href="#prediction-vs-causality"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Prediction:&lt;/strong&gt; using $X$ data, can we guess what $y$ will be?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Causation:&lt;/strong&gt; does X cause y to change?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Affects decisions&lt;/li&gt;
+&lt;li&gt;Typically established via randomized experiments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="case-studies-in-causality"&gt;
+ Case Studies in Causality
+ &lt;a class="anchor" href="#case-studies-in-causality"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="confounding-factor"&gt;
+ Confounding Factor
+ &lt;a class="anchor" href="#confounding-factor"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;A Martian comes to Earth and observes that people using umbrellas have a higher probability of getting wet than people who do not. They infer that using an umbrella causes people to get wet.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/data102/concentration-inequalities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/concentration-inequalities/</guid><description>&lt;p&gt;The goal of concentration inequalities is to provide bounds on the probability of a random variable taking values in its tail (regions farthest away from the mean).&lt;/p&gt;
+&lt;p&gt;This is especially useful when we don&amp;rsquo;t know the distribution of a random variable, or we have a combination of other random variables (sample mean, quicksort, multi-arm bandit&amp;hellip;).&lt;/p&gt;
+&lt;h2 id="markovs-inequality"&gt;
+ Markov&amp;rsquo;s Inequality
+ &lt;a class="anchor" href="#markovs-inequality"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;If $X$ is a non-negative random variable with expectation $\mu$, then
+$$P(X \ge t) \le \frac{\mu}{t}$$&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/data102/bandits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/bandits/</guid><description>&lt;p&gt;&lt;strong&gt;Main idea:&lt;/strong&gt; making repeated decisions based on feedback, factoring in the tradeoff between exploring new decisions or keeping existing good decisions&lt;/p&gt;
+&lt;h3 id="multi-armed-bandit-framework"&gt;
+ Multi-Armed Bandit Framework
+ &lt;a class="anchor" href="#multi-armed-bandit-framework"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;The Multi-Armed bandit problem arises when the following are true:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We need to get the data as a part of the process&lt;/li&gt;
+&lt;li&gt;Exploration/exploitation tradeoff (both have a cost)&lt;/li&gt;
+&lt;li&gt;Stochastic: rewards are random&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Setup:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Selection rounds $1, \cdots, T$&lt;/li&gt;
+&lt;li&gt;Arms (choices) $1, \cdots, K$&lt;/li&gt;
+&lt;li&gt;$P_i$: reward distribution for arm $i$&lt;/li&gt;
+&lt;li&gt;$\mu_i$: mean reward for $P_i$ distribution&lt;/li&gt;
+&lt;li&gt;At each round $t$, choose an arm $A_t$ such that a reward $X_t \sim P_{A_t}$ is procured&lt;/li&gt;
+&lt;li&gt;Define &lt;em&gt;pseudo-regret&lt;/em&gt; at time $T$ as $\bar R_t = \sum_{t=1}^T (\mu^* - \mu_{A_t})$ where $\mu^*$ is the best mean possible.
+&lt;ul&gt;
+&lt;li&gt;The term in the sum is also known as the &lt;strong&gt;optimality gap&lt;/strong&gt;, $\Delta_a$ (how much worse arm $a$ is than the best arm).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Goal:&lt;/strong&gt; maximize total expected reward&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/data102/Markov-Decision-Processes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/Markov-Decision-Processes/</guid><description>&lt;h2 id="what-is-a-markov-decision-process"&gt;
+ What is a Markov Decision Process?
+ &lt;a class="anchor" href="#what-is-a-markov-decision-process"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;A Markov Decision Process is a Markov model that solves &lt;strong&gt;nondeterministic search problems&lt;/strong&gt; (where an action can result in multiple possible successor states).&lt;/p&gt;
+&lt;p&gt;A MDP is defined by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A set of states $s$&lt;/li&gt;
+&lt;li&gt;A set of actions $a$&lt;/li&gt;
+&lt;li&gt;A transition model $T(s, a, s’)$ that represents the probability $P(s’ | s, a)$ - that the action $a$ taken at state $s$ will lead to a new state $s’$. (Allowed by memoryless property)&lt;/li&gt;
+&lt;li&gt;A reward function $R(s, a, s’)$ per transition&lt;/li&gt;
+&lt;li&gt;Discount factor $\gamma \in [0, 1]$&lt;/li&gt;
+&lt;li&gt;A start state&lt;/li&gt;
+&lt;li&gt;A terminal (absorbing state)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The utility function of an MDP can be calculated as follows:&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/data102/Reinforcement-Learning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/data102/Reinforcement-Learning/</guid><description>&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Reinforcement Learning (RL) is an example of &lt;strong&gt;online planning,&lt;/strong&gt; where agents have no prior knowledge of rewards or transitions and must explore an environment before using an estimated policy.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Model-based learning: attempts to estimate transition and reward functions with samples attained during exploration before solving MDP with estimates using value or policy iteration&lt;/li&gt;
+&lt;li&gt;Model-free learning: attempts to estimate values/Q-values of states directly without construction a reward or transition model in MDP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Passive reinforcement learning: agent is given a policy and learns the values of states under that policy.&lt;/p&gt;</description></item></channel></rss>

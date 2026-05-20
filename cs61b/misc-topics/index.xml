@@ -1,8 +1,96 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/misc-topics/</link><description>Recent content on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs61b/misc-topics/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs61b/misc-topics/exceptions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/misc-topics/exceptions/</guid><description>Exceptions # Basics # An exception occurs when something unintended occurs and the interpreter must exit.
-While this might sound like a bad thing, we can often throw our own exceptions to handle known errors or edge cases more gracefully.
-Exceptions in Java # In Java, there are two types of exceptions: checked and unchecked.
-Checked exceptions are handled during compile time, and are included in the method declaration.</description></item><item><title/><link>https://notes.bencuan.me/cs61b/misc-topics/modular-arithmetic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/misc-topics/modular-arithmetic/</guid><description>Modular Arithmetic and Bit Manipulation # [!warning] Content Note
-Make sure you&amp;rsquo;re comfortable working with binary numbers (adding, subtracting, converting to decimal) before continuing.
-Integer Types # This is an excerpt from the chart in Java Objects. Go there to review primitive types first!
-Type Bits Signed Literals byte 8 yes 3, (int)17 short 16 yes None - must cast from int char 16 no &amp;lsquo;a&amp;rsquo;, &amp;lsquo;\n&amp;rsquo; int 32 yes 123, 0100 (octal), 0xff (hex) long 64 yes 123L, 0100L, 0xffL Signed Numbers # A type is signed if it can be positive or negative.</description></item><item><title/><link>https://notes.bencuan.me/cs61b/misc-topics/more-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/misc-topics/more-resources/</guid><description>More Resources # Here are some more cool things to look at!
-Big O Cheat Sheet - complexities of sorting and common data structure operations Toptal Sorting Algorithm Animations - animations, pseudocode, and property summaries Josh Hug&amp;rsquo;s 61B Playlist - concise video lectures for most 61B topics Balanced Search Demos - play around with balanced search structures and see how they work</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/misc-topics/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs61b/misc-topics/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs61b/misc-topics/exceptions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/misc-topics/exceptions/</guid><description>&lt;h1 id="exceptions"&gt;
+ Exceptions
+ &lt;a class="anchor" href="#exceptions"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="basics"&gt;
+ Basics
+ &lt;a class="anchor" href="#basics"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;An &lt;strong&gt;exception&lt;/strong&gt; occurs when something unintended occurs and the interpreter must exit.&lt;/p&gt;
+&lt;p&gt;While this might sound like a bad thing, we can often throw our own exceptions to handle known errors or edge cases more gracefully.&lt;/p&gt;
+&lt;h3 id="exceptions-in-java"&gt;
+ Exceptions in Java
+ &lt;a class="anchor" href="#exceptions-in-java"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;In Java, there are two types of exceptions: &lt;strong&gt;checked&lt;/strong&gt; and &lt;strong&gt;unchecked.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Checked&lt;/strong&gt; exceptions are handled during compile time, and are included in the method declaration. As an example:&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs61b/misc-topics/modular-arithmetic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/misc-topics/modular-arithmetic/</guid><description>&lt;h1 id="modular-arithmetic-and-bit-manipulation"&gt;
+ Modular Arithmetic and Bit Manipulation
+ &lt;a class="anchor" href="#modular-arithmetic-and-bit-manipulation"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!warning] Content Note&lt;/p&gt;
+&lt;p&gt;Make sure you&amp;rsquo;re comfortable working with binary numbers (adding, subtracting, converting to decimal) before continuing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="integer-types"&gt;
+ Integer Types
+ &lt;a class="anchor" href="#integer-types"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This is an excerpt from the chart in 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/oop/objects/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/oop/objects/"&gt;Java Objects&lt;/a&gt;. Go there to review primitive types first!&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Type&lt;/th&gt;
+ &lt;th&gt;Bits&lt;/th&gt;
+ &lt;th&gt;Signed&lt;/th&gt;
+ &lt;th&gt;Literals&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;byte&lt;/td&gt;
+ &lt;td&gt;8&lt;/td&gt;
+ &lt;td&gt;yes&lt;/td&gt;
+ &lt;td&gt;3, (int)17&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;short&lt;/td&gt;
+ &lt;td&gt;16&lt;/td&gt;
+ &lt;td&gt;yes&lt;/td&gt;
+ &lt;td&gt;None - must cast from int&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;char&lt;/td&gt;
+ &lt;td&gt;16&lt;/td&gt;
+ &lt;td&gt;no&lt;/td&gt;
+ &lt;td&gt;&amp;lsquo;a&amp;rsquo;, &amp;lsquo;\n&amp;rsquo;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;int&lt;/td&gt;
+ &lt;td&gt;32&lt;/td&gt;
+ &lt;td&gt;yes&lt;/td&gt;
+ &lt;td&gt;123, 0100 (octal), 0xff (hex)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;long&lt;/td&gt;
+ &lt;td&gt;64&lt;/td&gt;
+ &lt;td&gt;yes&lt;/td&gt;
+ &lt;td&gt;123L, 0100L, 0xffL&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="signed-numbers"&gt;
+ Signed Numbers
+ &lt;a class="anchor" href="#signed-numbers"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;A type is &lt;strong&gt;signed&lt;/strong&gt; if it can be &lt;strong&gt;positive&lt;/strong&gt; &lt;strong&gt;or&lt;/strong&gt; &lt;strong&gt;negative.&lt;/strong&gt; Unsigned types can &lt;em&gt;only&lt;/em&gt; be positive.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs61b/misc-topics/more-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/misc-topics/more-resources/</guid><description>&lt;h1 id="more-resources"&gt;
+ More Resources
+ &lt;a class="anchor" href="#more-resources"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Here are some more cool things to look at!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://www.bigocheatsheet.com/" rel="noopener"&gt;Big O Cheat Sheet &lt;/a&gt;- complexities of sorting and common data structure operations&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.toptal.com/developers/sorting-algorithms" rel="noopener"&gt;Toptal Sorting Algorithm Animations &lt;/a&gt;- animations, pseudocode, and property summaries&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.youtube.com/channel/UC7FzTMO4rKvlqIyU5vwzFKQ/playlists" rel="noopener"&gt;Josh Hug&amp;rsquo;s 61B Playlist&lt;/a&gt; - concise video lectures for most 61B topics&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://inst.eecs.berkeley.edu/%5c~cs61b/sp20/materials/lectures/lect29/" rel="noopener"&gt;Balanced Search Demos&lt;/a&gt; - play around with balanced search structures and see how they work&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

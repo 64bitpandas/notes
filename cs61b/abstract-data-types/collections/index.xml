@@ -1,12 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/collections/</link><description>Recent content on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs61b/abstract-data-types/collections/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/collections/arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/collections/arrays/</guid><description>[!info] Content Note
-This page assumes prior knowledge of Python lists from CS61A or equivalent.
-Arrays are a very popular data structure that stores an indexed list of data.
-Properties # Fixed length: after instantiation, the length of an array cannot be changed. Every value in array is the same type and holds the same amount of bits in memory. Zero-indexed. That means arr[0] returns the first value, and arr[arr.</description></item><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/collections/linked-lists/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/collections/linked-lists/</guid><description>[!info] Content Note
-This page assumes prior knowledge of linked lists from CS61A or equivalent. I&amp;rsquo;ll assume you have already worked with basic singly linked lists before.
-The linked list is an extremely common recursive data structure that allows storage and access of an arbitrary amount of data.
-Feature List of an Effective Linked List # Rebranding- represents Node as an individual object rather than having one monolithic List type.</description></item><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/collections/sets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/collections/sets/</guid><description>[!warning] Warning
-This page is incomplete. help make it better!
-Basics # A Set stores a collection of values with no duplicates. Sets have no inherent order, so you can&amp;rsquo;t rely on expecting any value to come before any other value when iterating through them.
-Some set functions include:
-add(T x) contains(T x) size() ArraySet # An ArraySet is an array-based solution to a set implementation.</description></item><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/collections/stacks-and-queues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/collections/stacks-and-queues/</guid><description>Stacks and queues are two very common data structures used for a variety of applications from CPU processes to finding shortest paths using Dijkstra&amp;rsquo;s Algorithm. Fundamentally, they are very similar in structure and only differ by the order in which items are popped from them.
-Pushing and Popping # Pushing # Adding an item to a stack or queue is called pushing. This will either put the item on the top of a stack or in the back of a queue.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/collections/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs61b/abstract-data-types/collections/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/collections/arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/collections/arrays/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;[!info] Content Note&lt;/p&gt;
+&lt;p&gt;This page assumes prior knowledge of Python lists from CS61A or equivalent.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Arrays are a very popular data structure that stores an indexed list of data.&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me/cs61b/abstract-data-types/collections/../../img/assets/image%20%2837%29.png" width="auto" alt="An artistic interpretation of a new int[5] {6, 1, 2, 3, 99};" /&gt;&lt;/p&gt;
+&lt;h2 id="properties"&gt;
+ Properties
+ &lt;a class="anchor" href="#properties"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fixed length:&lt;/strong&gt; after instantiation, the length of an array cannot be changed.&lt;/li&gt;
+&lt;li&gt;Every value in array is the &lt;strong&gt;same type&lt;/strong&gt; and holds the &lt;strong&gt;same amount of bits&lt;/strong&gt; in memory.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zero-indexed.&lt;/strong&gt; That means &lt;code&gt;arr[0]&lt;/code&gt; returns the first value, and &lt;code&gt;arr[arr.length]&lt;/code&gt; is out of bounds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No methods.&lt;/strong&gt; Helper methods from other libraries (like &lt;code&gt;System.arraycopy&lt;/code&gt;) need to be used to manipulate arrays.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Retrieval is independent of size&lt;/strong&gt; and takes constant time regardless of how big arrays are.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="using-arrays-in-java"&gt;
+ Using Arrays in Java
+ &lt;a class="anchor" href="#using-arrays-in-java"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Instantiation:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/collections/linked-lists/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/collections/linked-lists/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;[!info] Content Note&lt;/p&gt;
+&lt;p&gt;This page assumes prior knowledge of linked lists from CS61A or equivalent. I&amp;rsquo;ll assume you have already worked with basic singly linked lists before.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The linked list is an extremely common recursive data structure that allows storage and access of an arbitrary amount of data.&lt;/p&gt;
+&lt;h2 id="feature-list-of-an-effective-linked-list"&gt;
+ Feature List of an Effective Linked List
+ &lt;a class="anchor" href="#feature-list-of-an-effective-linked-list"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Rebranding&lt;/strong&gt;- represents Node as an individual object rather than having one monolithic List type.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bureacracy:&lt;/strong&gt; Create an abstraction barrier so that users do not need to know how methods or Nodes work, only how to call them.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Access Control:&lt;/strong&gt; Data cannot be accessed directly to prevent dangerous behavior; only the provided methods are used.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nested Class:&lt;/strong&gt; Nodes are nested within the List object since other classes do not need it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Caching:&lt;/strong&gt; The size of the list is incremented every time a node is added, so running size() is O(1) and traversal is not needed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Generalizing:&lt;/strong&gt; A &lt;strong&gt;sentinel node&lt;/strong&gt; represents an empty list and remains the first node of the list. When getFirst() is called, the second node is actually returned (since the first node is always the sentinel).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Doubly Linked:&lt;/strong&gt; Nodes have both first and last pointers for even faster traversal.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Circular list:&lt;/strong&gt; Sentinel last pointer points to the last value in the node, allowing for fast removeLast().&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me/cs61b/abstract-data-types/collections/../../img/assets/image%20%2836%29.png" width="auto" alt="An illustration of an effective linked list." /&gt;&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/collections/sets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/collections/sets/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;[!warning] Warning&lt;/p&gt;
+&lt;p&gt;This page is incomplete. 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/contributing/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/contributing/"&gt;help make it better!&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="basics"&gt;
+ Basics
+ &lt;a class="anchor" href="#basics"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;A Set stores a collection of values with &lt;strong&gt;no duplicates.&lt;/strong&gt; Sets have no inherent order, so you can&amp;rsquo;t rely on expecting any value to come before any other value when iterating through them.&lt;/p&gt;
+&lt;p&gt;Some set functions include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add(T x)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;contains(T x)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;size()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="arrayset"&gt;
+ ArraySet
+ &lt;a class="anchor" href="#arrayset"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;An ArraySet is an array-based solution to a set implementation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Objects get added to an array that gets 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/asymptotics/amortization/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/asymptotics/amortization/"&gt;resized&lt;/a&gt; when it&amp;rsquo;s too full.&lt;/li&gt;
+&lt;li&gt;In order to allow for iteration, we can use one of two methods:
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;One method is to use &lt;strong&gt;iterators&lt;/strong&gt; which work very similarly to Python iterators:&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/collections/stacks-and-queues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/collections/stacks-and-queues/</guid><description>&lt;p&gt;Stacks and queues are two very common data structures used for a variety of applications from 
+&lt;a href="https://www.tutorialspoint.com/operating%5c_system/os%5c_processes.htm" rel="noopener"&gt;CPU processes&lt;/a&gt; to 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/algorithms/shortest-paths/dijkstras-algorithm/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/algorithms/shortest-paths/dijkstras-algorithm/"&gt;finding shortest paths using Dijkstra&amp;rsquo;s Algorithm&lt;/a&gt;. Fundamentally, they are very similar in structure and &lt;strong&gt;only differ by the order in which items are popped from them&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="pushing-and-popping"&gt;
+ Pushing and Popping
+ &lt;a class="anchor" href="#pushing-and-popping"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="pushing"&gt;
+ Pushing
+ &lt;a class="anchor" href="#pushing"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Adding an item to a stack or queue is called &lt;strong&gt;pushing&lt;/strong&gt;. This will either put the item on the &lt;strong&gt;top&lt;/strong&gt; of a stack or in the &lt;strong&gt;back&lt;/strong&gt; of a queue.&lt;/p&gt;</description></item></channel></rss>

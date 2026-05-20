@@ -1,7 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/algorithms/searching/</link><description>Recent content on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs61b/algorithms/searching/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs61b/algorithms/searching/binary-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/searching/binary-search/</guid><description>Binary Search # Binary search is a way of finding a specific node in a tree. It only works on binary trees due to its helpful sorted property. It simply traverses the tree, moving left if the current node is too large or right if it is too small.
-Binary search runs in $\Theta(\log(n))$ time for bushy trees, which is also the number of layers in a tree.
-The Algorithm # public BST find(BST T, Key sk) { if (T == null) { return null; } if (sk.</description></item><item><title>Breadth First Search (DFS)</title><link>https://notes.bencuan.me/cs61b/algorithms/searching/breadth-first-search-bfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/searching/breadth-first-search-bfs/</guid><description>Breadth First Search (BFS), like Depth First Search (DFS), is a method of traversing a graph. BFS simply traverses in a different order, but otherwise is very similar to DFS.
-The main difference is that BFS visits all children before any subgraphs. In a tree, we call this level order.
-For the example tree above, a level order traversal would go in this order: D B F A C E G.</description></item><item><title>Depth First Search (DFS)</title><link>https://notes.bencuan.me/cs61b/algorithms/searching/depth-first-search-dfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/searching/depth-first-search-dfs/</guid><description>Depth First Traversal # Before we move on to searching, let&amp;rsquo;s talk about traversing. Traversal is the act of visiting nodes in a specific order. This can be done either in trees or in graphs.
-For trees in particular, there are three main ways to traverse.
-The first way is inorder traversal, which visits all left children, then the node itself, then all right children. The end result should be that the nodes were visited in sorted order.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/algorithms/searching/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs61b/algorithms/searching/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs61b/algorithms/searching/binary-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/searching/binary-search/</guid><description>&lt;h1 id="binary-search"&gt;
+ Binary Search
+ &lt;a class="anchor" href="#binary-search"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Binary search is a way of finding a specific node in a tree. It only works on 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/"&gt;binary trees&lt;/a&gt; due to its helpful sorted property. It simply traverses the tree, moving left if the current node is too large or right if it is too small.&lt;/p&gt;
+&lt;p&gt;Binary search runs in $\Theta(\log(n))$ time for bushy trees, which is also the number of layers in a tree.&lt;/p&gt;
+&lt;h2 id="the-algorithm"&gt;
+ The Algorithm
+ &lt;a class="anchor" href="#the-algorithm"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-java" data-lang="java"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; BST &lt;span style="color:#a6e22e"&gt;find&lt;/span&gt;(BST T, Key sk) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (T &lt;span style="color:#f92672"&gt;==&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;null&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;null&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (sk.&lt;span style="color:#a6e22e"&gt;equals&lt;/span&gt;(T.&lt;span style="color:#a6e22e"&gt;key&lt;/span&gt;)) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; T;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; } &lt;span style="color:#66d9ef"&gt;else&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (sk &lt;span style="color:#f92672"&gt;&amp;lt;&lt;/span&gt; T.&lt;span style="color:#a6e22e"&gt;key&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; find(T.&lt;span style="color:#a6e22e"&gt;left&lt;/span&gt;, sk);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; } &lt;span style="color:#66d9ef"&gt;else&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; find(T.&lt;span style="color:#a6e22e"&gt;right&lt;/span&gt;, sk);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Breadth First Search (DFS)</title><link>https://notes.bencuan.me/cs61b/algorithms/searching/breadth-first-search-bfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/searching/breadth-first-search-bfs/</guid><description>&lt;p&gt;Breadth First Search (BFS), like 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/algorithms/searching/depth-first-search-dfs/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/algorithms/searching/depth-first-search-dfs/"&gt;Depth First Search (DFS)&lt;/a&gt;, is a method of &lt;strong&gt;traversing a graph.&lt;/strong&gt; BFS simply traverses in a different order, but otherwise is very similar to DFS.&lt;/p&gt;
+&lt;p&gt;The main difference is that BFS &lt;strong&gt;visits all children before any subgraphs.&lt;/strong&gt; In a tree, we call this &lt;strong&gt;level order.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me/cs61b/algorithms/searching/../../img/assets/image%20%28110%29.png" width="auto" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;For the example tree above, a level order traversal would go in this order: &lt;strong&gt;D B F A C E G.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Depth First Search (DFS)</title><link>https://notes.bencuan.me/cs61b/algorithms/searching/depth-first-search-dfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/searching/depth-first-search-dfs/</guid><description>&lt;h2 id="depth-first-traversal"&gt;
+ Depth First Traversal
+ &lt;a class="anchor" href="#depth-first-traversal"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Before we move on to searching, let&amp;rsquo;s talk about &lt;strong&gt;traversing. Traversal&lt;/strong&gt; is the act of &lt;strong&gt;visiting nodes in a specific order.&lt;/strong&gt; This can be done either in trees or in graphs.&lt;/p&gt;
+&lt;p&gt;For trees in particular, there are &lt;strong&gt;three main ways&lt;/strong&gt; to traverse.&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me/cs61b/algorithms/searching/../../img/assets/image%20%2889%29.png" width="auto" alt="The example tree we will use for traversal illustrations." /&gt;&lt;/p&gt;
+&lt;p&gt;The first way is &lt;strong&gt;inorder&lt;/strong&gt; traversal, which visits &lt;strong&gt;all left children&lt;/strong&gt;, then &lt;strong&gt;the node itself,&lt;/strong&gt; then &lt;strong&gt;all right children.&lt;/strong&gt; The end result should be that the nodes were visited in &lt;strong&gt;sorted order.&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

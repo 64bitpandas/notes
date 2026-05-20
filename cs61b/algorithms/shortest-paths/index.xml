@@ -1,7 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/algorithms/shortest-paths/</link><description>Recent content on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs61b/algorithms/shortest-paths/index.xml" rel="self" type="application/rss+xml"/><item><title>Dijkstra's Algorithm</title><link>https://notes.bencuan.me/cs61b/algorithms/shortest-paths/dijkstras-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/shortest-paths/dijkstras-algorithm/</guid><description>[!info] Content Note
-Before continuing, make sure you&amp;rsquo;re comfortable with Graphs, Stacks and Queues, and Shortest Paths.
-One sentence overview # Visit vertices in order of best-known distance from source; on visit, relax every edge from the visited vertex.
-Detailed Breakdown # Djikstras uses a PriorityQueue to maintain the path with lowest cost from the starting node to every other node, an edgeTo array to keep track of the best known predecessor for each vertex, and a distTo array to keep track of the best known distance from the source vertex to every other vertex.</description></item><item><title>A* Search</title><link>https://notes.bencuan.me/cs61b/algorithms/shortest-paths/a-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/shortest-paths/a-search/</guid><description>[!info] Content Note
-In order to understand A*, you&amp;rsquo;ll need to be comfortable Dijkstra&amp;rsquo;s Algorithm first!
-A* Algorithm # The A* Search Algorithm is incredibly similar to Dijkstra&amp;rsquo;s Algorithm with one addition: a heuristic function.
-This heuristic function calculates weights of a path from a vertex to a goal vertex. This way, we can help bias our algorithm in the right direction so that it doesn’t make a bunch of bad moves.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/algorithms/shortest-paths/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs61b/algorithms/shortest-paths/index.xml" rel="self" type="application/rss+xml"/><item><title>Dijkstra's Algorithm</title><link>https://notes.bencuan.me/cs61b/algorithms/shortest-paths/dijkstras-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/shortest-paths/dijkstras-algorithm/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;[!info] Content Note&lt;/p&gt;
+&lt;p&gt;Before continuing, make sure you&amp;rsquo;re comfortable with 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/abstract-data-types/graphs/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/abstract-data-types/graphs/"&gt;Graphs&lt;/a&gt;, 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/abstract-data-types/collections/stacks-and-queues/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/abstract-data-types/collections/stacks-and-queues/"&gt;Stacks and Queues&lt;/a&gt;, and 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/algorithms/shortest-paths/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/algorithms/shortest-paths/"&gt;Shortest Paths&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="one-sentence-overview"&gt;
+ One sentence overview
+ &lt;a class="anchor" href="#one-sentence-overview"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Visit vertices in order of best-known distance from source; on visit, relax every edge from the visited vertex.&lt;/p&gt;
+&lt;h2 id="detailed-breakdown"&gt;
+ Detailed Breakdown
+ &lt;a class="anchor" href="#detailed-breakdown"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Djikstras uses a &lt;strong&gt;PriorityQueue&lt;/strong&gt; to maintain the path with lowest cost from the starting node to every other node, an &lt;strong&gt;edgeTo&lt;/strong&gt; array to keep track of the best known predecessor for each vertex, and a &lt;strong&gt;distTo&lt;/strong&gt; array to keep track of the best known distance from the source vertex to every other vertex.&lt;/p&gt;</description></item><item><title>A* Search</title><link>https://notes.bencuan.me/cs61b/algorithms/shortest-paths/a-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/shortest-paths/a-search/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;[!info] Content Note&lt;/p&gt;
+&lt;p&gt;In order to understand A*, you&amp;rsquo;ll need to be comfortable 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/algorithms/shortest-paths/dijkstras-algorithm/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/algorithms/shortest-paths/dijkstras-algorithm/"&gt;Dijkstra&amp;rsquo;s Algorithm&lt;/a&gt; first!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="a-algorithm"&gt;
+ A* Algorithm
+ &lt;a class="anchor" href="#a-algorithm"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The A* Search Algorithm is &lt;strong&gt;incredibly similar to Dijkstra&amp;rsquo;s Algorithm&lt;/strong&gt; with one addition: a &lt;strong&gt;heuristic function.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This heuristic function calculates weights of a path &lt;strong&gt;from a vertex to a goal vertex.&lt;/strong&gt; This way, we can help bias our algorithm in the right direction so that it doesn’t make a bunch of bad moves.&lt;/p&gt;</description></item></channel></rss>

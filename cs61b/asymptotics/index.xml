@@ -1,11 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/asymptotics/</link><description>Recent content on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs61b/asymptotics/index.xml" rel="self" type="application/rss+xml"/><item><title>Asymptotic Analysis Basics</title><link>https://notes.bencuan.me/cs61b/asymptotics/asymptotics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/asymptotics/asymptotics/</guid><description>[!info] Content Note
-This concept is a big reason why a strong math background is helpful for computer science, even when it&amp;rsquo;s not obvious that there are connections! Make sure you&amp;rsquo;re comfortable with Calculus concepts up to power series.
-An Abstract Introduction to Asymptotic Analysis # The term asymptotics, or asymptotic analysis, refers to the idea of analyzing functions when their inputs get really big. This is like the asymptotes you might remember learning in math classes, where functions approach a value when they get very large inputs.</description></item><item><title/><link>https://notes.bencuan.me/cs61b/asymptotics/amortization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/asymptotics/amortization/</guid><description>Amortization # [!info] Content Note
-Please read Asymptotic Analysis Basics first. If you don&amp;rsquo;t, none of this will make any sense!
-Amortization means spreading out.
-Sometimes, an operation takes different amounts of time for different values of $n$. Rather than having to report runtimes for each different case, we can instead average all of them out and report the amortized runtime.
-This is especially good for functions where most actions have a low cost, but a few have a high cost.</description></item><item><title/><link>https://notes.bencuan.me/cs61b/asymptotics/asymptotics-practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/asymptotics/asymptotics-practice/</guid><description>Asymptotics Practice # [!info] Content Note
-Make sure to review Asymptotic Analysis Basics before proceeding with these problems.
-Introduction # Asymptotics is a very intuition-based concept that often doesn&amp;rsquo;t have a set algorithm for computing. The best way to get good at analyzing programs is to practice!
-With that said, here are some problems of increasing difficulty for you to enjoy 😊
-[!hint] Read before you do the problems!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/asymptotics/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs61b/asymptotics/index.xml" rel="self" type="application/rss+xml"/><item><title>Asymptotic Analysis Basics</title><link>https://notes.bencuan.me/cs61b/asymptotics/asymptotics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/asymptotics/asymptotics/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;[!info] Content Note&lt;/p&gt;
+&lt;p&gt;This concept is a big reason why a strong math background is helpful for computer science, even when it&amp;rsquo;s not obvious that there are connections! Make sure you&amp;rsquo;re comfortable with Calculus concepts up to 
+&lt;a href="http://tutorial.math.lamar.edu/Classes/CalcII/PowerSeries.aspx" rel="noopener"&gt;power series&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="an-abstract-introduction-to-asymptotic-analysis"&gt;
+ An Abstract Introduction to Asymptotic Analysis
+ &lt;a class="anchor" href="#an-abstract-introduction-to-asymptotic-analysis"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The term &lt;strong&gt;asymptotics,&lt;/strong&gt; or &lt;strong&gt;asymptotic analysis,&lt;/strong&gt; refers to the idea of &lt;strong&gt;analyzing functions when their inputs get really big.&lt;/strong&gt; This is like the &lt;strong&gt;asymptotes&lt;/strong&gt; you might remember learning in math classes, where functions approach a value when they get very large inputs.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs61b/asymptotics/amortization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/asymptotics/amortization/</guid><description>&lt;h1 id="amortization"&gt;
+ Amortization
+ &lt;a class="anchor" href="#amortization"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!info] Content Note&lt;/p&gt;
+&lt;p&gt;Please read 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/asymptotics/asymptotics/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/asymptotics/asymptotics/"&gt;Asymptotic Analysis Basics&lt;/a&gt; first. If you don&amp;rsquo;t, none of this will make any sense!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Amortization&lt;/strong&gt; means &lt;strong&gt;spreading out.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Sometimes, an operation takes different amounts of time for different values of $n$. Rather than having to report runtimes for each different case, we can instead average all of them out and report the &lt;strong&gt;amortized runtime.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is especially good for functions where most actions have a low cost, but a few have a high cost. We&amp;rsquo;ll see an example of this further down the page!&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs61b/asymptotics/asymptotics-practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/asymptotics/asymptotics-practice/</guid><description>&lt;h1 id="asymptotics-practice"&gt;
+ Asymptotics Practice
+ &lt;a class="anchor" href="#asymptotics-practice"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!info] Content Note&lt;/p&gt;
+&lt;p&gt;Make sure to review 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/asymptotics/asymptotics/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/asymptotics/asymptotics/"&gt;Asymptotic Analysis Basics&lt;/a&gt; before proceeding with these problems.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Asymptotics is a very intuition-based concept that often doesn&amp;rsquo;t have a set algorithm for computing. The best way to get good at analyzing programs is to practice!&lt;/p&gt;
+&lt;p&gt;With that said, here are some problems of increasing difficulty for you to enjoy 😊&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!hint] Read before you do the problems!&lt;/p&gt;</description></item></channel></rss>

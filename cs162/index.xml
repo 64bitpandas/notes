@@ -1,24 +1,120 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CS 162: Operating Systems on</title><link>https://notes.bencuan.me/cs162/</link><description>Recent content in CS 162: Operating Systems on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs162/index.xml" rel="self" type="application/rss+xml"/><item><title>Chapter 1: OS Basics</title><link>https://notes.bencuan.me/cs162/Chapter-1-OS-Basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-1-OS-Basics/</guid><description>What is an operating system? # An operating system has three main roles:
-Referee: The OS manages protection, isolation, and allocation of resources between processes. Illusionist: The OS provides an abstraction between hardware and user programs that provides an illusion ****of easy-to-access resources such as files and available processors. Glue: The OS provides common services, sharing, authorization, networking, and communication between processes and external devices. Q1.1. Consider a modern web browser (such as Chrome or Firefox) which plays a similar role to an operating system.</description></item><item><title>Chapter 2: Processes</title><link>https://notes.bencuan.me/cs162/Chapter-2-Processes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-2-Processes/</guid><description>The Process Abstraction # A process is an execution environment with restricted rights.
-A process consists of:
-An address space Thread(s) of control running in that address space System states associated with threads (files, etc) The process abstraction creates a tradeoff between protection and efficiency: communication is easier within processes, but harder between processes.
-UNIX Process Management # Creating Processes: fork and exec # Forking # In UNIX-based systems, the primary way to create new processes is to fork an existing process.</description></item><item><title>Chapter 3: Threads</title><link>https://notes.bencuan.me/cs162/Chapter-3-Threads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-3-Threads/</guid><description>The Thread Abstraction # A thread is a single unique context, or unit of concurrency, for execution that fully describes the program state. A thread consists of a program counter (PC), registers, execution flags, and a stack.
-All threads in the same process share the same code, data, and file access, but each has its own register state and stack. Certain registers hold the context of the thread (such as the stack pointer, heap pointer, or frame pointer).</description></item><item><title>Chapter 4: I/O</title><link>https://notes.bencuan.me/cs162/Chapter-4-I-O/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-4-I-O/</guid><description>UNIX Abstraction: Everything is a File # A file is a named collection of data in a file system. In the POSIX (Portable Operating System Interface for UNIX) standard, every file includes data (a sequence of bytes) and metadata (such as size, modification time, owner, security, and access control).
-Files are organized into directories, which are folders containing files and other directories. Directories employ hierarchical naming (/path/to/file.txt) to ensure that ever file has a unique identifier.</description></item><item><title>Chapter 5: Synchronization</title><link>https://notes.bencuan.me/cs162/Chapter-5-Synchronization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-5-Synchronization/</guid><description>Race Conditions and Locks # If two independent threads need to modify and read the same values, there could be multiple outputs depending on the order that the threads run in. How do we resolve this?
-Synchronization deals with coordination among threads and their shared data
-Mutual Exclusion: Only one thread does something at one time (excludes the other threads)
-Subtype of synchronization Critical Section: code that only one thread can execute at once (consequence of mutual exclusion)</description></item><item><title>Chapter 6: Scheduling</title><link>https://notes.bencuan.me/cs162/Chapter-6-Scheduling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-6-Scheduling/</guid><description>Introduction # When multiple tasks need to be done on a single CPU, we need to figure out a way to distribute the work done by the CPU across all of the tasks.
-At any point there are running, waiting, and blocked threads. A processor&amp;rsquo;s scheduling policy determines how and when threads transition between these states.
-Scheduling Goals # There are three primary goals for an effective scheduling algorithm.</description></item><item><title>Chapter 7: Address Translation</title><link>https://notes.bencuan.me/cs162/Chapter-7-Address-Translation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-7-Address-Translation/</guid><description>Introduction # Every modern computer has physical memory inside of it, that might look something like this:
-Physical RAM modules typically contain anywhere from 4 to 128GB of memory (well, at the time of writing). However, there are only a few sticks of RAM, and possibly hundreds of processes that need to access them at the same time!
-This is where memory management comes in. This chapter will cover several methods to do so, such as address translation (virtual memory) and paging (breaking memory into chunks).</description></item><item><title>Chapter 8: Caching</title><link>https://notes.bencuan.me/cs162/Chapter-8-Caching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-8-Caching/</guid><description>Introduction # At this point, we&amp;rsquo;ve solved nearly all of the problems with base and bound memory translation. But there is one major problem left— all of this additional complexity adds lots of memory accesses, which might make things very inefficient! This is where caching comes in.
-Since programs only care about a very small subset of the total information available, if we identify this subset and place it into more local memory, then we can efficiently perform most memory accesses.</description></item><item><title>Chapter 9: File Systems</title><link>https://notes.bencuan.me/cs162/Chapter-9-File-Systems/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-9-File-Systems/</guid><description>I/O # Drivers # A computer handles I/O on its end using several mechanisms:
-The bus, a common set of communication wires, carries data transfer transactions between devices. A typical modern bus standard is PCI (Peripheral Component Interconnect), which is a parallel bus that can handle one transaction at a time. One major downside to this is that the bus speed must be set to the slowest connected device.</description></item><item><title>GDB Reference</title><link>https://notes.bencuan.me/cs162/Appendix-A-GDB-foobars/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Appendix-A-GDB-foobars/</guid><description>Run with args: r &amp;lt;args&amp;gt;
-Breakpoint: b &amp;lt;n&amp;gt;
-Conditional breakpoint: b &amp;lt;n&amp;gt; if &amp;lt;condition&amp;gt; or condition &amp;lt;n&amp;gt; &amp;lt;condition&amp;gt; on existing
-Step into: step or s (si for assembly)
-Step over: next or n (for assembly, ni)
-See all registers: info registers (can also do info frame, info args, info locals)
-View split mode: ctrl+x ctrl+a
-Switch between code and assembly: layout asm, layout src. Ctrl+X A to exit split
-View hex memory: x &amp;lt;name&amp;gt; or x/Nx &amp;lt;name&amp;gt; to view N bytes after name</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CS 162: Operating Systems on</title><link>https://notes.bencuan.me/cs162/</link><description>Recent content in CS 162: Operating Systems on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs162/index.xml" rel="self" type="application/rss+xml"/><item><title>Chapter 1: OS Basics</title><link>https://notes.bencuan.me/cs162/Chapter-1-OS-Basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-1-OS-Basics/</guid><description>&lt;h1 id="what-is-an-operating-system"&gt;
+ What is an operating system?
+ &lt;a class="anchor" href="#what-is-an-operating-system"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;An operating system has three main roles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Referee:&lt;/strong&gt; The OS manages protection, isolation, and allocation of resources between processes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Illusionist:&lt;/strong&gt; The OS provides an abstraction between hardware and user programs that provides an illusion ****of easy-to-access resources such as files and available processors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Glue:&lt;/strong&gt; The OS provides common services, sharing, authorization, networking, and communication between processes and external devices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q1.1. Consider a modern web browser (such as Chrome or Firefox) which plays a similar role to an operating system. What considerations does a web browser need to make as a referee, illusionist, and glue?&lt;/p&gt;</description></item><item><title>Chapter 2: Processes</title><link>https://notes.bencuan.me/cs162/Chapter-2-Processes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-2-Processes/</guid><description>&lt;h1 id="the-process-abstraction"&gt;
+ The Process Abstraction
+ &lt;a class="anchor" href="#the-process-abstraction"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;A &lt;strong&gt;process&lt;/strong&gt; is an execution environment with restricted rights.&lt;/p&gt;
+&lt;p&gt;A process consists of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An address space&lt;/li&gt;
+&lt;li&gt;Thread(s) of control running in that address space&lt;/li&gt;
+&lt;li&gt;System states associated with threads (files, etc)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The process abstraction creates a tradeoff between protection and efficiency: communication is easier &lt;em&gt;within&lt;/em&gt; processes, but harder &lt;em&gt;between&lt;/em&gt; processes.&lt;/p&gt;
+&lt;h1 id="unix-process-management"&gt;
+ UNIX Process Management
+ &lt;a class="anchor" href="#unix-process-management"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="creating-processes-fork-and-exec"&gt;
+ Creating Processes: fork and exec
+ &lt;a class="anchor" href="#creating-processes-fork-and-exec"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="forking"&gt;
+ Forking
+ &lt;a class="anchor" href="#forking"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;In UNIX-based systems, the primary way to create new processes is to &lt;strong&gt;fork&lt;/strong&gt; an existing process. This creates a child process with a single thread, and copies all code and resources available to the parent process at that point in time.&lt;/p&gt;</description></item><item><title>Chapter 3: Threads</title><link>https://notes.bencuan.me/cs162/Chapter-3-Threads/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-3-Threads/</guid><description>&lt;h1 id="the-thread-abstraction"&gt;
+ The Thread Abstraction
+ &lt;a class="anchor" href="#the-thread-abstraction"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;A thread is a single unique context, or unit of concurrency, for execution that fully describes the program state. A thread consists of a program counter (PC), registers, execution flags, and a stack.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All threads in the same process share the same code, data, and file access, but each has its own register state and stack.&lt;/li&gt;
+&lt;li&gt;Certain registers hold the &lt;strong&gt;context&lt;/strong&gt; of the thread (such as the stack pointer, heap pointer, or frame pointer).&lt;/li&gt;
+&lt;li&gt;A thread is executing when the processor&amp;rsquo;s registers hold its context&lt;/li&gt;
+&lt;li&gt;Having multiple threads allows the OS to handle multiple things at once (MTAO). This is essential for networked servers with multiple connections, parallel processing for performance, user interface responsiveness, and many more modern computing applications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me/cs162/Chapter-3-Threads/Untitled.png" width="auto" alt="Untitled" /&gt;&lt;/p&gt;</description></item><item><title>Chapter 4: I/O</title><link>https://notes.bencuan.me/cs162/Chapter-4-I-O/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-4-I-O/</guid><description>&lt;h1 id="unix-abstraction-everything-is-a-file"&gt;
+ UNIX Abstraction: Everything is a File
+ &lt;a class="anchor" href="#unix-abstraction-everything-is-a-file"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;A &lt;strong&gt;file&lt;/strong&gt; is a named collection of data in a file system. In the POSIX (Portable Operating System Interface for UNIX) standard, every file includes data (a sequence of bytes) and metadata (such as size, modification time, owner, security, and access control).&lt;/p&gt;
+&lt;p&gt;Files are organized into directories, which are folders containing files and other directories. Directories employ hierarchical naming (&lt;code&gt;/path/to/file.txt&lt;/code&gt;) to ensure that ever file has a unique identifier.&lt;/p&gt;</description></item><item><title>Chapter 5: Synchronization</title><link>https://notes.bencuan.me/cs162/Chapter-5-Synchronization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-5-Synchronization/</guid><description>&lt;h2 id="race-conditions-and-locks"&gt;
+ Race Conditions and Locks
+ &lt;a class="anchor" href="#race-conditions-and-locks"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;If two independent threads need to modify and read the same values, there could be multiple outputs depending on the order that the threads run in. How do we resolve this?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Synchronization&lt;/strong&gt; deals with coordination among threads and their shared data&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mutual Exclusion:&lt;/strong&gt; Only one thread does something at one time (excludes the other threads)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Subtype of synchronization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Critical Section:&lt;/strong&gt; code that only one thread can execute at once (consequence of mutual exclusion)&lt;/p&gt;</description></item><item><title>Chapter 6: Scheduling</title><link>https://notes.bencuan.me/cs162/Chapter-6-Scheduling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-6-Scheduling/</guid><description>&lt;h1 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;When multiple tasks need to be done on a single CPU, we need to figure out a way to distribute the work done by the CPU across all of the tasks.&lt;/p&gt;
+&lt;p&gt;At any point there are &lt;strong&gt;running, waiting, and blocked threads.&lt;/strong&gt; A processor&amp;rsquo;s scheduling policy determines how and when threads transition between these states.&lt;/p&gt;
+&lt;h3 id="scheduling-goals"&gt;
+ Scheduling Goals
+ &lt;a class="anchor" href="#scheduling-goals"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;There are three primary goals for an effective scheduling algorithm.&lt;/p&gt;</description></item><item><title>Chapter 7: Address Translation</title><link>https://notes.bencuan.me/cs162/Chapter-7-Address-Translation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-7-Address-Translation/</guid><description>&lt;h1 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Every modern computer has physical memory inside of it, that might look something like this:&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me/cs162/Chapter-7-Address-Translation/Untitled.png" width="auto" alt="Untitled" /&gt;&lt;/p&gt;
+&lt;p&gt;Physical RAM modules typically contain anywhere from 4 to 128GB of memory (well, at the time of writing). However, there are only a few sticks of RAM, and possibly hundreds of processes that need to access them at the same time!&lt;/p&gt;
+&lt;p&gt;This is where memory management comes in. This chapter will cover several methods to do so, such as &lt;strong&gt;address translation&lt;/strong&gt; (virtual memory) and &lt;strong&gt;paging&lt;/strong&gt; (breaking memory into chunks).&lt;/p&gt;</description></item><item><title>Chapter 8: Caching</title><link>https://notes.bencuan.me/cs162/Chapter-8-Caching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-8-Caching/</guid><description>&lt;h1 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;At this point, we&amp;rsquo;ve solved nearly all of the problems with base and bound memory translation. But there is one major problem left— all of this additional complexity adds lots of memory accesses, which might make things very inefficient! This is where &lt;strong&gt;caching&lt;/strong&gt; comes in.&lt;/p&gt;
+&lt;p&gt;Since programs only care about a very small subset of the total information available, if we identify this subset and place it into more local memory, then we can efficiently perform most memory accesses.&lt;/p&gt;</description></item><item><title>Chapter 9: File Systems</title><link>https://notes.bencuan.me/cs162/Chapter-9-File-Systems/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Chapter-9-File-Systems/</guid><description>&lt;h1 id="io"&gt;
+ I/O
+ &lt;a class="anchor" href="#io"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="drivers"&gt;
+ Drivers
+ &lt;a class="anchor" href="#drivers"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me/cs162/Chapter-9-File-Systems/Untitled.png" width="auto" alt="Untitled" /&gt;&lt;/p&gt;
+&lt;p&gt;A computer handles I/O on its end using several mechanisms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;bus,&lt;/strong&gt; a common set of communication wires, carries data transfer transactions between devices.
+&lt;ul&gt;
+&lt;li&gt;A typical modern bus standard is &lt;strong&gt;PCI&lt;/strong&gt; (Peripheral Component Interconnect), which is a parallel bus that can handle one transaction at a time. One major downside to this is that the bus speed must be set to the slowest connected device.&lt;/li&gt;
+&lt;li&gt;PCI has evolved into PCI-Express, which is a collection of fast serial channels (lanes) in which devices can use as many as necessary to achieve a desired bandwidth. In this ways, devices can still use the old PCI standard, but don&amp;rsquo;t have to share lanes with other devices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controllers,&lt;/strong&gt; which sit between the CPU and I/O devices and contain a set of registers and memory that can be interfaced with.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A processor can interact with device data in one of two ways:&lt;/p&gt;</description></item><item><title>GDB Reference</title><link>https://notes.bencuan.me/cs162/Appendix-A-GDB-foobars/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs162/Appendix-A-GDB-foobars/</guid><description>&lt;p&gt;Run with args: &lt;code&gt;r &amp;lt;args&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Breakpoint: &lt;code&gt;b &amp;lt;n&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Conditional breakpoint: &lt;code&gt;b &amp;lt;n&amp;gt; if &amp;lt;condition&amp;gt;&lt;/code&gt; or &lt;code&gt;condition &amp;lt;n&amp;gt; &amp;lt;condition&amp;gt;&lt;/code&gt; on existing&lt;/p&gt;
+&lt;p&gt;Step into: &lt;code&gt;step&lt;/code&gt; or &lt;code&gt;s&lt;/code&gt; (&lt;code&gt;si&lt;/code&gt; for assembly)&lt;/p&gt;
+&lt;p&gt;Step over: &lt;code&gt;next&lt;/code&gt; or &lt;code&gt;n&lt;/code&gt; (for assembly, &lt;code&gt;ni&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;See all registers: &lt;code&gt;info registers&lt;/code&gt; (can also do &lt;code&gt;info frame&lt;/code&gt;, &lt;code&gt;info args&lt;/code&gt;, &lt;code&gt;info locals&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;View split mode: &lt;code&gt;ctrl+x ctrl+a&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Switch between code and assembly: &lt;code&gt;layout asm&lt;/code&gt;, &lt;code&gt;layout src&lt;/code&gt;. &lt;code&gt;Ctrl+X A&lt;/code&gt; to exit split&lt;/p&gt;
+&lt;p&gt;View hex memory: &lt;code&gt;x &amp;lt;name&amp;gt;&lt;/code&gt; or &lt;code&gt;x/Nx &amp;lt;name&amp;gt;&lt;/code&gt; to view &lt;code&gt;N&lt;/code&gt; bytes after name&lt;/p&gt;</description></item></channel></rss>

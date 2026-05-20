@@ -1,11 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/oop/</link><description>Recent content on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs61b/oop/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs61b/oop/inheritance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/oop/inheritance/</guid><description>What is inheritance? # Essentially, it&amp;rsquo;s a way of putting similar objects together to generalize behavior. Inheritance is best used with relating subtypes to larger categories. For example, an :tangerine:orange is a fruit (so it&amp;rsquo;s a subtype of fruit).
-Let&amp;rsquo;s say that a supermarket named Jrader Toe&amp;rsquo;s asks us to simulate fruits for them in an online system. We could do it like this:
-Now, every fruit would need some of the same properties- like cost, weight, and name!</description></item><item><title/><link>https://notes.bencuan.me/cs61b/oop/access-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/oop/access-control/</guid><description>What is Access Control? # In Java, we can specify the level of access certain variables and methods have. With this power, we can show or hide these variables to other classes and references on demand!
-There are 4 modifier levels that get progressively more open:
-Private: Only this class can see it. Package Protected (the default level): All classes in the same package can see it. Protected: Subclasses (that inherit from the parent) can also see it.</description></item><item><title/><link>https://notes.bencuan.me/cs61b/oop/dynamic-method-selection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/oop/dynamic-method-selection/</guid><description>Dynamic Method Selection # [!warning] Content Note
-This is a very tricky topic. Make sure you are comfortable with inheritance and access controlbefore proceeding!
-Inheritance is great and all, but it does have some issues. One of the biggest issues lies in overriding: if two methods have exactly the same name and signature, which one do we call?
-In a standard use case, this is a pretty simple answer: whichever one is in the class we want!</description></item><item><title>Java Objects</title><link>https://notes.bencuan.me/cs61b/oop/objects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/oop/objects/</guid><description>There are two main categories of objects in Java: Primitive Types and Reference Types. This page will give a brief overview of both, and close off with some info about the mystical Object class.
-Primitive Types # Primitive types are built in to Java and have fixed memory sizes. Different types require different amounts of memory.
-If you remember environment diagrams, you may recall that some variables are put straight into the boxes, while others have an arrow pointing to them.</description></item><item><title>Generic Types</title><link>https://notes.bencuan.me/cs61b/oop/generics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/oop/generics/</guid><description>Sometimes, we want things to support any type, including user defined types that we don&amp;rsquo;t know about! For example, it would make sense that we don&amp;rsquo;t care what type we make a List out of, since it&amp;rsquo;s just a whole bunch of objects put together.
-The Java solution is generics! Generic types are denoted by a &amp;lt;&amp;gt; and can be appended to methods and classes. Here&amp;rsquo;s an example with classes:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/oop/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs61b/oop/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs61b/oop/inheritance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/oop/inheritance/</guid><description>&lt;h2 id="what-is-inheritance"&gt;
+ What is inheritance?
+ &lt;a class="anchor" href="#what-is-inheritance"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Essentially, it&amp;rsquo;s a way of putting similar objects together to &lt;strong&gt;generalize behavior.&lt;/strong&gt; Inheritance is best used with relating &lt;strong&gt;subtypes&lt;/strong&gt; to larger categories. For example, an :tangerine:orange &lt;strong&gt;is a&lt;/strong&gt; fruit (so it&amp;rsquo;s a &lt;strong&gt;subtype&lt;/strong&gt; of fruit).&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say that a supermarket named &lt;em&gt;Jrader Toe&amp;rsquo;s&lt;/em&gt; asks us to simulate fruits for them in an online system. We could do it like this:&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me/cs61b/oop/../img/assets/image.png" width="auto" alt="The naive approach." /&gt;&lt;/p&gt;
+&lt;p&gt;Now, every fruit would need some of the same properties- like cost, weight, and name! So we would need to do something like:&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs61b/oop/access-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/oop/access-control/</guid><description>&lt;h2 id="what-is-access-control"&gt;
+ What is Access Control?
+ &lt;a class="anchor" href="#what-is-access-control"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In Java, we can specify the &lt;strong&gt;level of access&lt;/strong&gt; certain variables and methods have. With this power, we can show or hide these variables to other classes and references on demand!&lt;/p&gt;
+&lt;p&gt;There are &lt;strong&gt;4&lt;/strong&gt; modifier levels that get progressively more open:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Private:&lt;/strong&gt; Only this class can see it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Package Protected (the default level):&lt;/strong&gt; All classes in the &lt;strong&gt;same package&lt;/strong&gt; can see it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protected: Subclasses&lt;/strong&gt; (that inherit from the parent) can also see it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public:&lt;/strong&gt; All classes in the program can see it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me/cs61b/oop/../img/assets/image%20%285%29.png" width="auto" alt="A chart comparing the different access modifiers. The black bar is the default (&amp;ldquo;package protected&amp;rdquo;)." /&gt;&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs61b/oop/dynamic-method-selection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/oop/dynamic-method-selection/</guid><description>&lt;h1 id="dynamic-method-selection"&gt;
+ Dynamic Method Selection
+ &lt;a class="anchor" href="#dynamic-method-selection"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!warning] Content Note&lt;/p&gt;
+&lt;p&gt;This is a &lt;strong&gt;very tricky topic&lt;/strong&gt;. Make sure you are comfortable with 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/oop/inheritance/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/oop/inheritance/"&gt;inheritance&lt;/a&gt; and 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs61b/oop/access-control/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs61b/oop/access-control/"&gt;access control&lt;/a&gt;before proceeding!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Inheritance is great and all, but it does have some issues. One of the biggest issues lies in overriding: &lt;strong&gt;if two methods have exactly the same name and signature, which one do we call?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In a standard use case, this is a pretty simple answer: whichever one is in the class we want! Let&amp;rsquo;s look at some basic examples.&lt;/p&gt;</description></item><item><title>Java Objects</title><link>https://notes.bencuan.me/cs61b/oop/objects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/oop/objects/</guid><description>&lt;p&gt;There are two main categories of objects in Java: &lt;strong&gt;Primitive Types&lt;/strong&gt; and &lt;strong&gt;Reference Types.&lt;/strong&gt; This page will give a brief overview of both, and close off with some info about the mystical &lt;strong&gt;Object&lt;/strong&gt; class.&lt;/p&gt;
+&lt;h2 id="primitive-types"&gt;
+ Primitive Types
+ &lt;a class="anchor" href="#primitive-types"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Primitive types&lt;/strong&gt; are built in to Java and have &lt;strong&gt;fixed memory sizes.&lt;/strong&gt; Different types require different amounts of memory.&lt;/p&gt;
+&lt;p&gt;If you remember 
+&lt;a href="http://albertwu.org/cs61a/notes/environments" rel="noopener"&gt;environment diagrams&lt;/a&gt;, you may recall that some variables are put straight into the boxes, while others have an arrow pointing to them. The reason for this is that it actually denotes primitive vs. reference types! &lt;strong&gt;Primitive types go straight in the box&lt;/strong&gt; because they aren&amp;rsquo;t mutable (i.e. you can&amp;rsquo;t change the objects contained in the box since they&amp;rsquo;re just constant literals like numbers).&lt;/p&gt;</description></item><item><title>Generic Types</title><link>https://notes.bencuan.me/cs61b/oop/generics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/oop/generics/</guid><description>&lt;p&gt;Sometimes, we want things to support &lt;strong&gt;any type&lt;/strong&gt;, including user defined types that we don&amp;rsquo;t know about! For example, it would make sense that we don&amp;rsquo;t care what type we make a &lt;code&gt;List&lt;/code&gt; out of, since it&amp;rsquo;s just a whole bunch of objects put together.&lt;/p&gt;
+&lt;p&gt;The Java solution is &lt;strong&gt;generics!&lt;/strong&gt; Generic types are denoted by a &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt; and can be appended to &lt;strong&gt;methods and classes.&lt;/strong&gt; Here&amp;rsquo;s an example with classes:&lt;/p&gt;</description></item></channel></rss>

@@ -1,18 +1,194 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to CS186! on</title><link>https://notes.bencuan.me/cs186/</link><description>Recent content in Welcome to CS186! on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs186/index.xml" rel="self" type="application/rss+xml"/><item><title>What is an I/O and why should I care?</title><link>https://notes.bencuan.me/cs186/io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/io/</guid><description>If you&amp;rsquo;re taking 186, you&amp;rsquo;ve probably heard or experienced some variation of the following:
-This class has a lot of I/O counting on exams I/Os are weird, sometimes you can read like 5 things at the same time but it&amp;rsquo;s still one I/O for some reason I/O counting is tedious and boring and I will never do it after this class, so why do I need to do it?????? While I can&amp;rsquo;t guarantee that you&amp;rsquo;ll ever count I/Os after this class, my hope for this article is to justify why it&amp;rsquo;s necessary for understanding key database design concepts, and how the principles can be applied to real-world issues in query optimization.</description></item><item><title>SQL Basics</title><link>https://notes.bencuan.me/cs186/00-SQL-Basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/00-SQL-Basics/</guid><description>Relevant Materials # Note 1 Note 2 Discussion 1 What is SQL? # Structured Query Language (/ˈsiːkwəl/) is a highly standardized syntax for performing operations on a database.
-Terminology # SQL databases are a set of named relations, or tables, that describe the relationship between attributes. You can think of attributes as the columns of the table, and each record (also known as a tuple) being one row in the table.</description></item><item><title>Disks, Buffers, and Files</title><link>https://notes.bencuan.me/cs186/01-Disks-Buffers-Files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/01-Disks-Buffers-Files/</guid><description>Relevant Materials # Note 3 Discussion 2 Introduction # Now that we&amp;rsquo;ve taken a look at how humans can interface with databases using SQL, let&amp;rsquo;s jump all the way down to the bottom and lay the foundations for how we can go from individual bytes to a fully functional database!
-Before reading this section, review the page What is an I/O and why should I care?</description></item><item><title>B+ Trees</title><link>https://notes.bencuan.me/cs186/02-B+-Trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/02-B+-Trees/</guid><description>Relevant Materials # Note 4 Discussion 3: view this for B+ tree algorithm walkthroughs! Introduction # B+ Trees are one type of index: a data structure that allows for quick lookups based on a particular key. They are very similar to binary trees, but can have more than two pointers and come with a variety of improvements.
-What is an index exactly? # We can index a collection on any ordered subset of columns.</description></item><item><title>Buffer Management</title><link>https://notes.bencuan.me/cs186/03-Buffer-Management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/03-Buffer-Management/</guid><description>Introduction # So far, we&amp;rsquo;ve established the fact that the disk is slow, and memory is fast- and that one of the biggest challenges in database implementation is in minimizing the number of times we need to incur I/Os by transferring data in between disk and memory.
-Since memory is limited, we need to figure out a clever way to re-use information once it&amp;rsquo;s read into memory, while still allowing new information to come in when needed.</description></item><item><title>Sorting and Hashing</title><link>https://notes.bencuan.me/cs186/04-Sorting-and-Hashing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/04-Sorting-and-Hashing/</guid><description>Introduction # When dealing with disk operations, traditional sorting algorithms tend to create lots of random accesses and can be quite slow. We’ll explore a few strategies for creating optimized algorithms for sorting databases that work around our limited memory and buffer management abilities.
-Relevant Materials # Note 6: Sorting Note 7: Hashing Discussion 4: Sorting Discussion 5: Hashing Single-Pass Streaming # Single-pass streaming is an approach for mapping inputs to their desired outputs while minimizing memory and disk usage.</description></item><item><title>Iterators and Joins</title><link>https://notes.bencuan.me/cs186/05-Iterators-and-Joins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/05-Iterators-and-Joins/</guid><description>Introduction # As you may have seen already, some SQL queries involve joining lots of tables together to get the data we need. However, that joining comes at a cost- every join multiplies the number of rows in the output by the number of rows in the table!
-For this reason, it&amp;rsquo;s very important that we try to optimize the join operation as much as possible, such that we can minimize the amount of data to process.</description></item><item><title>Relational Algebra</title><link>https://notes.bencuan.me/cs186/06-Relational-Algebra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/06-Relational-Algebra/</guid><description>Introduction # Relational algebra is a language that represents a logical query plan for translating SQL queries into underlying actions. This is useful because SQL queries don&amp;rsquo;t save information for the order in which operations are carried out. As you&amp;rsquo;ll see, several different ways of processing the same query could lead to the same result.
-It represents how we perform operations on sets to achieve the desired result. In contrast, relational calculus represents the result (the what of a calculation).</description></item><item><title>Query Optimization</title><link>https://notes.bencuan.me/cs186/07-Query-Optimization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/07-Query-Optimization/</guid><description>Introduction # Query optimization is the bridge between a declarative language (like SQL, where you describe “what” you want) and an imperative language (like Java, which describes how the answer is actually computed). Here, we built the translator that converts SQL into logic that a computer can understand.
-If you think about it, this can be really complicated- there&amp;rsquo;s lots of ways to execute a query (i.e. many equivalent relational algebra statements), and we have to somehow figure out which one is the best without executing any of them!</description></item><item><title>Transactions and ACID</title><link>https://notes.bencuan.me/cs186/08-Transactions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/08-Transactions/</guid><description>What is a transaction? # Transactions are collections of operations that can be treated like a single unit. The primary reason why we need transactions is to obey the ACID properties:
-Atomicity: either all operations happen, or none of them Consistency: database remains in a consistent state with its constraints (for example, primary keys will never be null) Isolation: it should appear as if we only run 1 transaction at a time (even if they’re actually run concurrently) Durability: once a transaction commits, it persists Transactions support two main operations:</description></item><item><title>Parallel Query Processing</title><link>https://notes.bencuan.me/cs186/09-Parallel-Query-Processing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/09-Parallel-Query-Processing/</guid><description>Relevant Materials # Note 15 Discussion 11 Parallelism # Parallelism helps us break down a big problem into small, independent chunks. The idea is that a lot of machines all working on the same problem at the same time will finish the problem more quickly.
-There are two main metrics we want:
-Speed-up: if we add more hardware, the same workload should be completed more quickly.</description></item><item><title>Recovery</title><link>https://notes.bencuan.me/cs186/10-Recovery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/10-Recovery/</guid><description>Introduction # Recovery is the process of making databases resilient to failure. Specifically, recovery enforces durability (a committed transaction remains persistent) and atomicity (either all of the operations in a transaction complete, or none of them).
-Assumptions:
-We use strict two-phase locking for concurrency control. Updates happen in-place: transactions that modify data overwrite entries in the database. Relevant Materials # Note 13 Discussion 9 Steal/No Force # No Steal Policy # Don’t allow buffer pool frames with uncommitted updates to be replaced or flushed to disk.</description></item><item><title>Distributed Transactions</title><link>https://notes.bencuan.me/cs186/11-Distributed-Transactions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/11-Distributed-Transactions/</guid><description>Introduction # In some situations (like in datacenters), the computation needed for transactions gets to be too great for a single computer to handle.
-One solution for this is to build wide- connect a whole bunch of computers together, and have them all work on the same thing! However, this comes with its challenges.
-One such challenge is how we can still preserve ACID properties of transactions when each computer is working independently.</description></item><item><title>E-R Diagrams</title><link>https://notes.bencuan.me/cs186/12-ER-Diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/12-ER-Diagrams/</guid><description>Introduction # Production databases have a lot of tables with complicated relationships. Entity Relationship (ER) Diagrams help us organize databases in a visual manner.
-Steps in Database Design # Database design is a bit different from the rest of the content we&amp;rsquo;ve covered so far. In previous sections, we mostly learned how to use databases and write the algorithms that make it work efficiently&amp;ndash; but now, we need to ensure that the data itself is structured in a meaningful manner to take advantage of all those optimizations!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to CS186! on</title><link>https://notes.bencuan.me/cs186/</link><description>Recent content in Welcome to CS186! on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs186/index.xml" rel="self" type="application/rss+xml"/><item><title>What is an I/O and why should I care?</title><link>https://notes.bencuan.me/cs186/io/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/io/</guid><description>&lt;p&gt;If you&amp;rsquo;re taking 186, you&amp;rsquo;ve probably heard or experienced some variation of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This class has a lot of I/O counting on exams&lt;/li&gt;
+&lt;li&gt;I/Os are weird, sometimes you can read like 5 things at the same time but it&amp;rsquo;s still one I/O for some reason&lt;/li&gt;
+&lt;li&gt;I/O counting is tedious and boring and I will never do it after this class, so why do I need to do it??????&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While I can&amp;rsquo;t guarantee that you&amp;rsquo;ll ever count I/Os after this class, my hope for this article is to justify why it&amp;rsquo;s necessary for understanding key database design concepts, and how the principles can be applied to real-world issues in query optimization. It&amp;rsquo;s like learning how to multiply numbers by hand when we have calculators: although functionally obsolete, we still need to understand the mechanics before we can start taking the shortcut.&lt;/p&gt;</description></item><item><title>SQL Basics</title><link>https://notes.bencuan.me/cs186/00-SQL-Basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/00-SQL-Basics/</guid><description>&lt;h2 id="relevant-materials"&gt;
+ Relevant Materials
+ &lt;a class="anchor" href="#relevant-materials"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://notes.bencuan.me/cs186/coursenotes/n01-SQLPart1.pdf" rel="noopener"&gt;Note 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://notes.bencuan.me/cs186/coursenotes/n02-SQLPart2.pdf" rel="noopener"&gt;Note 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://docs.google.com/presentation/d/1PZ7R8iKSm3gHUapi9l-WAlv_TWKQ-1VvAF98ZnEHW-o/edit" rel="noopener"&gt;Discussion 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-is-sql"&gt;
+ What is SQL?
+ &lt;a class="anchor" href="#what-is-sql"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;S&lt;/strong&gt;tructured &lt;strong&gt;Q&lt;/strong&gt;uery &lt;strong&gt;L&lt;/strong&gt;anguage (/ˈsiːkwəl/) is a highly standardized syntax for performing operations on a &lt;strong&gt;database&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id="terminology"&gt;
+ Terminology
+ &lt;a class="anchor" href="#terminology"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;SQL databases are a set of named &lt;strong&gt;relations&lt;/strong&gt;, or tables, that describe the relationship between &lt;strong&gt;attributes&lt;/strong&gt;. You can think of attributes as the columns of the table, and each record (also known as a &lt;strong&gt;tuple&lt;/strong&gt;) being one row in the table.&lt;/p&gt;</description></item><item><title>Disks, Buffers, and Files</title><link>https://notes.bencuan.me/cs186/01-Disks-Buffers-Files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/01-Disks-Buffers-Files/</guid><description>&lt;h2 id="relevant-materials"&gt;
+ Relevant Materials
+ &lt;a class="anchor" href="#relevant-materials"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://notes.bencuan.me/cs186/coursenotes/n03-DisksFiles.pdf" rel="noopener"&gt;Note 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://docs.google.com/presentation/d/10pKMJVZAA44ABJkIJXw9JhGd1nSQvvrf1qzEO770Ap8/edit#slide=id.g11049acc126_0_4" rel="noopener"&gt;Discussion 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Now that we&amp;rsquo;ve taken a look at how humans can interface with databases using 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs186/00-SQL-Basics/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs186/00-SQL-Basics/"&gt;SQL&lt;/a&gt;, let&amp;rsquo;s jump all the way down to the bottom and lay the foundations for how we can go from individual bytes to a fully functional database!&lt;/p&gt;
+&lt;p&gt;Before reading this section, review the page 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/cs186/io/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/cs186/io/"&gt;What is an I/O and why should I care?&lt;/a&gt; To reiterate the most important points from this section,&lt;/p&gt;</description></item><item><title>B+ Trees</title><link>https://notes.bencuan.me/cs186/02-B+-Trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/02-B+-Trees/</guid><description>&lt;h2 id="relevant-materials"&gt;
+ Relevant Materials
+ &lt;a class="anchor" href="#relevant-materials"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://notes.bencuan.me/cs186/coursenotes/n04-B&amp;#43;Trees.pdf" rel="noopener"&gt;Note 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://docs.google.com/presentation/d/1sOlfZVFGWWl4xFW4X22L8uESvvb7SJYER8PEfRy1Wcg/edit" rel="noopener"&gt;Discussion 3&lt;/a&gt;: view this for B+ tree algorithm walkthroughs!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;B+ Trees are one type of &lt;strong&gt;index&lt;/strong&gt;: a data structure that allows for quick lookups based on a particular key. They are very similar to binary trees, but can have more than two pointers and come with a variety of improvements.&lt;/p&gt;
+&lt;h3 id="what-is-an-index-exactly"&gt;
+ What is an index exactly?
+ &lt;a class="anchor" href="#what-is-an-index-exactly"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;We can index a collection on any &lt;strong&gt;ordered&lt;/strong&gt; subset of columns.&lt;/p&gt;</description></item><item><title>Buffer Management</title><link>https://notes.bencuan.me/cs186/03-Buffer-Management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/03-Buffer-Management/</guid><description>&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;So far, we&amp;rsquo;ve established the fact that the disk is slow, and memory is fast- and that one of the biggest challenges in database implementation is in minimizing the number of times we need to incur I/Os by transferring data in between disk and memory.&lt;/p&gt;
+&lt;p&gt;Since memory is limited, we need to figure out a clever way to re-use information once it&amp;rsquo;s read into memory, while still allowing new information to come in when needed. This way, we can minimize the number of times we need to read the disk in order to find something.&lt;/p&gt;</description></item><item><title>Sorting and Hashing</title><link>https://notes.bencuan.me/cs186/04-Sorting-and-Hashing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/04-Sorting-and-Hashing/</guid><description>&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;When dealing with disk operations, traditional sorting algorithms tend to create lots of random accesses and can be quite slow. We’ll explore a few strategies for creating optimized algorithms for sorting databases that work around our limited memory and buffer management abilities.&lt;/p&gt;
+&lt;h2 id="relevant-materials"&gt;
+ Relevant Materials
+ &lt;a class="anchor" href="#relevant-materials"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://notes.bencuan.me/cs186/coursenotes/n06-Sorting.pdf" rel="noopener"&gt;Note 6: Sorting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://notes.bencuan.me/cs186/coursenotes/n07-Hashing.pdf" rel="noopener"&gt;Note 7: Hashing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://docs.google.com/presentation/d/1ZZxV_EziQJd47w3MNo72X4z8c7upX4KGiMqvuEI-vnM/edit#slide=id.g157c8825e69_0_1744" rel="noopener"&gt;Discussion 4: Sorting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://docs.google.com/presentation/d/1vsnH3HhD5SlBZpfnLkeUAoYLeoD9jOQ_0ADcS5A7hR0/edit#slide=id.g4fe834b467_0_0" rel="noopener"&gt;Discussion 5: Hashing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="single-pass-streaming"&gt;
+ Single-Pass Streaming
+ &lt;a class="anchor" href="#single-pass-streaming"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Single-pass streaming is an approach for mapping inputs to their desired outputs while minimizing memory and disk usage. We will see this principle being used for many algorithms in this course.&lt;/p&gt;</description></item><item><title>Iterators and Joins</title><link>https://notes.bencuan.me/cs186/05-Iterators-and-Joins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/05-Iterators-and-Joins/</guid><description>&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;As you may have seen already, some SQL queries involve joining lots of tables together to get the data we need. However, that joining comes at a cost- every join multiplies the number of rows in the output by the number of rows in the table!&lt;/p&gt;
+&lt;p&gt;For this reason, it&amp;rsquo;s very important that we try to optimize the join operation as much as possible, such that we can minimize the amount of data to process. In this section, we&amp;rsquo;ll explore a methods of doing this, and compare their runtimes.&lt;/p&gt;</description></item><item><title>Relational Algebra</title><link>https://notes.bencuan.me/cs186/06-Relational-Algebra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/06-Relational-Algebra/</guid><description>&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Relational algebra&lt;/strong&gt; is a language that represents a logical query plan for translating SQL queries into underlying actions. This is useful because SQL queries don&amp;rsquo;t save information for the &lt;em&gt;order&lt;/em&gt; in which operations are carried out. As you&amp;rsquo;ll see, several different ways of processing the same query could lead to the same result.&lt;/p&gt;
+&lt;p&gt;It represents &lt;em&gt;how&lt;/em&gt; we perform operations on sets to achieve the desired result. In contrast, 
+&lt;a href="https://en.wikipedia.org/wiki/Relational_calculus" rel="noopener"&gt;relational calculus&lt;/a&gt; represents the result (the &lt;em&gt;what&lt;/em&gt; of a calculation). We won&amp;rsquo;t cover relational calculus in this class, since everything that can be represented with relational calculus can be equivalently represented in relational algebra.&lt;/p&gt;</description></item><item><title>Query Optimization</title><link>https://notes.bencuan.me/cs186/07-Query-Optimization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/07-Query-Optimization/</guid><description>&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Query optimization&lt;/strong&gt; is the bridge between a declarative language (like SQL, where you describe “what” you want) and an imperative language (like Java, which describes how the answer is actually computed). Here, we built the translator that converts SQL into logic that a computer can understand.&lt;/p&gt;
+&lt;p&gt;If you think about it, this can be really complicated- there&amp;rsquo;s lots of ways to execute a query (i.e. many equivalent relational algebra statements), and we have to somehow figure out which one is the best &lt;em&gt;without&lt;/em&gt; executing any of them!&lt;/p&gt;</description></item><item><title>Transactions and ACID</title><link>https://notes.bencuan.me/cs186/08-Transactions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/08-Transactions/</guid><description>&lt;h2 id="what-is-a-transaction"&gt;
+ What is a transaction?
+ &lt;a class="anchor" href="#what-is-a-transaction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Transactions are collections of operations that can be treated like a single unit. The primary reason why we need transactions is to obey the &lt;strong&gt;ACID&lt;/strong&gt; properties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Atomicity:&lt;/strong&gt; either all operations happen, or none of them&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Consistency:&lt;/strong&gt; database remains in a consistent state with its constraints (for example, primary keys will never be null)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Isolation:&lt;/strong&gt; it should appear as if we only run 1 transaction at a time (even if they’re actually run concurrently)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Durability:&lt;/strong&gt; once a transaction commits, it persists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Transactions support two main operations:&lt;/p&gt;</description></item><item><title>Parallel Query Processing</title><link>https://notes.bencuan.me/cs186/09-Parallel-Query-Processing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/09-Parallel-Query-Processing/</guid><description>&lt;h2 id="relevant-materials"&gt;
+ Relevant Materials
+ &lt;a class="anchor" href="#relevant-materials"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://notes.bencuan.me/cs186/coursenotes/n15-PQP.pdf" rel="noopener"&gt;Note 15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://docs.google.com/presentation/d/1QhHHveYGIzGynJdRyli5XnyXkNt2c_FX9AWtn5t1fQE/edit#slide=id.g12051cee1a3_0_2249" rel="noopener"&gt;Discussion 11&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="parallelism"&gt;
+ Parallelism
+ &lt;a class="anchor" href="#parallelism"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Parallelism helps us break down a big problem into small, independent chunks. The idea is that a lot of machines all working on the same problem at the same time will finish the problem more quickly.&lt;/p&gt;
+&lt;p&gt;There are two main metrics we want:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Speed-up:&lt;/strong&gt; if we add more hardware, the same workload should be completed more quickly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scale-up:&lt;/strong&gt; if the workload increases, we should be able to add a corresponding amount of hardware to make the problem be processed with the same amount of time as before.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are two main types of parallelism:&lt;/p&gt;</description></item><item><title>Recovery</title><link>https://notes.bencuan.me/cs186/10-Recovery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/10-Recovery/</guid><description>&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Recovery&lt;/strong&gt; is the process of making databases resilient to failure. Specifically, recovery enforces &lt;strong&gt;durability&lt;/strong&gt; (a committed transaction remains persistent) and &lt;strong&gt;atomicity&lt;/strong&gt; (either all of the operations in a transaction complete, or none of them).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Assumptions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We use strict two-phase locking for concurrency control.&lt;/li&gt;
+&lt;li&gt;Updates happen in-place: transactions that modify data overwrite entries in the database.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="relevant-materials"&gt;
+ Relevant Materials
+ &lt;a class="anchor" href="#relevant-materials"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://notes.bencuan.me/cs186/coursenotes/n13-Recovery.pdf" rel="noopener"&gt;Note 13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://docs.google.com/presentation/d/1K9BNas4NYQbRSB8q_EswPepjwVj-cijxQOsZEIYTNsY/edit?usp=sharing" rel="noopener"&gt;Discussion 9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="stealno-force"&gt;
+ Steal/No Force
+ &lt;a class="anchor" href="#stealno-force"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="no-steal-policy"&gt;
+ No Steal Policy
+ &lt;a class="anchor" href="#no-steal-policy"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Don’t allow buffer pool frames with uncommitted updates to be replaced or flushed to disk.&lt;/p&gt;</description></item><item><title>Distributed Transactions</title><link>https://notes.bencuan.me/cs186/11-Distributed-Transactions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/11-Distributed-Transactions/</guid><description>&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In some situations (like in datacenters), the computation needed for transactions gets to be too great for a single computer to handle.&lt;/p&gt;
+&lt;p&gt;One solution for this is to build &lt;em&gt;wide&lt;/em&gt;- connect a whole bunch of computers together, and have them all work on the same thing! However, this comes with its challenges.&lt;/p&gt;
+&lt;p&gt;One such challenge is how we can still preserve ACID properties of transactions when each computer is working independently. What happens if one computer crashes?&lt;/p&gt;</description></item><item><title>E-R Diagrams</title><link>https://notes.bencuan.me/cs186/12-ER-Diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs186/12-ER-Diagrams/</guid><description>&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Production databases have a lot of tables with complicated relationships. &lt;strong&gt;Entity Relationship (ER) Diagrams&lt;/strong&gt; help us organize databases in a visual manner.&lt;/p&gt;
+&lt;h3 id="steps-in-database-design"&gt;
+ Steps in Database Design
+ &lt;a class="anchor" href="#steps-in-database-design"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Database design is a bit different from the rest of the content we&amp;rsquo;ve covered so far. In previous sections, we mostly learned how to use databases and write the algorithms that make it work efficiently&amp;ndash; but now, we need to ensure that the data itself is structured in a meaningful manner to take advantage of all those optimizations!&lt;/p&gt;</description></item></channel></rss>

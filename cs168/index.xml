@@ -1,38 +1,244 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CS 168: The Internet on</title><link>https://notes.bencuan.me/cs168/</link><description>Recent content in CS 168: The Internet on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs168/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs168/intro-to-the-internet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/intro-to-the-internet/</guid><description>About this Class # There are two meanings of internet:
-the infrastructure that connects computing devices, or the ecosystem of applications built on that infrastructure. When the average person says &amp;ldquo;internet&amp;rdquo; they usually refer to the second definition. This class, on the other hand, explores the first.
-Why study the internet? It&amp;rsquo;s one of the most impactful and life-changing inventions in human history. In addition, it&amp;rsquo;s too large and complex for theoretical models and requires an entirely new design paradigm of:</description></item><item><title>Networking Command Line Tools</title><link>https://notes.bencuan.me/cs168/cli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/cli/</guid><description>nslookup # Resolves a hostname to an IP address (or the reverse).
-Basic usage: nslookup &amp;lt;hostname&amp;gt; &amp;lt;DNS server&amp;gt;
-Example: ❯ nslookup cs168.io Server: 127.0.0.53 Address: 127.0.0.53#53 Non-authoritative answer: Name: cs168.io Address: 185.199.109.153 Name: cs168.io Address: 185.199.110.153 Name: cs168.io Address: 185.199.111.153 Name: cs168.io Address: 185.199.108.153 Reverse lookup: nslookup &amp;lt;ip&amp;gt;
-❯ nslookup 185.199.110.153 153.110.199.185.in-addr.arpa name = cdn-185-199-110-153.github.com. host # Used for DNS lookup (converting between IP addresses and domain names).</description></item><item><title>Introduction to Routing</title><link>https://notes.bencuan.me/cs168/intradomain-routing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/intradomain-routing/</guid><description>Addressing and Naming # In the real world, people have names and are located at addresses. When we move around, our name stays the same, but our address changes.
-The internet works in a very similar manner. Hosts have a network name (which describes which host it is) and a network address (where the host is currently located).
-Conceptual Intro to Routing # First, we&amp;rsquo;ll run a distributed routing algorithm between switches and routers.</description></item><item><title/><link>https://notes.bencuan.me/cs168/measuring-link-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/measuring-link-performance/</guid><description>Some values # The Bandwidth of a link is the number of bits sent/received per unit time (measured in bps, bits per second).
-The Propagation delay of a link is the time it takes a bit to travel along the link (measured in seconds). It is analogous to the &amp;rsquo;length&amp;rsquo; of the link.
-Bandwidth-delay product (BDP) is the product of bandwidth and propagation delay, measured in bits. It is analogous to the total capacity of a link (how many bits can be in the link at the same time).</description></item><item><title>Resource Sharing</title><link>https://notes.bencuan.me/cs168/resource-sharing-packet-and-circuit-switching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/resource-sharing-packet-and-circuit-switching/</guid><description>Statistical Multiplexing # On the internet, millions of packets going to different destinations must share the same routers and paths.
-One way to handle this demand is statistical multiplexing- the concept of combining demands to share resources efficiently, rather than statically partitioning resources.
-Some examples of statistical multiplexing:
-processes sharing CPU cores (vs each process using 1 core) Cloud computing (vs each user has their own datacenter) public transit (vs each person drives a car) The peak of aggregate demand is far less than the aggregate of peak demands.</description></item><item><title>Internet Organization</title><link>https://notes.bencuan.me/cs168/internet-organization-and-layers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/internet-organization-and-layers/</guid><description>Currently, five internet layers exist:
-Application (L7), where code interfaces with the internet as an abstraction, Transport (L4), which can guarantee either reliable or unreliable data delivery, Network (L3), which delivers best-effort global packet delivery, Datalink (L2), which delivers best-effort local packet delivery, Physical (L1), which physically moves bits between locations. HIstorically, L5 (Session layer) and L6 (Presentation layer) existed, but have since been combined with L7 and L4.</description></item><item><title/><link>https://notes.bencuan.me/cs168/sockets-and-ports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/sockets-and-ports/</guid><description>Network Ports # Switches and routers have physical ports where links connect to switches. The OS supports logical ports where applications connect to the operating system&amp;rsquo;s network stack.
-Sockets # A socket is an OS mechanism that creates and manages logical ports. When an app wants access to the network, a socket is opened and associated with a port number. All incoming packets to that port number are then sent to the socket it&amp;rsquo;s associated with.</description></item><item><title>Addressing</title><link>https://notes.bencuan.me/cs168/addressing-ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/addressing-ip/</guid><description>How do we scale the ideas of routing and forwarding to the scale of the entire internet?
-This is mainly resolved with the domain of addressing.
-Early Addressing Schemes # In the early internet, each network had its own identifier, and each host within a network had its own identifier. Naturally, any host could be addressed using two numbers in the form networkID.hostID.
-As a result of this hierarchical addressing scheme, each internal router only needs to store information about the hosts within the same network, as well as a gateway address to a border router connected to external networks.</description></item><item><title>Interdomain Routing (BGP)</title><link>https://notes.bencuan.me/cs168/interdomain-routing-bgp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/interdomain-routing-bgp/</guid><description>In [[intradomain routing]], we primarily focused on processes for intradomain routing- where switches discover paths within their own networks.
-Now, we&amp;rsquo;ll discuss interdomain routing between many autonomous systems.
-Autonomous Systems (AS) # As a review, an autonomous system is a domain that represents a network under a single administrative control. Every AS is assigned a unique ASN by ICANN.
-A stub AS only sends and receives packets on behalf of its directly connected hosts.</description></item><item><title>TCP</title><link>https://notes.bencuan.me/cs168/TCP/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/TCP/</guid><description>The Transport Layer # The transport layer (L4) is built directly on top of the networking layer. Many different protocols exist on the transport layer, most notably TCP and UDP.
-The goal of the transport layer is to bridge the gap between tne abstractions application designers want, and the abstractions that networks can easily support. By providing a common implementation, the transport layer makes development easier.
-The main tasks of the transport layer include:</description></item><item><title/><link>https://notes.bencuan.me/cs168/reliability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/reliability/</guid><description>In general, the network is best-effort, meaning that packets are not guaranteed to be delivered successfully. How do we build reliability on top of an unreliable network?
-Semantics of correct delivery # At the network layer (L3 and below), delivery is best-effort. No guarantees can be made. At the transport layer (L4), delivery is at-least-once. Packets should reach the end host, but may be duplicated. At the application layer (L7), delivery is exactly-once.</description></item><item><title/><link>https://notes.bencuan.me/cs168/congestion-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/congestion-control/</guid><description>If the capacity of the output link is less than the capacity of the incoming links, then it is possible for too many packets to arrive at once, overloading the link.
-Here&amp;rsquo;s a graph of the packet delay as a function of load, assuming that we use a simple queue:
-Fundamentally, congestion control is a resource allocation problem. However, it is very complex because changing one link can have a global impact, and these impacts need to be accounted for by every router on every flow change.</description></item><item><title/><link>https://notes.bencuan.me/cs168/dns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/dns/</guid><description>DNS (domain name system) was created as a solution to make IP addresses human-readable for users.
-In the early days, DNS took the form of a standardized address book called hosts.txt maintained by Elizabeth Feinler at the Network Information Center. This included an IP address, user-friendly name, and properties such as supported protocols. Whenever someone wanted to look up a name, they would query for hosts.txt. However, this got troublesome due to increased burden on the NIC team, high bandwidth usage as the number of hosts increased, and having a single point of failure.</description></item><item><title/><link>https://notes.bencuan.me/cs168/web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/web/</guid><description>Origins # In 1989, Tim Berners-Lee set out to solve a problem: there was a lot of information being stored digitally, and no way to find or access much of it. He created &amp;ldquo;Information Management: A Proposal&amp;rdquo; in which the concept of the &amp;ldquo;web&amp;rdquo; was first established.
-This proposal had several key parts:
-not based on a hierarchy allows remote access across networks heterogeneity: different systems can access the same data non-centralization: ability for existing systems to be linked together without a central control access to existing data: ability to get data from existing databases to reduce overhead of adapting new system Why was this so successful?</description></item><item><title/><link>https://notes.bencuan.me/cs168/ethernet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/ethernet/</guid><description>Shared Media # In a radio network, nodes use a shared medium (the electromagnetic spectrum). As such, transmissions from different nodes might collide with one another, so we need a multiple access protocol to allocate the medium between users.
-Some common approaches for doing this include:
-Frequency Division Multiplexing: divide medium by frequency. This can be wasteful since frequencies are likely to be idle often. Time Division Multiplexing: divide medium by time.</description></item><item><title/><link>https://notes.bencuan.me/cs168/end-to-end-operation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/end-to-end-operation/</guid><description>Suppose we have the following scenario:
-Host H1 boots up Fetches small file from H5 Goes idle Fetches two small files from H2 ![[/cs168/img/Pasted image 20221210190305.png]] Here&amp;rsquo;s what will happen:
-DHCP to get configuration UDP Discover =&amp;gt; broadcast UDP Offer from H4 &amp;lt;- H1 UDP Request =&amp;gt; broadcast UDP ack &amp;lt;- H1 ARP for DNS server ARP request for H3 =&amp;gt; broadcast H3 ARP response &amp;lt;- unicast to H1 Resolve H5 UDP DNS request for H5.</description></item><item><title/><link>https://notes.bencuan.me/cs168/final-review/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/final-review/</guid><description>Part 1 # Original questions: final review part 1
-1.1 # less aggressive than normal TCP.
-Aggressiveness is determined by the throughput. Higher throughput = more aggressive.
-Throughput can be calcuated by dividing the number of bytes over time (or, packets per RTT).
-In a normal TCP implementation, the multiplier $M$ is $0.5$.
-At full throughput (highest possible window size $W$ before loss occurs), the throughput is $W/RTT$. At minimum throughput during congestion avoidance (right after loss is detected), the throughput is $1/2 \times W/RTT$Q.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CS 168: The Internet on</title><link>https://notes.bencuan.me/cs168/</link><description>Recent content in CS 168: The Internet on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs168/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs168/intro-to-the-internet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/intro-to-the-internet/</guid><description>&lt;h2 id="about-this-class"&gt;
+ About this Class
+ &lt;a class="anchor" href="#about-this-class"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;There are two meanings of internet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the infrastructure that connects computing devices,&lt;/li&gt;
+&lt;li&gt;or the ecosystem of applications built on that infrastructure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When the average person says &amp;ldquo;internet&amp;rdquo; they usually refer to the second definition. This class, on the other hand, explores the first.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why study the internet?&lt;/strong&gt; It&amp;rsquo;s one of the most impactful and life-changing inventions in human history. In addition, it&amp;rsquo;s too large and complex for theoretical models and requires an &lt;strong&gt;entirely new design paradigm&lt;/strong&gt; of:&lt;/p&gt;</description></item><item><title>Networking Command Line Tools</title><link>https://notes.bencuan.me/cs168/cli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/cli/</guid><description>&lt;h2 id="nslookup"&gt;
+ nslookup
+ &lt;a class="anchor" href="#nslookup"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Resolves a hostname to an IP address (or the reverse).&lt;/p&gt;
+&lt;p&gt;Basic usage: &lt;code&gt;nslookup &amp;lt;hostname&amp;gt; &amp;lt;DNS server&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Example:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;❯ nslookup cs168.io
+Server: 127.0.0.53
+Address: 127.0.0.53#53
+
+Non-authoritative answer:
+Name: cs168.io
+Address: 185.199.109.153
+Name: cs168.io
+Address: 185.199.110.153
+Name: cs168.io
+Address: 185.199.111.153
+Name: cs168.io
+Address: 185.199.108.153
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Reverse lookup: &lt;code&gt;nslookup &amp;lt;ip&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;❯ nslookup 185.199.110.153
+153.110.199.185.in-addr.arpa name = cdn-185-199-110-153.github.com.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="host"&gt;
+ host
+ &lt;a class="anchor" href="#host"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Used for DNS lookup (converting between IP addresses and domain names).&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;host -t ns &amp;lt;HOSTNAME&amp;gt;&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Introduction to Routing</title><link>https://notes.bencuan.me/cs168/intradomain-routing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/intradomain-routing/</guid><description>&lt;h2 id="addressing-and-naming"&gt;
+ Addressing and Naming
+ &lt;a class="anchor" href="#addressing-and-naming"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In the real world, people have names and are located at addresses. When we move around, our name stays the same, but our address changes.&lt;/p&gt;
+&lt;p&gt;The internet works in a very similar manner. Hosts have a &lt;strong&gt;network name&lt;/strong&gt; (which describes which host it is) and a &lt;strong&gt;network address&lt;/strong&gt; (where the host is currently located).&lt;/p&gt;
+&lt;h2 id="conceptual-intro-to-routing"&gt;
+ Conceptual Intro to Routing
+ &lt;a class="anchor" href="#conceptual-intro-to-routing"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;First, we&amp;rsquo;ll run a distributed routing algorithm between switches and routers. This algorithm will help us gather information about the network, and compute paths between its topology.&lt;/li&gt;
+&lt;li&gt;Within each router, the algorithm will store forwarding information to send packets to different links based on their destination. This is known as the &lt;strong&gt;forwarding table&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The distinction between &lt;em&gt;creating&lt;/em&gt; the forwarding table and &lt;em&gt;using&lt;/em&gt; the forwarding table is captured in the &lt;strong&gt;control plane&lt;/strong&gt; and &lt;strong&gt;data plane&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs168/measuring-link-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/measuring-link-performance/</guid><description>&lt;h2 id="some-values"&gt;
+ Some values
+ &lt;a class="anchor" href="#some-values"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;Bandwidth&lt;/strong&gt; of a link is the number of bits sent/received per unit time (measured in bps, bits per second).&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Propagation delay&lt;/strong&gt; of a link is the time it takes a bit to travel along the link (measured in seconds). It is analogous to the &amp;rsquo;length&amp;rsquo; of the link.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bandwidth-delay product (BDP)&lt;/strong&gt; is the product of bandwidth and propagation delay, measured in bits. It is analogous to the total capacity of a link (how many bits can be in the link at the same time).&lt;/p&gt;</description></item><item><title>Resource Sharing</title><link>https://notes.bencuan.me/cs168/resource-sharing-packet-and-circuit-switching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/resource-sharing-packet-and-circuit-switching/</guid><description>&lt;h2 id="statistical-multiplexing"&gt;
+ Statistical Multiplexing
+ &lt;a class="anchor" href="#statistical-multiplexing"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;On the internet, millions of packets going to different destinations must share the same routers and paths.&lt;/p&gt;
+&lt;p&gt;One way to handle this demand is &lt;strong&gt;statistical multiplexing&lt;/strong&gt;- the concept of combining demands to share resources efficiently, rather than statically partitioning resources.&lt;/p&gt;
+&lt;p&gt;Some examples of statistical multiplexing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;processes sharing CPU cores (vs each process using 1 core)&lt;/li&gt;
+&lt;li&gt;Cloud computing (vs each user has their own datacenter)&lt;/li&gt;
+&lt;li&gt;public transit (vs each person drives a car)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The peak of aggregate demand is far less than the aggregate of peak demands.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Internet Organization</title><link>https://notes.bencuan.me/cs168/internet-organization-and-layers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/internet-organization-and-layers/</guid><description>&lt;p&gt;Currently, five internet layers exist:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Application (L7), where code interfaces with the internet as an abstraction,&lt;/li&gt;
+&lt;li&gt;Transport (L4), which can guarantee either reliable or unreliable data delivery,&lt;/li&gt;
+&lt;li&gt;Network (L3), which delivers best-effort global packet delivery,&lt;/li&gt;
+&lt;li&gt;Datalink (L2), which delivers best-effort local packet delivery,&lt;/li&gt;
+&lt;li&gt;Physical (L1), which physically moves bits between locations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;HIstorically, L5 (Session layer) and L6 (Presentation layer) existed, but have since been combined with L7 and L4.&lt;/p&gt;
+&lt;h3 id="local-vs-global-packet-delivery"&gt;
+ Local vs. Global Packet Delivery
+ &lt;a class="anchor" href="#local-vs-global-packet-delivery"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;There are many different types of links (ethernet, fiber, wifi&amp;hellip;) that connect switches together.
+However, each type of link only knows how to manage its own network; ethernet packets can&amp;rsquo;t get transferred into wifi on their own.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs168/sockets-and-ports/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/sockets-and-ports/</guid><description>&lt;h2 id="network-ports"&gt;
+ Network Ports
+ &lt;a class="anchor" href="#network-ports"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Switches and routers have &lt;strong&gt;physical ports&lt;/strong&gt; where links connect to switches.
+The OS supports &lt;strong&gt;logical ports&lt;/strong&gt; where applications connect to the operating system&amp;rsquo;s network stack.&lt;/p&gt;
+&lt;h2 id="sockets"&gt;
+ Sockets
+ &lt;a class="anchor" href="#sockets"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;socket&lt;/strong&gt; is an OS mechanism that creates and manages logical ports. When an app wants access to the network, a socket is opened and associated with a &lt;strong&gt;port number&lt;/strong&gt;. All incoming packets to that port number are then sent to the socket it&amp;rsquo;s associated with.&lt;/p&gt;</description></item><item><title>Addressing</title><link>https://notes.bencuan.me/cs168/addressing-ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/addressing-ip/</guid><description>&lt;p&gt;How do we scale the ideas of routing and forwarding to the scale of the entire internet?&lt;/p&gt;
+&lt;p&gt;This is mainly resolved with the domain of &lt;strong&gt;addressing.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="early-addressing-schemes"&gt;
+ Early Addressing Schemes
+ &lt;a class="anchor" href="#early-addressing-schemes"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In the early internet, each network had its own identifier, and each host within a network had its own identifier. Naturally, any host could be addressed using two numbers in the form &lt;code&gt;networkID.hostID&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;As a result of this hierarchical addressing scheme, each &lt;em&gt;internal router&lt;/em&gt; only needs to store information about the hosts within the same network, as well as a gateway address to a &lt;em&gt;border router&lt;/em&gt; connected to external networks.&lt;/p&gt;</description></item><item><title>Interdomain Routing (BGP)</title><link>https://notes.bencuan.me/cs168/interdomain-routing-bgp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/interdomain-routing-bgp/</guid><description>&lt;p&gt;In [[intradomain routing]], we primarily focused on processes for intradomain routing- where switches discover paths within their own networks.&lt;/p&gt;
+&lt;p&gt;Now, we&amp;rsquo;ll discuss &lt;strong&gt;interdomain routing&lt;/strong&gt; between many autonomous systems.&lt;/p&gt;
+&lt;h2 id="autonomous-systems-as"&gt;
+ Autonomous Systems (AS)
+ &lt;a class="anchor" href="#autonomous-systems-as"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;As a review, an autonomous system is a domain that represents a network under a single administrative control. Every AS is assigned a unique ASN by ICANN.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;stub AS&lt;/strong&gt; only sends and receives packets on behalf of its directly connected hosts. Some examples include companies and universities.&lt;/p&gt;</description></item><item><title>TCP</title><link>https://notes.bencuan.me/cs168/TCP/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/TCP/</guid><description>&lt;h2 id="the-transport-layer"&gt;
+ The Transport Layer
+ &lt;a class="anchor" href="#the-transport-layer"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The transport layer (L4) is built directly on top of the networking layer. Many different protocols exist on the transport layer, most notably TCP and UDP.&lt;/p&gt;
+&lt;p&gt;The goal of the transport layer is to bridge the gap between tne abstractions application designers want, and the abstractions that networks can easily support. By providing a common implementation, the transport layer makes development easier.&lt;/p&gt;
+&lt;p&gt;The main tasks of the transport layer include:&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs168/reliability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/reliability/</guid><description>&lt;p&gt;In general, the network is best-effort, meaning that packets are not guaranteed to be delivered successfully. How do we build reliability on top of an unreliable network?&lt;/p&gt;
+&lt;h2 id="semantics-of-correct-delivery"&gt;
+ Semantics of correct delivery
+ &lt;a class="anchor" href="#semantics-of-correct-delivery"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;At the network layer (L3 and below), delivery is &lt;strong&gt;best-effort&lt;/strong&gt;. No guarantees can be made.&lt;/li&gt;
+&lt;li&gt;At the transport layer (L4), delivery is &lt;strong&gt;at-least-once&lt;/strong&gt;. Packets should reach the end host, but may be duplicated.&lt;/li&gt;
+&lt;li&gt;At the application layer (L7), delivery is &lt;strong&gt;exactly-once.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The reliability goals of the transport and application layer are not guaranteed (since the underlying network can still fail)! However, reliability protocols must announce failures to the application, and never falsely claim a successful delivery.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs168/congestion-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/congestion-control/</guid><description>&lt;p&gt;If the capacity of the output link is less than the capacity of the incoming links, then it is possible for too many packets to arrive at once, overloading the link.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a graph of the packet delay as a function of load, assuming that we use a simple queue:&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me//cs168/img/Pasted%20image%2020221024085656.png" width="auto" alt="img" /&gt;&lt;/p&gt;
+&lt;p&gt;Fundamentally, congestion control is a resource allocation problem. However, it is very complex because changing one link can have a global impact, and these impacts need to be accounted for by every router on every flow change.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs168/dns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/dns/</guid><description>&lt;p&gt;DNS (domain name system) was created as a solution to make IP addresses human-readable for users.&lt;/p&gt;
+&lt;p&gt;In the early days, DNS took the form of a standardized address book called hosts.txt maintained by Elizabeth Feinler at the Network Information Center. This included an IP address, user-friendly name, and properties such as supported protocols. Whenever someone wanted to look up a name, they would query for hosts.txt. However, this got troublesome due to increased burden on the NIC team, high bandwidth usage as the number of hosts increased, and having a single point of failure.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs168/web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/web/</guid><description>&lt;h2 id="origins"&gt;
+ Origins
+ &lt;a class="anchor" href="#origins"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In 1989, Tim Berners-Lee set out to solve a problem: there was a lot of information being stored digitally, and no way to find or access much of it. He created &amp;ldquo;Information Management: A Proposal&amp;rdquo; in which the concept of the &amp;ldquo;web&amp;rdquo; was first established.&lt;/p&gt;
+&lt;p&gt;This proposal had several key parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;not based on a hierarchy&lt;/li&gt;
+&lt;li&gt;allows remote access across networks&lt;/li&gt;
+&lt;li&gt;heterogeneity: different systems can access the same data&lt;/li&gt;
+&lt;li&gt;non-centralization: ability for existing systems to be linked together without a central control&lt;/li&gt;
+&lt;li&gt;access to existing data: ability to get data from existing databases to reduce overhead of adapting new system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Why was this so successful?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs168/ethernet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/ethernet/</guid><description>&lt;h2 id="shared-media"&gt;
+ Shared Media
+ &lt;a class="anchor" href="#shared-media"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In a radio network, nodes use a shared medium (the electromagnetic spectrum). As such, transmissions from different nodes might collide with one another, so we need a &lt;strong&gt;multiple access protocol&lt;/strong&gt; to allocate the medium between users.&lt;/p&gt;
+&lt;p&gt;Some common approaches for doing this include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Frequency Division Multiplexing: divide medium by frequency. This can be wasteful since frequencies are likely to be idle often.&lt;/li&gt;
+&lt;li&gt;Time Division Multiplexing: divide medium by time. Each sender gets a fixed time slot to send data. This has similar drawbacks to FDM.&lt;/li&gt;
+&lt;li&gt;Polling protocols: a turn-taking scheme where a coordinator gets to decide who gets to send data when (how Bluetooth works)&lt;/li&gt;
+&lt;li&gt;Token-passing: a turn-taking scheme where a virtual token is passed around, and only the holder can transmit&lt;/li&gt;
+&lt;li&gt;Random access: see [[#Pure ALOHA random access]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="alohanet"&gt;
+ ALOHAnet
+ &lt;a class="anchor" href="#alohanet"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Additive Links Online Hawaii Area: a first attempt at wireless connections across the Hawaiian islands (1968, Norman Abramson)&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs168/end-to-end-operation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/end-to-end-operation/</guid><description>&lt;p&gt;Suppose we have the following scenario:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Host H1 boots up&lt;/li&gt;
+&lt;li&gt;Fetches small file from H5&lt;/li&gt;
+&lt;li&gt;Goes idle&lt;/li&gt;
+&lt;li&gt;Fetches two small files from H2
+![[/cs168/img/Pasted image 20221210190305.png]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here&amp;rsquo;s what will happen:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;DHCP to get configuration
+&lt;ol&gt;
+&lt;li&gt;UDP Discover =&amp;gt; broadcast&lt;/li&gt;
+&lt;li&gt;UDP Offer from H4 &amp;lt;- H1&lt;/li&gt;
+&lt;li&gt;UDP Request =&amp;gt; broadcast&lt;/li&gt;
+&lt;li&gt;UDP ack &amp;lt;- H1&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;ARP for DNS server
+&lt;ol&gt;
+&lt;li&gt;ARP request for H3 =&amp;gt; broadcast&lt;/li&gt;
+&lt;li&gt;H3 ARP response &amp;lt;- unicast to H1&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Resolve H5
+&lt;ol&gt;
+&lt;li&gt;UDP DNS request for H5.com =&amp;gt; H3&lt;/li&gt;
+&lt;li&gt;UDP DNS response &amp;lt;- H1&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;ARP for R1
+&lt;ol&gt;
+&lt;li&gt;ARP request for R1 =&amp;gt; broadcast&lt;/li&gt;
+&lt;li&gt;ARP response from R1 &amp;lt;- H1&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;TCP connection to H5
+&lt;ol&gt;
+&lt;li&gt;TCP SYN =&amp;gt; H5&lt;/li&gt;
+&lt;li&gt;TCP SYNACK &amp;lt;- H1&lt;/li&gt;
+&lt;li&gt;TCP ACK =&amp;gt; H5&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;HTTP request to H5
+&lt;ol&gt;
+&lt;li&gt;TCP HTTP GET =&amp;gt; H5&lt;/li&gt;
+&lt;li&gt;TCP ACK &amp;lt;- H1&lt;/li&gt;
+&lt;li&gt;HTTP response &amp;lt;- H1&lt;/li&gt;
+&lt;li&gt;ACK =&amp;gt; H5&lt;/li&gt;
+&lt;li&gt;(after download completes and connection becomes idle for a while) FIN =&amp;gt; H5&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;TCP disconnect from H5
+&lt;ol&gt;
+&lt;li&gt;ACK &amp;lt;- H1&lt;/li&gt;
+&lt;li&gt;FIN &amp;lt;- H1&lt;/li&gt;
+&lt;li&gt;ACK =&amp;gt; H5
+The rest of the steps are extremely similar to the above.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Resolve H2&lt;/li&gt;
+&lt;li&gt;ARP for H2&lt;/li&gt;
+&lt;li&gt;TCP to H2&lt;/li&gt;
+&lt;li&gt;HTTP to H2&lt;/li&gt;
+&lt;li&gt;HTTP to H2 (2)&lt;/li&gt;
+&lt;li&gt;TCP disconnect from H\2&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs168/final-review/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs168/final-review/</guid><description>&lt;h2 id="part-1"&gt;
+ Part 1
+ &lt;a class="anchor" href="#part-1"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Original questions: 
+&lt;a href="https://notes.bencuan.me/cs168/cs168_final_review_fa22.pdf" rel="noopener"&gt;final review part 1&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="11"&gt;
+ 1.1
+ &lt;a class="anchor" href="#11"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;less aggressive&lt;/strong&gt; than normal TCP.&lt;/p&gt;
+&lt;p&gt;Aggressiveness is determined by the throughput. Higher throughput = more aggressive.&lt;/p&gt;
+&lt;p&gt;Throughput can be calcuated by dividing the number of bytes over time (or, packets per RTT).&lt;/p&gt;
+&lt;p&gt;In a normal TCP implementation, the multiplier $M$ is $0.5$.&lt;/p&gt;
+&lt;p&gt;At full throughput (highest possible window size $W$ before loss occurs), the throughput is $W/RTT$. At minimum throughput during congestion avoidance (right after loss is detected), the throughput is $1/2 \times W/RTT$Q. Therefore, the average throughput for typical TCP is $3/4 \times W/RTT$.&lt;/p&gt;</description></item></channel></rss>

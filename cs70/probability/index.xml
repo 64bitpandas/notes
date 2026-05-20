@@ -1,25 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Probability on</title><link>https://notes.bencuan.me/cs70/probability/</link><description>Recent content in Probability on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs70/probability/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs70/probability/probability-overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/probability-overview/</guid><description>The probability section of this guide will likely never be fully completed, due to the fact that the Prob 140 textbook is such an excellent resource in probability theory. Go read it and do the problems!
-Instead of a full write-up, the pages in this section will typically just link to relevant sections from the textbook. Personally, I found everything I needed to do well in CS70 probability (and much more) here, including examples that are very similar to problems you might see on the homework.</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/counting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/counting/</guid><description>Introduction # If you&amp;rsquo;re reading this, I think it&amp;rsquo;s safe to assume you already know how to count&amp;hellip; (1, 2, 3, whatever) so what&amp;rsquo;s the big deal about counting?
-When we say counting in this context, we mean counting sequences of decisions. For example, we might want to get the total number of ways to choose toppings on a pizza or something.
-There are two main types of problems: those where order matters and those where it doesn&amp;rsquo;t.</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/discrete-probability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/discrete-probability/</guid><description>Probability Basics # http://prob140.org/textbook/content/Chapter_02/00_Calculating_Chances.html
-Adding and subtracting probabilities - Multiplying probabilities: random draws without replacement, conditional probabilities Bayes&amp;rsquo; Rule # Bayes&amp;rsquo; Rule is used to re-express conditional probabilities $P(A|B)$.
-http://prob140.org/textbook/content/Chapter_02/05_Updating_Probabilities.html#bayes-rule
-Random Variables # Probability Spaces # Probability spaces describe all of the possible values of a random variable, and how likely each of those outcomes are.
-http://prob140.org/textbook/content/Chapter_02/00_Calculating_Chances.html
-Equality # Two variables are equal if $X(\omega) = Y(\omega)$ for all $\omega \in \Omega$, where $\Omega$ is a probability space (all possible values).</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/hashing-and-the-union-bound/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/hashing-and-the-union-bound/</guid><description>A hash function assigns a value to each member in a set. It&amp;rsquo;s often useful to determine the probability of collisions: where two different items are assigned the same hash value.
-http://prob140.org/textbook/content/Chapter_01/03_Collisions_in_Hashing.html
-An interesting result is explored by the Birthday Problem (sometimes known as the Birthday Paradox, despite not actually being paradoxical), in which the probability of at least two people sharing the same birthday is much higher than expected.</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/expectation-and-variance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/expectation-and-variance/</guid><description>The expectation of a random variable, $E(X)$, is the average of possible values weighted by their probabilities. Formally, it can be defined in two ways:
-Domain definition: $E(X) = \sum_{\omega \in \Omega} X(\omega) P(\omega)$. Range definition: $E(X) = \sum_x x P(X = x)$. Expectation has nice properties of linearity: $E(X + Y) = E(X) + E(Y)$ and $E(aX + b) = aE(x) + b$.
-http://prob140.org/textbook/content/Chapter_08/01_Definition.html</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/concentration-inequalities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/concentration-inequalities/</guid><description>Also see the Data 102 notes on this topic.
-Markov&amp;rsquo;s Inequality: http://prob140.org/textbook/content/Chapter_18/04_Chi_Squared_Distributions.html
-Chebyshev&amp;rsquo;s Inequality: http://prob140.org/textbook/content/Chapter_18/04_Chi_Squared_Distributions.html
-Chernoff Bound: http://prob140.org/textbook/content/Chapter_19/04_Chernoff_Bound.html?highlight=chernoff</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/continuous-probability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/continuous-probability/</guid><description> (Credit: Huiyi Zhang)
-All of the continuous probability distributions are deeply connected. Above is a chart describing some of their relationships.
-Below are some links:
-Poisson Beta Exponential Normal Gamma Chi-Squared</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/markov-chains/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/markov-chains/</guid><description>Markov Chains are a type of stochastic process (a collection of random variables that evolves over time) that satisfy the Markov property (the future state $n+1$ only depends on the current state $n$, and not any of the past states).
-Markov chains are often used to model transitions between discrete states.
-http://prob140.org/textbook/content/Chapter_10/00_Markov_Chains.html</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/the-beta-family/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/the-beta-family/</guid><description>The Beta distribution is a family of continuous distributions on [0,1] with two parameters (commonly known as $\alpha$ and $\beta$, but also $r$ and $s$).
-Beta distributions are commonly used in situations where we want to continually update a prior distribution given new information.
-The beta (1,1) distribution is identical to the uniform distribution. http://prob140.org/textbook/content/Chapter_21/00_The_Beta_and_the_Binomial.html</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/conditional-expectation-and-variance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/conditional-expectation-and-variance/</guid><description>Properties:
-Conditional Expectation # $E(X|Y)$is the conditional expectation of $X$given $Y$
-$E(X|Y=y)$is a fixed value, but $E(X|Y)$is a random variable (it is a function of $Y$) Iterated expectation: $E(E(X|Y)) = E(X)$ Additivity: $E(Y+Z | X) = E(Y|X) + E(Z|X)$ does not work on the right hand side: $E(Y | X+Z) \ne E(Y|X) + E(Y|Z)$ Linearity: $E(aX + b | Y) = aE(X|Y) + b$ Conditioning on the same variable: $E(g(S)T | S) = g(S)E(T|S)$ Conditional Variance # If $Var(Y)$is difficult to find directly, we can use the variance decomposition to condition the variance on another variable.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Probability on</title><link>https://notes.bencuan.me/cs70/probability/</link><description>Recent content in Probability on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs70/probability/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs70/probability/probability-overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/probability-overview/</guid><description>&lt;p&gt;The probability section of this guide will likely never be fully completed, due to the fact that the 
+&lt;a href="http://prob140.org/textbook/content/README.html" rel="noopener"&gt;Prob 140 textbook&lt;/a&gt; is such an excellent resource in probability theory. Go read it and do the problems!&lt;/p&gt;
+&lt;p&gt;Instead of a full write-up, the pages in this section will typically just link to relevant sections from the textbook. Personally, I found everything I needed to do well in CS70 probability (and much more) here, including examples that are very similar to problems you might see on the homework.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/counting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/counting/</guid><description>&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re reading this, I think it&amp;rsquo;s safe to assume you already know how to count&amp;hellip; (1, 2, 3, whatever) so what&amp;rsquo;s the big deal about counting?&lt;/p&gt;
+&lt;p&gt;When we say counting in this context, we mean &lt;strong&gt;counting sequences of decisions.&lt;/strong&gt; For example, we might want to get the &lt;strong&gt;total number of ways to choose toppings on a pizza&lt;/strong&gt; or something.&lt;/p&gt;
+&lt;p&gt;There are &lt;strong&gt;two main types&lt;/strong&gt; of problems: those where &lt;strong&gt;order matters&lt;/strong&gt; and those where it doesn&amp;rsquo;t.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/discrete-probability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/discrete-probability/</guid><description>&lt;h2 id="probability-basics"&gt;
+ Probability Basics
+ &lt;a class="anchor" href="#probability-basics"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_02/00%5c_Calculating%5c_Chances.html" rel="noopener"&gt;http://prob140.org/textbook/content/Chapter_02/00_Calculating_Chances.html&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter_02/01_Addition.html" rel="noopener"&gt;Adding and subtracting probabilities&lt;/a&gt;
+-
+&lt;a href="http://prob140.org/textbook/content/Chapter_02/03_Multiplication.html" rel="noopener"&gt;Multiplying probabilities: random draws without replacement, conditional probabilities&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="bayes-rule"&gt;
+ Bayes&amp;rsquo; Rule
+ &lt;a class="anchor" href="#bayes-rule"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Bayes&amp;rsquo; Rule is used to re-express conditional probabilities $P(A|B)$.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_02/05%5c_Updating%5c_Probabilities.html#bayes-rule" rel="noopener"&gt;http://prob140.org/textbook/content/Chapter_02/05_Updating_Probabilities.html#bayes-rule&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="random-variables"&gt;
+ Random Variables
+ &lt;a class="anchor" href="#random-variables"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="probability-spaces"&gt;
+ Probability Spaces
+ &lt;a class="anchor" href="#probability-spaces"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Probability spaces describe all of the possible values of a random variable, and how likely each of those outcomes are.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_02/00%5c_Calculating%5c_Chances.html" rel="noopener"&gt;http://prob140.org/textbook/content/Chapter_02/00_Calculating_Chances.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="equality"&gt;
+ Equality
+ &lt;a class="anchor" href="#equality"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Two variables are equal if $X(\omega) = Y(\omega)$ for all $\omega \in \Omega$, where $\Omega$ is a probability space (all possible values).&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/hashing-and-the-union-bound/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/hashing-and-the-union-bound/</guid><description>&lt;p&gt;A hash function assigns a value to each member in a set. It&amp;rsquo;s often useful to determine the probability of collisions: where two different items are assigned the same hash value.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_01/03%5c_Collisions%5c_in%5c_Hashing.html" rel="noopener"&gt;http://prob140.org/textbook/content/Chapter_01/03_Collisions_in_Hashing.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An interesting result is explored by the 
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_01/04%5c_Birthday%5c_Problem.html" rel="noopener"&gt;Birthday Problem&lt;/a&gt; (sometimes known as the Birthday Paradox, despite not actually being paradoxical), in which the probability of at least two people sharing the same birthday is much higher than expected.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/expectation-and-variance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/expectation-and-variance/</guid><description>&lt;p&gt;The expectation of a random variable, $E(X)$, is the average of possible values weighted by their probabilities. Formally, it can be defined in two ways:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Domain definition: $E(X) = \sum_{\omega \in \Omega} X(\omega) P(\omega)$.&lt;/li&gt;
+&lt;li&gt;Range definition: $E(X) = \sum_x x P(X = x)$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Expectation has nice properties of linearity: $E(X + Y) = E(X) + E(Y)$ and $E(aX + b) = aE(x) + b$.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_08/01%5c_Definition.html" rel="noopener"&gt;http://prob140.org/textbook/content/Chapter_08/01_Definition.html&lt;/a&gt;&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/concentration-inequalities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/concentration-inequalities/</guid><description>&lt;p&gt;Also see the 
+
+
+
+
+
+&lt;a href="https://notes.bencuan.me/data102/concentration-inequalities/" rel="noopener"
+ class="internal-link" data-src="https://notes.bencuan.me/data102/concentration-inequalities/"&gt;Data 102 notes&lt;/a&gt; on this topic.&lt;/p&gt;
+&lt;p&gt;Markov&amp;rsquo;s Inequality: 
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_18/04%5c_Chi%5c_Squared%5c_Distributions.html" rel="noopener"&gt;http://prob140.org/textbook/content/Chapter_18/04_Chi_Squared_Distributions.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chebyshev&amp;rsquo;s Inequality: 
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_18/04%5c_Chi%5c_Squared%5c_Distributions.html" rel="noopener"&gt;http://prob140.org/textbook/content/Chapter_18/04_Chi_Squared_Distributions.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chernoff Bound:
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_19/04%5c_Chernoff%5c_Bound.html?highlight=chernoff" rel="noopener"&gt; http://prob140.org/textbook/content/Chapter_19/04_Chernoff_Bound.html?highlight=chernoff&lt;/a&gt;&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/continuous-probability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/continuous-probability/</guid><description>&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me/cs70/probability/../img/assets/image%20%2821%29.png" width="auto" alt="Credit: Huiyi Zhang" /&gt;&lt;/p&gt;
+&lt;p&gt;(Credit: Huiyi Zhang)&lt;/p&gt;
+&lt;p&gt;All of the continuous probability distributions are deeply connected. Above is a chart describing some of their relationships.&lt;/p&gt;
+&lt;p&gt;Below are some links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_07/01%5c_Poisson%5c_Distribution.html" rel="noopener"&gt;Poisson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_21/00%5c_The%5c_Beta%5c_and%5c_the%5c_Binomial.html" rel="noopener"&gt;Beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_15/04%5c_Exponential%5c_Distribution.html?highlight=exponential" rel="noopener"&gt;Exponential&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_18/01%5c_Standard%5c_Normal%5c_Basics.html" rel="noopener"&gt;Normal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_18/03%5c_The%5c_Gamma%5c_Family.html" rel="noopener"&gt;Gamma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_18/04%5c_Chi%5c_Squared%5c_Distributions.html" rel="noopener"&gt;Chi-Squared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/markov-chains/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/markov-chains/</guid><description>&lt;p&gt;Markov Chains are a type of &lt;strong&gt;stochastic process&lt;/strong&gt; (a collection of random variables that evolves over time) that satisfy the &lt;strong&gt;Markov property&lt;/strong&gt; (the future state $n+1$ only depends on the current state $n$, and not any of the past states).&lt;/p&gt;
+&lt;p&gt;Markov chains are often used to model transitions between discrete states.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_10/00%5c_Markov%5c_Chains.html" rel="noopener"&gt;http://prob140.org/textbook/content/Chapter_10/00_Markov_Chains.html&lt;/a&gt;&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/the-beta-family/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/the-beta-family/</guid><description>&lt;p&gt;The Beta distribution is a family of continuous distributions on [0,1] with two parameters (commonly known as $\alpha$ and $\beta$, but also $r$ and $s$).&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;img src="https://notes.bencuan.me/cs70/probability/../img/assets/image%20%2819%29.png" width="auto" alt="Credit: Wikipedia" /&gt;&lt;/p&gt;
+&lt;p&gt;Beta distributions are commonly used in situations where we want to continually update a prior distribution given new information.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;beta (1,1)&lt;/code&gt; distribution is identical to the uniform distribution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;a href="http://prob140.org/textbook/content/Chapter%5c_21/00%5c_The%5c_Beta%5c_and%5c_the%5c_Binomial.html" rel="noopener"&gt;http://prob140.org/textbook/content/Chapter_21/00_The_Beta_and_the_Binomial.html&lt;/a&gt;&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs70/probability/conditional-expectation-and-variance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs70/probability/conditional-expectation-and-variance/</guid><description>&lt;p&gt;Properties:&lt;/p&gt;
+&lt;h3 id="conditional-expectation"&gt;
+ Conditional Expectation
+ &lt;a class="anchor" href="#conditional-expectation"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;$E(X|Y)$is the conditional expectation of $X$given $Y$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$E(X|Y=y)$is a fixed value, but $E(X|Y)$is a random variable (it is a function of $Y$)&lt;/li&gt;
+&lt;li&gt;Iterated expectation: $E(E(X|Y)) = E(X)$&lt;/li&gt;
+&lt;li&gt;Additivity: $E(Y+Z | X) = E(Y|X) + E(Z|X)$
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;does not work&lt;/strong&gt; on the right hand side: $E(Y | X+Z) \ne E(Y|X) + E(Y|Z)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Linearity: $E(aX + b | Y) = aE(X|Y) + b$&lt;/li&gt;
+&lt;li&gt;Conditioning on the same variable: $E(g(S)T | S) = g(S)E(T|S)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="conditional-variance"&gt;
+ Conditional Variance
+ &lt;a class="anchor" href="#conditional-variance"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;If $Var(Y)$is difficult to find directly, we can use the &lt;strong&gt;variance decomposition&lt;/strong&gt; to condition the variance on another variable.&lt;/p&gt;</description></item></channel></rss>

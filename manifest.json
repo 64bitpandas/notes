@@ -1,6 +1,6 @@
 {
-  "name": "🗒️ Ben's Notes",
-  "short_name": "🗒️ Ben's Notes",
+  "name": "ben's notes",
+  "short_name": "ben's notes",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -9,7 +9,8 @@
   "icons": [
     {
       "src": "/favicon.png",
-      "sizes": "1024x1024"
+      "sizes": "119x119",
+      "type": "image/png"
     }
   ]
 }

@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/algorithms/</link><description>Recent content on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs61b/algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>Sorting</title><link>https://notes.bencuan.me/cs61b/algorithms/sorting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/sorting/</guid><description>[!important] Sorting Guide
-For more information about specific sorting algorithms covered in 61B, see my guide on sorting that covers all of the sorts in far greater detail 🙂
-Why sort? # It makes searching for a specific value much faster (e.g. binary search). Typically, searching through an unsorted list requires a full scan ($\Theta(N)$​ runtime). It&amp;rsquo;s easy to see if two items in list are equal: just compare to see if any neighboring values are the same.</description></item><item><title>Minimax Algorithm</title><link>https://notes.bencuan.me/cs61b/algorithms/minimax/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/minimax/</guid><description>Game Trees # The Minimax algorithm is often used for making AI&amp;rsquo;s for turn-based games. It relies on the use of a type of game tree, which maps out all of the possible moves that players can make.
-In the tree, there are two types of nodes: maximizing nodes and minimizing nodes. The max-nodes represent you- you want to make your position as advantageous as possible (maximizing your score). The min-nodes represent your opponent- they want to make you do as poorly as possible (minimizing your score).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/algorithms/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs61b/algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>Sorting</title><link>https://notes.bencuan.me/cs61b/algorithms/sorting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/sorting/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;[!important] Sorting Guide&lt;/p&gt;
+&lt;p&gt;For more information about specific sorting algorithms covered in 61B, see my 
+&lt;a href="https://docs.google.com/document/d/1dUfzdh5V3okrwFbB9o0PgtEBaLHyCqJFwpQWyQ53IeU/edit" rel="noopener"&gt;guide on sorting&lt;/a&gt; that covers all of the sorts in far greater detail 🙂&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="why-sort"&gt;
+ Why sort?
+ &lt;a class="anchor" href="#why-sort"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It makes searching for a specific value much faster (e.g. binary search). Typically, searching through an unsorted list requires a full scan ($\Theta(N)$​ runtime).&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s easy to see if two items in list are equal: just compare to see if any neighboring values are the same.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="properties-of-a-sorting-algorithm"&gt;
+ Properties of a Sorting Algorithm
+ &lt;a class="anchor" href="#properties-of-a-sorting-algorithm"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;A sorting algorithm changes a sequence based on a &lt;strong&gt;total order.&lt;/strong&gt; A total order is:&lt;/p&gt;</description></item><item><title>Minimax Algorithm</title><link>https://notes.bencuan.me/cs61b/algorithms/minimax/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/algorithms/minimax/</guid><description>&lt;h2 id="game-trees"&gt;
+ Game Trees
+ &lt;a class="anchor" href="#game-trees"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The Minimax algorithm is often used for making AI&amp;rsquo;s for turn-based games. It relies on the use of a type of &lt;strong&gt;game tree,&lt;/strong&gt; which maps out all of the possible moves that players can make.&lt;/p&gt;
+&lt;p&gt;In the tree, there are two types of nodes: &lt;strong&gt;maximizing nodes&lt;/strong&gt; and &lt;strong&gt;minimizing nodes.&lt;/strong&gt; The max-nodes represent &lt;strong&gt;you&lt;/strong&gt;- you want to make your position as advantageous as possible (maximizing your score). The min-nodes represent &lt;strong&gt;your opponent-&lt;/strong&gt; they want to make you do as poorly as possible (minimizing your score).&lt;/p&gt;</description></item></channel></rss>

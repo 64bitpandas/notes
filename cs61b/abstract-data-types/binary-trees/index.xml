@@ -1,8 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/</link><description>Recent content on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/balanced-search-structures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/balanced-search-structures/</guid><description>[!info] Content Note
-Please read Binary Trees before continuing!
-Balanced Binary Search Trees are an even more specific subcategory of binary trees that have an important property: they are always bushy.
-B Trees (2-4 Trees) # The basic idea: Nodes can hold multiple values now! When nodes have too many values, we will split it.
-A 2-4 tree is named such because each parent can have 2 to 4 children.</description></item><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/heaps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/heaps/</guid><description>What are Heaps? # A heap is a specific order of storing data, often in a list. Heaps are very similar to binary trees, but have some differences:
-Unlike trees, heaps only care about the root node. Usually, the root node is either the largest or smallest value in the heap (corresponding with max-heaps and min-heaps), and we don&amp;rsquo;t care too much about the rest. Every element in the heap must be larger than all its children (in a max-heap) or smaller than all its children (in a min-heap).</description></item><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/tries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/tries/</guid><description>Main Ideas # A trie is a specific implementation of a set and is short for retrieval tree.
-It only works on sets with a finite alphabet, like digits or ASCII characters, for example. The idea is that each node can act like an array containing all characters in the alphabet and we can just access the branches super fast by indexing into them!
-Tries are fantastic for searching to see if a word is contained in a set.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><atom:link href="https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/balanced-search-structures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/balanced-search-structures/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;[!info] Content Note&lt;/p&gt;
+&lt;p&gt;Please read 
+
+
+
+
+
+&lt;a rel="noopener"
+ class="internal-link broken" data-src="https://notes.bencuan.me/cs61b/binary-trees"&gt;Binary Trees&lt;/a&gt; before continuing!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Balanced Binary Search Trees&lt;/strong&gt; are an even more specific subcategory of binary trees that have an important property: &lt;strong&gt;they are always bushy.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="b-trees-2-4-trees"&gt;
+ B Trees (2-4 Trees)
+ &lt;a class="anchor" href="#b-trees-2-4-trees"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The basic idea:&lt;/strong&gt; Nodes can hold multiple values now! When nodes have too many values, we will split it.&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;2-4 tree&lt;/strong&gt; is named such because each parent can have &lt;strong&gt;2 to 4 children.&lt;/strong&gt; Another constraint we will put on is a &lt;strong&gt;limit on the&lt;/strong&gt; &lt;strong&gt;number of items allowed in a single node&lt;/strong&gt;, so that we can guarantee that searching a single node will always be $\Theta(n).$&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/heaps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/heaps/</guid><description>&lt;h2 id="what-are-heaps"&gt;
+ What are Heaps?
+ &lt;a class="anchor" href="#what-are-heaps"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;A heap is a &lt;strong&gt;specific order of storing data,&lt;/strong&gt; often in a list. Heaps are very similar to binary trees, but have some differences:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unlike trees, heaps &lt;strong&gt;only care about the root node.&lt;/strong&gt; Usually, the root node is either the &lt;strong&gt;largest&lt;/strong&gt; or &lt;strong&gt;smallest&lt;/strong&gt; value in the heap (corresponding with max-heaps and min-heaps), and we don&amp;rsquo;t care too much about the rest.&lt;/li&gt;
+&lt;li&gt;Every element in the heap must be &lt;strong&gt;larger than all its children&lt;/strong&gt; (in a max-heap) or &lt;strong&gt;smaller than all its children&lt;/strong&gt; (in a min-heap). This is known as the &lt;strong&gt;heap property.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When stored in a list, there is an &lt;strong&gt;important rule&lt;/strong&gt; to figure out how to identify parent nodes and their children: &lt;strong&gt;a node&amp;rsquo;s parent has an index equal to half of that node&amp;rsquo;s index.&lt;/strong&gt; More specifically, &lt;code&gt;parentIndex = nodeIndex / 2&lt;/code&gt; where &lt;code&gt;/&lt;/code&gt; has floor-division properties.&lt;/p&gt;</description></item><item><title/><link>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/tries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.bencuan.me/cs61b/abstract-data-types/binary-trees/tries/</guid><description>&lt;h2 id="main-ideas"&gt;
+ Main Ideas
+ &lt;a class="anchor" href="#main-ideas"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;trie&lt;/strong&gt; is a specific implementation of a set and is short for &lt;strong&gt;retrieval tree.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It only works on sets with a &lt;strong&gt;finite alphabet&lt;/strong&gt;, like digits or ASCII characters, for example. The idea is that each node can act like an &lt;strong&gt;array containing all characters in the alphabet&lt;/strong&gt; and we can just access the branches super fast by indexing into them!&lt;/p&gt;
+&lt;p&gt;Tries are fantastic for searching to see if a word is contained in a set. Here&amp;rsquo;s an example:&lt;/p&gt;</description></item></channel></rss>
