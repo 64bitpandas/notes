@@ -264,6 +264,7 @@ sup > a {
 
 #page-title {
   margin: 0;
+  padding: 0;
   font-size: 3rem;
   line-height: 1;
   & > a {
@@ -276,6 +277,7 @@ sup > a {
   .title-icon {
     height: 1.5em;
     width: auto;
+    margin: 0;
   }
 }
 
