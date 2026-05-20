@@ -39,7 +39,8 @@ body {
     inset: 0;
     background: url('/img/background.png') repeat;
     background-size: 320px auto;
-    opacity: 0.05;
+    opacity: 0.08;
+    filter: var(--grid-filter);
     pointer-events: none;
     z-index: -1;
   }
@@ -48,7 +49,7 @@ body {
 h1, h2, h3, h4, h5, h6, thead {
   font-family: var(--font-header);
   color: var(--dark);
-  font-weight: revert;
+  font-weight: 400;
   margin: 2rem 0 0;
   padding: 2rem auto 1rem;
 
@@ -69,6 +70,7 @@ p, ul, text, a, tr, td, li, ol, ul {
   color: var(--gray);
   fill: var(--gray);
   font-weight: normal;
+  font-size: 0.9rem;
   margin: revert;
   padding: revert;
 }

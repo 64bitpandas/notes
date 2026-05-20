@@ -9,6 +9,18 @@ header {
     margin: 0 !important;
     height: $header-height;
     border-bottom: 2px solid var(--secondary);
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url('/img/background.png') repeat fixed;
+        background-size: 320px auto;
+        opacity: 0.05;
+        filter: var(--grid-filter);
+        pointer-events: none;
+        z-index: -1;
+    }
 }
 
 .book-menu,
@@ -20,7 +32,7 @@ header {
 
 .book-header {
     display: flex;
-    padding: 45px 30px 15px 15px;
+    padding: 45px 30px 45px 15px;
 }
 
 #page-title a {
@@ -91,10 +103,19 @@ pre::-webkit-scrollbar {
     background-color: var(--scrollbar-track);
 }
 
-.markdown h1,
-.markdown h2,
+.markdown h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.markdown h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
 .markdown h3 {
-    font-weight: bold;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 .title {
@@ -117,8 +138,16 @@ pre::-webkit-scrollbar {
     opacity: 100%;
 }
 
+.book-menu-content,
+.book-menu-content a,
+.book-menu-content label,
+.book-menu-content span {
+    font-family: var(--font-header);
+    font-weight: 400;
+}
+
 .book-menu-title {
-    font-weight: bolder;
+    font-weight: normal;
     color: var(--title);
     opacity: 1;
 }

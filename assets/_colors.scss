@@ -1,6 +1,6 @@
 :root {
-    --light: #ffffff;
-    --dark: #141021;
+    --light: #fdfbf4;
+    --dark: #000000;
     --secondary: #7c00ce;
     --tertiary: #ff48d4;
     --visited: #afbfc9;
@@ -10,11 +10,12 @@
     --outlinegray: #dadada;
     --million-progress-bar-color: var(--secondary);
     --highlighted: #8446ff88;
-    --header: transparent;
+    --header: #fdfbf4;
     --title: rgb(55, 0, 255);
     --scrollbar: gray;
     --scrollbar-track: #DDD;
     --icon-filter: invert(100%) brightness(0%);
+    --grid-filter: none;
 }
 
 [saved-theme="dark"] {
@@ -33,4 +34,5 @@
     --scrollbar: rgb(177, 177, 177);
     --scrollbar-track: rgb(51, 51, 51);
     --icon-filter: invert(100%) brightness(100%);
+    --grid-filter: invert(1);
 }
