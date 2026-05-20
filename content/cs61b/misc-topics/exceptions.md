@@ -83,7 +83,7 @@ Since an Exception is thrown, the catch block will run next, so `catching` is pr
 
 Since finally blocks _always_ run regardless of result, `finally` is printed last.
 {{< /tab >}}
-{{ < /tabs "q2" >}}
+{{< /tabs >}}
 
 {{< tabs >}}
 {{< tab "Q2" >}}
@@ -109,4 +109,4 @@ So, the following sequence would occur:\
 2\. `finally` is printed.\
 3\. The program exits with a `RuntimeException`.
 {{< /tab >}}
-{{ < /tabs >}}
+{{< /tabs >}}

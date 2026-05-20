@@ -28,17 +28,17 @@
 {{$sass := resources.Match "quartz/styles/[!_]*.scss" }}
 {{$css := slice }}
 {{range $sass}}
-{{$scss := . | resources.ToCSS (dict "outputStyle" "compressed") }}
+{{$scss := . | css.Sass (dict "outputStyle" "compressed") }}
 {{$css = $css | append $scss}}
 {{end}}
 {{if $data.enableCallouts | default $.Site.Params.enableCallouts}}
-  {{$scss := resources.Get "quartz/styles/_callouts.scss" | resources.ToCSS (dict "outputStyle" "compressed") }}
+  {{$scss := resources.Get "quartz/styles/_callouts.scss" | css.Sass (dict "outputStyle" "compressed") }}
   {{$css = $css | append $scss}}
 {{end}}
 {{$finalCss := $css | resources.Concat "styles.css" | resources.Fingerprint "md5" | resources.Minify  }}
 <link href="{{$finalCss.Permalink}}" rel="stylesheet" />
 
-{{$lightSyntax := resources.Get "quartz/styles/_light_syntax.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint "md5" | resources.Minify  }}
+{{$lightSyntax := resources.Get "quartz/styles/_light_syntax.scss" | css.Sass (dict "outputStyle" "compressed") | resources.Fingerprint "md5" | resources.Minify  }}
 <link href="{{$lightSyntax.Permalink}}" rel="stylesheet" id="theme-link">
 
   <!-- Base scripts -->
@@ -140,8 +140,8 @@ resources.Minify }}
       drawGraph(
           {{strings.TrimRight "/" .Site.BaseURL}},
           drawGlobal,
-          {{$.Site.Data.graphConfig.paths}},
-          drawGlobal ? {{$.Site.Data.graphConfig.globalGraph}} : {{$.Site.Data.graphConfig.localGraph}}
+          {{hugo.Data.graphConfig.paths}},
+          drawGlobal ? {{hugo.Data.graphConfig.globalGraph}} : {{hugo.Data.graphConfig.localGraph}}
         );
 
       }

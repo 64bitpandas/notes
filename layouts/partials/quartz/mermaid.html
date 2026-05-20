@@ -1,4 +1,4 @@
-{{if $.Site.Data.config.enableMermaid}}
+{{if hugo.Data.config.enableMermaid}}
   {{ if .Page.Store.Get "hasMermaid" }}
     <script type="module">
       import mermaid from 'https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs';
