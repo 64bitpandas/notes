@@ -45,7 +45,7 @@ x.Release();   y.Release();
 
 If Thread A acquires `x` and Thread B acquires `y`, then neither can run the subsequent line because there is a circular wait:
 
-![Untitled](Chapter%206%20Scheduling/Untitled.png)
+![Untitled](Chapter-6-Scheduling/Untitled.png)
 
 There are **four requirements for deadlock to occur:**
 
@@ -86,7 +86,7 @@ Round Robin is not prone to starvation because it is guaranteed that a process w
 
 Strict Priority Scheduling allows for the incoming job queue to be split across multiple priority levels. Higher priority jobs are always run before lower priority jobs.
 
-![Untitled](Chapter%206%20Scheduling/Untitled%201.png)
+![Untitled](Chapter-6-Scheduling/Untitled%201.png)
 
 Individual queues of jobs with the same priority can be processed with another scheduling algorithm (for example, RR). 
 
@@ -135,7 +135,7 @@ When jobs enter the MLFQ, they start in the highest priority queue. If they do n
 
 This is a good approximation of SRTF since long CPU-bound tasks will drop to the bottom of the queue.
 
-![Untitled](Chapter%206%20Scheduling/Untitled%202.png)
+![Untitled](Chapter-6-Scheduling/Untitled%202.png)
 
 ## Multi-Core Scheduling
 
@@ -163,4 +163,4 @@ When multiple threads need to work together for a task, it makes sense to schedu
 
 ## Choosing the Right Scheduler
 
-![Untitled](Chapter%206%20Scheduling/Untitled%203.png)
+![Untitled](Chapter-6-Scheduling/Untitled%203.png)

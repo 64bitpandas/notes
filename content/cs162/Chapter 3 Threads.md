@@ -11,11 +11,11 @@ A thread is a single unique context, or unit of concurrency, for execution that 
 - A thread is executing when the processor's registers hold its context
 - Having multiple threads allows the OS to handle multiple things at once (MTAO). This is essential for networked servers with multiple connections, parallel processing for performance, user interface responsiveness, and many more modern computing applications.
 
-![Untitled](Chapter%203%20Threads/Untitled.png)
+![Untitled](Chapter-3-Threads/Untitled.png)
 
 Each thread has a private state stored in the **Thread Control Block (TCB).** Additionally, each thread has a dedicated portion of the stack that is isolated from other threads:
 
-![Untitled](Chapter%203%20Threads/Untitled%201.png)
+![Untitled](Chapter-3-Threads/Untitled%201.png)
 
 ### Thread States
 
@@ -25,20 +25,20 @@ Operating systems have a **thread scheduler** that manages multiple threads, and
 - **Ready:** can run, but not currently running
 - **Blocked:** cannot run. This typically occurs when thread is waiting for I/O to finish. When the I/O is complete, it becomes ready. As a result, I/O latency can be masked by multithreading (since other threads can run in the meantime).
     
-    ![The thread lifecycle, from initialization to completion.](Chapter%203%20Threads/Untitled%202.png)
+    ![The thread lifecycle, from initialization to completion.](Chapter-3-Threads/Untitled%202.png)
     
     The thread lifecycle, from initialization to completion.
     
 
 ### Multithreaded Programs
 
-![Untitled](Chapter%203%20Threads/Untitled%203.png)
+![Untitled](Chapter-3-Threads/Untitled%203.png)
 
 By default, C programs are single-threaded (and when you create a new process, it only has one thread).
 
 One common method of turning a single-threaded program into a multi-threaded program is through **fork-join parallelism.** Using this paradigm, the main thread creates child threads, and when children exit they join back with the main thread.
 
-![Untitled](Chapter%203%20Threads/Untitled%204.png)
+![Untitled](Chapter-3-Threads/Untitled%204.png)
 
 # UNIX Thread Management
 

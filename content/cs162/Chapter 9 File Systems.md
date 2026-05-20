@@ -6,7 +6,7 @@ title: "Chapter 9: File Systems"
 
 ## Drivers
 
-![Untitled](Chapter%209%20File%20Systems/Untitled.png)
+![Untitled](Chapter-9-File-Systems/Untitled.png)
 
 A computer handles I/O on its end using several mechanisms:
 
@@ -176,7 +176,7 @@ FAT stands for File Allocation Table. This file system consists of a table with 
 
 ## Linux FFS
 
-![Untitled](Chapter%209%20File%20Systems/Untitled%201.png)
+![Untitled](Chapter-9-File-Systems/Untitled%201.png)
 
 FFS (Fast File System) was used in early Linux systems and stores file information in **inodes.** 
 
@@ -271,7 +271,7 @@ Previously, we talked about transactions on a single machine. But what if we hav
 
 If one or more workers send `VOTE-ABORT` or times out, then the coordinator sends a `GLOBAL-ABORT` and no operation should be completed.
 
-![Untitled](Chapter%209%20File%20Systems/Untitled%202.png)
+![Untitled](Chapter-9-File-Systems/Untitled%202.png)
 
 **General's Paradox:**
 
@@ -281,25 +281,25 @@ Messages over an unreliable network cannot guarantee entities to do something si
 
 ## Layers
 
-![Untitled](Chapter%209%20File%20Systems/Untitled%203.png)
+![Untitled](Chapter-9-File-Systems/Untitled%203.png)
 
 ## TCP vs UDP
 
-![Untitled](Chapter%209%20File%20Systems/Untitled%204.png)
+![Untitled](Chapter-9-File-Systems/Untitled%204.png)
 
-![Untitled](Chapter%209%20File%20Systems/Untitled%205.png)
+![Untitled](Chapter-9-File-Systems/Untitled%205.png)
 
 ![Untitled](../../CS161%20Notes%2058b7c6378df74bef8c48f2d39dbe9a72/Notes%208cc979bb2e384250a5fa4b59ec87672e/Networking/Untitled%207.png)
 
 ## Remote Procedure Calls
 
-![Untitled](Chapter%209%20File%20Systems/Untitled%206.png)
+![Untitled](Chapter-9-File-Systems/Untitled%206.png)
 
 RPC's (remote procedure calls) are an interface to call functions on another machine. 
 
 ## Distributed Filesystems
 
-![Untitled](Chapter%209%20File%20Systems/Untitled%207.png)
+![Untitled](Chapter-9-File-Systems/Untitled%207.png)
 
 Create an abstraction (virtual file system, VFS) that allows the system to interact with remote files as if they were local.
 

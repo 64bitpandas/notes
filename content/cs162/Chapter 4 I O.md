@@ -125,7 +125,7 @@ To create a pipe, use `int pipe(int fileds[2])`, where `fileds[2]` is a two-inte
 
 To read and write to and from a pipe, the `write` and `read` low-level calls can be made on `fileds[1]` and `fileds[0]`, respectively.
 
-![Untitled](Chapter%204%20I%20O/Untitled.png)
+![Untitled](Chapter-4-I-O/Untitled.png)
 
 In the kernel, pipes are implemented as a fix-sized queue. This causes some issues when the allocated size is overflowed:
 
@@ -172,7 +172,7 @@ A **signal** is a software interrupt which provides a method of communicating st
 
 Here is a list of standard Linux signals:
 
-![Untitled](Chapter%204%20I%20O/Untitled%201.png)
+![Untitled](Chapter-4-I-O/Untitled%201.png)
 
 Custom signal handlers can be specified using the `int signal(int signum, void (*handler)(int))` function. For example, `signal(SIGINT, printMsg)` will call the `printMsg()` function when the user quits out of the program using Ctrl+C.
 

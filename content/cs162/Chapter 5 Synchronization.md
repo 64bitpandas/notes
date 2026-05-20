@@ -32,11 +32,11 @@ A general type of lock that holds a non-negative integer.
 
 Can be used for mutual exclusion by setting it down, running critical section, then setting it up.
 
-![Untitled](Chapter%205%20Synchronization/Untitled.png)
+![Untitled](Chapter-5-Synchronization/Untitled.png)
 
 Semaphores can also be used for signaling other threads:
 
-![Untitled](Chapter%205%20Synchronization/Untitled%201.png)
+![Untitled](Chapter-5-Synchronization/Untitled%201.png)
 
 ## Monitors
 

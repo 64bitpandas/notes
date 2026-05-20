@@ -49,7 +49,7 @@ Typically, every process has two stacks, one for executing privileged instructio
 
 Base and Bound is a simple protection scheme for user address spaces, which allows for the operating system to allocate distinct chunks of memory for each program.
 
-![Untitled](Chapter%201%20OS%20Basics/Untitled.png)
+![Untitled](Chapter-1-OS-Basics/Untitled.png)
 
 In this scheme, each program's address space has a **base** (where the data starts) and a **bound** (where the data ends).
 
@@ -60,14 +60,14 @@ In this scheme, each program's address space has a **base** (where the data star
 
 ### Mode Transfer
 
-![Untitled](Chapter%201%20OS%20Basics/Untitled%201.png)
+![Untitled](Chapter-1-OS-Basics/Untitled%201.png)
 
 **There are three types of** **unprogrammed control transfer** from user mode to kernel mode:
 
 1. **Syscalls:** When a process requests a system service (like `exit`), then save the requested syscall ID and arguments into registers, switch into kernel mode, and execute the syscall. Syscalls are similar to function calls, except that the function address is not given (so it cannot be exploited).
 2. **Interrupts:** When external asynchronous events trigger a context switch, save the current execution state and jump to a kernel interrupt handler. Some common types of interrupts are **timer interrupts** (triggers at a specific time, typically to kill hung programs) and **IO interrupts** (e.g. triggers when a disk read completes). If multiple interrupts are queued, they are stored in an **interrupt vector** which alternates address of interrupt handler, and properties of the corresponding interrupt. Below is an illustration of an interrupt vector.
     
-    ![Untitled](Chapter%201%20OS%20Basics/Untitled%202.png)
+    ![Untitled](Chapter-1-OS-Basics/Untitled%202.png)
     
 3. **Traps/Exceptions:** If a process triggers an internal hardware event, typically caused by undesired behavior, then execution stops and control is transferred to an exception handler in the kernel to allow the system to continue operating normally. Some examples include segfaults, read/write access violations, and divide by zero errors.
     
@@ -99,7 +99,7 @@ The OS needs to coordinate activity using a **multiprogramming API** and virtual
 
 **Multithreading:** multiple threads
 
-![Untitled](Chapter%201%20OS%20Basics/Untitled%203.png)
+![Untitled](Chapter-1-OS-Basics/Untitled%203.png)
 
 From the user's perspective, multiprocessing and multiprogramming can be indistinguishable.
 
@@ -112,7 +112,7 @@ From the user's perspective, multiprocessing and multiprogramming can be indisti
 - Every program has a distinct address space for execution (not physical address space).
 - Depending on the address space, different actions can occur on read or write (nothing, regular behavior, ignore writes, IO, fault...)
 
-![Untitled](Chapter%201%20OS%20Basics/Untitled%204.png)
+![Untitled](Chapter-1-OS-Basics/Untitled%204.png)
 
 ---
 

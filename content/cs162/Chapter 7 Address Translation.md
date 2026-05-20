@@ -6,7 +6,7 @@ title: "Chapter 7: Address Translation"
 
 Every modern computer has physical memory inside of it, that might look something like this:
 
-![Untitled](Chapter%207%20Address%20Translation/Untitled.png)
+![Untitled](Chapter-7-Address-Translation/Untitled.png)
 
 Physical RAM modules typically contain anywhere from 4 to 128GB of memory (well, at the time of writing). However, there are only a few sticks of RAM, and possibly hundreds of processes that need to access them at the same time!
 
@@ -30,7 +30,7 @@ An effective address translation scheme will have the following:
 
 Recall the simple **base and bound** scheme to map process memory to physical memory by adding a certain offset to each memory address:
 
-![Untitled](Chapter%207%20Address%20Translation/Untitled%201.png)
+![Untitled](Chapter-7-Address-Translation/Untitled%201.png)
 
 Base and bound, while very easy to implement, has severe limitations. Notably, it does not allow for memory sharing, and dynamically growing memory regions like heaps or stacks are not supported.
 
@@ -38,7 +38,7 @@ Base and bound, while very easy to implement, has severe limitations. Notably, i
 
 The primary way we can fix these issues: **segmented memory.** Rather than only having one section of memory per process, we could split it up, such that a process' memory is composed of many small chunks of physical memory!
 
-![Untitled](Chapter%207%20Address%20Translation/Untitled%202.png)
+![Untitled](Chapter-7-Address-Translation/Untitled%202.png)
 
 Using segmented memory, we can more easily share memory (just give multiple processes a pointer to the same segment(s). Furthermore, if a growing data structure such as the heap starts to overflow onto another section, we can just work around that and set the next segment to point to an entirely different part of memory.
 
@@ -56,13 +56,13 @@ Let's explore a third option of memory management, **paged memory!** Rather than
 - External fragmentation is less frequent, because a page can always fit into an empty space in physical memory. Each page of physical memory can simply have a bit that flips when it becomes used, and turns back off when it gets freed.
 - Support for security measures: address space layout randomization (ASLR), which adds a random space between memory segments (code, heap, etc.) and kernel address space isolation (kernel-only pages) can both be easily implemented.
 
-![Untitled](Chapter%207%20Address%20Translation/Untitled%203.png)
+![Untitled](Chapter-7-Address-Translation/Untitled%203.png)
 
 ### Page Table Entries
 
-![Untitled](Chapter%207%20Address%20Translation/Untitled%204.png)
+![Untitled](Chapter-7-Address-Translation/Untitled%204.png)
 
-![Untitled](Chapter%207%20Address%20Translation/Untitled%205.png)
+![Untitled](Chapter-7-Address-Translation/Untitled%205.png)
 
 ### Paging Mechanics
 
@@ -84,12 +84,12 @@ Especially in 64-bit systems, we almost never need to use the entire address spa
 
 In order to mitigate the memory issue, we can make **multi-level page tables** where rather than just having one page table, we have **tree** of page tables where the first layer points to a page table in the second layer, and so on.
 
-![Untitled](Chapter%207%20Address%20Translation/Untitled%206.png)
+![Untitled](Chapter-7-Address-Translation/Untitled%206.png)
 
 To make things even less memory-intensive, we can use **inverted page tables** which store mappings in a hash table structure rather than a tree structure. While more complex, this makes the size of the page table independent of the size of the virtual address space.
 
-![Untitled](Chapter%207%20Address%20Translation/Untitled%207.png)
+![Untitled](Chapter-7-Address-Translation/Untitled%207.png)
 
 ## Address Translation: Summary
 
-![Untitled](Chapter%207%20Address%20Translation/Untitled%208.png)
+![Untitled](Chapter-7-Address-Translation/Untitled%208.png)

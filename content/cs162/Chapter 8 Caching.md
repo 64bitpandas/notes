@@ -158,7 +158,7 @@ To improve the performance of our address translation scheme from the previous c
 
 We can store mappings from virtual to physical addresses in a custom cache known as the **translation lookaside buffer.** That way, even if we have a multi-level address translation scheme, stored addresses can be quickly accessed with no further memory lookups required.
 
-![Untitled](Chapter%208%20Caching/Untitled.png)
+![Untitled](Chapter-8-Caching/Untitled.png)
 
 ### Thrashing
 

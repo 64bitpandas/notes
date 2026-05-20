@@ -109,7 +109,7 @@ There is also the `pid_t waitpid(pid_t pid, int *status, int options)` function,
 
 Typically, processes are protected from each other since they can only access their own portions of physical memory.
 
-![Untitled](Chapter%202%20Processes/Untitled.png)
+![Untitled](Chapter-2-Processes/Untitled.png)
 
 To circumvent this protection, there are several methods:
 
