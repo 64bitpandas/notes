@@ -86,13 +86,13 @@ resources.Minify }}
   const PRODUCTION = {{ hugo.IsProduction }}
   const BASE_URL = {{.Site.BaseURL}}
   const fetchData = Promise.all([
-        fetch("{{ $linkIndex.Permalink }}")
+        fetch("{{ $linkIndex.RelPermalink }}")
           .then(data => data.json())
           .then(data => ({
             index: data.index,
             links: data.links,
           })),
-        fetch("{{ $contentIndex.Permalink }}")
+        fetch("{{ $contentIndex.RelPermalink }}")
           .then(data => data.json()),
       ])
       .then(([{index, links}, content]) => ({

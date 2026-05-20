@@ -2,7 +2,13 @@
 /* Background */
 .chroma {
   overflow: hidden !important;
-  background-color: var(--lightgray) !important;
+  background-color: #fafafa !important;
+  color: #272822 !important;
+}
+
+[saved-theme="dark"] .chroma {
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important;
 }
 
 /* LineTable */
