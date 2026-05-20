@@ -59,6 +59,10 @@
 resources.Minify }}
 <script src="{{$popover.Permalink}}"></script>
 
+<!-- GoatCounter analytics -->
+<script data-goatcounter="https://notecounter.bencuan.me/count"
+        async src="//notecounter.bencuan.me/count.js"></script>
+
 <!-- Optional scripts -->
 {{ if $data.enableCodeBlockTitle | default $.Site.Params.enableCallouts }}
 {{ $codeTitle := resources.Get "quartz/js/code-title.js" | resources.Fingerprint "md5" | resources.Minify }}
