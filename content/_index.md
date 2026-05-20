@@ -3,8 +3,6 @@ title: Welcome!
 enableToc: false
 ---
 
-## Introduction
-
 Hi there! Seems like you stumbled upon my archive of course notes! 
 
 Over the years, I've found that the most effective way for me to learn and process information was to teach it. Since this isn't always practical or possible, I've ended up creating these production-quality notes as an alternative.
