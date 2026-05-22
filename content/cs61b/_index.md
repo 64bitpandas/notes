@@ -43,9 +43,9 @@ This content was ported from my original [61B Notes](https://cs61b.bencuan.me), 
 
 There are also plenty of practice problems to try out! Here's an non-exhaustive list of pages with those if you are mostly interested in them and not the conceptual content.
 
-* [Access Control](/cs61b/oop/access-control.md#practice)
+* [Access Control](/cs61b/oop/access-control)
 * [Dynamic Method Selection](/cs61b/oop/dynamic-method-selection.md)
-* [Generic Types](/cs61b/oop/generics.md#generic-subtypes)
+* [Generic Types](/cs61b/oop/generics)
 * [Asymptotics Practice](/cs61b/asymptotics/asymptotics-practice.md)
 
 

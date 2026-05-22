@@ -1,11 +1,10 @@
 ---
 weight: 3
 ---
-# Dynamic Method Selection
 
 > [!warning] Content Note
 >
-> This is a **very tricky topic**. Make sure you are comfortable with [inheritance](inheritance.md) and [access control](access-control.md)before proceeding!
+> This is a **very tricky topic**. Make sure you are comfortable with [inheritance](inheritance.md) and [access control](access-control.md) before proceeding!
 
 Inheritance is great and all, but it does have some issues. One of the biggest issues lies in overriding: **if two methods have exactly the same name and signature, which one do we call?**
 
