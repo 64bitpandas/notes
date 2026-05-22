@@ -7,7 +7,7 @@ Suppose we have the following scenario:
  - Fetches small file from H5
  - Goes idle
  - Fetches two small files from H2
-![[/cs168/img/Pasted image 20221210190305.png]]
+![[/cs168/img/Pasted-image-20221210190305.png]]
 
 
 Here's what will happen:

@@ -19,10 +19,10 @@ Propositions are **not:**
 
 Simple propositions can be **joined together** to make complex statements. There are three basic ways to connect propositions together:
 
-* **Conjunction** is the **and** operation: for $P \land Q$to be true, $P$and $Q$must **both** be true.
-* **Disjunction** is the **or** operation: for $P \lor Q$to be true, **either** $P$or $Q$must be true.
-* **Negation** is the **not** operation: if $P$is true, then $\lnot P$is false.
-  * The **law of the excluded middle** states that $P$and $\lnot P$ _cannot both be true._
+* **Conjunction** is the **and** operation: for $P \land Q$ to be true, $P$and $Q$ must **both** be true.
+* **Disjunction** is the **or** operation: for $P \lor Q$ to be true, **either** $P$ or $Q$ must be true.
+* **Negation** is the **not** operation: if $P$ is true, then $\lnot P$ is false.
+  * The **law of the excluded middle** states that $P$ and $\lnot P$ _cannot both be true._
 
 One example where we can see these components in action is in **De Morgan's Laws**, which state how negation can be **distributed** across conjunction or disjunction:
 

@@ -126,4 +126,4 @@ To circumvent this protection, there are several methods:
 - Implemented as a fixed-size queue
 - EOF received when the last write descriptor is closed
 
-**Threads are lighter (share data), processes are more strongly isolated**
+**Threads are lighter (share data); processes are more strongly isolated.**

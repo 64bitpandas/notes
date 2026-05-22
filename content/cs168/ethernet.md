@@ -10,7 +10,7 @@ Some common approaches for doing this include:
  - Time Division Multiplexing: divide medium by time. Each sender gets a fixed time slot to send data. This has similar drawbacks to FDM.
  - Polling protocols: a turn-taking scheme where a coordinator gets to decide who gets to send data when (how Bluetooth works)
  - Token-passing: a turn-taking scheme where a virtual token is passed around, and only the holder can transmit
- - Random access: see [[#Pure ALOHA random access]]
+ - Random access: see [[ethernet#Pure ALOHA random access|Pure ALOHA random access]]
 
 ## ALOHAnet
 Additive Links Online Hawaii Area: a first attempt at wireless connections across the Hawaiian islands (1968, Norman Abramson)
@@ -87,7 +87,7 @@ Hosts typically cache results in an ARP table (Neighbor table), which is refresh
 
 ### Example
 Suppose we have the following network topology:
-![[/cs168/img/Pasted image 20221213130109.png|300]]
+![[/cs168/img/Pasted-image-20221213130109.png|300]]
 
 If H1 wants to send a packet to the IP address `10.0.0.2`:
 1. Check the prefix to see if it's on the same subnet. (it is)
@@ -115,7 +115,7 @@ DHCP servers are added to the network, either as standalone or as a part of a ro
 The DHCP server leases IP addresses to hosts. If the lease is not renewed, the IP address will be returned to the pool and can be assigned to another host.
 
 ### DHCP handshake
-![[/cs168/img/Pasted image 20221210183624.png]]
+![[/cs168/img/Pasted-image-20221210183624.png]]
 
 Notes:
  - Discovery and request packets are **broadcast** by hosts, and have source IP 0.0.0.0, destination IP 255.255.255.255. This is because DHCP is built on IP, but no IP addresses are initially known.

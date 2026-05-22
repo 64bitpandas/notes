@@ -16,9 +16,9 @@ Dealing with countable integers is nice because **that's how computers work.** B
 Discrete math is an extremely wide field of mathematics. Here, we'll be covering the basics as well as a few important applications:
 
 * [**Propositional logic**](propositional-logic.md) and sets give us the **language** we need to talk about discrete math.
-* ****[**Proofs**](proofs.md) **** allow us to demonstrate **how** and **why** things work the way they do.
+* [**Proofs**](proofs.md)  allow us to demonstrate **how** and **why** things work the way they do.
 * [**Stable Matching**](stable-matching.md) explores how we can apply sets to create optimal matches between two groups with preferences.
-* [**Graph theory** ](classes/cs70/discrete-math/graphs.md)provides a highly visual representation of a wide variety of mathematical relationships using vertices, edges, and faces. One of the most important concepts here is **Euler's Formula** which relates the number of vertices, edges, and faces together.
-* ****[**Modular arithmetic** ](modular-arithmetic.md)explores what happens when when all numbers are remainders of dividing itself by another number. There are some really important theorems here, like the **Chinese Remainder Theorem, Euclid's Algorithm,** and **Fermat's Little Theorem.**
-* ****[**RSA Cryptography**](rsa-cryptography.md) **** is an interesting application of how modular arithmetic is used to encrypt and decrypt messages using a public-private key pair.
-* [**Polynomials** ](polynomials.md)can be used in a discrete sense to create **secret sharing** schemes, and can be recovered from points using **Lagrange Interpolation.**
+* [**Graph theory**](cs70/discrete-math/graphs.md) provides a highly visual representation of a wide variety of mathematical relationships using vertices, edges, and faces. One of the most important concepts here is **Euler's Formula** which relates the number of vertices, edges, and faces together.
+* [**Modular arithmetic**](modular-arithmetic.md)explores what happens when when all numbers are remainders of dividing itself by another number. There are some really important theorems here, like the **Chinese Remainder Theorem, Euclid's Algorithm,** and **Fermat's Little Theorem.**
+* [**RSA Cryptography**](rsa-cryptography.md)  is an interesting application of how modular arithmetic is used to encrypt and decrypt messages using a public-private key pair.
+* [**Polynomials**](polynomials.md)can be used in a discrete sense to create **secret sharing** schemes, and can be recovered from points using **Lagrange Interpolation.**

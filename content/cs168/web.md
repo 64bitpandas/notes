@@ -101,7 +101,7 @@ Additional settings:
  - If-Modified-Since: (date)
 	 - If a resource has changed since date, respond with latest version. Otherwise, respond with 304 (not modified)
 
-![[/cs168/img/Pasted image 20221108140614.png]]
+![[/cs168/img/Pasted-image-20221108140614.png]]
 
 
 **Proxy servers** make requests on behalf of clients. This creates an extra layer of caching that can server multiple clients more quickly.

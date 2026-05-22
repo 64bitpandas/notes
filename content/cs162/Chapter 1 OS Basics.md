@@ -7,7 +7,7 @@ title: "Chapter 1: OS Basics"
 An operating system has three main roles:
 
 - **Referee:** The OS manages protection, isolation,  and allocation of resources between processes.
-- **Illusionist:** The OS provides an abstraction between hardware and user programs that provides an illusion ****of easy-to-access resources such as files and available processors.
+- **Illusionist:** The OS provides an abstraction between hardware and user programs that provides an illusion of easy-to-access resources such as files and available processors.
 - **Glue:** The OS provides common services, sharing, authorization, networking, and communication between processes and external devices.
 
 > Q1.1. Consider a modern web browser (such as Chrome or Firefox) which plays a similar role to an operating system. What considerations does a web browser need to make as a referee, illusionist, and glue?
@@ -66,7 +66,7 @@ In this scheme, each program's address space has a **base** (where the data star
 
 1. **Syscalls:** When a process requests a system service (like `exit`), then save the requested syscall ID and arguments into registers, switch into kernel mode, and execute the syscall. Syscalls are similar to function calls, except that the function address is not given (so it cannot be exploited).
 2. **Interrupts:** When external asynchronous events trigger a context switch, save the current execution state and jump to a kernel interrupt handler. Some common types of interrupts are **timer interrupts** (triggers at a specific time, typically to kill hung programs) and **IO interrupts** (e.g. triggers when a disk read completes). If multiple interrupts are queued, they are stored in an **interrupt vector** which alternates address of interrupt handler, and properties of the corresponding interrupt. Below is an illustration of an interrupt vector.
-    
+    f
     ![Untitled](Chapter-1-OS-Basics/Untitled%202.png)
     
 3. **Traps/Exceptions:** If a process triggers an internal hardware event, typically caused by undesired behavior, then execution stops and control is transferred to an exception handler in the kernel to allow the system to continue operating normally. Some examples include segfaults, read/write access violations, and divide by zero errors.

@@ -5,7 +5,7 @@ weight: 999
 
 Computability is the study of a massively important question:  **do there exist any problems that are impossible for a computer to solve?**
 
-## **The Halting Problem**
+## The Halting Problem
 
 It turns out that the above question itself is impossible to solve: in other words, **there cannot exist a program HALT which determines if a program can halt in finite time given a particular input.**
 

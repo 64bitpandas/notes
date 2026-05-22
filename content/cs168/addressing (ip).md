@@ -15,11 +15,13 @@ As a result of this hierarchical addressing scheme, each *internal router* only 
 ## IPv4
 In the modern internet, addresses are assigned using the IPv4 scheme, which is typically represented in the **dotted quad** format (XXX.XXX.XXX.XXX). 
 
-IPv4 addresses are 32-bit, and 
+IPv4 addresses are 32-bit.
 
 ### Classful Addressing
 In the early internet, there were three main classes of networks:
-![img](</cs168/img/Pasted image 20220918211936.png>)
+
+![img](/cs168/img/Pasted-image-20220918211936.png)
+
 However, this classful structure created several issues, the biggest of which was that the majority of organizations needed Class B networks, despite there only being ~16,000 of them.
 
 
@@ -34,7 +36,7 @@ At each step, the assigner adds a certain number of bits to reduce the number of
 
 
 ### IPv4 Header
-![img](</cs168/img/Pasted image 20221003153110.png>)
+![img](/cs168/img/Pasted-image-20221003153110.png)
 
 * Version (4b): equal to 4 for IPv4 and 6 for IPv6
 * Header Length (4b): typically set to 20 bytes if options are not used
@@ -58,12 +60,12 @@ Given a routing table, how do we actually match a requested destination IP with 
 
 The naive solution would be to just iterate through all of the table entries until a match is found, but this is very slow. 
 An improvement would be to create a **prefix tree** to take advantage of the binary tree structure enabled by bitstrings.
-![img](</cs168/img/Pasted image 20221008151948.png>)
+![img](/cs168/img/Pasted-image-20221008151948.png)
 
 
 Realistically, due to the hierarchy of addressing multiple prefixes are often assigned to the same port (such as towards your ISP). Suppose in the illustration above that 0**, 101, and 11* all pointed towards Port 1. Then, the prefix tree can be compacted as such:
 
-![img](</cs168/img/Pasted image 20221008152108.png>)
+![img](/cs168/img/Pasted-image-20221008152108.png)
 
 
 
@@ -96,7 +98,7 @@ As of today (Oct 2022), about 40% of internet users support IPv6 (https://www.go
 IPv6 is a more elegant, but unambitious protocol that mostly builds onto IPv4 with some minor improvements.
 
 Here are the IPv4 and IPv6 headers side by side:
-![img](</cs168/img/Pasted image 20221010105745.png>)
+![img](/cs168/img/Pasted-image-20221010105745.png)
 
  - **More addresses:** $2^{128}$ addresses, which is far more than we will probably ever need. The source and destination address fields are now 4x larger (128 bits instead of 32).
  - **Removed checksum:** since the network is best-effort anyways, it's excessive to make each router compute the checksum. Instead, we can just verify it at the end host.

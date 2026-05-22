@@ -18,7 +18,7 @@ Caches have **tags** (addresses) and **blocks** (aligned words that store inform
 
 In order to simplify the comparison process (so that we don't need to check every tag to see if we have a hit or miss), we can split the cache into **sets**. So we only need to compare a tag to a particular set in order to determine if we have a hit or miss.
 
-![[/Untitled 3.png]]
+![Untitled](Chapter-8-Caching/1.png)
 
 A **valid bit** is flipped if a particular entry is valid. If the valid bit is not on, then we should treat an access like a cache miss.
 
@@ -68,7 +68,7 @@ The **associativity** of a cache is the number of places each block is allowed t
 
 Addresses in the cache are divided into tag, index, and offset.
 
-![[/Untitled 5.png]]
+![Untitled](Chapter-8-Caching/2.png)
 
 ### Offset
 
@@ -90,7 +90,7 @@ Determines which memory location in the cache that the data is stored.
 
 The number of bits in the tag is just the bits remaining (total address bits - index bits - offset bits).
 
-![[/Untitled 6.png]]
+![Untitled](Chapter-8-Caching/3.png)
 
 ## Total Cache Capacity
 

@@ -79,10 +79,14 @@ header {
     }
 }
 
-.book-toc-content::-webkit-scrollbar,
-.book-menu-content::-webkit-scrollbar {
+.book-toc-content::-webkit-scrollbar {
     width: 10px;
     height: 16px;
+}
+
+.book-menu-content::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
 }
 
 pre::-webkit-scrollbar {
@@ -97,10 +101,22 @@ pre::-webkit-scrollbar {
     // box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25),inset -2px -2px 2px rgba(0,0,0,.25);
 }
 
-.book-toc-content::-webkit-scrollbar-track,
-.book-menu-content::-webkit-scrollbar-track {
-    // background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
+.book-menu-content::-webkit-scrollbar-thumb {
+    background: var(--outlinegray);
+}
+
+.book-toc-content::-webkit-scrollbar-track {
     background-color: var(--scrollbar-track);
+}
+
+.book-menu-content::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+// Firefox
+.book-menu-content {
+    scrollbar-width: thin;
+    scrollbar-color: var(--outlinegray) transparent;
 }
 
 .markdown h1 {
@@ -128,10 +144,11 @@ pre::-webkit-scrollbar {
 @mixin squiggle-underline {
     --squiggle-width: 18px;   // wavelength
     --squiggle-height: 6px;   // amplitude (visual height of the wave strip)
+    --squiggle-offset: 0.2em; // how far up from line bottom the squiggle sits
 
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 6' preserveAspectRatio='none'><path d='M0 3 Q 6 0 12 3 T 24 3' fill='none' stroke='%233700ff' stroke-width='1.5'/></svg>");
     background-repeat: repeat-x;
-    background-position: 0 100%;
+    background-position: 0 calc(100% - var(--squiggle-offset));
     background-size: var(--squiggle-width) var(--squiggle-height);
     padding-bottom: var(--squiggle-height);
     -webkit-box-decoration-break: clone;
@@ -188,6 +205,8 @@ pre::-webkit-scrollbar {
     @include squiggle-underline;
     --squiggle-width: 9px;
     --squiggle-height: 3px;
+    color: var(--dark);
+    font-weight: bold;
     opacity: 1;
 }
 

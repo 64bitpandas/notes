@@ -35,7 +35,7 @@ Let our two prime numbers be $p = 5, q = 11$. (In the real world, these would be
 
 The first step is to **choose our public key.** We know e must be relatively prime to $(p-1)(q-1) = (4)(10) = 40$. A small number that satisfies this is $3$, so we can go ahead and use that. Therefore, our public key is $(N, e) = (55, 3)$.
 
-The next step is to **compute the private key.** Using the formula,  $d = 3^{-1} \pmod{40}$. We could use [Euclid's Extended Algorithm](/cs70/discrete-math/modular-arithmetic.md#using-euclids-extended-algorithm-for-inverses) to compute this value, which ends up being $27$. Therefore, $d = 27$.
+The next step is to **compute the private key.** Using the formula,  $d = 3^{-1} \pmod{40}$. We could use [Euclid's Extended Algorithm](/cs70/discrete-math/modular-arithmetic.md) to compute this value, which ends up being $27$. Therefore, $d = 27$.
 
 After we have computed our keys, we must **encrypt the message.** This yields $y = x^3 \pmod{55}$for some arbitrary message $x$.
 

@@ -26,7 +26,7 @@ This guide is written to be as easy to follow and digestible as possible😀I've
 
 ## Who is this for?
 
-Mostly me; making unnecessarily detailed guides is my goto method of making sure I understand everything😁 But you are welcome to use it as well for reviewing for 61B exams, touching up on data structures knowledge, or whatever you want!
+Mostly me; making unnecessarily detailed guides is my goto method of making sure I understand everything 😁 But you are welcome to use it as well for reviewing for 61B exams, touching up on data structures knowledge, or whatever you want!
 
 **Basic programming knowledge gained from** [**CS61A**](https://cs61a.org/) **or equivalent is assumed.** [[/cs61a|Click here]] for my notes for that!
 

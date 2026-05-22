@@ -16,7 +16,7 @@ On the other hand, a **Transit AS** carries packets on behalf of other ASes. The
 
 There are three basic kinds of relationships between ASes: customer (pays for usage), provider (is paid by others for usage), and peers (don't pay each other and are assumed to exchange roughly equal traffic).
 
-![[/cs168/img/Pasted image 20220928162353.png|300]]
+![[/cs168/img/Pasted-image-20220928162353.png|300]]
 
 Tier 1 ASes are at the top of the hierarchy:
  - typically span multiple continents
@@ -58,7 +58,6 @@ Policy controls how routes are imported and exported.
 
 
 # BGP
-![[07 Networking#BGP]]
 
 Essentially, BGP is very similar to Distance-Vector with some key differences:
  - BGP aggregates destinations using hierarchical addressing.

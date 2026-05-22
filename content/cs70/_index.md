@@ -10,7 +10,7 @@ This is a **non-comprehensive** guide to discrete math and probability, specific
 
 ### Who is this for?
 
-Mostly me; making unnecessarily detailed guides is my goto method of making sure I understand everything😁But you are welcome to use it as well for reviewing for exams, touching up on discrete math, or whatever you want!
+Mostly me; making unnecessarily detailed guides is my goto method of making sure I understand everything 😁 But you are welcome to use it as well for reviewing for exams, touching up on discrete math, or whatever you want!
 
 ### How to use this guide
 
