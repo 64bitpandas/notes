@@ -118,17 +118,53 @@ pre::-webkit-scrollbar {
     font-weight: 400;
 }
 
+// Blue wavy squiggle underline that follows each line of wrapping text. Tune
+// the squiggle by overriding --squiggle-width / --squiggle-height on the
+// element.
+//
+// Must be applied to an *inline* element (or display: inline) so that the
+// background-image is painted per line box via box-decoration-break: clone.
+// The SVG color is baked in; the dark-theme override below swaps the image.
+@mixin squiggle-underline {
+    --squiggle-width: 18px;   // wavelength
+    --squiggle-height: 6px;   // amplitude (visual height of the wave strip)
+
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 6' preserveAspectRatio='none'><path d='M0 3 Q 6 0 12 3 T 24 3' fill='none' stroke='%233700ff' stroke-width='1.5'/></svg>");
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    background-size: var(--squiggle-width) var(--squiggle-height);
+    padding-bottom: var(--squiggle-height);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+@mixin squiggle-underline-dark {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 6' preserveAspectRatio='none'><path d='M0 3 Q 6 0 12 3 T 24 3' fill='none' stroke='%23fd74fd' stroke-width='1.5'/></svg>");
+}
+
 .title {
-    color: var(--title);
+    color: var(--dark);
     font-size: 3.5rem;
-    padding-bottom: 1rem;
+
+    > span {
+        @include squiggle-underline;
+    }
 
     &.home {
         font-family: var(--font-title);
         font-weight: normal;
         font-size: 5rem;
         color: var(--dark);
+
+        > span {
+            background-image: none;
+            padding-bottom: 0;
+        }
     }
+}
+
+[saved-theme="dark"] .title:not(.home) > span {
+    @include squiggle-underline-dark;
 }
 
 .book-toc-content {
@@ -149,9 +185,14 @@ pre::-webkit-scrollbar {
 }
 
 .book-menu-title {
-    font-weight: normal;
-    color: var(--title);
+    @include squiggle-underline;
+    --squiggle-width: 9px;
+    --squiggle-height: 3px;
     opacity: 1;
+}
+
+[saved-theme="dark"] .book-menu-title {
+    @include squiggle-underline-dark;
 }
 
 .book-menu input.toggle+label::after {

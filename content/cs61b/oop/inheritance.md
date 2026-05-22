@@ -134,7 +134,7 @@ public class PromoPear extends Pear {
 
 The `@Override` tag is technically optional, but it's highly suggested because it makes sure that you are indeed overriding something and not just making a new method! (Remember, it has to have the **same name and parameters as a method in one of its parents**.)
 
-## **Method Overloading**
+## Method Overloading
 
 Sometimes, you want to take in **different parameters** into the **same method.** For instance, what if we wanted to create a method `getCount(Fruit fruit)` that counts how many fruits of that type we have? We might also want to allow users to pass in the name of the fruit to do the same thing- `getCount(String fruit)`. Java will allow us to make **both** of these methods in the same class!
 
