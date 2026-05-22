@@ -33,6 +33,7 @@ In this case, we must assume several things, such as linearity of data and the f
 On the other hand, K-nearest neighbors finds the $k$ points in the training set closest to a particular value, and uses majority vote at their $y$ values. KNN makes no assumptions about the underlying distribution other than that the training data is representative of the population/test data.
 
 Here's an example of some data that's not linearly separable in which logistic regression fails, but KNN is effective:
+
 ![[/data102/img/Pasted image 20221017132113.png]]
 
 
@@ -106,7 +107,7 @@ while w not converged:
 
 **Universal functional approximator theorem:** a two-layer neural network with enough neurons can approximate any continuous function to any desired accuracy.
 
-In order to approximate nonlinear functions, each layer is separated by a nonlinear operator. Traditional neural nets have used the sigmoid function $\sigma(x) = \frac{1}{1 + e^{-w^Tx}}$, but due to faster computation the ReLU (rectified linear unit) function is often used instead. The graphs of these two functions are as follows:
+In order to approximate nonlinear functions, each layer is separated by a nonlinear operator. Traditional neural nets have used the sigmoid function $\sigma(x) = \frac{1}{1 + e^{-w^Tx}}$, but due to faster computation the ReLU (rectified linear unit) function is often used instead.
 
 For every layer, we wrap the parameters around a function call. For example, here is a 2-layer network:
 

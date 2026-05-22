@@ -51,6 +51,7 @@ Bayes risk is the joint expectation of the loss function over all possible data 
 ### Bias-Variance Decomposition
 
 Below is the calculation for the frequentist risk of the L2 loss function:
+
 $$
 \begin{align}
 R(\theta) 
@@ -71,6 +72,7 @@ R(\theta)
      \big(\underbrace{\bar{\delta} - \theta}_{\text{bias of }\delta(x))}\big)^2 \\
 \end{align}
 $$
+
 The **variance** of the estimator is a measurement for how spread out the data is when compared ot the average. Larger variance means that the model is more sensitive to randomness in the data.
 
 The **bias** of the estimator is a measurement for how far the average of the estimator is from the true value of $\theta$. In other words, if we average out all of the randomness in the data, how close is our model to reality?

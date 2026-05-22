@@ -10,6 +10,18 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      # Pass math delimiters through verbatim so underscores, asterisks, etc.
+      # inside LaTeX aren't mangled by markdown emphasis processing.
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['$$', '$$']
+            - ['\[', '\]']
+          inline:
+            - ['$', '$']
+            - ['\(', '\)']
   tableOfContents:
     startLevel: 1
 
