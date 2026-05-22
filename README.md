@@ -10,7 +10,7 @@ Here, you'll find a wide variety of content from basic concepts, practice proble
 
 I took these courses before ChatGPT and other LLM's took off, so they are written entirely by hand. In hopes of preserving the spirit of self-learning, I've made best efforts to personally type out 100% of additional content and edits made in the post-LLM era. All mistakes are of my own accord; though you should [contact me](https://bencuan.me/contact) if you do find anything fishy.
 
-If you made your own notes/resources for a CS, Data Science, or EE course and would like me to put a link to them here, let me know ([[contributing]])!
+If you made your own notes/resources for any Berkeley course you've taken and would like me to put a link to them here, let me know ([[contributing]])!
 
 ## Index
 

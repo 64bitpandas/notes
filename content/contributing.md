@@ -26,7 +26,7 @@ Although some of my older notes may be missing citations or attributions to the 
 
 **Do not under any circumstances publish private course content** (that can't be found elsewhere for free online, from an official source). This includes homework/project/discussion solutions, textbooks, and readers.
 
-If you are an instructor or TA for a course that I have notes for and find something that shouldn't be published, please send me an email at [contact@bencuan.me](mailto:contact@bencuan.me) so I can remove it and scrub it from the git history.
+If you are an instructor or TA for a course that I have notes for and find something that shouldn't be published, please [contact me](https://bencuan.me/contact) so I can remove it and scrub it from the git history.
 
 
 ## Credits

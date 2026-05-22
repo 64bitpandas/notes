@@ -1,3 +1,6 @@
+---
+linkTitle: Sets
+---
 
 > [!warning] Warning
 >
