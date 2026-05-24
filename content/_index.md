@@ -62,6 +62,7 @@ These are notes that I've published as-is, and are at various levels of complete
  - [CS 61A: Structure and Interpretation of Computer Programs](/cs61a/): resource index and meta-guide available. No course notes.
  - [MCB C61: Brain, Mind, and Behavior](/mcbc61): textbook companion PDF available. No course notes.
   - [Data 100: Principles and Techniques of Data Science](/data100/)
+ - [Math 54: Linear Algebra and Differential Equations](/math54/): final-exam study guide PDF available. No course notes.
 
 
 
