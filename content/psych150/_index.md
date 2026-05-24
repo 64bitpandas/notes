@@ -1,6 +1,7 @@
 ---
 title: "Psych 150: Personality Psychology"
 BookCollapseSection: true
+weight: 700
 ---
 
 ## Table of Contents

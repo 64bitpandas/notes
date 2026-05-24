@@ -1,7 +1,7 @@
 ---
 title: "MCB C61: Brain, Mind, and Behavior"
 BookCollapseSection: true
-weight: 90
+weight: 11000
 ---
 
 MCB C61 is the introductory biological science course intended for non-biology majors. It focuses on the brain mechanisms that drive human behavior.

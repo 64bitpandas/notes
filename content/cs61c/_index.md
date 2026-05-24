@@ -18,6 +18,5 @@ weight: 53
  - [[Operating Systems]]
  - [[Parallelism]]
  - [[Dependability]]
- - [[CS61C Index]]
  - [[Exam Problem Guide]]
  - [[RISC-V Quick Reference]]

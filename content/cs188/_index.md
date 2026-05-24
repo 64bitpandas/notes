@@ -16,4 +16,3 @@ BookCollapseSection: true
  - [[Machine Learning]]
  - [[Neural Networks]]
  - [[Reinforcement Learning]]
- - [[CS188 Index]]

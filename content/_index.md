@@ -20,6 +20,8 @@ I took these courses before ChatGPT and other LLM's took off, so they are writte
 
 I used LLM assistance (specifically Claude Opus 4.7) to help with web design, formatting, and light editing to transform my original Markdown notes into the friendlier form you see on this site. In an effort to be transparent about what parts are human-written vs. AI-generated, I logged every content-touching LLM edit to [AGENT_CHANGELOG.md](https://github.com/64bitpandas/notes/blob/main/AGENT_CHANGELOG.md). 
 
+I also used LLM assistance to transcribe several courses for which I had well-organized, handwritten notes. For each of those classes, I have attached the original notes in addition to the LLM outputs for ease of reading.
+
 # Index
 
 Here are the courses that I currently offer notes for, and their statuses.
@@ -46,24 +48,24 @@ These are reasonably high-quality notes that I've spent additional time editing,
 
 These are notes that I've published as-is, and are at various levels of completeness. I make no guarantees on correctness for these notes, and intend to polish them over a long period of time.
 
- - [CS 61C: Computer Architecture](/cs61c/)
- - [CS 161: Computer Security](/cs161/)
- - [CS 170: Efficient Algorithms and Intractable Problems](/cs170/)
- - [CS 188: Artificial Intelligence](/cs188/)
- - [Psych 124: The Evolution of Human Behavior](/psych124/)
- - [Psych 131/140: Developmental Psychology](/psych131-140/)
- - [Psych 143: Language Acquisition](/psych143/)
- - [Psych 150: Personality Psychology](/psych150/)
- - [Philosophy 5: Science and Human Understanding](/philosophy5/)
- - [Anthro 1: Introduction to Biological Anthropology](/anthro1/)
- - [EE 16B: Circuits and Devices](/ee16b/)
+ - [CS 61C: Computer Architecture](/cs61c/): nearly complete but unedited notes.
+ - [CS 161: Computer Security](/cs161/): nearly complete but unedited notes.
+ - [CS 170: Efficient Algorithms and Intractable Problems](/cs170/): nearly complete but unedited notes.
+ - [CS 188: Artificial Intelligence](/cs188/): nearly complete but unedited notes.
+ - [Psych 124: The Evolution of Human Behavior](/psych124/): handwritten notes available with OCR transcription.
+ - [Psych 131/140: Developmental Psychology](/psych131-140/): fairly incomplete, fused notes from two separate developmental psychology courses.
+ - [Psych 143: Language Acquisition](/psych143/): an extremely sparse introductory note is available.
+ - [Psych 150: Personality Psychology](/psych150/): fairly incomplete notes available.
+ - [Philosophy 5: Science and Human Understanding](/philosophy5/): handwritten notes available with OCR transcription.
+ - [Anthro 1: Introduction to Biological Anthropology](/anthro1/): handwritten notes available with OCR transcription.
+ - [EE 16B: Circuits and Devices](/ee16b/): handwritten notes available with no OCR transcription (too math heavy).
 
 
 ## Other
 
  - [CS 61A: Structure and Interpretation of Computer Programs](/cs61a/): resource index and meta-guide available. No course notes.
  - [MCB C61: Brain, Mind, and Behavior](/mcbc61): textbook companion PDF available. No course notes.
-  - [Data 100: Principles and Techniques of Data Science](/data100/)
+  - [Data 100: Principles and Techniques of Data Science](/data100/): sparse cheat sheet available. No course notes.
  - [Math 54: Linear Algebra and Differential Equations](/math54/): final-exam study guide PDF available. No course notes.
 
 

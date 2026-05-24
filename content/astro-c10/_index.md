@@ -1,7 +1,7 @@
 ---
 title: "Astro C10: Astronomy"
 BookCollapseSection: true
-weight: 80
+weight: 42
 ---
 
 In my experience, Astronomy C10 with Alex Fillipenko is, by quite a wide margin, the most highly recommended 'for-fun' course to take at Berkeley.

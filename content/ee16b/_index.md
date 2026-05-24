@@ -8,8 +8,6 @@ EE 16B is the second half of Berkeley's lower-division EECS sequence, covering l
 
 These notes are math-heavy and aren't transcribed — each section below embeds the original handwritten PDF directly.
 
-<a href="ee16b-combined.pdf"><strong>Download the full combined PDF here!</strong></a>
-
 ## Table of Contents
  - [[transistors|Transistors]]
  - [[rc-circuits|RC Circuits]]

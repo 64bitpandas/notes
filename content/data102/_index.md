@@ -1,7 +1,7 @@
 ---
 title: "Data 102: Inference"
 BookCollapseSection: true
-weight: 70
+weight: 50
 ---
 
 ## Data102 Notes

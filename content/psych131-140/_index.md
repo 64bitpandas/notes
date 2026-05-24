@@ -1,9 +1,10 @@
 ---
 title: "Psych 131/140: Developmental Psychology"
 BookCollapseSection: true
+weight: 700
 ---
 
-These notes are a fusion of material from two related developmental psychology courses at Berkeley: **Psych 131** (Developmental Psychopathology) and **Psych 140** (Developmental Psychology). Topics from both courses are combined here since they cover overlapping concepts in child and adolescent development.
+These notes are a fusion of material from two related developmental psychology courses at Berkeley: **Psych 131** (Developmental Psychopathology) and **Psych 140** (Developmental Psychology). Topics from both courses are combined here since they cover overlapping concepts-- Psych 131 focuses more on disorders, whereas Psych 140 focuses on standard developmental milestones. 
 
 ## Table of Contents
  - [[2-1 Principles of Developmental Psychopathology|Principles of Developmental Psychopathology]]
