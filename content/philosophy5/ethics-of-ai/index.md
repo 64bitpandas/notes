@@ -39,7 +39,7 @@ Intuitively, a conscious system is made up of smaller pieces (neurons). However,
 - Therefore, the mind is not substrate independent
 - objection: you could say the same thing about neurons
 
-## Chalmer's argument of gradual uploading
+## Chalmers' argument of gradual uploading
 
 Upload each neuron gradually over time. When would we go from being conscious to unconscious?
 

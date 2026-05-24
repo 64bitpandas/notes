@@ -45,7 +45,7 @@ If there exists a universe unsuitable for life, we would not be observing it.
 
 Our existence explains why the physical constants are the way we are. (Strong Anthropic Principle)
 
-## Observervational Selection Effect
+## Observational Selection Effect
 
 We must conditionalize probabilities on the methods we use to make observations.
 
@@ -85,7 +85,7 @@ P(O | X & M) > P(O | Y & M) where M is the method used to collect observations.
 - #1. There was a conspiracy to save you.
 - #2. All shooters missed by random chance.
 - Intuition: #1 is more likely than #2.
-- Anthropic Principle: P(O | #1 & Survived) = P(O | #2 & Survived) = 1. There is no evidence of either hypotheses!
+- Anthropic Principle: P(O | #1 & Survived) = P(O | #2 & Survived) = 1. There is no evidence of either hypothesis!
 
 → Firing Squad demonstrates a fundamental flaw in the weak anthropic principle: overgeneralizing the data collection method will result in valid hypotheses being ignored.
 

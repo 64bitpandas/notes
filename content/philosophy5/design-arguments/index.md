@@ -121,5 +121,5 @@ P(LIFE | DESIGN & A1) is _very high_ and makes argument that God is evil invalid
 
 - → not always a good test, e.g. theory that a coin is heads 50% of the time
 - expansion: A theory is _unscientific_ if it assigns the same probability to all possible observations.
-- Whenever we appeal to an auxiliary hypotheses, we must also have independent observations of each individual hypothesis.
+- Whenever we appeal to an auxiliary hypothesis, we must also have independent observations of each individual hypothesis.
 

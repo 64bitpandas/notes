@@ -131,7 +131,7 @@ Hume's response: "All inferences are effects of custom, not of reasoning"
 
 # A Clash of Epistemic Methods
 
-- When two parties use different, incompatible belief-forming methods, it makes it easy for them to reject each others' conclusions
+- When two parties use different, incompatible belief-forming methods, it makes it easy for them to reject each other's conclusions
 
 ## Example: Galileo vs Bellarmine
 
