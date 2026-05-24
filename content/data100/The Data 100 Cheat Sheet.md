@@ -1,15 +1,7 @@
-# The Data 100 Cheat Sheet
-
-Created: December 14, 2020 8:49 AM
-Last Edited: December 22, 2020 7:41 PM
 
 # Resources
 
 **Textbook:** [http://www.textbook.ds100.org/ch/01/lifecycle_intro.html](http://www.textbook.ds100.org/ch/01/lifecycle_intro.html)
-
-# Pandas Cheat Sheet
-
-[[The Data 100 Cheat Sheet 69de92fa14684dd1b94defbbb8983019 Pandas_Cheat_Sheet.pdf]]
 
 # Data Science Lifecycle
 

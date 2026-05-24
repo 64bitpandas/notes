@@ -13,5 +13,4 @@ weight: 54
  - [[Cryptography]]
  - [[Web Security]]
  - [[Networking]]
- - [[CS161 Index]]
  - [[Extra Topics]]
