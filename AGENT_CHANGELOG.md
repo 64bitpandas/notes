@@ -825,19 +825,19 @@ to the existing notes (artifact cleanup, formatting, spelling/grammar,
 content accuracy, cross-course wiki links).
 
 Commits:
-- [`fb4845b`](https://github.com/64bitpandas/notes/commit/fb4845b1c2693fd69f4e7ce05d1b800b52c12e77) — Phase A: OCR pipeline + navbar entries for 2 new courses
-- [`7c6764a`](https://github.com/64bitpandas/notes/commit/7c6764a705807b5199545312d7219aedf3dee529) — Phase A.2: swap OCR backend from Anthropic SDK to auggie CLI
-- [`bea5a4f`](https://github.com/64bitpandas/notes/commit/bea5a4fc85411122206d8a39339efdb44dcbf316) — Phase B: philosophy5 OCR transcription
-- [`1caf3c7`](https://github.com/64bitpandas/notes/commit/1caf3c7e663c0aecdf797f8bca80682b8d669390) — Phase B.1: philosophy5 leaf-bundle restructure
-- [`fb63a79`](https://github.com/64bitpandas/notes/commit/fb63a799d20c1ebe32ad13b96bfd359ab9d56968) — Phase D: anthro1 OCR transcription
-- [`93cd13a`](https://github.com/64bitpandas/notes/commit/93cd13ab758640280d26d992d5f4f822dfc42d92) — Wave 1: anthro1 OCR artifact cleanup
-- [`e6576de`](https://github.com/64bitpandas/notes/commit/e6576ded0882e442cd82aef02bf85b7e2cd61b95) — Wave 1: philosophy5 OCR artifact cleanup
-- [`ccdee33`](https://github.com/64bitpandas/notes/commit/ccdee33fcee67cd92d57294ed0b30fc4f1f21fc7) — Wave 3: philosophy5 spelling and grammar
-- [`ec29e65`](https://github.com/64bitpandas/notes/commit/ec29e65f2e1cab2171d58afc55d0e90cac7d27bf) — Wave 3: anthro1 spelling and grammar
-- [`422846c`](https://github.com/64bitpandas/notes/commit/422846cb9c056bd92e380cc37374e9a6a66bbddb) — Wave 4: anthro1 content accuracy
-- [`0ea9b37`](https://github.com/64bitpandas/notes/commit/0ea9b3734a7ce83267f9fec2757ec9baf4fe60b4) — Wave 6: cross-course wiki links between new and existing notes
+- [`7f0c034`](https://github.com/64bitpandas/notes/commit/7f0c034437110c0952b7da4c52b32b54e252f752) — Phase A: OCR pipeline + navbar entries for 2 new courses
+- [`4faa4dc`](https://github.com/64bitpandas/notes/commit/4faa4dce928f42379c4a43c642268011a5584d23) — Phase A.2: swap OCR backend from Anthropic SDK to auggie CLI
+- [`42ca471`](https://github.com/64bitpandas/notes/commit/42ca47188cc9effb6adf83f91a913853f8ae8271) — Phase B: philosophy5 OCR transcription
+- [`276edd3`](https://github.com/64bitpandas/notes/commit/276edd36d62253d8f6d8dee1a61a6baa1bdbb6a8) — Phase B.1: philosophy5 leaf-bundle restructure
+- [`5fbb443`](https://github.com/64bitpandas/notes/commit/5fbb443c29191aba508efa6c458c8c207f91b8e7) — Phase D: anthro1 OCR transcription
+- [`e293db9`](https://github.com/64bitpandas/notes/commit/e293db9c14788ad80577d13e08f42c1cf124d6eb) — Wave 1: anthro1 OCR artifact cleanup
+- [`27f3e56`](https://github.com/64bitpandas/notes/commit/27f3e56ae467c1729c69e1ee390d41a0815b6377) — Wave 1: philosophy5 OCR artifact cleanup
+- [`9c53eea`](https://github.com/64bitpandas/notes/commit/9c53eeae67a7347fb40aa8be88ca9989133f0d18) — Wave 3: philosophy5 spelling and grammar
+- [`56da7da`](https://github.com/64bitpandas/notes/commit/56da7daaff36e48b51046956d34ea3adaf0cee15) — Wave 3: anthro1 spelling and grammar
+- [`e797a3f`](https://github.com/64bitpandas/notes/commit/e797a3f16a424df3c7b32ca7199cf99246e5e4f6) — Wave 4: anthro1 content accuracy
+- [`81623ee`](https://github.com/64bitpandas/notes/commit/81623ee14843eb009439e1185568aecfa2e5aa1a) — Wave 6: cross-course wiki links between new and existing notes
 
-### Phase A — OCR Pipeline + Navbar Scaffolding (`fb4845b`)
+### Phase A — OCR Pipeline + Navbar Scaffolding (`7f0c034`)
 
 Built the transcription pipeline and added skeleton entries to the
 sidebar so the two new courses would show up under "Incomplete
@@ -862,7 +862,7 @@ runs happen in subsequent commits.
 #### content/_index.md
 - Added `philosophy5`, `anthro1` to the "Incomplete Notes" list at the bottom of the site index.
 
-### Phase A.2 — Switch OCR Backend to auggie CLI (`7c6764a`)
+### Phase A.2 — Switch OCR Backend to auggie CLI (`4faa4dc`)
 
 Replaced the direct Anthropic SDK call inside `ocr_to_notes.py` with
 an `auggie --print --quiet --model opus4.7` subprocess invocation per
@@ -876,7 +876,7 @@ the stdlib + poppler + an authenticated `auggie` CLI on PATH.
 - Added `subprocess.run(["auggie", "--print", "--quiet", "--model", "opus4.7", ...])` wrapper that pipes the prompt over stdin and reads transcribed markdown from stdout.
 - Net: −65 / +50 lines; same external interface (`python scripts/ocr_to_notes.py <course>`), no JSON-mapping changes needed.
 
-### Phase B — Philosophy 5 OCR Transcription (`bea5a4f`)
+### Phase B — Philosophy 5 OCR Transcription (`42ca471`)
 
 Auto-transcribed 9 sections (~32 pages) from `old/Philosophy 5.pdf`.
 Each section originally shipped as a flat `slug.md` + `slug.pdf` pair
@@ -918,7 +918,7 @@ text only.
 #### content/philosophy5/*.pdf
 - New per-section PDFs (`design-arguments.pdf`, `epistemic-catastrophe.pdf`, `ethics-of-ai.pdf`, `fine-tuning-argument.pdf`, `humes-problem-of-induction.pdf`, `natural-kinds.pdf`, `scientific-realism.pdf`, `statistical-mechanics.pdf`, `values.pdf`) extracted via `pdfseparate` + `pdfunite`, plus a combined `philosophy5-combined.pdf`.
 
-### Phase B.1 — Philosophy 5 Leaf-Bundle Restructure (`1caf3c7`)
+### Phase B.1 — Philosophy 5 Leaf-Bundle Restructure (`276edd3`)
 
 Per-section PDFs were 404ing because Hugo only publishes sibling
 files for leaf bundles (`<slug>/index.md`), not for flat `slug.md` +
@@ -935,7 +935,7 @@ the correct layout out of the box.
 #### scripts/ocr_to_notes.py
 - Changed the output-path logic so each section is written to `<course>/<slug>/index.md` + `<course>/<slug>/<slug>.pdf` instead of flat siblings (+8 / −4 lines).
 
-### Phase D — Anthro 1 OCR Transcription (`fb63a79`)
+### Phase D — Anthro 1 OCR Transcription (`5fbb443`)
 
 Auto-transcribed 16 sections from `old/Anthro 1.pdf` directly into
 the leaf-bundle layout. Largest course of the batch — 2,717 markdown
@@ -1010,7 +1010,7 @@ artifact were stripped from every transcribed section:
    heading is `h1` (previously transcribed as `h2` because the model
    reserved h1 for the page title).
 
-#### Wave 1a — anthro1 (`93cd13a`)
+#### Wave 1a — anthro1 (`e293db9`)
 
 ##### content/anthro1/bioarchaeology/index.md (−20 lines)
 - Stripped 📎 markers and Request-ID lines; de-duped repeated paragraphs.
@@ -1060,7 +1060,7 @@ artifact were stripped from every transcribed section:
 ##### content/anthro1/what-is-anthropology/index.md (+2 / −6 net)
 - Stripped 📎 markers; heading promoted h2→h1.
 
-#### Wave 1b — philosophy5 (`e6576de`)
+#### Wave 1b — philosophy5 (`27f3e56`)
 
 ##### content/philosophy5/design-arguments/index.md (+16 / −38 net)
 - Stripped 📎 markers and Request-ID lines; heading hierarchy shifted; de-duped Paley/watchmaker paragraphs.
@@ -1091,7 +1091,7 @@ artifact were stripped from every transcribed section:
 
 ### Wave 3 — Spelling and Grammar
 
-#### Wave 3b — philosophy5 (`ccdee33`)
+#### Wave 3b — philosophy5 (`9c53eea`)
 
 Five surgical fixes across four of nine sections. `epistemic-catastrophe`,
 `natural-kinds`, `scientific-realism`, `statistical-mechanics`, and
@@ -1110,7 +1110,7 @@ Five surgical fixes across four of nine sections. `epistemic-catastrophe`,
 ##### content/philosophy5/humes-problem-of-induction/index.md
 - "easy for them to reject each others' conclusions" → "easy for them to reject each other's conclusions" (apostrophe position — "each other" is singular).
 
-#### Wave 3c — anthro1 (`ec29e65`)
+#### Wave 3c — anthro1 (`56da7da`)
 
 22 surgical fixes across nine of 16 files. `mitosis-and-meiosis`,
 `modern-evolutionary-theory`, `origin-of-new-species`, `primates`,
@@ -1155,7 +1155,7 @@ changes.
 - "most primitive australopithicine" → "most primitive australopithecine" (term typo).
 - "first australopithicene discovered — 'Taung baby'" → "first australopithecine discovered — 'Taung baby'" (different misspelling of the same term).
 
-### Wave 4 — Content Accuracy (`422846c`)
+### Wave 4 — Content Accuracy (`e797a3f`)
 
 Removed three empty stub headings that were transcribed from the
 PDF outline but never followed by body content in the source notes.
@@ -1171,7 +1171,7 @@ empty TOC entries.
 ##### content/anthro1/human-skeletal-biology/index.md
 - Removed empty `### Suture closure` heading immediately preceding `### Tooth wear` (the H3 had no content of its own — likely a planned subsection in the source notes that was never written up).
 
-### Wave 6 — Cross-Course Wiki Links (`0ea9b37`)
+### Wave 6 — Cross-Course Wiki Links (`81623ee`)
 
 24 cross-course wikilinks across 15 files connecting the new
 courses (philosophy5, anthro1) into the existing graph
