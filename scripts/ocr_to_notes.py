@@ -167,6 +167,57 @@ def extract_page_png(pdf: Path, page_num: int, section_dir: Path) -> Path:
     return png_path
 
 
+def process_section_per_pdf(
+    pdfs_dir: Path,
+    section: dict,
+    course_dir: Path,
+) -> Path:
+    """Process one already-split lecture PDF as a single section.
+
+    The section dict must include ``pdf`` (basename inside ``pdfs_dir``),
+    ``title``, ``filename`` (slug for the leaf bundle), and ``weight``.
+    Writes ``content/<slug>/<filename>/index.md`` with the mcbc61-style
+    ``<object>`` PDF embed and copies the source PDF alongside it.
+    """
+    src_pdf = pdfs_dir / section["pdf"]
+    if not src_pdf.is_file():
+        die(f"PDF not found for section {section['filename']}: {src_pdf}")
+    page_count = pdf_page_count(src_pdf)
+
+    section_dir = course_dir / ".tmp" / section["filename"]
+    if section_dir.exists():
+        shutil.rmtree(section_dir)
+    section_dir.mkdir(parents=True)
+
+    bundle_dir = course_dir / section["filename"]
+    bundle_dir.mkdir(parents=True, exist_ok=True)
+    section_pdf = bundle_dir / f"{section['filename']}.pdf"
+    if section_pdf.exists():
+        section_pdf.unlink()
+    shutil.copyfile(src_pdf, section_pdf)
+
+    ocr_chunks: list[str] = []
+    for p in range(1, page_count + 1):
+        png = extract_page_png(src_pdf, p, section_dir)
+        ocr_chunks.append(ocr_page(png))
+
+    md_path = bundle_dir / "index.md"
+    fname = section["filename"]
+    body = (
+        "---\n"
+        f"title: \"{section['title']}\"\n"
+        f"weight: {section['weight']}\n"
+        "---\n\n"
+        f"<object data=\"{fname}.pdf\" type=\"application/pdf\" width=\"100%\" height=\"800px\">\n"
+        f"  <p>Your browser does not support inline PDFs. <a href=\"{fname}.pdf\">Download the PDF</a> instead.</p>\n"
+        "</object>\n\n"
+        + "\n\n".join(ocr_chunks).rstrip()
+        + "\n"
+    )
+    md_path.write_text(body)
+    return section_pdf
+
+
 def process_section(
     pdf: Path,
     section: dict,
@@ -216,22 +267,69 @@ def process_section(
     return section_pdf
 
 
+def run_per_pdf_dir(pdfs_dir: Path, mapping: dict) -> None:
+    """Process a directory of already-split lecture PDFs.
+
+    Each entry in mapping['sections'] names a PDF basename under pdfs_dir;
+    each PDF becomes one Hugo leaf bundle. No combined PDF is produced.
+    """
+    course = mapping["course"]
+    slug = course["slug"]
+    sections = mapping["sections"]
+
+    course_dir = Path("content") / slug
+    course_dir.mkdir(parents=True, exist_ok=True)
+    (course_dir / ".tmp").mkdir(exist_ok=True)
+
+    for section in sections:
+        print(f"[ocr] {slug}: {section['filename']} (pdf {section['pdf']})", flush=True)
+        try:
+            process_section_per_pdf(pdfs_dir, section, course_dir)
+        except Exception as exc:
+            print(
+                f"warning: section {section['filename']} failed: {exc}",
+                file=sys.stderr,
+            )
+
+    shutil.rmtree(course_dir / ".tmp", ignore_errors=True)
+
+    print(f"\nGenerated {len(sections)} section(s) for {slug}:")
+    for section in sections:
+        fn = section["filename"]
+        print(f"  - {fn}/index.md  +  {fn}/{fn}.pdf")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("pdf_path", help="Path to the source PDF")
+    ap.add_argument(
+        "--per-pdf-dir",
+        action="store_true",
+        help="Treat the first positional as a directory of already-split per-section PDFs.",
+    )
+    ap.add_argument(
+        "pdf_path",
+        help="Path to the source PDF (combined mode) or directory of split PDFs (--per-pdf-dir mode)",
+    )
     ap.add_argument("mapping_json", help="Path to the JSON mapping file")
     args = ap.parse_args()
 
-    pdf = Path(args.pdf_path)
     mapping_path = Path(args.mapping_json)
-    if not pdf.is_file():
-        die(f"PDF not found: {pdf}")
     if not mapping_path.is_file():
         die(f"mapping JSON not found: {mapping_path}")
-
     check_tools()
     with mapping_path.open() as f:
         mapping = json.load(f)
+
+    if args.per_pdf_dir:
+        pdfs_dir = Path(args.pdf_path)
+        if not pdfs_dir.is_dir():
+            die(f"PDF directory not found: {pdfs_dir}")
+        run_per_pdf_dir(pdfs_dir, mapping)
+        return
+
+    pdf = Path(args.pdf_path)
+    if not pdf.is_file():
+        die(f"PDF not found: {pdf}")
     course = mapping["course"]
     slug = course["slug"]
     title = course["title"]
