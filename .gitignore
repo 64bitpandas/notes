@@ -4,3 +4,4 @@ exampleSite/public/
 .hugo_build.lock
 themes
 _gen/
+old/
