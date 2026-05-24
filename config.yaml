@@ -47,7 +47,10 @@ menu:
       weight: 10
     - name: "Contribute"
       url: "/contributing"
-      weight: 10
+      weight: 11
+    - name: "Back to bencuan.me"
+      url: "https://bencuan.me"
+      weight: 12
 
 params:
 
@@ -108,7 +111,7 @@ params:
   links:
     - link_name: Feedback
       link: https://github.com/64bitpandas/notes/issues
-    - link_name: Website
+    - link_name: Home
       link: https://bencuan.me
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
