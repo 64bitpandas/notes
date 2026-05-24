@@ -1,6 +1,6 @@
 ---
 title: "WEIRD"
-weight: 50
+weight: 30
 ---
 
 <object data="weird.pdf" type="application/pdf" width="100%" height="800px">

@@ -1,6 +1,6 @@
 ---
 title: "Patriarchy"
-weight: 130
+weight: 150
 ---
 
 <object data="patriarchy.pdf" type="application/pdf" width="100%" height="800px">

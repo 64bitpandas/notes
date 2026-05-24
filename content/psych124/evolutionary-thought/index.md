@@ -1,6 +1,6 @@
 ---
 title: "Evolutionary Thought"
-weight: 20
+weight: 50
 ---
 
 <object data="evolutionary-thought.pdf" type="application/pdf" width="100%" height="800px">

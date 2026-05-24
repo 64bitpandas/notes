@@ -1,6 +1,6 @@
 ---
 title: "Culture and Evolution"
-weight: 30
+weight: 20
 ---
 
 <object data="culture-and-evolution.pdf" type="application/pdf" width="100%" height="800px">

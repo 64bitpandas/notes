@@ -1,6 +1,6 @@
 ---
 title: "Cumulative Culture"
-weight: 60
+weight: 40
 ---
 
 <object data="cumulative-culture.pdf" type="application/pdf" width="100%" height="800px">

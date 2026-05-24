@@ -1,6 +1,6 @@
 ---
 title: "Behavioral Immunity"
-weight: 100
+weight: 60
 ---
 
 <object data="behavioral-immunity.pdf" type="application/pdf" width="100%" height="800px">

@@ -1,6 +1,6 @@
 ---
-title: "Religion Psychology"
-weight: 160
+title: "Religion"
+weight: 130
 ---
 
 <object data="religion-psychology.pdf" type="application/pdf" width="100%" height="800px">

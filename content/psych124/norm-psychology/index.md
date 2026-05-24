@@ -1,6 +1,6 @@
 ---
 title: "Norm Psychology"
-weight: 150
+weight: 160
 ---
 
 <object data="norm-psychology.pdf" type="application/pdf" width="100%" height="800px">

@@ -1,6 +1,6 @@
 ---
 title: "Reproduction"
-weight: 120
+weight: 110
 ---
 
 <object data="reproduction.pdf" type="application/pdf" width="100%" height="800px">

@@ -1,6 +1,6 @@
 ---
-title: "Tool Use"
-weight: 70
+title: "Tool Use, Taxonomy"
+weight: 90
 ---
 
 <object data="tool-use.pdf" type="application/pdf" width="100%" height="800px">

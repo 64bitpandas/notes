@@ -1,6 +1,6 @@
 ---
 title: "Olfaction"
-weight: 90
+weight: 80
 ---
 
 <object data="olfaction.pdf" type="application/pdf" width="100%" height="800px">

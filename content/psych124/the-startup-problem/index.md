@@ -1,6 +1,6 @@
 ---
 title: "The Startup Problem"
-weight: 40
+weight: 70
 ---
 
 <object data="the-startup-problem.pdf" type="application/pdf" width="100%" height="800px">
