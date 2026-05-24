@@ -39,6 +39,7 @@ These are reasonably high-quality notes that I've spent additional time editing,
 ### Other
 
  - [CS 61A: Structure and Interpretation of Computer Programs](/cs61a/): resource index and meta-guide available. No course notes.
+ - [MCB C61: Brain, Mind, and Behavior](/mcbc61): textbook companion PDF available. No course notes.
 
 
 
