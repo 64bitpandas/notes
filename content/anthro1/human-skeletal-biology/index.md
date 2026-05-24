@@ -5,7 +5,6 @@ weight: 140
 
 <embed src="human-skeletal-biology.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-89-1.png
 # [S] Human Skeletal Biology
 
 Tuesday, April 7, 2020 — 12:49 PM
@@ -57,10 +56,6 @@ Study of the skeleton
     - cortical (compact) – external bone surface
     - trabecular (cancellous) – spongy insides
 
-
-Request ID: 7bf2028b-fcb1-4356-86ac-56eabd61b8ae
-
-📎 Attached 1 image(s): page-90-1.png
 - cortical (compact) — external bone surface
 - trabecular (cancellous) — spongy insides
 
@@ -91,10 +86,6 @@ Entire skeleton renewed every 10 years
   - Woven bone → bony callous
   - If accumulated, would break bone
 
-
-Request ID: d2c08301-afcf-49dc-af62-6d97f3d793ab
-
-📎 Attached 1 image(s): page-91-1.png
 - woven bone → bony callus
   - if accumulated, would break bone
 
@@ -111,10 +102,6 @@ Request ID: d2c08301-afcf-49dc-af62-6d97f3d793ab
 - short bones → tight, cube-like (wrist, ankle)
 - irregular bones → specialized, complex (pelvis, vertabrae)
 
-
-Request ID: 52207099-444d-4723-b3a5-6401a67b8d0d
-
-📎 Attached 1 image(s): page-92-1.png
 ## [T] Forensic Anthropology
 
 → Applies biological anthropology to identify individuals for forensic/legal purposes
@@ -155,10 +142,6 @@ Request ID: 52207099-444d-4723-b3a5-6401a67b8d0d
 
 - for any refined foods that grind enamel
 
-
-Request ID: 9477d99f-8ee2-4c4b-8dbf-534734af28e4
-
-📎 Attached 1 image(s): page-93-1.png
 ## 4. Sex
 
 Can only determine after puberty
@@ -168,10 +151,6 @@ Can only determine after puberty
 
 Not definite — on scale: F! → F → F? → ? → M? → M → M!
 
-
-Request ID: f80f4273-c057-4f27-8692-23764cbf0105
-
-📎 Attached 1 image(s): page-94-1.png
 ## Pelvic Sexing Traits
 
 *Male vs Female pelvis comparison:*
@@ -196,10 +175,6 @@ height measurements based on size of long bones
 - dental work
 - sinus cavities are unique
 
-
-Request ID: 78d813e7-ba4d-4543-a5dc-428f4dcf2fbd
-
-📎 Attached 1 image(s): page-95-1.png
 ## 7. Pathology
 
 ### Antemortem: before death
@@ -223,6 +198,3 @@ precise biological explanation, determined by coroner
 - very difficult to determine
 - variable in environment
 - rely on surroundings (bugs, plants)
-
-
-Request ID: d2a9317a-13b9-4719-bfc3-e0a43a629ac7

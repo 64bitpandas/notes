@@ -5,7 +5,6 @@ weight: 70
 
 <embed src="biological-classification.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-34-1.png
 # [H] Biological Classification
 
 Tuesday, February 4, 2020 1:27 PM
@@ -73,6 +72,3 @@ Hierarchy: Life → Domain → Kingdom → Phylum → Class → Order → Family
 ↳ Species are often blurred lines and is a human construct. Species do not always conform to the past/future.
 
 ## Taxonomy of Humans
-
-
-Request ID: fe956e60-7dc4-4f80-9103-b360aaf2f823

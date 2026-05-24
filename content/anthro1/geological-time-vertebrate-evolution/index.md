@@ -5,7 +5,6 @@ weight: 80
 
 <embed src="geological-time-vertebrate-evolution.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-36-1.png
 # [I] Geological Time and Vertebrate Evolution
 
 *Tuesday, February 11, 2020 — 12:56 PM*
@@ -25,10 +24,6 @@ weight: 80
   - pharyngeal slits (respiration)
   - muscular tail (aid in digestion)
 
-
-Request ID: 6677d1b6-6334-48b1-b23c-a39460ae9654
-
-📎 Attached 1 image(s): page-37-1.png
 - Organisms with the earliest vertebrate traits
   - Notochord (stiff rod)
   - nerve chord (precursor to brain and spinal cord)
@@ -79,10 +74,6 @@ Environment: new environment outside of water; better support for life
 - Last part of Paleozoic Era
 - Synapsids
 
-
-Request ID: cbf344a1-dc52-410d-b479-b5bea2347b65
-
-📎 Attached 1 image(s): page-38-1.png
 - Last part of Paleozoic Era
 - Synapsids
   - powerful jaws
@@ -119,10 +110,6 @@ Request ID: cbf344a1-dc52-410d-b479-b5bea2347b65
 - better hearing/ear structures + bones
 - mammary glands (lactation)
 
-
-Request ID: 61955dd2-e4c8-46a3-8f0f-7fea90c6693d
-
-📎 Attached 1 image(s): page-39-1.png
 ## Mammals
 
 ### 3 Groups
@@ -144,10 +131,6 @@ First primate fossils: Eocene
 - Nocturnal
 - Insectivore
 
-
-Request ID: 083ab87c-50f4-433e-a8a6-f83ef653f0fb
-
-📎 Attached 1 image(s): page-40-1.png
 - Arboreal
 - Nocturnal
 - Insectivore
@@ -215,10 +198,6 @@ Features (Adapids/Omomyids):
     - *Dryopithecus* — Europe, 12.5–9.5 mya
       - Four species, Spain to Georgia
 
-
-Request ID: e0851688-acc1-43cf-96ce-6d91003e2618
-
-📎 Attached 1 image(s): page-41-1.png
 ## True Hominoids: Miocene
 
 - 5-23 mya
@@ -242,6 +221,3 @@ Request ID: e0851688-acc1-43cf-96ce-6d91003e2618
   - Three species, Pakistan to Nepal
 - *Ankarapithecus* — Turkey, 10 mya
 - *Lufengpithecus* — China, Thailand, 9 mya
-
-
-Request ID: 282089f1-6e69-4fd1-9948-fe358e3595e0

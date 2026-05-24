@@ -5,8 +5,7 @@ weight: 10
 
 <embed src="what-is-anthropology.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-17-1.png
-## What is Anthropology?
+# What is Anthropology?
 
 - Study humans from comparative perspective (across time + space)
 - Primarily interested in culture
@@ -18,7 +17,7 @@ weight: 10
 
 "What does it mean to be human?" → Our distinctly complex development of culture
 
-## Four Field Discipline
+# Four Field Discipline
 
 - **Socio-cultural**: compares living humans + cultures/politics
 - **Linguistics**: evolution of language
@@ -28,6 +27,3 @@ weight: 10
   - Primatology: non human living primates (closest to humans)
   - Paleoanthropology: evolution of anatomy/behavior
   - Skeletal biology: examining bones of past populations (aka bioarchaeology)
-
-
-Request ID: 038daf89-0397-43cc-b2e6-c9537cbaf6a0

@@ -5,7 +5,6 @@ weight: 120
 
 <embed src="paleoanthropology.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-72-1.png
 # [O] Paleoanthropology: Early Hominins
 
 ## What is Paleoanthropology?
@@ -57,10 +56,6 @@ weight: 120
 - C/P3 honing complex (canine, premolar, tooth sharpening)
 - Toes suggest bipedalism
 
-
-Request ID: 4f479e44-233f-4f58-ba82-2f642cc4284d
-
-📎 Attached 1 image(s): page-73-1.png
 - reduced canine (no C/P3)
 - lower sexual dimorphism
 - pelvic bone suggests bipedalism
@@ -118,10 +113,6 @@ Request ID: 4f479e44-233f-4f58-ba82-2f642cc4284d
 - South Africa — Sterkfontein, Makapansgat sites
 - found in caves
 
-
-Request ID: 76facfbf-3be4-4408-bac2-ab1bd08aa289
-
-📎 Attached 1 image(s): page-74-1.png
 - South Africa — Sterkfontein, Makapansgat sites
 - found in caves
 
@@ -174,10 +165,6 @@ Request ID: 76facfbf-3be4-4408-bac2-ab1bd08aa289
 - very recent discovery
 - about 2 mya
 
-
-Request ID: f00d5bab-d2eb-4262-ad1c-57f52ed385ee
-
-📎 Attached 1 image(s): page-75-1.png
 ## Australopithecus sediba
 
 - very recent discovery
@@ -186,6 +173,3 @@ Request ID: f00d5bab-d2eb-4262-ad1c-57f52ed385ee
 - very similar pelvis to humans
 - ape-like ribcage (A-shape)
 - gentle zygomatic arch
-
-
-Request ID: 803d8db4-baab-4b13-a7fd-4608174e85c3

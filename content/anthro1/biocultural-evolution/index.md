@@ -5,7 +5,6 @@ weight: 160
 
 <embed src="biocultural-evolution.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-100-1.png
 # [V] The Life Cycle
 
 Tuesday, April 21, 2020 — 1:30 PM
@@ -40,10 +39,6 @@ Tuesday, April 21, 2020 — 1:30 PM
 - growth spurts
 - menopause (postreproductive phase)
 
-
-Request ID: bbab9203-e383-4a6b-87f0-df554dc5ac4d
-
-📎 Attached 1 image(s): page-101-1.png
 - growth spurts
 - menopause (postreproductive phase)
 
@@ -72,12 +67,6 @@ Request ID: bbab9203-e383-4a6b-87f0-df554dc5ac4d
 - earlier age of menarche
     - Reasons: genetics, hormones in environment/food/water
 
-## Adult Phase
-
-
-Request ID: b39ba1bd-306a-40b5-854a-584109ad66d8
-
-📎 Attached 1 image(s): page-102-1.png
 ## Adult Phase
 
 - all animals
@@ -111,10 +100,6 @@ Request ID: b39ba1bd-306a-40b5-854a-584109ad66d8
 
 Similar to pattern in non-industrial human societies
 
-
-Request ID: 87a359cc-94f4-41f0-827c-b1c39e040c5c
-
-📎 Attached 1 image(s): page-103-1.png
 | Non-Industrial | Post-Industrial West |
 | --- | --- |
 | late menarche | early menarche |
@@ -149,10 +134,6 @@ Request ID: 87a359cc-94f4-41f0-827c-b1c39e040c5c
 - decreased # of cells (more dying than being created)
 - genetic/lifestyle factors
 
-
-Request ID: 632ad53d-a35c-4d18-a3a3-002155eed6b9
-
-📎 Attached 1 image(s): page-104-1.png
 - genetic/lifestyle factors
 - decrease in cell function
   - damage to DNA
@@ -160,10 +141,6 @@ Request ID: 632ad53d-a35c-4d18-a3a3-002155eed6b9
   - shortening of telomeres
 - pleiotropic genes: enhance reproductive fitness early on but lead to detrimental effects in aging
 
-
-Request ID: 7067f558-a0a3-496f-a58b-cf10581d3a20
-
-📎 Attached 1 image(s): page-105-1.png
 ## Causes
 
 ### Proximal vs Ultimate Causality
@@ -200,14 +177,6 @@ rickets: bone metabolism abnormality due to vit D deficiency → osteomalacia in
 ### Why are Northern Europeans so light-skinned?
 
 - genetic drift
-
-
-Request ID: 042c0dfa-e4b7-452c-8214-42822db9d490
-
-📎 Attached 1 image(s): page-106-1.png
-### Why are Northern Europeans so light-skinned?
-
-- genetic drift
 - higher carotene levels in other populations
 - higher cold/frostbite tolerance
 
@@ -235,10 +204,6 @@ Elongated forms lose heat more quickly
   - Cold climates mammals have short thick limbs as less surface area so conserve heat
   - Hot climate have long thin limbs as more surface area to radiate heat
 
-
-Request ID: 22935f05-b6f8-48cb-aec0-f03e20055f97
-
-📎 Attached 1 image(s): page-107-1.png
 ## Altitude Responses
 
 ### Challenges:
@@ -280,10 +245,6 @@ not supposed to drink milk after weaning
 - biocultural change
 - spillover of zoonotic infectious diseases
 
-
-Request ID: b7bbc9cf-174a-4a3f-99e5-2794fda2f6ed
-
-📎 Attached 1 image(s): page-108-1.png
 - **Race, gender is a folk taxonomy that depends on developmental outcomes**
   - categories created by culture, often arbitrarily
   - used to classify geographically isolated distinctions
@@ -326,10 +287,6 @@ Request ID: b7bbc9cf-174a-4a3f-99e5-2794fda2f6ed
 - Implies cultural/behavioral variations are inherited
 - Suggests superiority of races over others
 
-
-Request ID: b5ec4512-7089-4f37-97b4-af4fb220a30a
-
-📎 Attached 1 image(s): page-109-1.png
 - implies cultural/behavioral variations are inherited
 - suggests superiority of races over others
 
@@ -373,14 +330,6 @@ health differences are not biological: due to social inequalities
 
 ## Biocultural Evolution
 
-- culture is a human adaptive strategy
-
-
-Request ID: a507e9e1-beee-4528-9069-ae48829c6bd3
-
-📎 Attached 1 image(s): page-110-1.png
-## Biocultural Evolution
-
 - Culture is a human adaptive strategy
 - Example: sickle cell anemia
   - Alteration in structure of hemoglobin
@@ -405,10 +354,6 @@ Diagram: Agricultural practices → Mosquitoes spread → Human malaria → Spre
 - Cannot be described or categorized easily
 - Must consider social and evolutionary complexity
 
-
-Request ID: 512b322a-c6e2-4df7-83d3-e5c1c9cd15ce
-
-📎 Attached 1 image(s): page-111-1.png
 - Cannot be described or categorized easily
 - Must consider social and evolutionary complexity of variations
 - Humans are very biologically similar
@@ -417,6 +362,3 @@ Request ID: 512b322a-c6e2-4df7-83d3-e5c1c9cd15ce
 
 - forensic anthropology: poor racial predictions/indicators
 - sociobiology: study of the biological basis of behavior
-
-
-Request ID: 9d30a229-7108-48cf-ab18-03723ed76285

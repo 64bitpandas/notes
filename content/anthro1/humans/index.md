@@ -5,7 +5,6 @@ weight: 130
 
 <embed src="humans.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-78-1.png
 # [P] Homo
 
 Thursday, March 12, 2020   1:25 PM
@@ -97,16 +96,6 @@ First fossils found with Oldowan tools, but garhi now known to use tools
 ## Homo erectus
 
 ### Differences to ergaster:
-
-
-Request ID: ecee3017-ab55-4458-9fd1-661d064a8273
-
-📎 Attached 1 image(s): page-79-1.png
-- broken shot joints
-
-## Homo erectus
-
-### Differences to ergaster:
 - robust crania
 - shorter
 - lower brain cases
@@ -171,10 +160,6 @@ Overlap in time w/ erectus, modern human
 - 600–200 kya
 - very similar to H. erectus (but more robust)
 
-
-Request ID: a8db370c-d79b-43f1-97db-0d03d27ecdd7
-
-📎 Attached 1 image(s): page-80-1.png
 - Africa, Asia, Europe
 - 600–200 kya
 - Very similar to H. erectus (but more robust)
@@ -223,10 +208,6 @@ Request ID: a8db370c-d79b-43f1-97db-0d03d27ecdd7
 - lots of population overlap/interbreeding w/ humans
 - extinct 40–30 kya due to decreasing temperatures
 
-
-Request ID: 3d190ebb-8e41-41a1-9f85-5bbe2dd999e4
-
-📎 Attached 1 image(s): page-81-1.png
 ### H. denisova
 
 - Denisova cave 200 kya – 20
@@ -277,10 +258,6 @@ Unique:
 - suggests H. sapiens is older than we thought
 - suggests large network of trade/transportation
 
-
-Request ID: 227b09d9-8289-4fa7-a173-0377163fcfe0
-
-📎 Attached 1 image(s): page-82-1.png
 More genetic variation in Africans than other humans. First human is African.
 
 ## Technology
@@ -321,6 +298,3 @@ The Spread of *Homo sapiens* — first wave, second wave.
 - Ability to make tools/have intelligence with small brain size
 - Coexistence w/ modern humans: didn't get replaced at the same time as other populations
 - Reminder that humans are still subject to forces of evolution
-
-
-Request ID: 685f724f-bdea-4638-8ac4-197d8b8f33be

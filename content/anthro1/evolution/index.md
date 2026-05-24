@@ -5,13 +5,12 @@ weight: 20
 
 <embed src="evolution.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-23-1.png
-## Evolution
+# Evolution
 
 - Attempts to answer questions about our biological functions
 - Is a *theory* — we don't know for sure about the mechanisms, intricacies
 
-## Pre-evolutionary views (pre-Darwin)
+# Pre-evolutionary views (pre-Darwin)
 
 - Ancient India, Greece, China: earliest theories of evolution
 - In Europe, predominant belief was **stasis** (fixed, unchanging)
@@ -19,20 +18,20 @@ weight: 20
     - God > angels > humans > other animals...
 - No other way to explain complexity other than God's plan of creation
 
-## Scientific Revolution
+# Scientific Revolution
 
 - **Copernicus**: earth not at center of universe
 - **Galileo**: universe in motion (*not* fixed)
 - **Kepler, Descartes, Newton**: laws of physics
 - Age of discovery / Industrial Revolution: beginning of a new way of thinking
 
-## Classifying
+# Classifying
 
 - **John Ray**: concept of a *species* and *genus* (similar groups of species)
 - **Carolus Linnaeus**: book *Systema Naturae*
     - Adds *class* and *order*
 
-### Fossils
+## Fossils
 
 - Many misconceptions early on, thought they were from Bible
 - da Vinci, Robert Hook, Nicholas Steno
@@ -42,16 +41,12 @@ weight: 20
 - **Cuvier**: catastrophist; correlation of parts
 - **Buffon**: changing environment; questioned catastrophism
 
-### Uniformitarianism
+## Uniformitarianism
 
 - "Deep time" — time is immense and changing
 
-## Evolution before Charles Darwin
+# Evolution before Charles Darwin
 
-
-Request ID: bd6d42bb-3926-4202-941b-9b7132e3c42a
-
-📎 Attached 1 image(s): page-24-1.png
 - grandfather **Erasmus Darwin**: tried to explain complex life forms, and how they originated
 - Jean Baptiste de Lamarck: forms could change/adapt based on changes in environment
   - thought adaptation was directional, approached perfection
@@ -62,7 +57,7 @@ Request ID: bd6d42bb-3926-4202-941b-9b7132e3c42a
   - overproduction is contracted by nature
 - Alfred Russell Wallace: natural selection, spiritualist
 
-## Charles Darwin
+# Charles Darwin
 
 - HMS Beagle, voyage around world to collect samples for natural history
 - Galapagos islands: each island had similar animals, but slightly different features
@@ -75,15 +70,15 @@ Request ID: bd6d42bb-3926-4202-941b-9b7132e3c42a
   - intentional selection
 - **Differential Reproduction**: variation b/twn offspring; traits can be selected
 
-## Natural Selection
+# Natural Selection
 
-### Darwin's Ingredients (1850s)
+## Darwin's Ingredients (1850s)
 
 1. "Grandchildren like grandfathers" — relatives share traits
 2. Small, physical changes across generations; variations over time and over individuals
 3. "great fertility in proportion to support of parents": favorable traits help with survival of offspring
 
-### Richard Lewontin's Ingredients (1978)
+## Richard Lewontin's Ingredients (1978)
 
 basically reiterated Darwin
 
@@ -91,20 +86,16 @@ basically reiterated Darwin
 2. Individual Variations (Recombination, degradation)
 3. Overreproduction / biased reproduction
 
-## Evolution → Diversification ←
+# Evolution → Diversification ←
 
 - is a **fact** — backed by empirical evidence
 - how it works (natural selection) is a **theory**
 
-### Misconceptions:
+## Misconceptions:
 
 - humans have stopped evolving because we can't see any big changes
 
-
-Request ID: c61af01f-8b55-4627-aca1-71cb671e23db
-
-📎 Attached 1 image(s): page-25-1.png
-## Misconceptions
+# Misconceptions
 
 - humans have stopped evolving because we can't see any big changes
 - "survival of the fittest" means stronger, healthier...
@@ -125,7 +116,7 @@ Request ID: c61af01f-8b55-4627-aca1-71cb671e23db
 - Planet of the Apes fallacy: apes/other animals could 'take over' the role of humans
     - Apes are highly evolved for their own niche
 
-## Trends in Selection
+# Trends in Selection
 
 ▨ = dead
 
@@ -135,35 +126,28 @@ Request ID: c61af01f-8b55-4627-aca1-71cb671e23db
 - **Directional** → result: curve shifts
 - **Disruptive** (dimorphic sexual traits, example: male vs female) → result: extremes are pulled apart
 
-## What Darwin Didn't Know
+# What Darwin Didn't Know
 
 - Inheritability (genetics and inheritance)
     - Gregor Mendel: figured out combinatorial inheritance of traits (early research on genes — monogenomic traits)
 
-
-Request ID: a6c2fad0-d630-485c-8202-9bf5a0970d70
-
-📎 Attached 1 image(s): page-26-1.png
-## Gregor Mendel
+# Gregor Mendel
 
 Figured out combinatorial inheritance of traits (early research on genes – monogenomic traits)
 
-## Modern Genetics
+# Modern Genetics
 
 - Chromosomes are "supercoils" of DNA
 - Thousands of genes in chromosome
 
-### Analogy
+## Analogy
 
 - Base (ATCG) → Letter
 - Codon (amino acid) → Word
 - Gene (protein) → Sentence
 
-### Protein Synthesis
+## Protein Synthesis
 
 - "Junk RNA" → 98% of DNA regulate gene functions, activity (like punctuation)
 - Sequences can code up to 3 proteins
 - RNA can turn on/off traits, discard genes
-
-
-Request ID: 9cb6ec29-3815-4b25-9b80-3364e8041645

@@ -5,7 +5,6 @@ weight: 50
 
 <embed src="modern-evolutionary-theory.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-30-1.png
 # [F] Modern Evolutionary Theory
 
 Tuesday, February 4, 2020 12:43 PM
@@ -44,10 +43,6 @@ Tuesday, February 4, 2020 12:43 PM
     - Observed by Darwin in Galapagos
     - If only a few individuals get isolated, **bottleneck** occurs and certain alleles can be completely lost
 
-
-Request ID: a8254ddb-1f97-4d76-abe2-75ff11ce6ed3
-
-📎 Attached 1 image(s): page-31-1.png
 - if only a few individuals get isolated, **bottleneck** occurs and certain alleles can be completely lost
 
 ## New Insights on Evolution
@@ -60,6 +55,3 @@ Request ID: a8254ddb-1f97-4d76-abe2-75ff11ce6ed3
 
 ### Multiple inheritance systems: epigenetics
 - environment affects genetic code of both individual and offspring
-
-
-Request ID: 88f25b5a-f2dc-4cb5-ac51-b72fb91c769a

@@ -5,15 +5,14 @@ weight: 90
 
 <embed src="primates.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-42-1.png
-## Primates
+# Primates
 
-### Why Study Primates?
+## Why Study Primates?
 - Understand evolution as a species
 - Use to model/understand evolutionary relationships
 - Study origins of human traits
 
-### Placental Mammals
+## Placental Mammals
 - High energy usage
 - Enhanced sensory reception
   - Bigger brains
@@ -23,7 +22,7 @@ weight: 90
   - Dependent offspring
   - Long gestation period
 
-### Primate Characteristics
+## Primate Characteristics
 - Over 200 species
 - Small, arboreal (live in trees)
 - Most are monkeys or strepsirhines
@@ -41,17 +40,17 @@ weight: 90
   - Larger primates eat leaves, fruits
   - Smaller primates eat bugs, tree gum
 
-### Primate Habitats
+## Primate Habitats
 - Tropical climate
 - Forest/woodland habitat
 - Old World Monkeys: live on ground
   - Gorillas, chimps
 
-## Cladogram
+# Cladogram
 
-### Strepsirhines
+## Strepsirhines
 
-#### Lemurs, Lorises
+### Lemurs, Lorises
 - Nocturnal exc. lemurs
 - Insectivores
 - Arboreal
@@ -61,12 +60,8 @@ weight: 90
   - Small
 - Shiny, layered eyes
 
-### Haplorhines
+## Haplorhines
 
-
-Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
-
-📎 Attached 1 image(s): page-43-1.png
 - Southern Africa
   - small
 - shiny, layered eyes
@@ -75,17 +70,17 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
   - long legs, backs
   - powerful hands
 
-## Lorises
+# Lorises
 - monogamous
 - multiparous (lots of babies) - store young in trees
 - Asian Lorises: slow moving, stalk prey
 
-## Lemurs
+# Lemurs
 - Madagascar
   - isolated, so adaptive radiation occurs
   - now many different types of lemurs
 
-### Atypical Strepsirhines
+## Atypical Strepsirhines
 - diurnal (awake in day)
 - eat fruit (frugivorous), folivorous
 - large social groups (ring-tailed lemurs)
@@ -95,7 +90,7 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
 - Sifakas: bipedal, social
 - Aye-ayes: solitary, unique feeding specialization
 
-### Cercopithecines
+## Cercopithecines
 - ectotympanic bony tube in ear
 - rounded teeth, equal limbs, shorter tails, cheek pouches
 - multimale polygamy, social hierarchy
@@ -104,7 +99,7 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
 - baboons, mandrills, savannah baboons, hamadryas baboons, gelada baboons, macaques (snow monkeys)
 - single male polygamous
 
-### Colobines
+## Colobines
 - Colobus monkeys, odd-nosed monkeys
 - folivorous, arboreal
 - long legs + tails, complex stomachs, pointy teeth
@@ -112,13 +107,13 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
 
 **Must know species**
 
-### Catarrhines
+## Catarrhines
 - 2123 teeth (vs 2133 platyrhines)
 - narrow noses
 - downward facing nostrils
 - Africa
 
-### Colobines
+## Colobines
 - **Langurs**
   - very Asia, social, single male polygamy, infanticide on other groups to attract females over
   - folivorous → special stomachs
@@ -131,7 +126,7 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
   - folivorous, eaten by chimps
   - single male polygamy
 
-## Tarsiers
+# Tarsiers
 - SE Asia
 - Nocturnal
 - Clingers, Leapers
@@ -140,7 +135,7 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
 - grooming claws
 - unfused mandible (jaw)
 
-## Haplorhine Traits
+# Haplorhine Traits
 - free upper lip
 - large upper incisors (no dental comb)
 - enclosed eye sockets
@@ -148,7 +143,7 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
 - babies are large
 - ectotympanic tube in ear
 
-## Anthropoids
+# Anthropoids
 - larger brain + body
 - less reliance on smell, more on vision
 - enclosed orbit eyes; stereoscopic color
@@ -157,7 +152,7 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
 - diurnal, social (active during day)
 - includes humans and apes
 
-## New World Monkeys (Platyrrhines)
+# New World Monkeys (Platyrrhines)
 
 **3 groups:**
 - Atelids — flat-nose monkeys, spider monkeys
@@ -174,7 +169,7 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
 - live in multi-male, multi-female large communities
 - use tools (rocks open up food, etc)
 
-### Cebines
+## Cebines
 - **Capuchins**
 - **Squirrel monkeys**
   - big brains, communication
@@ -183,7 +178,7 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
 - **Howler monkeys**
   - loud noises for territory defense
 
-### Callitrichines
+## Callitrichines
 - **Tamarins, marmosets**
   - give birth to twins
   - males care for offspring
@@ -191,7 +186,7 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
   - gumivory, very small
   - territory defense of family
 
-## Old World Monkeys
+# Old World Monkeys
 - catarrhines
 - bilophodont molars (2 ridges)
 - diurnal
@@ -202,18 +197,11 @@ Request ID: 975a3caf-3551-4387-bc0a-8d0bf47d0641
 - sectorial premolar: sharpens canine above
 - ring-shaped ear structure (OWM have bony tube)
 
-
-Request ID: 2a56401a-2404-4c96-a9d7-2bbc4ac236da
-
-📎 Attached 1 image(s): page-44-1.png
 - polyandrous social structure: female mates w/ multiple males
 - gumivory, very small
 - territory defense of family
 
-## Owl monkeys
+# Owl monkeys
 
 - only nocturnal haplorhine
   - (only other nocturnals are strepsirrhines)
-
-
-Request ID: c765e694-25d8-412f-8f6d-fc5da3779943

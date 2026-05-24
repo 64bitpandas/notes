@@ -5,7 +5,6 @@ weight: 110
 
 <embed src="primate-anatomy.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-50-1.png
 ## Primate Behavior
 
 ### Social Interactions
@@ -34,10 +33,6 @@ weight: 110
 - shared behaviors ("culture")
   - very complex backgrounds e.g. infanticide — not necessarily homologous
 
-
-Request ID: 1a8591b5-df1e-4443-9d4e-8b5b04eefd5b
-
-📎 Attached 1 image(s): page-51-1.png
 - Shared behaviors ("culture")
   - very complex backgrounds e.g. infanticide - not necessarily homologous
 - Shift to Great Ape Models
@@ -69,10 +64,6 @@ Request ID: 1a8591b5-df1e-4443-9d4e-8b5b04eefd5b
 - Lab: observe more complex behaviors, find out how capable primates are
   - mirror self-recognition, linguistics
 
-
-Request ID: 159e8597-7601-48ca-b41a-870e3e5e4d71
-
-📎 Attached 1 image(s): page-52-1.png
 complex behaviors, find out how capable primates are
 - mirror self-recognition, linguistics
 
@@ -91,10 +82,6 @@ complex behaviors, find out how capable primates are
 
 ### 5. Common Ancestor
 
-
-Request ID: 5c54f83e-0cfa-44e2-a25e-de60ff5ce740
-
-📎 Attached 1 image(s): page-53-1.png
 # [M] Primate Anatomy
 
 Thursday, February 27, 2020 — 12:58 PM
@@ -139,10 +126,6 @@ Thursday, February 27, 2020 — 12:58 PM
 
 - small brain
 
-
-Request ID: c0a930c3-15b9-4bd2-8ed5-a4bfeb6e80ba
-
-📎 Attached 1 image(s): page-54-1.png
 ## Comparative Anatomy: Face
 
 - flat face (Orthognathic) — Human
@@ -189,10 +172,6 @@ Request ID: c0a930c3-15b9-4bd2-8ed5-a4bfeb6e80ba
 
 - juvenile gorillas
 
-
-Request ID: 8a31fb99-1f70-46ee-9d18-5ff7ea504495
-
-📎 Attached 1 image(s): page-55-1.png
 ## Bipedalism in Other Animals
 
 - juvenile gorillas
@@ -229,10 +208,6 @@ Request ID: 8a31fb99-1f70-46ee-9d18-5ff7ea504495
 - Human = short, broad, bowl-shaped
 - large muscle
 
-
-Request ID: f41633f3-9f2c-4371-8afb-2415f8bdaa63
-
-📎 Attached 1 image(s): page-56-1.png
 *Human Bipedal Adaptations: Femur* — Human = angled femur
 
 *Human Bipedal Adaptations: Limb Proportions* — legs are very large proportion of body
@@ -251,6 +226,3 @@ Request ID: f41633f3-9f2c-4371-8afb-2415f8bdaa63
 
 - Gradual evolution
 - Early hominids: mixed locomotion
-
-
-Request ID: 1a4e646b-5b21-42d7-a506-e2d90928da3f
