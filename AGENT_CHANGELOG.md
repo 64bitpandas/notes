@@ -5,12 +5,12 @@ edit pass over the course notes. See workspace notes `changelog-phase*` for full
 audit detail, including ambiguous items that were considered but skipped.
 
 Commits:
-- 64d219e — Phase 1: formatting and structural fixes
-- d8dd002 — Phase 2: spelling and grammar
-- 704adf0 — Phase 3: content corrections
-- a5b6a3b — Phase 4: psych learning-progression reordering
-- 47c4bcc — Phase 5: cross-course wiki links
-- (this commit) — Phase 6: add AGENT_CHANGELOG.md
+- [`64d219e`](https://github.com/64bitpandas/notes/commit/64d219e55a4782a079a581ec7465410ceab35c79) — Phase 1: formatting and structural fixes
+- [`d8dd002`](https://github.com/64bitpandas/notes/commit/d8dd00269af7ddd574bd49d79fdd7432149ebce5) — Phase 2: spelling and grammar
+- [`704adf0`](https://github.com/64bitpandas/notes/commit/704adf0485470a1f8cb3ca215a115a6d7b6e3dab) — Phase 3: content corrections
+- [`a5b6a3b`](https://github.com/64bitpandas/notes/commit/a5b6a3b0210d3d254ff5369f0faceaf8c82624f2) — Phase 4: psych learning-progression reordering
+- [`47c4bcc`](https://github.com/64bitpandas/notes/commit/47c4bccd7fdace61287866e1c89201fcc8b39d38) — Phase 5: cross-course wiki links
+- [`d106caf`](https://github.com/64bitpandas/notes/commit/d106cafd8c2c4d2cd54224f349bdd4a2c85b9001) — Phase 6: add AGENT_CHANGELOG.md
 
 ## Phase 1 — Formatting and Structural Fixes
 
