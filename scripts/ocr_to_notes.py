@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-# Recommended invocation (no global installs needed):
-#   uv run --with anthropic --with pillow scripts/ocr_to_notes.py old/Philosophy\ 5.pdf scripts/philosophy5.json
+# Recommended invocation:
+#   python3 scripts/ocr_to_notes.py old/Philosophy\ 5.pdf scripts/philosophy5.json
 #
 # Requires:
 #   - poppler-utils on PATH: pdfseparate, pdfunite, pdftoppm  (brew install poppler)
-#   - env var ANTHROPIC_API_KEY set to a valid Anthropic API key
+#   - auggie CLI on PATH, already authenticated (`auggie login` if not)
+#   - Uses Claude Opus 4.7 via auggie (model id: opus4.7)
 """OCR a handwritten-notes PDF into a Hugo page-bundle course folder.
 
 Reads a JSON mapping describing which page ranges become which sections,
@@ -14,9 +15,7 @@ per-section markdown + section PDFs + a combined PDF into content/<slug>/.
 from __future__ import annotations
 
 import argparse
-import base64
 import json
-import os
 import re
 import shutil
 import subprocess
@@ -24,17 +23,16 @@ import sys
 import time
 from pathlib import Path
 
-OCR_MODEL_PRIMARY = "claude-sonnet-4-5"
-OCR_MODEL_FALLBACK = "claude-3-5-sonnet-latest"
+AUGGIE_MODEL = "opus4.7"  # Claude Opus 4.7
 
 OCR_PROMPT = (
     "You are transcribing a handwritten college-lecture notebook page. "
     "Output ONLY clean Markdown. Treat the bright/colored, less-indented "
-    "text as headings (use `##` for section headings, `###` for "
-    "subsections). Treat the rest as body text \u2014 preserve bullet "
-    "lists where they appear. Skip page-number markers and decorative "
-    "scribbles. Output nothing but the Markdown for this single page; do "
-    "not wrap in code fences; do not add commentary."
+    "text as headings (use '##' for section headings, '###' for subsections). "
+    "Treat the rest as body text — preserve bullet lists where they appear. "
+    "Skip page-number markers and decorative scribbles. Output nothing but "
+    "the Markdown for this single page; do not wrap in code fences; do not "
+    "add commentary. Do not use any tools — just respond with the transcription."
 )
 
 REQUIRED_TOOLS = ("pdfseparate", "pdfunite", "pdftoppm")
@@ -89,56 +87,45 @@ def run(cmd: list[str]) -> None:
         )
 
 
-def get_anthropic_client():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        die(
-            "ANTHROPIC_API_KEY is not set. Export it before running this "
-            "script (e.g. `export ANTHROPIC_API_KEY=sk-ant-...`)."
-        )
-    try:
-        from anthropic import Anthropic  # type: ignore
-    except ImportError:
-        die(
-            "anthropic SDK not installed. Re-run with: "
-            "`uv run --with anthropic --with pillow scripts/ocr_to_notes.py ...`"
-        )
-    return Anthropic(api_key=api_key)
+def ocr_page(png_path: Path) -> str:
+    """Run auggie on a single PNG page and return the transcribed Markdown."""
+    if shutil.which("auggie") is None:
+        die("auggie CLI not found on PATH. Install from https://docs.augmentcode.com")
 
-
-def ocr_via_claude(client, png_path: Path) -> str:
-    img_b64 = base64.standard_b64encode(png_path.read_bytes()).decode("ascii")
-    content = [
-        {
-            "type": "image",
-            "source": {
-                "type": "base64",
-                "media_type": "image/png",
-                "data": img_b64,
-            },
-        },
-        {"type": "text", "text": OCR_PROMPT},
+    cmd = [
+        "auggie",
+        "--print",
+        "--quiet",
+        "--model", AUGGIE_MODEL,
+        "--image", str(png_path),
+        "--instruction", OCR_PROMPT,
+        "--max-turns", "1",
+        "--dont-save-session",
     ]
-    last_err: Exception | None = None
-    for model in (OCR_MODEL_PRIMARY, OCR_MODEL_FALLBACK):
-        for attempt in range(3):
-            try:
-                msg = client.messages.create(
-                    model=model,
-                    max_tokens=4096,
-                    messages=[{"role": "user", "content": content}],
-                )
-                parts = [b.text for b in msg.content if getattr(b, "type", "") == "text"]
-                return "\n".join(p.strip() for p in parts if p).strip()
-            except Exception as e:  # noqa: BLE001
-                last_err = e
-                # Don't retry on model-not-found / 4xx auth; fall through to fallback.
-                err_s = str(e).lower()
-                if "model" in err_s and ("not found" in err_s or "invalid" in err_s):
-                    break
-                time.sleep(1.5 * (attempt + 1))
-    die(f"OCR failed after retries: {last_err}")
-    return ""  # unreachable
+
+    # Retry on transient failures
+    last_err = None
+    for attempt in range(3):
+        try:
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                timeout=180,
+                check=True,
+            )
+            text = result.stdout.strip()
+            if text:
+                return text
+            last_err = f"empty output (stderr: {result.stderr[:200]})"
+        except subprocess.CalledProcessError as e:
+            last_err = f"auggie exit {e.returncode}: {(e.stderr or '')[:300]}"
+        except subprocess.TimeoutExpired:
+            last_err = "auggie timed out after 180s"
+        time.sleep(2 ** attempt)
+
+    print(f"warning: OCR failed for {png_path.name}: {last_err}", file=sys.stderr)
+    return f"<!-- OCR failed for page {png_path.name}: {last_err} -->"
 
 
 
@@ -180,7 +167,6 @@ def extract_page_png(pdf: Path, page_num: int, section_dir: Path) -> Path:
 
 
 def process_section(
-    client,
     pdf: Path,
     section: dict,
     course_dir: Path,
@@ -211,7 +197,7 @@ def process_section(
 
     ocr_chunks: list[str] = []
     for png in png_paths:
-        ocr_chunks.append(ocr_via_claude(client, png))
+        ocr_chunks.append(ocr_page(png))
 
     md_path = course_dir / f"{section['filename']}.md"
     body = (
@@ -255,12 +241,11 @@ def main() -> None:
     (course_dir / ".tmp").mkdir(exist_ok=True)
     write_index_skeleton(course_dir, title, nav_weight)
 
-    client = get_anthropic_client()
     all_section_pdfs: list[Path] = []
     for section in sections:
         print(f"[ocr] {slug}: {section['filename']} (pages {section['pages']})", flush=True)
         all_section_pdfs.append(
-            process_section(client, pdf, section, course_dir, total_pages)
+            process_section(pdf, section, course_dir, total_pages)
         )
 
     combined_pdf = course_dir / f"{slug}-combined.pdf"
