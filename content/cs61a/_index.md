@@ -4,6 +4,10 @@ BookCollapseSection: true
 weight: 60
 ---
 
+## Table of Contents
+ - [[resources|Resources]]
+ - [[midterm-tips|Midterm Tips]]
+
 ## Introduction
 
 > [!warning] Warning

@@ -18,6 +18,13 @@ This is a **non-comprehensive** guide to data structures written with an intenti
 
 This guide is written to be as easy to follow and digestible as possible😀I've included lots of diagrams, practice problems, and more intuitive explanations instead of the more straightforward approach most textbooks use. **This isn't a replacement for lectures and other course content.** You probably need to look at those first, and come here if something isn't sticking!
 
+## Table of Contents
+ - [[oop|Object Oriented Programming]]
+ - [[asymptotics|Asymptotics]]
+ - [[abstract-data-types|Abstract Data Types]]
+ - [[algorithms|Algorithms]]
+ - [[misc-topics|Misc. Topics]]
+
 ## The 61B Concept Map
 
 ![](<img/assets/image (6).png>)

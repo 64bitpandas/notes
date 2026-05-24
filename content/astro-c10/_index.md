@@ -8,6 +8,19 @@ In my experience, Astronomy C10 with Alex Fillipenko is, by quite a wide margin,
 
 These notes are an attempt to condense a semester’s worth of content into a digestible set of notes that take away the main ideas from the course while preserving as much of Alex’s contagious excitement for astronomy. I still highly recommend taking the course itself, as it is impossible to convey everything here. But if you are unable to do so, I hope you enjoy these notes as much as I enjoyed creating them.
 
+## Table of Contents
+ - [[Units]]
+ - [[Light]]
+ - [[Spectroscopy]]
+ - [[Thermal Emitters]]
+ - [[Telescopes]]
+ - [[The Sun, Moon and Earth]]
+ - [[Planetary Systems]]
+ - [[Stars, Black Holes, Supernovae]]
+ - [[Galaxies]]
+ - [[The Expansion of the Universe]]
+ - [[Cosmology]]
+
 ## Prerequisites
 
 Although there are no officially listed prerequisites for Astro C10, it will be far easier to follow its content with a general understanding of algebra and geometry, notably:

@@ -8,6 +8,11 @@ weight: 20
 
 This is a **non-comprehensive** guide to discrete math and probability, specifically for computer science applications. It's based off of Berkeley's [CS70](https://www.eecs70.org/) material from Fall 2020 (and doubles as my notes for the course).
 
+## Table of Contents
+ - [[latex-reference|LaTeX Reference]]
+ - [[discrete-math|Discrete Math]]
+ - [[probability|Probability]]
+
 ### Who is this for?
 
 Mostly me; making unnecessarily detailed guides is my goto method of making sure I understand everything 😁 But you are welcome to use it as well for reviewing for exams, touching up on discrete math, or whatever you want!
