@@ -1,5 +1,5 @@
 ---
-title: "ASTRON C10: Astronomy"
+title: "Astro C10: Astronomy"
 BookCollapseSection: true
 weight: 80
 ---
