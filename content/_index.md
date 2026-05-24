@@ -15,11 +15,11 @@ I took these courses before ChatGPT and other LLM's took off, so they are writte
 
 If you made your own notes/resources for any Berkeley course you've taken would like me to put a link to them here, let me know ([[contributing]])!
 
-## Index
+# Index
 
 Here are the courses that I currently offer notes for, and their statuses.
 
-### Full Course Guides
+## Full Course Guides
 
 The highest-quality, most complete sets of course notes.
  - [CS 61B: Data Structures and Algorithms](/cs61b/): full guide available for all course content, based on the Spring 2020 offering
@@ -27,7 +27,7 @@ The highest-quality, most complete sets of course notes.
  - [CS 186: Intro to Databases](/cs186/): full guide available for all topics except NoSQL and FD's/Normalization. Based on the Fall 2022 offering
 
 
-### Curated Notes
+## Curated Notes
 
 These are reasonably high-quality notes that I've spent additional time editing, curating, and re-organizing.
 
@@ -36,14 +36,25 @@ These are reasonably high-quality notes that I've spent additional time editing,
  - [Data 102: Data, Inference, Decisions](/data102/): course notes available for most topics. Based on the Fall 2022 offering
  - [Astronomy C10: Introduction to General Astronomy](/astro-c10/): course notes available for most topics. Based on the Spring 2022 offering
 
-### Other
+
+## Incomplete Notes
+
+These are notes that I've published as-is, and are at various levels of completeness. I make no guarantees on correctness for these notes, and intend to polish them over a long period of time.
+
+ - [CS 61C: Computer Architecture](/cs61c/)
+ - [CS 161: Computer Security](/cs161/)
+ - [CS 170: Efficient Algorithms and Intractable Problems](/cs170/)
+ - [CS 188: Artificial Intelligence](/cs188/)
+
+
+## Other
 
  - [CS 61A: Structure and Interpretation of Computer Programs](/cs61a/): resource index and meta-guide available. No course notes.
  - [MCB C61: Brain, Mind, and Behavior](/mcbc61): textbook companion PDF available. No course notes.
 
 
 
-## Basic Principles
+# Basic Principles
 
 Here are some principles that I try to follow when creating notes. I'll probably make a blog post at some point to go over this in more detail, but for now this outline should be enough to show what I hope to accomplish.
 
@@ -52,7 +63,7 @@ Here are some principles that I try to follow when creating notes. I'll probably
 3. **Notes are rarely self-contained:** It's impossible to fully cover most topics on a single page, and topics may be deeply related to content from other courses. Link to external resources or further learning opportunities whenever possible, just in case it becomes necessary to research the topic further in the future.
 4. **Type a lot of stuff really fast:** For this verbose style of note-taking to be effective for me, I need to be able to completely put down thoughts on the page before I lose them. I then combine, cut, and re-synthesize the notes I recorded live. Although making a transcription could achieve a similar initial output, I find this process much more engaging and saves a great deal of time trying to distill the 'why' factor out of whatever I'm learning.
 
-## About this website
+# About this website
 
 My notes are hosted on GitHub Pages and are built on my custom [Amethyst theme](https://github.com/64bitpandas/amethyst) for [Hugo](https://https://gohugo.io/). You can view the source code [here](https://github.com/64bitpandas/notes).
 
@@ -60,6 +71,6 @@ All of the notes here are formatted in Markdown, and the majority was created us
 
 If you're interested in contributing, take a look at the [contribution guide](/contributing.md).
 
-## Contact me
+# Contact me
 
 Want to chat with me about these notes, or something else? You can find my contact info [here](https://bencuan.me/contact).
