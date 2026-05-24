@@ -45,6 +45,10 @@ These are notes that I've published as-is, and are at various levels of complete
  - [CS 161: Computer Security](/cs161/)
  - [CS 170: Efficient Algorithms and Intractable Problems](/cs170/)
  - [CS 188: Artificial Intelligence](/cs188/)
+ - [Data 100: Principles and Techniques of Data Science](/data100/)
+ - [Psych 131/140: Developmental Psychology](/psych131-140/)
+ - [Psych 143: Language Acquisition](/psych143/)
+ - [Psych 150: Personality Psychology](/psych150/)
 
 
 ## Other
