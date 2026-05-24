@@ -5,15 +5,14 @@ weight: 20
 
 <embed src="fine-tuning-argument.pdf" type="application/pdf" width="100%" height="600px" />
 
-📎 Attached 1 image(s): page-97-1.png
-## The Fine Tuning Argument
+# The Fine Tuning Argument
 
 - The Universe is dependent on very exact values of constants
 - If they were changed even a little bit, life (or the Universe itself) wouldn't exist
 
 "a very fine tuning" is required to support life!
 
-### The Argument
+## The Argument
 
 - The chance of all these parameters being exactly right is extremely unlikely by chance
 - It is more likely that a designer intentionally set these parameters
@@ -24,7 +23,7 @@ H2 = Naturalism: Brute chance of constants being this way
 
 Can use likelihood argument to support Design
 
-### Counterarguments
+## Counterarguments
 
 - It's possible we could still support life with many different constants; we just haven't tested them yet.
 - Independent evidence issue (see biological design argument)
@@ -40,25 +39,17 @@ Can use likelihood argument to support Design
             - highly likely they have been rolling all day
 - Principle of Total Evidence: must use *all* evidence we are given and not fall back to weaker observations.
 
-## Anthropic Principle
+# Anthropic Principle
 
 If there exists a universe unsuitable for life, we would not be observing it.
 
 Our existence explains why the physical constants are the way we are. (Strong Anthropic Principle)
 
-### Observervational Selection Effect
+## Observervational Selection Effect
 
 We must conditionalize probabilities on the methods we use to make observations.
 
 Example: if you catch fish with a net and all are >10in, you might conclude that the evidence supports all fish being >10in. However, if the net has 10-inch holes, the evidence means nothing.
-- If O = all caught fish >10 in:
-
-
-Request ID: 52febb6e-fcfd-4913-976f-f6beeebbd96f
-
-📎 Attached 1 image(s): page-98-1.png
-all fish being >10 in. However, if the net has 10-inch holes, the evidence means nothing.
-
 - If O = all caught fish >10 in:
   - P(All >10 | O) > P(half >10 | O)  *(Weak Anthropic Principle: true, but irrelevant)*
 - However,
@@ -66,30 +57,30 @@ all fish being >10 in. However, if the net has 10-inch holes, the evidence means
 
 *Can add another aux. hypothesis, e.g. "I exist", via Weak Anthropic Principle, but since it will not affect the observation it is still valid.*
 
-## The OSE applies to the fine tuning argument:
+# The OSE applies to the fine tuning argument:
 
 P(Support Life | Naturalism & We Exist) = P(Support Life | Design & We Exist) = 1.
 
 - Conclusion: There is no evidence of either fine tuning or naturalism.
 
-### (Weak Anthropic Principle)
+## (Weak Anthropic Principle)
 
 "What we can expect to observe must be restricted by our role as observers"
 
 *"We exist" should always be an auxiliary hypothesis*
 
-## Revised Likelihood Principle: O supports X more than Y iff
+# Revised Likelihood Principle: O supports X more than Y iff
 
 P(O | X & M) > P(O | Y & M) where M is the method used to collect observations.
 
 - Different from weak anthropic principle: simply suggests we should take into account the methods we use.
 
-## The Firing Squad Objection — What counts as a "method"?
+# The Firing Squad Objection — What counts as a "method"?
 
 - You are sentenced to death by firing squad.
 - All the shooters miss.
 
-### Two Hypotheses:
+## Two Hypotheses:
 
 - #1. There was a conspiracy to save you.
 - #2. All shooters missed by random chance.
@@ -100,11 +91,9 @@ P(O | X & M) > P(O | Y & M) where M is the method used to collect observations.
 
 - Method must play a causal role in explaining how an observation came to be. In firing squad, being alive has *no* role in explaining why the shooters missed.
 
-### bystander argument
+## bystander argument
 
 → Can be refuted by looking from the perspective of a bystander: the fact that bystander exists is irrelevant, so Anthropic principle would still hold.
 
 - Still doesn't solve issue of observing as the person being shot.
 
-
-Request ID: bbcb1856-c6a7-4172-84ca-27d4e868fbec
