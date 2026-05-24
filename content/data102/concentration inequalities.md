@@ -28,7 +28,7 @@ where $M_X(t) = E(e^{tX})$ (moment generating function)
 
 
 ## Hoeffding's Inequality
-Hoeffding's inquality is a special case of the Chernoff bound where the bounds of a random variable are known.
+Hoeffding's inequality is a special case of the Chernoff bound where the bounds of a random variable are known.
 
 **Hoeffding's Lemma:** if $X$ is a bounded random variable between $a$ and $b$ with mean $\mu$, then 
 $$M_X(t) \le \exp(\frac{(b-a)^2}{8} \lambda^2 + \mu \lambda)$$
@@ -44,7 +44,7 @@ $E[e^{\lambda Y}] = E[\prod^n_{i=1} exp(\lambda/n X_i)]$.
 
 Using independence rules, $E[\prod^n_{i=1} exp(\lambda/n X_i)] = \prod_{i=1}^n E[exp(\frac{\lambda}{n} X_i)]$
 
-Using Hoefding's Lemma, the MGF must then be bounded by $\prod_{i=1}^n\exp(\frac{(b-a)^2}{8} \lambda^2 + \mu \lambda)$.
+Using Hoeffding's Lemma, the MGF must then be bounded by $\prod_{i=1}^n\exp(\frac{(b-a)^2}{8} \lambda^2 + \mu \lambda)$.
 
 
 

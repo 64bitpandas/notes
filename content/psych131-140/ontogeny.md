@@ -20,7 +20,7 @@ Within the animal kingdom, there is extreme diversity between life histories of 
 
 ## Key Traits specific to humans
 1. Long lifespan
-2. Support of resproduction by older post-reproductive individuals (grandparent effect)
+2. Support of reproduction by older post-reproductive individuals (grandparent effect)
 	1. "it takes a village to raise a child" - active teaching by caregivers vs. individual learning in other species
 3. Male support of reproduction
 	1. Most other apes stay with mother, compared to 50% of childcare being done by mothers in human communities. Other apes often don't meet or recognize their fathers

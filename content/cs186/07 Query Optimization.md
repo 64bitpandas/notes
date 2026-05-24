@@ -60,7 +60,7 @@ There are three main problems:
 ## Selectivity Estimation
 Since the number of rows in our output depends heavily on the data and what selections we make out of it, we need a way to estimate the size of outputs after each operation. This is known as **selectivity estimation.**
 
-Like evaluating query cost, selectivity estimation is very rough and generally prioritizes speed over accuracy- so much so that **if we don't have enough information, we just assign an operation the arbitrary selectivity value of** $1/10$ (meaning that the the output has 1/10 of the number of rows as the input).
+Like evaluating query cost, selectivity estimation is very rough and generally prioritizes speed over accuracy- so much so that **if we don't have enough information, we just assign an operation the arbitrary selectivity value of** $1/10$ (meaning that the output has 1/10 of the number of rows as the input).
 
 Below are some charts from discussion of some common cases you might run into, and how to calculate their selectivity. Assume the following:
  - `|c|` corresponds to the number of *distinct values* in column c.
@@ -187,7 +187,7 @@ Only Sort Merge Join, Grace Hash Join, and index scans can produce interesting o
 
 
 
-### Full Sellinger Walkthrough
+### Full Selinger Walkthrough
 
 This problem is taken from [Fall 2020 Midterm 2](https://drive.google.com/file/d/1tTZSpPvhWM6z4VgqNn5AGksCjRjU7Mq9/view?usp=sharing).
 

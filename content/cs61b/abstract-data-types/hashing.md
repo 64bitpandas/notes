@@ -43,7 +43,7 @@ Luckily, Java already handles hash code generation for us using the `hashCode()`
 
 Let's add another feature to our hash table: **dynamic resizing.** This means that the number of buckets will increase proportionally to the number of items in the set.
 
-One fairly simple way to do this with a numerical hash code is to mod the hash code by the number of buckets to get which bucket an item is stored in. For example, if a item has hash code `129382981` and we have `10` buckets, then we put it in bucket `1`, or `129382981 % 10`.
+One fairly simple way to do this with a numerical hash code is to mod the hash code by the number of buckets to get which bucket an item is stored in. For example, if an item has hash code `129382981` and we have `10` buckets, then we put it in bucket `1`, or `129382981 % 10`.
 
 In order to do this, we'll choose a **load ratio** at which to resize. This load ratio is calculated as `N/M`, where N is the number of items and M is the number of buckets. For example, a load ratio of 2 will mean the table resizes when, on average, each bucket has 2 items in it.
 

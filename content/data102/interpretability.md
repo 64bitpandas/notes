@@ -15,7 +15,7 @@ weight: 80
 
 **When and why do we care?**  
  - high stakes decisions have major impacts, and need to be understood
- - regulations such as GDPR requires explanations for algorithms
+ - regulations such as GDPR require explanations for algorithms
 
 **What do we get from interpretability?**
  - Trust that the models will make accurate predictions
@@ -24,7 +24,7 @@ weight: 80
  - Informativeness: whether predictions can be used for decision making
  - Ethics: whether the model is fair from a human perspective
 
-## Explanability
+## Explainability
 For black-box models such as deep decision trees and random forests, thousands of parameters can be involved, and it is difficult or impossible to explain how all of them relate to one another.
 
 Instead of interpretability, we can go for explainability instead:

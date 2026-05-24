@@ -15,7 +15,7 @@ Rational agents follow the **principle of maximum expected utility (MEU):** they
     - If rational agent prefers A over B and B over C, then it prefers A over C.
 - Continuity: $(A > B > C) \implies \exists p [p, A; (1-p), C] \sim B$
     - If rational agent prefers A over B and B over C,  then it’s possible to choose a probability $p$ such that the agent is indifferent to running a lottery of $A$ and $C$ vs. choosing $B$.
-- Substutiability: $(A \sim B) \implies [p, A; (1-p), C] \sim [p, B; (1-p), C]$
+- Substitutability: $(A \sim B) \implies [p, A; (1-p), C] \sim [p, B; (1-p), C]$
     - If rational agent is indifferent between $A$ and $B$, it is also indifferent between two lotteries that are identical except $A$ is substituted with $B$
 - Monotonicity: $(A > B) \implies (p \ge q \iff [p, A; (1-p), B] \ge [q, A; (1-q), B])$
     - If rational agent prefers $A$ over $B$, then between two lotteries involving $A$ and $B$ it will choose the one that assigns a higher probability for $A$
@@ -47,7 +47,7 @@ The maximum expected utility (MEU) can be calculated using the following procedu
 
 1. Instantiate all known evidence.
 2. Run inference to calculate probabilities of all chance nodes that are fed by the current action.
-3. For each action, compute the exxpected utility given posterior probabilities (calculated in step 2) using the following formula:
+3. For each action, compute the expected utility given posterior probabilities (calculated in step 2) using the following formula:
     1. $EU(a|e) = \sum P(x_1, \cdots, x_n | e) \times U(a, x_1, \cdots, x_n)$ where $a$ is the action being taken, $e$ is the evidence, $x_1, \cdots, x_n$ are chance nodes
     2. i.e. sum over all possible states $s$ corresponding to a particular result that can be achieved by a chosen action $a$
 4. Choose the action with the highest expected utility.

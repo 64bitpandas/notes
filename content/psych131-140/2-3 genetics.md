@@ -17,7 +17,7 @@ Example: schizophrenia
 
 
 ### Behavioral Genetics
-Behavioral genetics studies focus on how variation in behaviors result from the combination of heritable and environmental factors. 
+Behavioral genetics studies focus on how variation in behaviors results from the combination of heritable and environmental factors.
 
 Methods include family studies, twin studies, and adoption studies (similar genetics, different environment).
 
@@ -36,8 +36,8 @@ There are two main study designs:
  - **association studies** focus on a specific candidate allele that is suspected for conferring risk of a particular disorder.
 
 ### Gene-environment correlations
-One type of association is known as **gene-environment correlation (rGE)**, which refers to the corrleation between the child's genotype and environment.
- - Passive rGE is a variation where the parent's genotype influences **both** the child's genotype and the environment. In this situation, the child has no direct assocation between their environment. ![[/psych131-140/img/Pasted-image-20220919131701.png]]
+One type of association is known as **gene-environment correlation (rGE)**, which refers to the correlation between the child's genotype and environment.
+ - Passive rGE is a variation where the parent's genotype influences **both** the child's genotype and the environment. In this situation, the child has no direct association between their environment. ![[/psych131-140/img/Pasted-image-20220919131701.png]]
  - Active rGE is when a child's genetic dispositions directly influence the child's selection of the environment.
 	 - Children seek out specific situations because of their genetic predisposition. As an example, children who enjoy physical activity are more likely to play sports.
  - Evocative (reactive) rGE is when genetically influenced behaviors elicit reactions from others: for instance, a child with ADHD could prompt parents to employ  ![[/psych131-140/img/Pasted-image-20220919132222.png]]
@@ -46,7 +46,7 @@ One type of association is known as **gene-environment correlation (rGE)**, whic
 In an ADHD study:![[/psych131-140/img/Pasted-image-20220919132823.png]]
 
 
-### Gene-environment correalation vs gene-environment interaction
+### Gene-environment correlation vs gene-environment interaction
 Correlations (passive, active, evocative) refer to how genes influence exposure to certain environments.
 
 Interactions refer to how genes influence an individual's sensitivity to certain environments.

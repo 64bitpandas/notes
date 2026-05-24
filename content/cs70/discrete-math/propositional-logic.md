@@ -60,7 +60,7 @@ Roughly, implication in plain English can be stated in the form **if P, then Q.*
 
 #### Properties of Implication
 
-* **Reversible:** Q is true if P is true. However, be careful- _this doesn't necessary mean that Q implies P!_
+* **Reversible:** Q is true if P is true. However, be careful- _this doesn't necessarily mean that Q implies P!_
 * **P is sufficient for Q:** Proving P allows us to say that Q is also true.
 * **Q is necessary for P:** For P to be true, it is necessary that Q is true. (If Q is false, then P is also false.)
 * **Contrapositive Equivalence:** If P implies Q, then $\lnot Q \implies \lnot P$.

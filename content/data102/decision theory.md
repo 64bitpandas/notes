@@ -73,7 +73,7 @@ R(\theta)
 \end{align}
 $$
 
-The **variance** of the estimator is a measurement for how spread out the data is when compared ot the average. Larger variance means that the model is more sensitive to randomness in the data.
+The **variance** of the estimator is a measurement for how spread out the data is when compared to the average. Larger variance means that the model is more sensitive to randomness in the data.
 
 The **bias** of the estimator is a measurement for how far the average of the estimator is from the true value of $\theta$. In other words, if we average out all of the randomness in the data, how close is our model to reality?
 

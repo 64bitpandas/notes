@@ -25,6 +25,6 @@ This was originally proposed by Alan Turing- he proved the nonexistence by attem
 
 **Reducing** a problem A to another problem B means that we can solve problem A if we know how to solve problem B.
 
-For instance, we might be able to write psuedocode that has a whole bunch of known components, but rely on the output of problem B in order to determine the final output.
+For instance, we might be able to write pseudocode that has a whole bunch of known components, but rely on the output of problem B in order to determine the final output.
 
 One application of reduction is to show that **a program cannot exist if it requires the Halting Problem as a component.**

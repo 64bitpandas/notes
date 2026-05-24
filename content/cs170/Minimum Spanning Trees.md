@@ -9,7 +9,7 @@ created: "February 11, 2021 9:11 AM"
 Given an undirected graph $G$ with positive edge weights, find a subset $T \subseteq E$ such that:
 
 - All vertices are connected.
-- The sum of edge weights in $T$ are minimized.
+- The sum of edge weights in $T$ is minimized.
 
 We can notice that $T$ is actually a **tree**!
 

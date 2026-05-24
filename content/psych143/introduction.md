@@ -8,7 +8,7 @@ Language learning is an astonishing feat of human development. By the age of 18 
 - **Tape recorder theory:** children learn to store utterances in memory, and recall them in response to stimuli.
 	- This can be disproved by observing that responses are context-dependent: stimuli can result in many different responses, many of which are valid. Furthermore, language can't be memorized since there are an infinite combination of words that produce valid responses, and many sentences are unique.
 
-This contrasts with Nativistis and Constructivists, who do care about the mental processes in addition to the inputs and outputs (**mentalistic** theories).
+This contrasts with Nativists and Constructivists, who do care about the mental processes in addition to the inputs and outputs (**mentalistic** theories).
  - **Nativists**: focus on a possible universal grammar, and hypothesize that language is innate knowledge that we are born with. Nativists are **domain specific** in which the tools we have are specifically geared for language learning.
 	 - One key nativist hypothesis is the existence of a *universal grammar* that serves as a blueprint for language that we are all born with. Some evidence that supports this refers to the invariant principles shared by all languages such as the existence of nouns and verbs.
  - **Constructivists** hypothesize that we are born with the basic mechanisms and desire to learn, since environmental influences build upon innate non-linguistic abilities. Constructivists use a **domain general** approach, since they believe our innate toolbox can be used for many types of learning, not just language learning.
@@ -19,7 +19,7 @@ Overall, it appears that **language is a set of behaviors that is learned via re
 
 **Prescriptive rules** determine how we *should* talk formally: for example, double negatives are conventionally incorrect.
 
-**Descriptive rules** determine how language is actually used, and is part of a speakers' unconscious knowledge of language. For example, we all know the rule that the word 'the' comes before the noun it is referring to.
+**Descriptive rules** determine how language is actually used, and are part of a speaker's unconscious knowledge of language. For example, we all know the rule that the word 'the' comes before the noun it is referring to.
 
 These rules of grammar are not always followed: even the most proficient speakers will make occasional mistakes that do not detract from understandability. 
 
@@ -27,7 +27,7 @@ These rules of grammar are not always followed: even the most proficient speaker
 Language can be represented in a hierarchy of complexity.
 
 ### Phonology
-The most simple building block of language is the **phoneme**, which is a category of speach sounds. 
+The most simple building block of language is the **phoneme**, which is a category of speech sounds.
 Phonemes are **contrastive**, meaning that changing a phoneme can change the meaning of a word. 
 Phonemes vary based on language.
 
@@ -41,7 +41,7 @@ Words are grouped into phrases and sentences using the rules of syntax. On its o
 ## Phases of Language Learning
 
 ### Pre-linguistic communication (0-12 months)
-When we're born, we can't speak sentences right away. However, children can **babble** (make meaningless language-like sound that combines consonants with vowels).
+When we're born, we can't speak sentences right away. However, children can **babble** (make meaningless language-like sounds that combine consonants with vowels).
  - Babbling is not limited to auditory modality: it has also been observed in children learning sign language.
 
 Children also develop the ability to hold **joint attention**, which includes gaze-following and early forms of communication. Joint attention is part of the foundation for language learning, since it can be used to associate words with objects in the real world.
@@ -56,7 +56,7 @@ Initially, children may make errors:
 Most early words refer to concrete objects, people and animals; some will also be important social words (like hello, please, yes)
 
 ### Telegraphic speech (18-30 months)
-Starting at the age of 18 months, children begin to develop the ability to put multiple words together. Grammatical words (like the, of) and inflectional morphemes (-ed, -s, -ing) are often ommitted, and grammar is largely incorrect but words are placed in the correct positions and produce the desired meaning.
+Starting at the age of 18 months, children begin to develop the ability to put multiple words together. Grammatical words (like the, of) and inflectional morphemes (-ed, -s, -ing) are often omitted, and grammar is largely incorrect but words are placed in the correct positions and produce the desired meaning.
 
 An example of telegraphic speech could be "I pet dog".
 
@@ -92,7 +92,7 @@ In Western cultures, parents often talk to babies and young children even before
 	- Large range of sentence types (questions, imperatives)
 	- May not follow all grammar rules (but no correlation between correctness and brevity/length and child progression)
 
-There is a correlation between the number of words heard by children and their language learning ability / academic performance. There is also a correlation between socioeconomic status and the number fo words heard. (Over the course of the month, as parents feel less financially secure, they speak less to their children.)
+There is a correlation between the number of words heard by children and their language learning ability / academic performance. There is also a correlation between socioeconomic status and the number of words heard. (Over the course of the month, as parents feel less financially secure, they speak less to their children.)
 - This does not mean that child-directed speech is necessary: children in other cultures where CDS is not common are still able to learn languages in the same way. This suggests that children adapt their learning strategy to the environment.
 
 
@@ -110,12 +110,12 @@ Deaf children and their families often create home sign systems that are invente
 
 This finding has been replicated cross-culturally (Chinese families).
 
-Childrens' preferred word orders do not appear to be related to the presence of **sequiturs** (relevant, comprehending reactions to child's sentence), providing more evidence for child-driven development.
+Children's preferred word orders do not appear to be related to the presence of **sequiturs** (relevant, comprehending reactions to child's sentence), providing more evidence for child-driven development.
 
-Sign systems are generated at a similar pace of development, but lacks the full complexity of a typical language (supports constructivism).
+Sign systems are generated at a similar pace of development, but lack the full complexity of a typical language (supports constructivism).
 
-#### Pidgins and Croles
-Historically, two different peoples speaking different language come together, and need to develop an in-between language known as a **pidgin** so they can communicate at a basic level.
+#### Pidgins and Creoles
+Historically, two different peoples speaking different languages come together, and need to develop an in-between language known as a **pidgin** so they can communicate at a basic level.
 
 Eventually, some pidgins are long-lived enough that they become **creoles**, which have native speakers. Creoles are more complex than pidgins (stable word order, morphemes, grammatical structures).
 
@@ -141,10 +141,10 @@ Children use evidence from their environment to adjust $H$:
  - **Negative evidence:** information about what sentences are not possible in the target language (corrections, etc)
 
 **Pinker's superset argument:** Children sometimes find themselves in a superset situation (where the hypothesis allows both correct statements and incorrect statements). Even when they don't get negative evidence disproving the incorrect statements, they are able to avoid the incorrect statements over time.
- - Not getting negative evidence happens often, since parents tend to focus on whether the statement is factually correct rather than gramatically correct, and in the process may even expand on errorsd
+ - Not getting negative evidence happens often, since parents tend to focus on whether the statement is factually correct rather than grammatically correct, and in the process may even expand on errors
  - Parents don't respond to grammatical sentences in any statistically different ways compared to ungrammatical ones, so the signal may be too weak for children to learn from.
 
-**Nature vs nurture argujments:** Based on the evidence above, we can conclude that it is necessary to have a communicative partner and some language input to learn a language, but other more complex structures (like child directed speech) are not required. 
+**Nature vs nurture arguments:** Based on the evidence above, we can conclude that it is necessary to have a communicative partner and some language input to learn a language, but other more complex structures (like child directed speech) are not required.
 - Some unnecessary features are still helpful (at least in WEIRD studies), including:
 	- exaggerated intonation
 	- language that follows child's attention
@@ -153,12 +153,12 @@ Children use evidence from their environment to adjust $H$:
 
 
 ## Critical Period Hypothesis
- According to the critical period hypothesis, there is a specific phase in life where humans have heightened sensitivity to environmental informantion needed to learn language. 
-An example of critical periods in the wild is imprinting in animals, where babies become attached to their mothers or caretakers shortly afterbirth.
+ According to the critical period hypothesis, there is a specific phase in life where humans have heightened sensitivity to environmental information needed to learn language.
+An example of critical periods in the wild is imprinting in animals, where babies become attached to their mothers or caretakers shortly after birth.
 - Neuroplasticity hypothesis: if that part of the brain is not used for its purpose, it will be repurposed for another use.
-- 
-- The cricital period hypothesis suggests that there is a ddiscontinuity between early exposure and late exposure, as learning ability sharply declines after the critical period ends.
-Evidence for this hypothesis is most prevalent in studies on children who were reintroduced to society later in life: specifically, lae learners in ASL are unable to learn the language to the fullest extent.
+-
+- The critical period hypothesis suggests that there is a discontinuity between early exposure and late exposure, as learning ability sharply declines after the critical period ends.
+Evidence for this hypothesis is most prevalent in studies on children who were reintroduced to society later in life: specifically, late learners in ASL are unable to learn the language to the fullest extent.
 
 
 
@@ -168,7 +168,7 @@ To determine if language is unique to humans, we define language as having the f
 - Discreteness: language can be built from discrete units, and combining units together in a particular order creates meaning
 - Productivity: an infinite number of combinations can be created; some change the language as new words and novel utterances are formed.
 - Intentionality: goal of language is communication, in addition to achieving goals or behaviors
-- Decontexualized: can be applied across many contexts
+- Decontextualized: can be applied across many contexts
 - Displacement: language can refer to constructs in different times and spaces
 - Interchangeable: we can use new words if we hear others use them in context; common words mean the same thing to all speakers
 - Generic: common nouns and verbs apply to all members of a category

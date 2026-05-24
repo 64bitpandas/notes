@@ -35,7 +35,7 @@ Only 50% of adolescents with depression are diagnosed before adulthood.
    - example: soldiers deployed in stressful high conflict areas showed reduction in reward response, and higher depressive systems
 2. Stress system (LHPA) and stress generation model
    - reward dysfunction -> stress -> depression
-   - example: if reward is not experienced for social interactions, youth will withdraw from relationships -> interpresonal stress contributes to depression
+   - example: if reward is not experienced for social interactions, youth will withdraw from relationships -> interpersonal stress contributes to depression
 3. Cognitive control/executive function system (prefrontal cortex) and diathesis stress model
    - stressors moderate reward dysfunction -> depression
    - example: a twin with more stressful life events is more likely to develop depression despite having the same genetic risk
@@ -83,7 +83,7 @@ Bipolar I: mania, II: hypomania
  - increased rate of uninterruptible, continuous speech
  - language-thought disorder: frequently changes topics, difficult to follow, often incoherent
  - grandiose or paranoid ideas, delusions, hallucinations
- - disruptive-aggresive disorder: threatening, demanding, destructive
+ - disruptive-aggressive disorder: threatening, demanding, destructive
  - often denies illness
 
 

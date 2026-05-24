@@ -21,7 +21,7 @@ There are two main types of parallelism:
 
 Now for types of query parallelism:
 - **Inter-query parallelism:** each query runs on a different processor. Requires parallel-aware concurrency control.
-- **Intra-query, inter-operator parallelism:** each operator in one query is done by a differerent machine.
+- **Intra-query, inter-operator parallelism:** each operator in one query is done by a different machine.
     - **Pipeline parallelism:** every query operation depends on the previous query’s output
     - **Bushy tree parallelism:** do two operators at the same time if they don’t depend on each other
 - **Intra-query, intra-operator parallelism:** for joins, each machine scans and processes a chunk of the table, and all results are eventually combined.

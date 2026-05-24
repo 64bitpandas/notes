@@ -26,7 +26,7 @@ What are some types of galaxies?
 What is gravitational lensing?
 
 - Light from a distant object is bent by the gravity of a galaxy or cluster in between them and us.
-- If the object and interfering galaxy are perfectly aligned, an Einstein Ring can be observed, where the light from the object is multipled thousands of times and appears smeared around a ring rather than the original shape.
+- If the object and interfering galaxy are perfectly aligned, an Einstein Ring can be observed, where the light from the object is multiplied thousands of times and appears smeared around a ring rather than the original shape.
 
 How do we know that there is a supermassive black hole at the center of a galaxy?
 
@@ -41,4 +41,4 @@ the only reasonable conclusion is that it’s a black hole.
 What are quasars?
 
 - Quasars are quasi-stellar radio sources: very distant objects that appear extremely bright at radio wavelengths.
-- The reason why quasars are so luminous is because of the enormous energy produced by supermassive blackholes swallowing nearby galaxies. The friction of gases falling into the black hole at extreme speeds causes a very large amount of light and heat to be released in a relatively small region of space, creating an accretion disk of super high-energy matter around the black hole.
+- The reason why quasars are so luminous is because of the enormous energy produced by supermassive black holes swallowing nearby galaxies. The friction of gases falling into the black hole at extreme speeds causes a very large amount of light and heat to be released in a relatively small region of space, creating an accretion disk of super high-energy matter around the black hole.

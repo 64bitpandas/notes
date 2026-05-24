@@ -6,7 +6,7 @@ Based on redshifts Vesto Slipher discovered, it appeared that many of the spiral
 - Hubble used these redshifts to derive distances to stars: redshift is proportional to distance. The more distant the stars, the greater the redshift.
 
 - Planets, the solar system, our galaxy, etc. are **not** expanding because they are held together gravitationally. The expansion of empty space is a much smaller force compared to gravity.
-- Starting about 10 milion light years, objects sufficiently far apart begin to move away from one another.
+- Starting about 10 million light years, objects sufficiently far apart begin to move away from one another.
 
 ## Hubble's Law
 

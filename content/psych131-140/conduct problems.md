@@ -8,7 +8,7 @@ Conduct problems cause age-inappropriate actions and attitudes in children that 
  - cultural and context dependent
 **Dysfunction:**
  - break down in a mechanism
- - interferes with natrual function
+ - interferes with natural function
 
 ## ODD
 **Oppositional Defiant Disorder**

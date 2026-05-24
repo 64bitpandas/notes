@@ -57,7 +57,7 @@ HDD's are generally good for sequential reading, but bad for random reads.
 
 ## Files
 
-A **Database file (DB FILE)** is a collection of pages, which each contain a colection of records. Databases can span multiple machines and files in the filesystem (we'll explore this idea more in [Distributed Transactions](<cs186/11 Distributed Transactions.md>).
+A **Database file (DB FILE)** is a collection of pages, which each contain a collection of records. Databases can span multiple machines and files in the filesystem (we'll explore this idea more in [Distributed Transactions](<cs186/11 Distributed Transactions.md>).
 
 There are two main types of files: **heap files**, which are **unordered**, and **sorted files**, in which records are sorted on a key. As you could imagine, sorted files add a significant amount of complexity in exchange for possibly faster runtimes. In general, **range selections and lookups are faster in sorted files, while insertions, deletions, and updates are faster in heap files.**
 

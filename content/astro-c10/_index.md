@@ -6,7 +6,7 @@ weight: 80
 
 In my experience, Astronomy C10 with Alex Fillipenko is, by quite a wide margin, the most highly recommended 'for-fun' course to take at Berkeley.
 
-These notes are an attempt to condense a semester’s worth of content into a digestible set of notes that take away the main ideas from the course while preserving as much of Alex’s contagious excitement for astronomy. I still highly recommend taking the course itself, as it is impossible convey everything here. But if you are unable to do so, I hope you enjoy these notes as much as I enjoyed creating them.
+These notes are an attempt to condense a semester’s worth of content into a digestible set of notes that take away the main ideas from the course while preserving as much of Alex’s contagious excitement for astronomy. I still highly recommend taking the course itself, as it is impossible to convey everything here. But if you are unable to do so, I hope you enjoy these notes as much as I enjoyed creating them.
 
 ## Prerequisites
 

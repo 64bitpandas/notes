@@ -19,9 +19,9 @@ Example: humans typically have a fear of public speaking.
  - **Test-retest reliability:** between two independent tests under the same conditions, how similar are the observed behaviors?
 
 ## Validity
-**Validity** is the degree to which an experiement measure what it is intended to measure.
+**Validity** is the degree to which an experiment measures what it is intended to measure.
 
- - **Internal validity:** whether effects observed within experiements can be attributed with confidence to the factor the researcher is testing
+ - **Internal validity:** whether effects observed within experiments can be attributed with confidence to the factor the researcher is testing
  - **External validity:** ability to generalize findings beyond the particular setup of the specific experimental design
 
 Internal vs external validity is often a tradeoff: controlled laboratory tests have a lot of internal validity but may not be generalizable; naturalistic studies have a lot of external validity but are harder to control.
@@ -41,8 +41,8 @@ Internal vs external validity is often a tradeoff: controlled laboratory tests h
 The following domains all provide additional context to clinicians to best design a treatment plan.
 
 The big idea: collect data from multiple informants and multiple contexts using multiple methods.
-  - This is because the clinical significance of behaviors varies by context. For instance, a child acting out in the classroom would likely be seen as more problematic as a child acting out during a party. This concept is known as **developmental expectability.**
-  - Childrens' self reports of symptoms may be of limited value due to differences in perception a and difficulties in verbal communication.
+  - This is because the clinical significance of behaviors varies by context. For instance, a child acting out in the classroom would likely be seen as more problematic than a child acting out during a party. This concept is known as **developmental expectability.**
+  - Children's self reports of symptoms may be of limited value due to differences in perception and difficulties in verbal communication.
   - Cultural differences may play a factor
 
 **Symptoms and Presenting Problems:** what behavior can be observed?

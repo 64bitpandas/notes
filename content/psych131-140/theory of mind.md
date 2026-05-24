@@ -33,7 +33,7 @@ Theory of mind is incredibly important for human interaction, and we use it all 
 1997: no solid evidence of theory of mind in nonhuman primates (Tomasello & Call 1997) due to 1996 study by Povinelli & Eddy
 
 **Preliminary evidence for theory of mind:**
- - sneaky copulation: non-alpha male chimps and bonobos mate where the alpha male cannot see, so there are no reprocussions
+ - sneaky copulation: non-alpha male chimps and bonobos mate where the alpha male cannot see, so there are no repercussions
 	 - ability to conceptualize the alpha male's perception and mental state
  - food behaviors: if nobody is around, chimps take more food for themselves
  - alternative explanations: behavioral rules learned to predict the actions of others based on past experience
@@ -60,7 +60,7 @@ Chimpanzees understand others based on their perceptions and goals; humans under
 
 ## Theory of Mind in Humans
 
-**Cooperative eye hypothesis:** Only humans have a highly visible white sclera (area of eye around pupils); this feature may have evolved to make it easier for humans to follow the gaze of other humans. In turn, gaze following facilitates join attentional and cooperative behaviors.
+**Cooperative eye hypothesis:** Only humans have a highly visible white sclera (area of eye around pupils); this feature may have evolved to make it easier for humans to follow the gaze of other humans. In turn, gaze following facilitates joint attentional and cooperative behaviors.
  - Older human children follow eye direction; infants (<10months) and primates follow head direction. (Experiment: look in the opposite direction as head is pointing)
 
 
@@ -79,7 +79,7 @@ Chimpanzees understand others based on their perceptions and goals; humans under
 **Mind-to-world fit**
 Perception: 12 months
 Knowledge: 24 months
-Belief: 4 years for explicit tasks (robust and replicatable), 15 months for implicit tasks (still under consideration)
+Belief: 4 years for explicit tasks (robust and replicable), 15 months for implicit tasks (still under consideration)
 
 **World-to-mind fit**
 Goals: 12 months
@@ -97,7 +97,7 @@ Desires: 18 months
 
 **Why is joint attention so important?**
  - World learning: children learn new words more effectively during episodes of joint attention (Tomasello & Farrar 1986)
- - Perspective taking: children learn that the perspectives of others is different (three mountain task) - Moll & Meltzoff 2011
+ - Perspective taking: children learn that the perspectives of others are different (three mountain task) - Moll & Meltzoff 2011
 	 - Simultaneous sharedness and individuality: both people are attentive to the same thing, but have different perspectives on that object.
  - Common ground: children learn that we collectively know certain things due to shared history (Clark 2015). 
  - Joint attention creates stronger emotional connections between individuals. For example, watching a video together creates social closeness.
@@ -140,7 +140,7 @@ False belief tasks are typically passed around 4-5 years of age; this shift is s
  - Chimpanzees did not differentiate between the two conditions (no evidence of false belief)
 
 
-## Childrens' Representation of Mental States
+## Children's Representation of Mental States
  - 1-2 year olds represent intentions and desire
 	 - use rational imitation to learn behaviors from others
 	 - fail to represent false belief: can only predict behavior from reality
@@ -155,7 +155,7 @@ In order to succeed at any cognitive task, children need two factors:
 
 False-belief tasks can be influenced in many ways that do not discount false belief:
  - **Reality bias:** due to a lack of inhibitory control, it might be difficult for children to put their knowledge aside.
- - **Pragmatic interpretation:** children may understand the question in a different manner than intended. For example, "where is the ball" could be interepreted as "where is the ball in reality".
+ - **Pragmatic interpretation:** children may understand the question in a different manner than intended. For example, "where is the ball" could be interpreted as "where is the ball in reality".
 
 In order to measure theory of mind implicitly, experimenters use eye tracking technology in two ways:
  - **Anticipatory looking tasks:** infants anticipate actions, and their gaze predicts what will happen next. For example, if someone's about to sit down in a chair, they will look at the chair in anticipation.

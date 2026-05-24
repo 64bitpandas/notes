@@ -1,12 +1,12 @@
 ## Symptoms
- - Delusions (beliefs that are false, and not amicable to change)
+ - Delusions (beliefs that are false, and not amenable to change)
  - Hallucinations (perceptions that are not associated with an external stimulus, and cannot be experienced by others)
  - Disorganized speech (frequent derailment, incoherence)
  - Grossly disorganized or catatonic (unresponsive) behavior
  - Negative symptoms (normal behaviors are reduced)
 	 - Avolition: decreased motivation
-	 - Elodia: decreased speech
-	 - Anedonia: decreased pleasure
+	 - Alogia: decreased speech
+	 - Anhedonia: decreased pleasure
 	 - Lack of sociality
 
 ## Prevalence
@@ -28,7 +28,7 @@ COS has a slow onset, and is nonremitting and chronic. The best predictor of COS
 High heritability factor for COS: >80%
  - more heritable than late-onset schizophrenia
 
-Molecular gene studies have identified some candidate genes associated with COS (such as G72, DTNBP1, and GAD1). There are also some copy number variants (delections/duplications of DNA segments) associated with COS.
+Molecular gene studies have identified some candidate genes associated with COS (such as G72, DTNBP1, and GAD1). There are also some copy number variants (deletions/duplications of DNA segments) associated with COS.
 
 ### Risk Factors
  - Pregnancy complications

@@ -5,13 +5,13 @@
 - Establish relationship between personality, activity levels, and mortality in old age
 - IV: extraversion, neuroticism --> DV: mortality
 - Mediators: health, activity (cognitive, social, physical)
-- Findings: higher neuroticism and lower extraversion was associated with higher levels of mortality (21%)
+- Findings: higher neuroticism and lower extraversion were associated with higher levels of mortality (21%)
 	- This was because neurotic, introverted individuals had a lower level of social/physical/cognitive ability
 
 Friedman et al. 1995- Terman Life-Cycle study, conducted from 1921 to 1986 on children with high IQ
  - Gender is the best predictor of mortality: females live on average 10 years longer than males
  - High conscientiousness is strongly correlated with decreased mortality
-	 - Mediated through lower rates of disease, lower stress reactivity, lower engagement in poor health behavios
+	 - Mediated through lower rates of disease, lower stress reactivity, lower engagement in poor health behaviors
 
 ### Delinquency
 John et al. 1994
@@ -47,7 +47,7 @@ MBTI is not based on any formal research and is not part of the standard literat
  - General, vague statements that cannot be falsified (Barnum statements)
  - No useful real-world predictions
 
-Despite its issues, MTBI is still popular because:
+Despite its issues, MBTI is still popular because:
 - It has positive, upbeat messages
 - Creates the illusion of revealing hidden insights about personality (conflate difficulty in making ambiguous, non-opposite choices with validity)
 - Part of popular culture

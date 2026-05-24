@@ -60,7 +60,7 @@ In order to compute the value of a state. we can use the following algorithm:
 2. Until convergence (i.e. $U_{k+1} = U_k$), run the following update formula:
     1. $\forall s \in S, U_{k+1}(s) = \max_a \sum_{s’} T(s, a, s’)\times (R(s, a, s’) + \gamma U_k(s’))$
     2. Unlike the Bellman equation, which tests for optimality, this equation changes the value iteratively using dynamic programming.
-    3. In other words, this equation takes the max of the values of alll neighboring states, and multiplies it by the transition probability (if nondeterministic).
+    3. In other words, this equation takes the max of the values of all neighboring states, and multiplies it by the transition probability (if nondeterministic).
     4. $U^*(s)$ for any terminal state must be $0$ (since no actions can be taken from these states).
 
 Properties:

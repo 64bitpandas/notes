@@ -77,7 +77,7 @@ Will **line 5** error?
 
 Sometimes, we want to **put constraints** on what kinds of types can be passed into a generic type.
 
-One way of doing is is to specify that a generic type must fit within a **type bound**: here, T must be some subtype of a specified type `Number`.
+One way of doing this is to specify that a generic type must fit within a **type bound**: here, T must be some subtype of a specified type `Number`.
 
 We can also do it the other way and specify that a type can be a **supertype** of a specified type. Both of these examples are shown below:
 

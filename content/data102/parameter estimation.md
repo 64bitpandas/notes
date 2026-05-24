@@ -30,7 +30,7 @@ Recall that **likelihood** is the probability of the data given the parameter, $
 Using MLE to predict CPT values given data points:
 
 - $P(Y=y) = MLE(\theta | (X,Y))$ = (# data points with $X=x$) / (# data points total)
-- $P(X=x|Y=y) = MLE(\theta | (X,Y))$ = (# data pooints where ($X=x, Y=y$) ) / (# data points where $Y=y$)
+- $P(X=x|Y=y) = MLE(\theta | (X,Y))$ = (# data points where ($X=x, Y=y$) ) / (# data points where $Y=y$)
 
 ## Bayesian Parameter Estimation
 Now, $\theta$ is random. We then need to specify a **prior** $p(\theta)$ that represents what we believe the distribution for $\theta$ might look like.
@@ -83,5 +83,5 @@ Under a frequentist approach, we can calculate the MLE to be $\hat\mu_{MLE} = \f
 
 Under a Bayesian approach, we're trying to find the posterior $p(\mu | x) \propto p(x | \mu) p(\mu)$.
 
-If the likelhiood and prior ar both normal, then the posterior is also normal. This (along with the beta example with Bernoulli distributions) is an example of a **conjugate prior**: in general, conuugate priors have the same family as the posterior.
+If the likelihood and prior are both normal, then the posterior is also normal. This (along with the beta example with Bernoulli distributions) is an example of a **conjugate prior**: in general, conjugate priors have the same family as the posterior.
 

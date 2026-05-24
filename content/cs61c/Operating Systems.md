@@ -30,7 +30,7 @@ To do this, we share time on the CPU (context switching) and space in memory (vi
     - An **interrupt** means that something happens from the outside world that needs to be addressed. (Example: key press, disk IO). Asynchronous to the current program and can be addressed "whenever it's convenient"
     - An **exception** means that something is done by the running program that results in unintended behavior. (For example, segfaults, illegal instructions, reading csr in user mode)
         - `ECALL` triggers an exception to the higher privilege and is used to communicate with the operating system. (Used to ask the OS to perform some task with a higher privilege)
-        - `EBREAK` triggers an exception with the current priviledge.
+        - `EBREAK` triggers an exception with the current privilege.
         - Exceptions are synchronous and must be handled exactly on the instruction that causes the exception.
     - **Precise traps:** the view that every instruction prior to the trapped one has completed, and no instruction after the trap has executed. This means that the handler can return from an interrupt by restoring registers to that state and jumping back to the interrupted instruction.
 

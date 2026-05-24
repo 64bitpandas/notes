@@ -2,10 +2,10 @@
 
 
 ## Types of Representations
-There are four main type of representation:
+There are four main types of representation:
 1. **Primary representation** creates a model that is as close to reality as possible.
    * equivalent to **mind to world fit**, also known as **epistemic mental states** (seeing, knowing, believing): we're trying to match our mental models to the real world
-2. **Secondary representation** allows us to relate models with the past, future, nonexistent entities, and hypotheticals. We can create ficticious worlds in our mind and play around with them.
+2. **Secondary representation** allows us to relate models with the past, future, nonexistent entities, and hypotheticals. We can create fictitious worlds in our mind and play around with them.
     - **world to mind fit**, also known as **conative mental states** (wants, desires, goals): we're trying to alter the state of the world to look more like what we envision in our mind
 3. **Misrepresentation** occurs when you create an inaccurate model of reality.
 4. **Metarepresentation** is the ability to represent another individual's representation.
@@ -67,4 +67,4 @@ Piaget created the **Stage Theory of Cognitive Development**, which has four mai
 **Main idea:** Children are biologically prepared for many complex ways to learn and acquire knowledge from others. Cultural environment has an extreme contribution on cognitive development.
  - Example: egocentric vs geocentric frame of reference
 
-**Shared intentionality theory:** our desires are linked to our surrounding community. Someone growing up alone on an island would have very different psychology from a typical indviidual.
+**Shared intentionality theory:** our desires are linked to our surrounding community. Someone growing up alone on an island would have very different psychology from a typical individual.

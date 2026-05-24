@@ -41,8 +41,8 @@ What are some types of telescopes and their issues?
 
 - Space vs. Earth telescopes: space telescopes are much more expensive, but land-based telescopes suffer from atmospheric distortion which greatly reduces their clarity, especially at lower elevations and on windy days.
     - The atmosphere also blocks UV, X-rays, gamma rays, and infrared radiation (so space telescopes are necessary for viewing these wavelengths).
-- Refracting telescopes focus light onto a single point using a glass lens. They are prone to chromatic abberation, the phenomenon where light entering a glass lens bends in different amounts based on its wavelength. Longer wavelengths (e.g. red) are bent less than shorter wavelengths (e.g. purple).
-- Reflecting telescopes use mirrors to focus and redirect light. Imperfections in the mirror’s shape can cause light to focus at different points, which is known as spherical abberation. This was the issue the Hubble Space Telescope initially had due to a misshapen mirror.
+- Refracting telescopes focus light onto a single point using a glass lens. They are prone to chromatic aberration, the phenomenon where light entering a glass lens bends in different amounts based on its wavelength. Longer wavelengths (e.g. red) are bent less than shorter wavelengths (e.g. purple).
+- Reflecting telescopes use mirrors to focus and redirect light. Imperfections in the mirror’s shape can cause light to focus at different points, which is known as spherical aberration. This was the issue the Hubble Space Telescope initially had due to a misshapen mirror.
 - SCT (Schmidt-Cassegrain)
 
 ## Twinkling
@@ -50,7 +50,7 @@ What are some types of telescopes and their issues?
 Why do stars appear to twinkle?
 
 - Stars twinkle because of the constant shifting of particles in the atmosphere: sometimes, they align in such a way to block more light coming from a star; in other times, there are fewer particles and so the star appears brighter.
-- The light output of stars are not actually changing when twinkling is observed. Rather, the near-constant output is refracted in different ways by Earth’s atmosphere.
+- The light output of stars is not actually changing when twinkling is observed. Rather, the near-constant output is refracted in different ways by Earth’s atmosphere.
 
 ## Parallax
 

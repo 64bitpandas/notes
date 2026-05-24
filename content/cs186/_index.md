@@ -15,11 +15,11 @@ This is a **non-comprehensive** guide to databases written with an intention to 
 * [Join algorithms](<cs186/05 Iterators and Joins>)
 * [Query optimization](<cs186/07 Query Optimization>)
 * [Parallel query processing](<cs186/09 Parallel Query Processing>)
-* [Crash Recovery (AERIES)](<cs186/10 Recovery>)
+* [Crash Recovery (ARIES)](<cs186/10 Recovery>)
 * [Database transactions and Concurrency](<cs186/08 Transactions>)
 * [Entity-Relationship Diagrams](<cs186/12 ER Diagrams>)
 
-I recognize that the course notes for 186 can be *very* dense sometimes, and don't cover 100% of the information you need to do well on projects and exams. While this also doesn't covery everything, I try to focus on content that the notes don't.
+I recognize that the course notes for 186 can be *very* dense sometimes, and don't cover 100% of the information you need to do well on projects and exams. While this also doesn't cover everything, I try to focus on content that the notes don't.
 
 **This isn't a replacement for lectures and other course content.** You probably need to look at those first, and come here if something isn't sticking!
 

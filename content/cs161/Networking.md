@@ -131,7 +131,7 @@ Networks are divided up into **subnets.** Subnets are denoted by a prefix follow
 
 ### DHCP
 
-**DHCP** (Dynamic Host Configuratiton Protocol): When a user first joins a network:
+**DHCP** (Dynamic Host Configuration Protocol): When a user first joins a network:
 
 - The client broadcasts a request for configuration (**client discover).**
 - **DHCP Offer:** A DHCP server responds with a configuration.
@@ -170,7 +170,7 @@ TCP provides a **reliable in-order bytestream** abstraction where bytes can go i
 **The TCP Three-way handshake**
 
 1. Client chooses an ISN and sends a SYN (synchronize) packet.
-2. The server receives the SYN packet, chooses an ISN, and response with a SYN-ACK packet.
+2. The server receives the SYN packet, chooses an ISN, and responds with a SYN-ACK packet.
 3. The client returns with an ACK packet. The connection is now established.
 
 **TCP Flags**
@@ -244,7 +244,7 @@ All types of attackers can spoof packets, and layers 1-3 do not prevent against 
 
 ## WPA-PSK Attacks
 
-**Rouge AP:** Pretend to be an access point and offer your own ANonce to the client. This allows adversaries to complete a 4-way handshake and become a man-in-the-middle.
+**Rogue AP:** Pretend to be an access point and offer your own ANonce to the client. This allows adversaries to complete a 4-way handshake and become a man-in-the-middle.
 
 **Offline brute-force attack:** Based on nonces captured, brute force many possible passwords to see if any will derive the correct MIC.
 

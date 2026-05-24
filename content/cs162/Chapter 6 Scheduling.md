@@ -92,7 +92,7 @@ Individual queues of jobs with the same priority can be processed with another s
 
 The major problem with strict priority scheduling is **deadlock:** if a lower priority task has a lock required by a high priority task, and some intermediate priority task is blocking the high priority task from running, then a circular wait dependency is created and the system cannot continue.
 
-Another problem is **starvation** of lower priority jobs that may not ever run due to always being superceded by higher priority tasks.
+Another problem is **starvation** of lower priority jobs that may not ever run due to always being superseded by higher priority tasks.
 
 Some solutions to deadlock and starvation:
 
@@ -102,7 +102,7 @@ Some solutions to deadlock and starvation:
 
 ## Shortest Job First (SJF)
 
-Also known as Shortest Remaning Time First (SRTF).
+Also known as Shortest Remaining Time First (SRTF).
 
 If we somehow know how long each job will take, we can schedule the task with the least remaining work first to minimize the average response time.
 
@@ -141,7 +141,7 @@ This is a good approximation of SRTF since long CPU-bound tasks will drop to the
 
 Algorithmically, multi-core scheduling is not all too different from single core scheduling. 
 
-Mos commercial operating systems use a per-processor data structure, in which each CPU has its own task queue.
+Most commercial operating systems use a per-processor data structure, in which each CPU has its own task queue.
 
 To maximize cache reuse, **affinity scheduling** can be used to prioritize scheduling yielded tasks onto the same CPU. 
 

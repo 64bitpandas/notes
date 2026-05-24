@@ -16,7 +16,7 @@ Let's say you have 6 assignments that are due in 1, 1, 2, 2, 4, and 5 hours resp
 
 A greedy algorithm would simply choose to do the one that is due earliest, until we run out of completable assignments. (So, the first, third, fourth, and fifth assignments). We can prove that this is indeed the optimal solution:
 
-- By contradiction, assume that there exists an optional solution $S$ that is not the greedy solution $G$. We can show that by swapping assignments due at the same time, all elements in $S$ can also be present in $G$ no matter what $S$ is.
+- By contradiction, assume that there exists an optimal solution $S$ that is not the greedy solution $G$. We can show that by swapping assignments due at the same time, all elements in $S$ can also be present in $G$ no matter what $S$ is.
 
 ## Set Cover
 
@@ -24,7 +24,7 @@ Given $n$ number of points in a set $V$, and a bunch of subsets $S_1, \cdots S_m
 
 ![[/cs170/img/Greedy-Algorithms/Untitled.png]]
 
-In the example above, we can chose $S_1$ and $S_3$ to cover $V$, so it can be covered in 2 sets.
+In the example above, we can choose $S_1$ and $S_3$ to cover $V$, so it can be covered in 2 sets.
 
 Another way of thinking about this problem less abstractly is to represent each point as a town, and all sets being nearby towns from a particular town as a center. Our goal might be to build as few schools as possible such that all towns can be serviced.
 

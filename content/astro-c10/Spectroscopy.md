@@ -4,12 +4,12 @@ weight: 3
 
 # The Spectra of Elements
 
-Every element on the Periodic Table has unique configuration of electron energy states. Here are some rules, as discovered through quantum physics:
+Every element on the Periodic Table has a unique configuration of electron energy states. Here are some rules, as discovered through quantum physics:
 
 - Every electron has a **discrete** energy level.
 - Electrons can exist on one of several energy levels.
-- If a photon (particle of light) hits an electron, the photon can **absorb** the proton and get excited, jumping up to a new energy level. **This only occurs if the photon’s energy level exactly matches the energy difference between two discrete states.**
-- If left undisturbed, excited electrons will **emit** photons, jumping down to a lower energy states. This is why certain elements appear to glow in different colors when heated.
+- If a photon (particle of light) hits an electron, the electron can **absorb** the photon and get excited, jumping up to a new energy level. **This only occurs if the photon’s energy level exactly matches the energy difference between two discrete states.**
+- If left undisturbed, excited electrons will **emit** photons, jumping down to a lower energy state. This is why certain elements appear to glow in different colors when heated.
 
 ![Untitled](Spectroscopy/Untitled.png)
 

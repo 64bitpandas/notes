@@ -15,7 +15,7 @@ The reliability goals of the transport and application layer are not guaranteed 
 
 ### Sending and receiving
 ![[/cs168/img/Pasted-image-20221017030035.png|500]]
-**One way delay** is the amount of time it takes for a packet to reach the reciever from the sender; **Round trip time** is the amount of time it takes for a packet to go both to and from the receiver.
+**One way delay** is the amount of time it takes for a packet to reach the receiver from the sender; **Round trip time** is the amount of time it takes for a packet to go both to and from the receiver.
 
 Packets can be duplicated in this example, where the acknowledgement message was lost and so the sender retransmitted the data:
 ![[/cs168/img/Pasted-image-20221017030246.png]]

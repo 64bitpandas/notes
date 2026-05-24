@@ -30,7 +30,7 @@ Let's say you are given a number like `10100`and want to convert it to decimal. 
 
 ## Two's Complement
 
-**Two's Complement** is a a method of storing negative numbers in a way that supports proper arithmetic. Here's how it works:
+**Two's Complement** is a method of storing negative numbers in a way that supports proper arithmetic. Here's how it works:
 
 1. Start with a binary number we want to negate, like `0101`, which is 5.
 2. Flip all the bits to make `1010`.

@@ -27,7 +27,7 @@ ADHD is best thought of dimensionally, since symptoms can present very different
  - treatment planning: collect context and impact of symptoms
 
 ## Gene Environment Interactions
-Genetic liability: hability is .6-.9 (highly habitable)
+Genetic liability: heritability is .6-.9 (highly heritable)
  - Play a larger role than environment
 Experiential activators (i.e. environmental risk factors): prenatal alcohol, maternal stress during pregnancy, postnatal lead
 

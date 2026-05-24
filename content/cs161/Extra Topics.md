@@ -27,7 +27,7 @@ One thing that malware needs to do in order to become effective is spread quickl
 - **Modifying existing code to include malcode:** for example, injecting code into emails to automatically run on open
 - **Polymorphic code:** viruses can encrypt itself, and insert the key and the decryptor in addition to the encrypted code. This mitigates signature-based detection and obfuscates the code.
     - To mitigate this, we can try detecting the decryptor code, or check if the code performs decryption.
-- **Metamorphic code:** Each time the virus propagates, it generates a semantically idfferent version of the code:
+- **Metamorphic code:** Each time the virus propagates, it generates a semantically different version of the code:
     - Use different registers
     - Change order of if/else
     - Flip booleans from `true` to `!false`
@@ -58,7 +58,7 @@ Tor (the Onion router) is a network that uses multiple proxies (relays) to enabl
 
 The main features of Tor are client anonymity, censorship resistance, and server anonymity (onion services). 
 
-Tor communications occur through a circuit of 3 or more relays, in which each relay only knows the two adjacent relays. When Alice sends the message, she wraps the message in three encryption layersk
+Tor communications occur through a circuit of 3 or more relays, in which each relay only knows the two adjacent relays. When Alice sends the message, she wraps the message in three encryption layers.
 
 ![[/cs161/img/Extra-Topics/Untitled.png]]
 
@@ -67,4 +67,4 @@ Tor communications occur through a circuit of 3 or more relays, in which each re
 - Network attackers who have full view of a network can exploit timing attacks to see when Alice sends a message and when Bob receives a message, then link the two together.
     - Global adversaries such as this are outside of Tor's threat model.
 - **Collusion** can break anonymity: if nodes collaborate, they can act maliciously.
-- Using Tor does not hide the fact that you are using Tor.j
+- Using Tor does not hide the fact that you are using Tor.

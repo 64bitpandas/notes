@@ -17,7 +17,7 @@ In a normal environment, infants develop primary regulatory strategies for attac
 
 In environments where developing this is not possible, children may develop *secondary regulatory strategies* such as avoidance or anxiety.
 - Avoidant children avoid or ignore caregivers when they are present, and show little emotion upon return.
-- Anxious/ambivalent children show distress before separation, and difficult to comfort when caregivers return. They show signs of resentment when caregivers leave.
+- Anxious/ambivalent children show distress before separation, and are difficult to comfort when caregivers return. They show signs of resentment when caregivers leave.
 
 Johnson et al. 2010- Working Models in Infants
  - Variations in attachment experience between the caregiver and infant result in different internal working models, which create different reactions of responsiveness of caregivers. Children with secure attachment should respond differently compared to children with insecure attachment.

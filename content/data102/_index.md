@@ -25,7 +25,7 @@ Data 102 explores two major concepts: **making decisions under uncertainty** and
  - [[Interpretability]]: Interpretability, explainability
  - [[Causality]]: Colliders, confounders, structural causal models, risk ratios, potential outcomes framework
  - [[Concentration Inequalities]]: Markov, Chebychev, Chernoff, Hoeffding
- - [[Bandits]]: Multi-Armed Bandit Framework, UCB/ETC, Thomson Sampling, Regret
+ - [[Bandits]]: Multi-Armed Bandit Framework, UCB/ETC, Thompson Sampling, Regret
  - [[Markov Decision Processes]]: Value iteration, Q-value iteration, Policy iteration
  - [[Reinforcement Learning]]: Q-Learning
 

@@ -72,7 +72,7 @@ The steady state distribution is one that describes the probability of being at 
 
 
 ## Gibbs Sampling Revisited
-Suppose we have $\theta_1, \cdots, \theta_n$ and we want $p(\theta_1, \cdots, \theta_n | x)$. Here's the general algoritm:
+Suppose we have $\theta_1, \cdots, \theta_n$ and we want $p(\theta_1, \cdots, \theta_n | x)$. Here's the general algorithm:
 1. Sample a $p(\theta_1 | x, \theta_2, \cdots, \theta_n)$
 2. Initialize $\theta^{(0)}$
 3. Resample $\theta_1^{(1)}$ from $p(\theta_1 | x, \theta_2^{(0)}, \cdots, \theta_n^{(0)})$

@@ -39,7 +39,7 @@ For problems with very large branching factors (like Go), normal alpha-beta sear
 
 One possible solution is MCTS, which:
 
-1. **Evalutes by rollouts:** play $N$ random games using a fast, fixed rollout policy from the current position, and count wins and losses.
+1. **Evaluates by rollouts:** play $N$ random games using a fast, fixed rollout policy from the current position, and count wins and losses.
 2. **Selectively searches** parts of the tree that will improve the decision, regardless of depth
     1. Skip moves that are very bad (like hanging queen), explore good moves more deeply
     2. Allocate more rollouts to more promising nodes, as well as rollouts that create the most variance (uncertain).

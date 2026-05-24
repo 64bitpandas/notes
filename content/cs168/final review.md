@@ -11,7 +11,7 @@ Original questions: [final review part 1](https://notes.bencuan.me/cs168/cs168_f
 
 Aggressiveness is determined by the throughput. Higher throughput = more aggressive.
 
-Throughput can be calcuated by dividing the number of bytes over time (or, packets per RTT).
+Throughput can be calculated by dividing the number of bytes over time (or, packets per RTT).
 
 In a normal TCP implementation, the multiplier $M$ is $0.5$.
 
@@ -40,7 +40,7 @@ Here's the sketch of a TCP connection between your computer (H) and the Gradesco
 Start with CWND=1 and SSTHRESH=50. All constants are in terms of numbers of MSS.
 ![[/cs168/img/Pasted-image-20221213144250.png]]
 
-1. 9 ACKs are receieved: CWND += 9, so it becomes 10. (slow start)
+1. 9 ACKs are received: CWND += 9, so it becomes 10. (slow start)
 2. 8 ACKs are received: CWND += 8, so it becomes 18. (slow start)
 3. A timeout occurs: SSTHRESH = CWND/2 = 9, and CWND gets reset to 1.
 4. 45 ACKS are received:
@@ -51,7 +51,7 @@ Start with CWND=1 and SSTHRESH=50. All constants are in terms of numbers of MSS.
 		3. Next 12 ACKs increase CWND to 13
 		4. Final 3 ACKs increase CWND to 13 3/13
 5. 10 ACKs are received: CWND = 14 (congestion avoidance)
-6. 9 dupACKs are recieved:
+6. 9 dupACKs are received:
 	1. Fast recovery after 3 dupACKs --> CWND = $\lfloor 14/2 \rfloor + 3 = 10$, SSTHRESH = $\lfloor$CWND$/2 \rfloor = 7$ 
 	2. Remaining 6 dupACKs during fast recovery: CWND += 6 = 16
 7. 35 ACKs are received:

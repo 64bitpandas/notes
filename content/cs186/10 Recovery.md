@@ -73,7 +73,7 @@ ARIES  (Algorithms for Recovery and Isolation Exploiting Semantics) is a logging
 - Every log record contains `prevLSN`, which is the previous log record written by this transaction. This helps us undo a chain of operations.
 - Log records can be several types:
     - Update, commit, abort
-    - Checkpoint (for log maintinence)
+    - Checkpoint (for log maintenance)
     - Compensation Log Records (CLRs) for undo actions
     - End (of commit or abort)
 - Two in-memory tables are created:

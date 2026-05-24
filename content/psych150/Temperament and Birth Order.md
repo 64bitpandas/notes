@@ -21,7 +21,7 @@ Derryberry & Reed 2002: can having high attentional control buffer (protect) hig
 **Executive attentional system:** voluntary executive functions (planning, decision making, overcoming habitual responses) that regulate involuntary systems
 - Interference: habitual response is incorrect, so we need executive function to replace it with the correct response.
 
-Stroop task: measure reponse time when color of word doesn't match the meaning of the word (e.g. the word "yellow" is colored green)
+Stroop task: measure response time when color of word doesn't match the meaning of the word (e.g. the word "yellow" is colored green)
 - measures executive function and ability to inhibit habitual response
 
 **** visible by 6 months of age, 
@@ -34,10 +34,10 @@ Sulloway hypothesis: siblings in different birth order positions differ in size,
 - No differences in neuroticism (firstborns are anxious about status, and laterborns are more self-conscious)
 - Firstborn children are lower in agreeableness
 
-**Niche partitioning:** sibilng competition for parental investment leads to diversification in sibling strategies (Darwin's principle of divergence)
+**Niche partitioning:** sibling competition for parental investment leads to diversification in sibling strategies (Darwin's principle of divergence)
 
 
 Moderators:
-- Age gap between sibilngs: larger = less difference in personality
+- Age gap between siblings: larger = less difference in personality
 - Conflict with parents: overrides any birth order differences
 - Functional birth order: mortality, adoption, marriage may affect chronological birth order

@@ -12,7 +12,7 @@ A computer handles I/O on its end using several mechanisms:
 
 - The **bus,** a common set of communication wires, carries data transfer transactions between devices.
     - A typical modern bus standard is **PCI** (Peripheral Component Interconnect), which is a parallel bus that can handle one transaction at a time. One major downside to this is that the bus speed must be set to the slowest connected device.
-    - PCI has evolved into PCI-Express, which is a collection of fast serial channels (lanes) in which devices can use as many as necessary to achieve a desired bandwidth. In this ways, devices can still use the old PCI standard, but don't have to share lanes with other devices.
+    - PCI has evolved into PCI-Express, which is a collection of fast serial channels (lanes) in which devices can use as many as necessary to achieve a desired bandwidth. In this way, devices can still use the old PCI standard, but don't have to share lanes with other devices.
 - **Controllers,** which sit between the CPU and I/O devices and contain a set of registers and memory that can be interfaced with.
 
 A processor can interact with device data in one of two ways:
@@ -69,7 +69,7 @@ HDD's are generally good for sequential reading, but bad for random reads.
 
 HDD Question: Calculating size and throughput
 
-Suppose a hard drive has the following spects:
+Suppose a hard drive has the following specs:
 
 - 4kb sectors
 - 3 million sectors per track
@@ -80,7 +80,7 @@ Suppose a hard drive has the following spects:
 - 1ms controller+queue time
 - 140 MB/s transfer rate
 
-The size of the hard drive is equal to (size of sector) x (num sectors per track) x (num tracks per plattter) * (num platters) = 4096B * 3000000 * 100 * 2, or about 2.46TB.
+The size of the hard drive is equal to (size of sector) x (num sectors per track) x (num tracks per platter) * (num platters) = 4096B * 3000000 * 100 * 2, or about 2.46TB.
 
 For a 64KB read, the throughput can be calculated as bytes/latency, or
 

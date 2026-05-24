@@ -57,7 +57,7 @@ A global routing state is *valid* if it produces forwarding decision that always
 
 **Validity is achieved if and only if for each destination, there are no dead ends or cycles.** 
 
-The goal of routing procols is to compute a valid state. 
+The goal of routing protocols is to compute a valid state.
 
 ### Validation
 Now that we have a condition for validity, how do we actually check that it's true?
@@ -85,7 +85,7 @@ The internet is a network of networks, and not all of these networks may use the
 How do we quantify how "good" a route is exactly?
 
 1. Route needs to work: destination needs to be reachable (no loops or dead ends)
-2. Minimize cost: number of hops, price, progagation delay, distance, reliability
+2. Minimize cost: number of hops, price, propagation delay, distance, reliability
 	1. Cost can be abstracted into some general value/weight for each edge
 
 Costs are usually configured/determined based on routers and their links. 
@@ -103,7 +103,7 @@ Routes that are unimportant and can be ignored:
 
 ### Static Routes
  - Manually entered in by an operator
- - Typically used when operator has specific need (hosts don't usually participate in routing procols) 
+ - Typically used when operator has specific need (hosts don't usually participate in routing protocols)
 
 
 ## Distance-Vector Routing Protocols
@@ -115,7 +115,7 @@ However, Distance-Vector routing is asynchronous and has incomplete state, since
 
 The basic table update algorithm for D-V is as follows:
  - Neighbors advertise a route with a particular distance/cost to a particular destination
-	 - *do not* advertise to neighbor whos entry is in the nextHop table (avoid split horizon problem)
+	 - *do not* advertise to neighbor whose entry is in the nextHop table (avoid split horizon problem)
  - Router adds 1 to advertised distance and saves it in the nextHop table, along with the address of the neighbor that advertised it
  - If a neighbor gives a lower number than the current nextHop, it replaces the previous entry
 	 - Exception: any cost given by current best neighbor will overwrite the entry, even if it's larger
@@ -146,7 +146,7 @@ We can add a new field to the routing table, **Time To Live (TTL).** Table entri
  - Major examples include IS-IS (intermediate system to intermediate system) and OSPF (open shortest path first)
  - Main principle: if a router had a global view of the network, it could easily compute the path to any destination.
 	 - Every router builds a full graph of the network and finds paths from itself to every destination on the graph 
-		 - Can use traditional shortest paths algorithms like Dijkstras
+		 - Can use traditional shortest paths algorithms like Dijkstra's
 	 - Populate forwarding table with next hop: only works if all other routers agree on what the best path is
 
 
@@ -211,7 +211,7 @@ Introduction:
 Algorithm:
  - All switches begin by thinking they are the root.
  - On receiving a route message from a neighbor:
-	 - If the the advertised root is smaller, use it instead.
+	 - If the advertised root is smaller, use it instead.
 	 - If it's larger, ignore it.
 	 - If it is the same as stored, use normal D-V update rules to minimize the distance, breaking ties by preferring the next hop with the smallest ID.
  - Only the root and switches that think they are the root will generate periodic advertisements. All other switches will forward advertisements when received.

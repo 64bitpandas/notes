@@ -87,7 +87,7 @@ Why is Pluto not considered a planet?
 
 What are comets?
 
-- Comets are balls of ice and dirt that subliminates as it approaches the sun.
+- Comets are balls of ice and dirt that sublimate as they approach the sun.
 - A comet’s tail is created by ice, dust, and gases pushed away from the comet by radiation and solar wind coming from the Sun. The glow from a comet’s tail is from the ions in the gases emitting visible light radiation from the Sun.
 - Comet’s tails point away from the sun since solar radiation pressure acts away from the sun.
 - Due to Kepler’s 2nd Law, comets that have highly eccentric orbits spend most of their time far away from the sun.
@@ -102,7 +102,7 @@ to friction with the air. Most of them are tiny, the size of a pebble or a grain
 Why does the asteroid belt exist instead of another planet in between Mars and Jupiter?
 
 - The asteroid belt consists of rocks that were prevented from coming together
-and forming a planet because of Jupiter’s gravitational influence. Jupiter caused the orbits of the rocks to be elliptical, which meant that they collided with each other at higher speeds than in circular orbits, leading to shattering instead of coalescencing into a planet.
+and forming a planet because of Jupiter’s gravitational influence. Jupiter caused the orbits of the rocks to be elliptical, which meant that they collided with each other at higher speeds than in circular orbits, leading to shattering instead of coalescing into a planet.
 
 ## Exoplanets
 
@@ -120,4 +120,4 @@ How are exoplanets discovered?
 
 How can we measure the density of exoplanets?
 
-- Since density is mass/volume, we need to get both the mass and volume of the exoplanet to calculate it. Through the Doppler wobble method, we can get the mass by calculating the relative shift in wavelength caused by the planet’s gravitational pull. To get the volume, we need to get the radius of the planet as measured by observing it in transit (can derive by comparing the cross-sectional area of the planet relative to the star), and multiple it by 4/3 π r^3. Due to the fact that the planet is transiting, this method gives the actual mass of the planet (since the planet’s inclination must be near zero).
+- Since density is mass/volume, we need to get both the mass and volume of the exoplanet to calculate it. Through the Doppler wobble method, we can get the mass by calculating the relative shift in wavelength caused by the planet’s gravitational pull. To get the volume, we need to get the radius of the planet as measured by observing it in transit (can derive by comparing the cross-sectional area of the planet relative to the star), and multiply it by 4/3 π r^3. Due to the fact that the planet is transiting, this method gives the actual mass of the planet (since the planet’s inclination must be near zero).

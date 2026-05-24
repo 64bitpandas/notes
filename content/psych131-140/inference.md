@@ -1,6 +1,6 @@
 **Inference** is the act or process of reaching a conclusion about something from known facts or evidence.
 
-For example, based on perceiving that the ground is wet, once can infer that it likely rained that day.
+For example, based on perceiving that the ground is wet, one can infer that it likely rained that day.
 
 ## Logical Inferences
 Logical inferences relate two or more mental representations with structure and reasoning. 
@@ -23,7 +23,7 @@ If $A \subset B$ and $B \subset C$, then $A \subset C$.
 
 
 
-**There is currently no cross-cultural data on the development on logical reasoning.** This is still a rapidly evolving field, and we are not sure the extent to which logical reasoning exists in innate knowledge, or is learned through social interaction.
+**There is currently no cross-cultural data on the development of logical reasoning.** This is still a rapidly evolving field, and we are not sure the extent to which logical reasoning exists in innate knowledge, or is learned through social interaction.
 
 ## Perceptual Inference
 
@@ -51,7 +51,7 @@ Understanding of the cause-effect relation
 
 **diagnostic reasoning:** ability to analyze a causal chain backwards: upon observing an effect, infer what caused it
 
-Gobnik & Sobel 2000: children 2-3 years of age reliably demonstrate causal inference with associating colors with actions
+Gopnik & Sobel 2000: children 2-3 years of age reliably demonstrate causal inference with associating colors with actions
 Walker & Gopnik 2014: toddlers 18-30 months of age can infer higher-order relational principles in causal learning
 
 Although there is little cross-cultural data, some preliminary research suggests that causal inference ability is independent of culture

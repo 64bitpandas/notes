@@ -1,6 +1,6 @@
 ## Definitions
 
-An **emotion** is a state of feeling that has physiological, situatonal, subjective, and congitive components and desire to take action.
+An **emotion** is a state of feeling that has physiological, situational, subjective, and cognitive components and desire to take action.
 
 Emotions are:
  - contagious
@@ -30,11 +30,11 @@ In terms of theory of mind, emotional states both have mind-to-world fit (evalua
  - Universal: ability to understand basic emotions expressed by people/cultures individuals have never met before
 
 ### Self-conscious emotions
-**Pride, shame, guilt, embarassment**
+**Pride, shame, guilt, embarrassment**
 
 Self-conscious emotions result from evaluating the self according to some standard or norm. They are biologically innate (especially pride, which is expressed in the same way by congenitally blind individuals who have never observed how other people express pride).
 
-Shame = violation of moral norm (did something bad), embarassment = violation of common norm
+Shame = violation of moral norm (did something bad), embarrassment = violation of common norm
 
 These emotions have more cultural variation compared to basic emotions, and emerge later (18-24 months).
 
@@ -45,14 +45,14 @@ These emotions have more cultural variation compared to basic emotions, and emer
 ## Theories of Emotion
 
 ### Evolutionary approach
-Charles Darwin: facial expressions of basic emotions are innate. We are born with a specific, discrete set of phisiological and facial reactions that are similar across everyone, including babies.
+Charles Darwin: facial expressions of basic emotions are innate. We are born with a specific, discrete set of physiological and facial reactions that are similar across everyone, including babies.
 
 
 ### Experience-based approach
-Newborns have broad, global enotional states that differentiate over development.
+Newborns have broad, global emotional states that differentiate over development.
 
 ### Constructivist approach
-Context is required to truly understand emotion. For example, a very determined athlete who is really feeling confident or elated might look angry, guilty, or in pain when only looking at their facial expression. Similarly, faces of people who just won or lost a contest look veyr similar.
+Context is required to truly understand emotion. For example, a very determined athlete who is really feeling confident or elated might look angry, guilty, or in pain when only looking at their facial expression. Similarly, faces of people who just won or lost a contest look very similar.
 
 
 ## Emergence of Emotions

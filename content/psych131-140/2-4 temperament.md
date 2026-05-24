@@ -18,7 +18,7 @@ When individuals react to unfamiliar or unexpected events, two main categories o
 **Transactional relationships:** temperament affects environment, which can influence other processes (similar to evocative gene-environment correlation)
 **Indirect relationships:** temperament affects psychological processes (like emotional regulation), which can develop into psychopathology
 
-## Measuring Temperatment
+## Measuring Temperament
  - questionnaire reports (parent, teacher, child)
  - behavioral observations
  - computerized measures

@@ -52,7 +52,7 @@ One method of enumerating is to find a **recursive definition** of the set: that
 
 One example of an enumerable set is the set of all binary strings$B = \{0, 1\}^* = \{\emptyset, 0, 1, 00, 01, 10, 11, 000 \cdots \}$ **.** This is enumerable because we can say that a string with $n$bits will be guaranteed to appear before position $2^{n+1}$.
 
-One example of a non-enumerable set is the set of all rational numbers: we can't write fractions in an order such that you can get to the next fraction in a finite number of steps. However, the _are_ countably infinite (read on to find out why!)
+One example of a non-enumerable set is the set of all rational numbers: we can't write fractions in an order such that you can get to the next fraction in a finite number of steps. However, they _are_ countably infinite (read on to find out why!)
 
 
 

@@ -45,7 +45,7 @@ male: 14 drinks per week or >4 per occasion
 
 
 **Alcohol Effects Pathways**
- - Main idea: children of parents with a history of alcholism have increased sensitivity to algohol that makes it more appealing to use
+ - Main idea: children of parents with a history of alcoholism have increased sensitivity to alcohol that makes it more appealing to use
 ![[/psych131-140/img/Pasted-image-20221018104945.png|500]]
 
 ## Why are teens more sensitive?

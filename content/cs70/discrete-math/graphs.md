@@ -177,7 +177,7 @@ From Euler's Formula, recall that $e \le 3v - 6$for any planar graph with more t
 
 So, the average degree of any given vertex is $\frac{2e}{v} \le \frac{2(3v-6)}{v} \le 6 - \frac{12}{v}$. This proves that there **exists** a vertex with degree at most 5 (due to the property of averages). Let's try removing this vertex and see what happens.
 
-Well, now each of the 5 neighbors each are assigned a different color. If we add the vertex back, then it can assume the 6th color. We can use this proof inductively to show that adding any vertex will result in the same thing occurring.
+Well, now each of the 5 neighbors are assigned a different color. If we add the vertex back, then it can assume the 6th color. We can use this proof inductively to show that adding any vertex will result in the same thing occurring.
 
 ### Five and Four Color Theorem
 

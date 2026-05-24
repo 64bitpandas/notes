@@ -25,14 +25,14 @@ These 5 traits are the broadest of all traits, and are visible in many animals. 
 
 ### Facets of Openness
 - Fantasy: active imagination
-- Asthetics: seek artistic environments/stimuli
+- Aesthetics: seek artistic environments/stimuli
 - Feelings: strong emotions
 - Actions: seek out opportunities to try new things
 - Intellect: enjoy playing with theories and abstract ideas
 - Values: diversity, liberalism
 
 ### Facets of Conscientiousness
-- Self-dicipline: ability to do tasks that are difficult but helpful in the long-term
+- Self-discipline: ability to do tasks that are difficult but helpful in the long-term
 - Dutifulness: 
 - Competence:
 - Order
@@ -69,7 +69,7 @@ Moral principles: compassion -> egalitarianism, politeness -> traditionalism
 
 [[2a. Srivastava_etal_2003.pdf]]: There are two main hypotheses about changes in personality.
 - Tested hypothesis: age (IV) affects personality, as measured by the Big Five Inventory (DV) moderated by gender
-- Biologically oriented theories: personality matures by adulthood (age 30), and are relatively stable afterward. 
+- Biologically oriented theories: personality matures by adulthood (age 30), and is relatively stable afterward.
 	- Hard plaster hypothesis: change seen before 30, no significant change after 30
 - Contextualist theories: personality changes throughout the lifespan based on life events, social roles, gender roles, and experiences
 	- Soft plaster hypothesis: change still occurs after 30, but more slowly
@@ -86,7 +86,7 @@ Moral principles: compassion -> egalitarianism, politeness -> traditionalism
 		- ![[/psych150/img/Pasted-image-20230125104237.png|200]]
 	- Neuroticism appears to steadily decrease over age for women, while remaining constant over time for men
 		- ![[/psych150/img/Pasted-image-20230125104248.png|200]]
-	- Overall, there is inconsistent support for the plaster hypotheses. A better hypotheis might be that personality continues to change throughout the lifespan, with different dimensions changing differently among different groups.
+	- Overall, there is inconsistent support for the plaster hypotheses. A better hypothesis might be that personality continues to change throughout the lifespan, with different dimensions changing differently among different groups.
 - Critiques:
 	- Since this is a cross-sectional design (not a longitudinal study), we can't be certain that the change over time is really due to age, and not other cultural factors that affect people from older generations differently. For example, those born in the 1950's might be less neurotic due to growing up in a relative time of peace.
 
@@ -97,7 +97,7 @@ Moral principles: compassion -> egalitarianism, politeness -> traditionalism
 - Higher incentive to regulate emotions over age to reflect this change in goals
 - Increase in positive/complex emotions and ability to experience/remember positive experiences; decrease in negative emotions
 - When time horizon was expanded in an experiment (participants told to imagine they had 20 more years to live), age differences disappeared
-- Evidence supports the hypothesis that increased life satisfaction and postiive emotion predicts survivability.
+- Evidence supports the hypothesis that increased life satisfaction and positive emotion predict survivability.
 
 Facets over age:
 - Openness should decrease since actions facet decreases

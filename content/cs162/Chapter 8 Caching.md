@@ -45,7 +45,7 @@ There are two different types of locality:
 
 ## Hits and Misses
 
-A **cache hit** occurs when the memory address we're looking for is actually stored in the cahce.
+A **cache hit** occurs when the memory address we're looking for is actually stored in the cache.
 
 A **cache miss** is when we are looking for information that is in the main memory, but not the cache.
 
@@ -74,7 +74,7 @@ Addresses in the cache are divided into tag, index, and offset.
 
 Tells us where data exists in the cache line.
 
-Containes $\log_2(blocksize)$ number of *bytes* (not bits) (for example, 64 byte blocks can be represented using 6 offset bits).
+Contains $\log_2(blocksize)$ number of *bytes* (not bits) (for example, 64 byte blocks can be represented using 6 offset bits).
 
 ### Index
 
@@ -141,7 +141,7 @@ The **write-back policy** states that we should write only to cache and then wri
 Write through is good because:
 
 - It has simpler control logic.
-- There is more predictable timng.
+- There is more predictable timing.
 - It's easier to make reliable since there is memory redundancy (both cache and DRAM have new values).
 
 On the other hand, write-back:

@@ -8,7 +8,7 @@ There are two main solutions to this paradox:
 These two solutions correspond to 
 
 ## If-Then Patterns
-Personaity is not defined by stability over time or context, but rather in if-then patterns:
+Personality is not defined by stability over time or context, but rather in if-then patterns:
 > If (you are in a specific situation, context, etc), then (your response will be the same regardless of when this situation occurs).
 
 Both internal and external causes influence how we express our personality. These expressions are predictable and unique from person to person.

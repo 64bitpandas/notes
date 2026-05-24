@@ -9,13 +9,13 @@ Children —United States, 2013–2019.
  - A difficult number to measure: while it is very likely that the rate of mental illness is increasing, our ability to diagnose larger numbers of individuals is also improving
  - Current estimate: 1 in 5 children/adolescents experience a mental disorder each year
 	 - 2 in 5 will meet criteria for a mental disorder by 18
-	 - Half have onset before age 14 (**onset** = first noticable difference in behavior; diagnosable)
- - Significant difference of prevalance rates depending on sociodemographic characteristics (sex, race, ethnicity, urban vs rural, socioeconomic status)
+	 - Half have onset before age 14 (**onset** = first noticeable difference in behavior; diagnosable)
+ - Significant difference of prevalence rates depending on sociodemographic characteristics (sex, race, ethnicity, urban vs rural, socioeconomic status)
 
 ## The burden of mental illness 
 (Vigo, Thornicroft, Atun 2016)
 
-**Disabiity-adjusted life years** (DALYs): number of expected years of life lost/lived with disability or due to death
+**Disability-adjusted life years** (DALYs): number of expected years of life lost/lived with disability or due to death
  - Each type of disorder has its own calculated DALY estimate
  - Mental illness is ranked 5 (below neonatal disease, cancer, common infections, and cardiovascular disease) in percentage of DALYs; ranked 2 when self-harm or chronic pain is taken into account
  - This estimate has been criticized for underestimating the burden of mental illness
@@ -39,7 +39,7 @@ Research on normal development informs our understanding of atypical development
 	 - Force belief task: child is given a Smarties tube, but actually has pencils in it. They are asked what another child would think when first given the tube. They have developed TOM if they respond "Smarties", since they are able to treat the other child as a separate individual who does not share the same knowledge as them.
 	 - Example of importance: research on typical ToM provides a reference group and assessment tool for informing research on autism spectrum disorder (ASD). 
 		 - Opposite is also true: ASD research helps provides an extreme example for the role of ToM in social functioning in children, which informs typical ToM research.
-		 - children with ASD can successfully pass ToM tasks, but struggle with transfering rules over to everyday social interaction. 
+		 - children with ASD can successfully pass ToM tasks, but struggle with transferring rules over to everyday social interaction.
 
 
 ## Multiple Levels of Analysis
@@ -63,21 +63,21 @@ Example study: Finegood, Rarick, Blair (2017) children in disadvantaged neighbor
  - Environment (neighborhood)
 
 ## Understand risk and protective factors in development of psychopathology
-**Risk Factor:** An individual, family, or social characteristic that is associated with increase vulnerability to disorder
+**Risk Factor:** An individual, family, or social characteristic that is associated with increased vulnerability to disorder
  - 2 conditions: must precede AND predict a maladaptive outcome
  - Example: children displaying high irritability and impulsivity have a higher likelihood of developing aggression
  - Example: maternal distress during pregnancy is associated with higher likelihood of infant temperament difficulties
  - Only correlated, not causal
-	 - Possibility of **comorbility:** confounding factor (example: aggression is associated with low academic achievement, but this is because agression is related to ADHD. Agression by itself is not a factor for acadmic achievement.)
+	 - Possibility of **comorbidity:** confounding factor (example: aggression is associated with low academic achievement, but this is because aggression is related to ADHD. Aggression by itself is not a factor for academic achievement.)
 **Asset/promotive Factor:** Opposite of risk factor: precedes and predicts a *positive* outcome
  - May compensate for adverse effects of risk factors: cancels out risk factors to decrease chance of maladaptive outcome (**Compensatory Model**)![[/psych131-140/img/Pasted-image-20220907132709.png|300]]
  - Alternative model: **Protective/Buffering Model** (protective factors don't directly result in positive outcome, but affect influence of risk/adversity based on multiple regression ![[/psych131-140/img/Pasted-image-20220907133154.png|400]]
 **Resilience:** ability for good developmental outcomes to appear in spite of serious threats to adaptation or development
- - Two criteria: individual must be exposted to threat/risk factor, AND individual exhibits positive developmental outcomes
+ - Two criteria: individual must be exposed to threat/risk factor, AND individual exhibits positive developmental outcomes
  - Two approaches for studying resilience: individuals (e.g. children with family risks such as alcoholic parents) and groups (sociodemographic risks, community violence, racial discrimination)
 
 
-## ## Investigate complex developmental pathways
+## Investigate complex developmental pathways
 A **developmental pathway** is the sequence and timing of particular behaviors, risk/protective factors, and relationships between behaviors over time.
 
 Studying developmental pathways involves:

@@ -100,7 +100,7 @@ for rtuple in R:
 ```
 
 Cost: $[R] + |R| \times t_S$ where $t_S$ is the cost of finding all matching $S$ tuples
-- Alternative 1 B+Tree: cost to traverse root to leave and read all leaves with matching utples
+- Alternative 1 B+Tree: cost to traverse root to leave and read all leaves with matching tuples
 - Alternative 2/3 B+Tree: cost of retrieving RIDs + cost to fetch actual records
     - If clustered, 1 IO per page. If not clustered, 1 IO per tuple.
 - If no index, then $t_S = |S|$ which devolves INLJ into SNLJ.

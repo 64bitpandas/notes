@@ -5,12 +5,12 @@
 
 Almost any characteristic is influenced by a mix of both nature and nurture. Even something seemingly innate like walking bipedally is only enabled by social influence (a completely isolated human might walk quadripedally).
 
-However, characteristics are more influenced by nurture, and other more by nature.
+However, some characteristics are more influenced by nurture, and others more by nature.
 
 Some scientists argue that **culture** is a third influential factor that combines with both nature and nurture to further influence our development.
 
 
-### Cultural Inheritence
+### Cultural Inheritance
 
 Unlike nature, which is exclusively inherited from parents, culture is inherited via social learning from any member of the population.
 

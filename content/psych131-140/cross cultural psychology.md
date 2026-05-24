@@ -44,6 +44,6 @@ This is an example of a **false belief task.**
 
 Through cross-cultural studies, it seems like the development of theory of mind is independent of culture: children consistently can pass verbal false belief tasks at age 6.
 
-In some cultures, verbal communication in this manner is very abnormal. In these cases, verbal preferential looking is used to assess childrens' thoughts: when the Sally-Anne task is shared in pictoral form, children who have developed theory of mind will look at the basket longer than the box.
+In some cultures, verbal communication in this manner is very abnormal. In these cases, verbal preferential looking is used to assess children's thoughts: when the Sally-Anne task is shared in pictorial form, children who have developed theory of mind will look at the basket longer than the box.
 
 

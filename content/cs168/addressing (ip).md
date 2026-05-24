@@ -106,7 +106,7 @@ Here are the IPv4 and IPv6 headers side by side:
  - **Better options:** Rather than the ambiguous "options" field, IPv4 uses the "next header" field to point to the next layer's header.
 	 - Each next header field has an ID corresponding to the protocol of the next header. For example, if Next Header = 6, the router will know to look for a TCP header.
 	 - Next Headers can be chained/nested through multiple layers.
- - **Eliminated packet fragementation:** Instead of fragmentation, use **MTU Discovery**, where hosts can send small exploration packets to determine the MTU of routers in the path and decide how big to make the packets. If a packet larger than the MTU is sent to a router, an error message will be sent back to the host.
+ - **Eliminated packet fragmentation:** Instead of fragmentation, use **MTU Discovery**, where hosts can send small exploration packets to determine the MTU of routers in the path and decide how big to make the packets. If a packet larger than the MTU is sent to a router, an error message will be sent back to the host.
  - **Added flow label:** explicit mechanism to denote related packet streams: allow for multiple sessions and grouping of related packets
 
 

@@ -25,7 +25,7 @@ These three goals are not always compatible, so we aim to strike a reasonable ba
 ## Possible Approaches
  - **Reservations:** use a system for flows to reserve bandwidth (see [[resource sharing (packet and circuit switching)]]). However, this comes with all of the issues of reservations, which was not used for general internet architecture.
 - **Pricing Model:** treat bandwidth as a scarce commodity, and raise the costs of links in high demand so new flows go elsewhere. In many cases, this model is optimal but requires a payment framework (which doesn't exist outside of datacenters).
-- **Dynamic Adjustment:** hosts dynamically learn the current level of congestion and azdjust sending rate accordingly. This is a highly general solution that doesn't assume anything about the business model or application requirements. However, it assumes that clients are honest about their calculations, and that there are few malicious actors.
+- **Dynamic Adjustment:** hosts dynamically learn the current level of congestion and adjust sending rate accordingly. This is a highly general solution that doesn't assume anything about the business model or application requirements. However, it assumes that clients are honest about their calculations, and that there are few malicious actors.
 	- Host-based congestion control: no support from routers; hosts individually adjust rate based on implicit feedback (packet delay, acks, dropped packets)
 	- Router-assisted congestion control: routers signal congestion back to hosts, and hosts pick rate based on explicit feedback
 
@@ -62,7 +62,7 @@ There are 4 methods of changing the rate. A = additive, M = multiplicative, I = 
  - **MIMD:** similarly to AIAD, can be more efficient but doesn't converge to fairness. 
 	 - ![[/cs168/img/Pasted-image-20221025114302.png|300]]
 	 - Slope of the line is always $x_2/x_1$ 
- - **MIAD:** maximially unfair; will allocate all of the capacity to one flow (converge to either X or Y axis)
+ - **MIAD:** maximally unfair; will allocate all of the capacity to one flow (converge to either X or Y axis)
  - **AIMD:** both efficient and fair
 	 - ![[/cs168/img/Pasted-image-20221025114502.png|300]]
 

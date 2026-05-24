@@ -13,11 +13,11 @@ Metacognition is **cognition about cognition:** a collection of related skills t
  - If there is a difference in reported confidence between incorrect and correct answers, we have successfully measured the ability to monitor
 
 In general, children are overconfident (say they are confident more often than not). This overconfidence decreases with age as metacognition becomes more calibrated.
- - We are not entirely sure if metacongnition itself improves, or if our ability to report metacognition improves (or both).
+ - We are not entirely sure if metacognition itself improves, or if our ability to report metacognition improves (or both).
 
 
 ## Measuring Metacognition
-**Is it possible to detect metagonition without reporting introspection?**
+**Is it possible to detect metacognition without reporting introspection?**
  - help-seeking: more likely to ask for help if not confident about answer
  - information gathering
  - persistence

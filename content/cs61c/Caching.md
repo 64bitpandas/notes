@@ -142,7 +142,7 @@ Addresses in the cache are divided into tag, index, and offset.
 
 Tells us where data exists in the cache line.
 
-Containes $\log_2(blocksize)$ number of *bytes* (not bits) (for example, 64 byte blocks can be represented using 6 offset bits).
+Contains $\log_2(blocksize)$ number of *bytes* (not bits) (for example, 64 byte blocks can be represented using 6 offset bits).
 
 ### Index
 

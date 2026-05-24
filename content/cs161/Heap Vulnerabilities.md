@@ -17,7 +17,7 @@ Vtables exist in the heap. Vulnerability: add shellcode and point to it
 
 ## Heap Overflow
 
-Objects are allocated in the heap (malloc), but writes to a buffer in hte heap are not checked. Attackers can overflow he heap and overwrite the vtable pointer of the next object to point to a malicious vtable.
+Objects are allocated in the heap (malloc), but writes to a buffer in the heap are not checked. Attackers can overflow the heap and overwrite the vtable pointer of the next object to point to a malicious vtable.
 
 ## Use After Free
 

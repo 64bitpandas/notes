@@ -24,7 +24,7 @@ In ALOHAnet, a hub node transmitted its own frequency, and all remote nodes tran
 3. If the remote doesn't get the expected ack, wait a random amount of time and resend.
 
 ## Ethernet
-In 1972, Bob Metcalfe was trying to connect hundreds of Xerox computers in the same building. It needed to be fast, maximially distributed, and cheap. 
+In 1972, Bob Metcalfe was trying to connect hundreds of Xerox computers in the same building. It needed to be fast, maximally distributed, and cheap.
 
 The main idea was to connect all of the machines onto the same cable, and use it as a shared medium.
 

@@ -39,7 +39,7 @@ The Multi-Armed bandit problem arises when the following are true:
 	 - Choose a $\delta$ as a decreasing function of $t$ to ensure that confidence intervals will get narrower as we explore something more
 	 - Hoeffding requires variables to be independent, which isn't actually true for the UCB algorithm (which arm we choose depends on which arms we chose before). However, the result still holds.
 		 - UCB regret is bounded by $3 \sum_{a=1}^K \Delta_a + 24 \log(T) \sum_{a=1}^K \frac{1}{\Delta_a}$ which says that the regret grows logarithmically with respect to $T$.
- - Thomson Sampling: draw a sample from the posterior for each arm, and choose arm according to $argmax_a \bar\mu_a$
+ - Thompson Sampling: draw a sample from the posterior for each arm, and choose arm according to $argmax_a \bar\mu_a$
 
 
 ### Other Bandit Problems

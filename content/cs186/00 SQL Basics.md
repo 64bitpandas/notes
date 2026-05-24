@@ -100,7 +100,7 @@ Here, we:
  - and keep only the top 3 entries (by alphabetical order).
 
 ### Aggregation
-Aggregation can seem tricky, but the core idea is simple: **crunch similar rows into one row, and keep one particularly interersting value.**
+Aggregation can seem tricky, but the core idea is simple: **crunch similar rows into one row, and keep one particularly interesting value.**
 
 There are three parts to this:
 1. **GROUP BY:** Specify the column containing the similar values. All rows with the same value in this column will be combined into one row. 

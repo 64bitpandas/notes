@@ -4,7 +4,7 @@ Personality encapsulates the characteristics of a person that describe and expla
 Unlike social psychology, which studies *situational/external* causes of behavior, personality psychology focuses on *intraindividual/internal* causes.
 
 Some of the goals of studying personality include:
- - Classifying the structure of perosnality (what)
+ - Classifying the structure of personality (what)
  - Explore the mechanisms that enable personality (why)
  - Identify consistent patterns and regularities: make distinction between traits and states
 
@@ -34,5 +34,5 @@ Early 1900s: Neo-Freudian
  - Creation of mental structures/processes to describe and explain personality
 
 ### Trait Theory
-- Psycholexical approach: study personality characteristcs important in a culture by studying vocabulary for personality traits
+- Psycholexical approach: study personality characteristics important in a culture by studying vocabulary for personality traits
 - Big 5 theory

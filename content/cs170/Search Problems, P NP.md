@@ -35,7 +35,7 @@ P and NP are classes of relations.
 
 **NP** is the class of all relations $R$ such that if we are given a possible solution to $R$ (i.e. $\exists w, R(x, w) = 1)$ then we can verify that it is indeed a solution in polynomial time.
 
-- NP stands for "non-determinstic polynomial time".
+- NP stands for "non-deterministic polynomial time".
 
 **P is a subset of NP.** (if we can solve in poly time, we can always verify in polynomial time also)
 
@@ -191,7 +191,7 @@ Here's an approximation algorithm for vertex cover:
     - We know that the maximal matching has a vertex cover of size $2 |M|$ because by definition of a matching, every edge is connected to two unique vertices.
     - A maximal matching is a matching such that we cannot add any more edges without making it no longer a matching.
 
-This approximation algorithm ahs an approximation ratio of $2$ because in the best case, the maximal matching contains all edges in $G$. In this case, we would only need $|M|$ number of vertices (one for each edge), but the algorithm would output $2 |M|$ size set cover.
+This approximation algorithm has an approximation ratio of $2$ because in the best case, the maximal matching contains all edges in $G$. In this case, we would only need $|M|$ number of vertices (one for each edge), but the algorithm would output $2 |M|$ size set cover.
 
 ## Heuristics
 

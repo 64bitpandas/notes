@@ -7,7 +7,7 @@ Cosmology is the study of the structure and evolution of the universe as a whole
 
 ## Olbers' Paradox
 
-Olbers’ Paradox: why is the sky dark at night if there are billions of stars? anywhere you look in the sky there should be a star (just like trying to look through a dense forest).
+Olbers’ Paradox: why is the sky dark at night if there are billions of stars? Anywhere you look in the sky there should be a star (just like trying to look through a dense forest).
 
 - By the inverse square law, distance stars look dim: $b \propto \frac{1}{d^2}$.
 - Distant stars have a nonzero angular size, since $A = \pi \theta^2 \propto \frac{1}{d^2}$.
@@ -40,7 +40,7 @@ What is the shape of the universe?
 
 - Through measurements of the angular sizes of the clusters of variations in the CMBR, we determined that the shape of the universe is roughly flat- meaning that the average mass density of the universe $\Omega_M$ is approximately 1, and Euclidean geometry applies to objects in the universe. In other words, the objects in the universe are distributed across a plane, rather than a sphere or hyperbola.
 - If $\Omega_M < 1$, then the universe would be hyperbolic, with many parallel lines, and the angles in a triangle would add up to less than 180 degrees.
-- If $\Omega_M > 1$, then the universe would be pherical with no parallel lines, and the angles in a triangle would add up to more than 180 degrees.
+- If $\Omega_M > 1$, then the universe would be spherical with no parallel lines, and the angles in a triangle would add up to more than 180 degrees.
 - We can measure mass density by summing the angles in a very large triangle, or counting the number of galaxies as a function of distance.
 
 ## The Cosmological Constant
@@ -49,7 +49,7 @@ What is the Cosmological Constant?
 
 - It was originally thought that the universe was static (stayed the same size over time). In order to offset gravitational attraction, a cosmological constant was needed to balance it out.
     - If $\Lambda = 0$:
-        - If $\Omega_M$ (mass density of the universe) $> 1$, then a Big Crunsh would occur.
+        - If $\Omega_M$ (mass density of the universe) $> 1$, then a Big Crunch would occur.
         - If $\Omega_M = 1$ (flat universe), then expansion would continue up to infinity.
         - If $\Omega_M > 1$, expansion would never stop, approaching a constant nonzero value.
 
@@ -65,11 +65,11 @@ Big Rip: the repulsive forces of dark energy get arbitrarily large, such that ev
 
 What happened during the Big Bang?
 
-- The universe started out as an extremely hot, compresed, dense ball of gas.
+- The universe started out as an extremely hot, compressed, dense ball of gas.
 - Over time, it expanded, cooled, and became less dense.
 - In the first $10^{-43}$ seconds (Planck time), the universe was so small that classical physics did not apply. We don’t quite understand the mechanics of the universe at this time.
 - Between $10^{-35}$ and $10^{-6}$ seconds, particles, antiparticles, and photons were in equilibrium. However, a very small excess of quarks over antiquarks formed, allowing matter to persist.
-- Until 100 seconds in, primordial nucleosynthesis occurred, casing the fusion of quarks into protons and neutrons and the formoation of hydrogen, helium, and trace amounts of lithium.
+- Until 100 seconds in, primordial nucleosynthesis occurred, causing the fusion of quarks into protons and neutrons and the formation of hydrogen, helium, and trace amounts of lithium.
 - Until 380,000 years in, the universe was opaque and underwent recombination where protons and electrons formed hydrogen atoms.
 
 ## Inflation
@@ -110,7 +110,7 @@ What is the Theory of Everything?
     - Electromagnetic force, which causes charged particles to interact,
     - Strong nuclear force, which binds subatomic particles together,
     - Weak nuclear force, which describes interactions between bosons and fermions.
-- So far, we have discovered that electromagnetic and weak nuclear force were once unified into electroweak force. Grand Unified Theories (GUTs) attempt to combine electroweak force and strong nuclear force, which may have happened very early in the universe’s age. The Theory of Everything attempts to unify all four of the forces into once single entity. Once such theory is superstring theory.
+- So far, we have discovered that electromagnetic and weak nuclear force were once unified into electroweak force. Grand Unified Theories (GUTs) attempt to combine electroweak force and strong nuclear force, which may have happened very early in the universe’s age. The Theory of Everything attempts to unify all four of the forces into one single entity. Once such theory is superstring theory.
 - Shortly after the big bang, three of the four forces (electromagnetism,
 strong nuclear, and weak nuclear) should have been unified into the “grand unified
 theory (GUT)” force — they would have been symmetric. As the temperature fell
@@ -140,7 +140,7 @@ How likely is it for intelligent life to exist outside of Earth?
     - $R$ is the average rate of star formation: about 10 stars per year.
     - $f_s$ is the proportion of stars that can support life: between 0.1 and 0.5.
     - $f_p$ is the proportion of good stars with planetary systems: between 0.1 and 1.
-    - $n_e$ is the number of planets or moons per star in the habital zone: between 0.1 and 2.
+    - $n_e$ is the number of planets or moons per star in the habitable zone: between 0.1 and 2.
     - $f_l$ is the fraction of $n_e$ that life develops on: between $10^{-3}$ and 1.
     - $f_i$ is the fraction of living species that develop intelligence: $10^{-6}$ to 1.
     - $f_c$ is the fraction of intelligent life that can communicate: $10^{-3}$ to 1.

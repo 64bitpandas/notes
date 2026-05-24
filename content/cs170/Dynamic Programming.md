@@ -74,7 +74,7 @@ This is an important problem for spellchecking, autosuggestions, spam filtering,
 
 ![[/cs170/img/Dynamic-Programming/Untitled.png]]
 
-This algorithm will cost $O(m \cdot n)$ time and $O(\min(m, n))$ space. Again, we can think about this like a shortest path in a DAG where each each vertex is a possible edit, and each edge weight is the cost of that operation.
+This algorithm will cost $O(m \cdot n)$ time and $O(\min(m, n))$ space. Again, we can think about this like a shortest path in a DAG where each vertex is a possible edit, and each edge weight is the cost of that operation.
 
 To do this more efficiently when the number of expected edits is less than the length of the string: Smith-Waterman algorithm
 

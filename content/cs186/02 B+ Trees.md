@@ -141,7 +141,7 @@ What is the maximum number of data entries an Alternative 1 B+ tree with height 
 $$(2d) \times (2d+1)^h$$
 A height $0$ tree would just have a single leaf node. We know that the leaf node can hold up to $2d$ entries, so this gives us a good starting point.
 
-Now, a height $1$ tree would have one root node pointing to $2d + 1$ leaf nodes (due to the fan-out property). Since each leaf node can still hold $2d$ entries, in total therer should be $(2d) \times (2d + 1)$ entries.
+Now, a height $1$ tree would have one root node pointing to $2d + 1$ leaf nodes (due to the fan-out property). Since each leaf node can still hold $2d$ entries, in total there should be $(2d) \times (2d + 1)$ entries.
 
 We can see that this pattern continues- for every additional layer, we add $2d+1$ inner nodes, which each point to $2d+1$ lower nodes. So we need to keep multiplying the result by $2d+1$, yielding the formula above.
 {{< /tab >}}

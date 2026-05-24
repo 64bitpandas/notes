@@ -121,7 +121,7 @@ A **unit** is a single data point that we're trying to make causal inferences on
 
 **Stable Unit Treatment Value Assumption (SUTVA):** 
  - The same treatment is applied to all units
-	 - Example: surgery outcomes do not follow this assumption because some surgeons could be more skiilled than others
+	 - Example: surgery outcomes do not follow this assumption because some surgeons could be more skilled than others
  - Units do not affect each other
 	 - Example: social media influencers may affect the behaviors of their followers
 
@@ -134,7 +134,7 @@ There are two main categories of methods for establishing causal inference:
 **Unconfoundedness (conditional independence):** Consider all confounding variables $X$, then assume $Z$ and $Y$ are conditionally independent given $X$. 
  - Matching, outcome regression, propensity weighting
 
-**Natrual experiments:** Find natural sources of randomness and use these to get around the confound
+**Natural experiments:** Find natural sources of randomness and use these to get around the confound
  - Instrumental variables, regression discontinuity, difference in differences
 
 
@@ -173,7 +173,7 @@ Let the **Conditional ATE** be equal to $\tau(x) = E(Y(1) - Y(0) | X=x)$ such th
 
 **Outcome regression:** compute $\tau(x)$ for every $x$ and take the average. This is simple for binary variables or linear relationships (where $Y = aX + \tau Z)$, but is difficult for nonlinear or higher dimensional relationships.
 
-**Matching:** for every treated unit where $Z_i = 1$, find an untreated unit that has the same confounder values, and subtract their $Y$ values to estimate individual effect. Repeat this for every untreated unit, and average overall units to estiamte ATE.
+**Matching:** for every treated unit where $Z_i = 1$, find an untreated unit that has the same confounder values, and subtract their $Y$ values to estimate individual effect. Repeat this for every untreated unit, and average overall units to estimate ATE.
 
 This only works if there happen to be exact matches; approximate matching gets messy and requires additional assumptions.
 

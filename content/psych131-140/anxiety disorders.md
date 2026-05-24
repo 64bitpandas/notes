@@ -13,7 +13,7 @@ Social anxiety: fear of social situations (especially where one is exposed to ju
  - feelings of alarm
  - urge to escape
 
-**Panic:** group of physical symtoms of flight/fight response that occurs unexpectedly in the absense of any obvious threat or danger
+**Panic:** group of physical symptoms of flight/fight response that occurs unexpectedly in the absence of any obvious threat or danger
  - similar symptoms to a heart attack
 
 

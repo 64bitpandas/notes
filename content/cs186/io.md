@@ -29,7 +29,7 @@ However, in the real world, reading something from memory could be hundreds of t
 
 A **page** is the basic ("atomic") unit of information on disk: since it's more efficient than reading one byte at a time, nearly all modern hard drives and SSDs have some hard-coded block size in their firmware, such that any data accessed from them will always be delivered one block at a time. These blocks are then converted into pages, which also have a fixed size, in the operating system.
 
-For the purposes of this class, **"block" and "page" can be used interchangably.** In most contexts we will refer to it as a page. However, in general, [there is a difference.](https://stackoverflow.com/questions/22137555/whats-the-difference-between-page-and-block-in-operating-system)
+For the purposes of this class, **"block" and "page" can be used interchangeably.** In most contexts we will refer to it as a page. However, in general, [there is a difference.](https://stackoverflow.com/questions/22137555/whats-the-difference-between-page-and-block-in-operating-system)
 
 A very important thing to note down is that **there is no such thing as a fractional I/O.** If we need to read 4.1 pages' worth of data, it will really take 5 I/Os since the last page needs to be read in its entirety.
 
@@ -39,7 +39,7 @@ The primary application for evaluating I/O cost is for [query optimization](<cs1
 
 **Why can't we just use asymptotic runtime?**
  - We're dealing with known, finite input sizes: We may decide to use a different algorithm for a 1000-row table versus a 10000000-row table, even if the algorithm for the former has poorer asymptotic properties.
- - The difference between a $O(n)$ algorithm and an $O(2n)$ algorithm can get extremely noticable when we have millions (or billions) of rows in a table.
+ - The difference between a $O(n)$ algorithm and an $O(2n)$ algorithm can get extremely noticeable when we have millions (or billions) of rows in a table.
  - The runtime depends on the data that we put in. For instance, certain types of joins (like Sort-Merge Join) perform poorly when we have large amounts of duplicate data. Since we already know (or can approximate) what data we have, we can use this knowledge to estimate how much of the data will need to be accessed to complete the operation, which may be dramatically better or worse than its average runtime.
 
 ## Practice

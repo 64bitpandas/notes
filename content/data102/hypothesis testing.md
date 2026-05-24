@@ -95,13 +95,13 @@ $$FDP \le \frac{\alpha^* \cdot \frac{m_0}{m}}{\frac{k^*}{m}}$$
 which simplifies to
 $$FDP \le \frac{\alpha^*}{k^*} \cdot m_0$$
 where $\frac{\alpha^*}{k^*}$ is the slope of the line. Since $k^*$ is an index and is thus always at most the last test index $m$, $FDP \le \frac{\alpha}{m} \cdot m_0$.
-In turn, we know that $m_0 \le m$ so $FDP \le \alpha$, which demonstrates a relationship between FDP and the $\alpha$ treshold determined using B-H.
+In turn, we know that $m_0 \le m$ so $FDP \le \alpha$, which demonstrates a relationship between FDP and the $\alpha$ threshold determined using B-H.
 
 
 ## Online Decision-Making
 Sometimes, we must make decisions as the data comes in. We don't see all the data upfront, and current decisions may influence future ones.
 
-Intuitively, if we see a lot of small p-values and then an ambigous p-value, we should be more likely to make a D=1 decision. On the other hand, if we see a lot of large p-values and then the same p-value, we should make a D=0 decision instead.
+Intuitively, if we see a lot of small p-values and then an ambiguous p-value, we should be more likely to make a D=1 decision. On the other hand, if we see a lot of large p-values and then the same p-value, we should make a D=0 decision instead.
 
 One example of online decision making is A/B tests, where we might want to change the website after 100 users view it, rather than waiting for all 1000 for the test to complete.
 

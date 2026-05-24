@@ -6,7 +6,7 @@
 
 **Bulimia Nervosa (BN):**
  - Recurrent episodes of binge eating 
- - Lack of control over eating during binge edating
+ - Lack of control over eating during binge eating
  - Compensatory behaviors to prevent weight gain, such as induced vomiting, use of laxatives, fasting, excessive exercise
  - Self-evaluation is highly influenced by body shape and weight
  - Disturbance is not exclusive to episodes of anorexia
@@ -16,7 +16,7 @@
  - Feeling disgusted, depressed, distressed, or guilty after binge eating
 
 Due to their similarities, recent research has explored a dimensional approach to classifying eating disorders that include the following features:
- - Body disatisfaction
+ - Body dissatisfaction
  - Weight concerns
  - Over-evaluation of body shape and weight
  - Binge eating

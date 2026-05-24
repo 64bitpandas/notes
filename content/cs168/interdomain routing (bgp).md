@@ -44,7 +44,7 @@ Some ASes will have preferences on where to route their traffic, even if they ma
 
 There are two main principles for typical policies:
 1. ASes don't accept traffic unless they're getting paid: only carry traffic to customers, and only use peering links to send traffic between customers.
-2. Either make money or send money when sending traffc: only send to provider if no peers or customers are available. 
+2. Either make money or send money when sending traffic: only send to provider if no peers or customers are available.
 
 Also, ASes want autonomy and privacy: the ability to choose their own policies, and to not explicitly announce their policy choices to others.
 

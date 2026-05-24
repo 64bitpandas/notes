@@ -36,7 +36,7 @@ In addition to the state variables that regular Markov models have, Hidden Marko
 ![[/cs188/img/Markov-Models/Untitled.png]]
 
 - All evidence variables $F_i$ are conditionally independent to all state variables given $W_i$.
-- All state variables are conditionally independet to all state and evidence variables given $W_{i-1}$.
+- All state variables are conditionally independent to all state and evidence variables given $W_{i-1}$.
 - $F_1$ is conditionally independent to $W_0$ given $W_1$.
 
 In HMMs, the sensor model $P(F_i|W_i)$ is stationary (i.e. the same for all values of $i$). This means that any HMM can be represented with three CPT’s: the initial distribution, transition model, and sensor model.

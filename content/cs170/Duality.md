@@ -22,7 +22,7 @@ We can rewrite the objective function as a linear combination of the constraints
 
 Such that $y_1, y_2, y_3 \ge 0$ so that the inequalities do not flip.
 
-Combining all of these inqualities creates the big inequality:
+Combining all of these inequalities creates the big inequality:
 
 $(y_1 + y_3) x_1 + (y_2 + y_3) x_2 \le 50 y_1 + 80 y_2 + 100 y_3$
 
