@@ -17,7 +17,7 @@ Dynamic Programming (DP) is a general approach to many types of problems.
 3. Define base cases (when to return a simple result).
 4. Choose the order to solve subproblems such that we can make the algorithm efficient.
 
-### How is this different from recursion though?
+## How is this different from recursion though?
 
 - In DP, **we solve smaller subproblems first.** In recursion, we don't reach these subproblems until we try to calculate the larger problem.
 - In other words, **when we reach a larger subproblem, all its subproblems must already have been computed.**

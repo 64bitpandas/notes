@@ -32,7 +32,7 @@ There are a good number of ways we can get stable matchings, but one of the most
 3. The candidate will then say to their favorite offer, "I like it, but please wait until tomorrow so I can see if I get a better offer."
 4. Repeat until each job gets exactly one candidate.
 
-#### Important notes about this algorithm:
+### Important notes about this algorithm:
 
 * **It is guaranteed to terminate.** \(Check the proofs section to see why\)
 * **Every day, it gets better for candidates.** This is because candidates can choose their best offer, so as more offers keep rolling in they get more \(and better\) choices. This means that this particular algorithm is **job-optimal** and **candidate-pessimal.** Indeed, regardless of what the groups are, **whichever group proposes will have optimal results.**
@@ -81,6 +81,4 @@ Theorem: Job Propose, Candidate Reject produces a candidate-pessimal pairing:
 * Let T be a pairing where \(j, c\) is a pair.
 * Let S be a stable pairing that is worse for c than T is. So \(j, c\*\) is a pair.
 * Since j prefers c to c\*, \(j, c\*\) is a rogue couple for S which is a **contradiction.** Therefore, T is the worst possible pairing for c.
-
-### 
 

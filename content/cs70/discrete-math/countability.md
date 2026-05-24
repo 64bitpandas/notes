@@ -31,7 +31,7 @@ A **bijection,** also known as an **isomorphism,** is a mapping that is **both o
 A set $S$ is **countable** if there is a **bijection from S to the set of natural numbers** $\mathbb{N}$**or a subset of N.** In other words, $S$and $\mathbb{N}$have the **same cardinality.** \
 This should make intuitive sense because the natural numbers are, by definition, countable (we can start from 1, then 2, then 3... and hit them all), so if we can somehow number off some elements in a group and count them that way, then those elements are countable!
 
-#### Proving that something is countable:
+### Proving that something is countable:
 
 
 

@@ -17,9 +17,7 @@ Friedman et al. 1995- Terman Life-Cycle study, conducted from 1921 to 1986 on ch
 John et al. 1994
  - Relationship between personality and delinquency
  - Delinquents tend to have higher E, and lower A, C, O
- - Low A, Low C, High E, High N = related to psychopathic personality and adult criminality (Beaver et al. 2015, 
- - 
- - O'Riordan, O'Connell 2014)
+ - Low A, Low C, High E, High N = related to psychopathic personality and adult criminality (Beaver et al. 2015; O'Riordan, O'Connell 2014)
  - ![[/psych150/img/Pasted-image-20230201101825.png|400]]
 
 ### Academic achievement

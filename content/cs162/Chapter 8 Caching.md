@@ -160,13 +160,13 @@ We can store mappings from virtual to physical addresses in a custom cache known
 
 ![Untitled](Chapter-8-Caching/Untitled.png)
 
-### Thrashing
+## Thrashing
 
 While great for reducing access times for cache hits, miss times with the TLB are very high because it exists in the critical path, and we would need additional accesses to go around it.
 
 If the TLB is not big enough, or we otherwise keep evicting entries that are still needed, **thrashing** occurs, where there are continuous conflicts between accesses. To circumvent this, most TLBs are fully associative and have 128 to 512 entries.
 
-### Memory Access Walkthrough
+## Memory Access Walkthrough
 
 When some data needs to be accessed from the disk, the following happens:
 

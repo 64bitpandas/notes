@@ -41,7 +41,7 @@ P and NP are classes of relations.
 
 It is common belief that $P \ne NP$, but it has never been proven. (If they are equal, then that means we can solve anything in polynomial time.)
 
-### NP-hard and NP-complete
+## NP-hard and NP-complete
 
 A problem $A$ is **NP-hard** if all problems $B$ in $NP$ can reduce into $A$.
 
@@ -154,7 +154,7 @@ This can be further reduced to the **traveling salesperson problem** (find short
 
 # Coping with NP-Hardness
 
-### A general problem-solving method
+## A general problem-solving method
 
 Let's say we are interested in solving a task $A$. Here's a method we can use to find a solution:
 

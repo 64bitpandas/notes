@@ -13,7 +13,7 @@ For all $i$ in topological order , sample $X_i$ from the CPT of $P(X_i | parents
 
 Then, return the tuple of all $x_i$ sampled.
 
-The probability of getting an exact tuple $(S(x_1, \cdots, x_n)$ is equal to $P(x_1, \cdots, x_n)$ from the original Bayes Net.
+The probability of getting an exact tuple $S(x_1, \cdots, x_n)$ is equal to $P(x_1, \cdots, x_n)$ from the original Bayes Net.
 
 As the number of samples taken gets larger, the number of samples that equal a particular tuple divided by the total number of samples approaches the true probability. This means that prior sampling is **consistent.**
 
@@ -68,7 +68,7 @@ Markov chains follow the **Markov property:** each random variable only depends 
 
 Another property of Markov chains is that the transition probabilities between states are known and constant over time.
 
-The steady state distribution is one that describes the probability of being at each state $x$ at time $
+The steady state distribution is one that describes the probability of being at each state $x$ at time $t$.
 
 
 ## Gibbs Sampling Revisited
@@ -89,7 +89,7 @@ The Metropolis-Hastings algorithm is a method to sample from an unnormalized tar
 	1. If $q(\theta') > q(\theta)$, immediately accept.
 	2. Otherwise, accept with probability $q(\theta')/q(\theta)$.
 
-Recall that $q(\theta) \propto(\theta | x) = p(\theta)p(x|\theta)$. Therefore, the ratio $q(\theta')/q(\theta)$ is equivalent to $P(\theta'|x)/P(\theta|x)$. So, the Metropolis-Hastings algorithm will reach the steady state distribution of the actual density.
+Recall that $q(\theta) \propto p(\theta | x) = p(\theta)p(x|\theta)$. Therefore, the ratio $q(\theta')/q(\theta)$ is equivalent to $P(\theta'|x)/P(\theta|x)$. So, the Metropolis-Hastings algorithm will reach the steady state distribution of the actual density.
 
 ### Choosing a Proposal
 A poor proposal distribution for Metropolis-Hastings can create a large amount of unnecessary rejections. Here's an example:

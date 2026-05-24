@@ -14,7 +14,7 @@ When stored in a list, there is an **important rule** to figure out how to ident
 The most important heap algorithm is **heapify**, which converts any non-heap list into a heap. This algorithm is vital to most heap functions like insert or remove, since these functions often break the heap structure before fixing it with heapify.
 
 **Here's how it works:**\
-****(This example is an excerpt from my [Sorting Guide](https://docs.google.com/document/d/1dUfzdh5V3okrwFbB9o0PgtEBaLHyCqJFwpQWyQ53IeU/edit). The example provided is a max-heap \[5,6,2,4,1].)
+(This example is an excerpt from my [Sorting Guide](https://docs.google.com/document/d/1dUfzdh5V3okrwFbB9o0PgtEBaLHyCqJFwpQWyQ53IeU/edit). The example provided is a max-heap \[5,6,2,4,1].)
 
 Start with the element in the middle of the array (which is the root of the heap).
 

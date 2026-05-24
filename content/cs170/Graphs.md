@@ -10,20 +10,20 @@ A graph is a pair $(V,E)$ where $V$ is the vertex set and $E \subseteq V \times 
 
 There are 2 main ways to represent graphs for an algorithm:
 
-### Adjacency Matrix
+## Adjacency Matrix
 
 $M_G = \begin{pmatrix} m_{ij} \end{pmatrix} \in \{0,1\}^{m \times n}$
 
 If $m_{ij} = 1$, then that means the vertices $i$ and $j$ are connected with an edge.
 
-### Adjacency List
+## Adjacency List
 
 $L_G = 1 \to 3, 5, 7, 11 \cdots$
 $2 \to 5, 8, 9 \cdots$ 
 
 A **list of lists:** each list is the connections from one vertex to others.
 
-### Tradeoffs
+## Tradeoffs
 
 ![[/cs170/img/Graphs/Untitled.png]]
 

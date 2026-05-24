@@ -13,7 +13,7 @@ An operating system has three main roles:
 > Q1.1. Consider a modern web browser (such as Chrome or Firefox) which plays a similar role to an operating system. What considerations does a web browser need to make as a referee, illusionist, and glue?
 > 
 
-### Four Fundamental OS Concepts
+## Four Fundamental OS Concepts
 
 The OS uses the four abstractions below to fulfill its roles:
 
@@ -91,7 +91,7 @@ The OS needs to coordinate activity using a **multiprogramming API** and virtual
 - Every thread can access data and instructions for other threads (enables sharing, but bad for protection) but cannot overwrite OS functions
 - To create protection, the OS must ensure processes don't access memory they should not be able to view (segfaults)
 
-### Multiprocessing vs Multiprogramming
+## Multiprocessing vs Multiprogramming
 
 **Multiprocessing:** multiple CPUs
 
@@ -107,7 +107,7 @@ From the user's perspective, multiprocessing and multiprogramming can be indisti
 
 - Two threads on one core is concurrent, but not parallel
 
-### Addresses
+## Addresses
 
 - Every program has a distinct address space for execution (not physical address space).
 - Depending on the address space, different actions can occur on read or write (nothing, regular behavior, ignore writes, IO, fault...)

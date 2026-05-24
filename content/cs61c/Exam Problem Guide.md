@@ -40,7 +40,7 @@ title: "Exam Problem Guide"
     
     Supposing we have a 32-bit integer `a = 0xABCD_EFGH`. 
     
-    If it was stored in **little endian,** the **least significant** 32-bit block is stored first. ****So, `a[3] = AB` and `a[0] = GH` .
+    If it was stored in **little endian,** the **least significant** 32-bit block is stored first. So, `a[3] = AB` and `a[0] = GH` .
     
     If it was stored in **big endian**, then **the most significant** 32-bit block is stored first. So, `a[0] = AB` and `a[3] = GH` .
     
@@ -103,7 +103,7 @@ title: "Exam Problem Guide"
 - Variables declared outside of functions
 - Static strings `char *r = "foo"`
 
-## **Int Ranges[](https://clickhouse.tech/docs/en/sql-reference/data-types/int-uint/#int-ranges)**
+## **[Int Ranges](https://web.archive.org/web/20210730042130/https://clickhouse.tech/docs/en/sql-reference/data-types/int-uint/#int-ranges)**
 
 - `Int8` — [-128 : 127]
 - `Int16` — [-32768 : 32767]
@@ -195,7 +195,7 @@ Some tasks of the assembler:
     - Data segment, the binary representation of static data
     - Relocation information: code that needs to be processed later
     - Symbol table: list of file labels and static data
-    - Debugging information: [http://www.skyfree.org/linux/references/ELF_Format.pdf](http://www.skyfree.org/linux/references/ELF_Format.pdf) (created with `gcc -g` to better map assembly to original code)
+    - Debugging information: [ELF Format (archive.org)](https://web.archive.org/web/20231219125922/http://www.skyfree.org/linux/references/ELF_Format.pdf) (created with `gcc -g` to better map assembly to original code)
 
 ### Producing Machine Code
 

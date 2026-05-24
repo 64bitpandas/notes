@@ -7,7 +7,7 @@ When multiple tasks need to be done on a single CPU, we need to figure out a way
 
 At any point there are **running, waiting, and blocked threads.** A processor's scheduling policy determines how and when threads transition between these states.
 
-### Scheduling Goals
+## Scheduling Goals
 
 There are three primary goals for an effective scheduling algorithm.
 
@@ -17,7 +17,7 @@ There are three primary goals for an effective scheduling algorithm.
 
 No single scheduling policy can achieve every goal; there must be some tradeoffs. For example, minimizing response time results in more context switching, so throughput cannot also be maximized.
 
-### Vocabulary
+## Vocabulary
 
 **Workload:** the input to a scheduling algorithm, which includes the set of tasks to perform, when they arrive, and how long they will take.
 
@@ -31,7 +31,7 @@ No single scheduling policy can achieve every goal; there must be some tradeoffs
 
 **Deadlock** is a specific type of starvation where two or more threads are circularly waiting for each other. For more info, see the section below.
 
-### Deadlock
+## Deadlock
 
 As an example of deadlock, consider two threads with two locks, `x` and `y`:
 

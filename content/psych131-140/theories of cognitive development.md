@@ -49,10 +49,9 @@ Piaget created the **Stage Theory of Cognitive Development**, which has four mai
  - 7-12 years: concrete operational stage: children are able to think logically about concrete objects
 	 - basic arithmetic
 	 - conservation: objects retain certain properties when moved or reshaped
-		 -
  - 12+ years: formal operational stage: ability to reason abstractly
 
-### Properties of Piaget's Theory
+## Properties of Piaget's Theory
  - Stage changes are qualitative: factors in changes to emotion and social thinking
  - Changes in thinking have broad applicability, propagating to many topics and contexts
  - Transitions are brief

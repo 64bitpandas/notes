@@ -31,8 +31,8 @@ Although the discrete math notes are mostly complete, the probability notes are 
 
 See the [contributing guide](/contributing) for more details!
 
-For LaTeX specifically, you can easily create expressions by surrounding them with double dollar signs. For example, `$\lnot A \iff B$` will create the equation $\lnot A \iff B$ when rendered. Check out the [LaTeX Reference](/cs70/latex-reference.md) for commonly used commands.
+For LaTeX specifically, you can easily create expressions by surrounding them with double dollar signs. For example, `$\lnot A \iff B$` will create the equation $\lnot A \iff B$ when rendered. Check out the [LaTeX Reference](/cs70/latex-reference) for commonly used commands.
 
-#### Credits
+### Credits
 
 * [Ben Cuan](https://github.com/64bitpandas)

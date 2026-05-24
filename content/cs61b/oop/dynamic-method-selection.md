@@ -94,7 +94,7 @@ rarePupper.playWith(rarePupper); // aww rarePupper is lonely :(
 {{< /tab >}}
 
 {{< tab "Q3 Answer" >}}
-**E** is called! What happens is that the **dynamic type** is chosen to **select the method from,** but the **static type** is used to **select the parameters.** `rarePupper`'s **** dynamic type is `Shiba` but its static type is `Dog` so `Shiba.playWith(Dog)` is chosen as the method.
+**E** is called! What happens is that the **dynamic type** is chosen to **select the method from,** but the **static type** is used to **select the parameters.** `rarePupper`'s dynamic type is `Shiba` but its static type is `Dog` so `Shiba.playWith(Dog)` is chosen as the method.
 
 ![rarePupper in action](<../img/assets/image (10).png>)
 {{< /tab >}}
@@ -115,7 +115,7 @@ rarePupper.playWith(doge); // rarePupper is happy :) borks all around
 **E** is called again! Bet ya didn't see that coming 😎
 
 **Why is it not F? I thought doge and rarePupper were both** `Shiba`**?**\
-****When the compiler chooses a method, it **always** starts at the **static method.** Then, it keeps going down the inheritance tree until it hits the **dynamic method.** Since F has a **different signature** than D, it isn't an **overriding method** and thus the compiler won't see it. But E is (since it has the same signature as D), so that is why it is chosen instead.
+When the compiler chooses a method, it **always** starts at the **static method.** Then, it keeps going down the inheritance tree until it hits the **dynamic method.** Since F has a **different signature** than D, it isn't an **overriding method** and thus the compiler won't see it. But E is (since it has the same signature as D), so that is why it is chosen instead.
 
 ![bork bork bork :DDD](<../img/assets/image (11).png>)
 {{< /tab >}}

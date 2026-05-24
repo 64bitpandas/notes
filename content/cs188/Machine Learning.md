@@ -22,7 +22,7 @@ Given existing data points $X = \{X_1, \cdots, X_n\}$ and labels $Y$, predict $P
 
 - Given a list of features $f_1, \cdots, f_n$, a prediction for the label can be calculated using $prediction(f_1, \cdots, f_n) = \argmax_y P(Y=y) \prod_{i=1}^n P(F_i = f_i | Y = y)$. The CPT’s for all of these features will need to be learned using parameter estimation, such as Maximum Likelihood Estimation.
 
-### Maximum Likelihood Estimation
+## Maximum Likelihood Estimation
 
 [http://prob140.org/textbook/content/Chapter_20/01_Maximum_Likelihood.html](http://prob140.org/textbook/content/Chapter_20/01_Maximum_Likelihood.html)
 
@@ -38,7 +38,7 @@ Using MLE to predict CPT values given data points:
 - $P(Y=y) = MLE(\theta | (X,Y))$ = (# data points with $X=x$) / (# data points total)
 - $P(X=x|Y=y) = MLE(\theta | (X,Y))$ = (# data pooints where ($X=x, Y=y$) ) / (# data points where $Y=y$)
 
-### Laplace Smoothing
+## Laplace Smoothing
 
 Prevent overfitting due to outliers by adding in an extra hyperparameter $k$ into the probability:
 

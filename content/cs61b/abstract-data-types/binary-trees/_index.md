@@ -119,13 +119,13 @@ While trees are extremely versatile and fantastic for a variety of applications,
 
 * **All items in a tree need to be comparable.** We can't construct a binary tree out of categorical data, like models of cars, for example.
 * **The data must be hierarchical.** If data can be traversed through in multiple ways, or forms loops, [Graphs](../graphs.md) are probably better.
-* **The best case runtime is** $\Theta(\log(n))$ . This might seem good, but other data structures like [Tries](tries.md) and [Hash Tables](../hashing.md) can be as good as **** $\Theta(1)$ !
+* **The best case runtime is** $\Theta(\log(n))$ . This might seem good, but other data structures like [Tries](tries) and [Hash Tables](../hashing) can be as good as $\Theta(1)$ !
 
 ## Tree Traversals
 
 Check out these pages for information on how to go through each element of a tree!
 
-[Depth First Search](../../algorithms/searching/depth-first-search-dfs.md)
+[Depth First Search](../../algorithms/searching/depth-first-search-dfs)
 
-[Breadth First Search](../../algorithms/searching/breadth-first-search-bfs.md)
+[Breadth First Search](../../algorithms/searching/breadth-first-search-bfs)
 

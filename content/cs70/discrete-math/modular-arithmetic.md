@@ -16,7 +16,7 @@ This is an important concept in many aspects of computer science, namely [crypto
 
 **Modular Equivalence:** If you're looking at a clock and it becomes 25:00, you know it's actually the same as 1:00. Even if they're technically not the same number, they can be treated the same way.
 
-* More formally: **x is congruent to y modulo m:** $x \equiv y \pmod{m}$****
+* More formally: **x is congruent to y modulo m:** $x \equiv y \pmod{m}$
 
 **Important Notation Distinction:** $x \pmod{m}$ is the **class of numbers** that follow the mod rule $m$. It can be used to write equivalences ($10 \equiv 21 \pmod{11}$). However, $\mod(x, m)$is just a number (the remainder when dividing x by m). $\mod(x,m) = x - \lfloor{\frac{x}{y}}\rfloor \cdot y$
 
@@ -96,7 +96,7 @@ The **Chinese Remainder Theorem (CRT)** guarantees **existence and uniqueness** 
 
 There is a unique solution $x \pmod{mn}$such that $x = a \pmod{m}$, $x = b \pmod{n}$, and $gcd(m,n) = 1$. Here are a few ways to word it (see which one clicks better):
 
-#### Formal Statement of CRT:
+### Formal Statement of CRT:
 
 Let $n_1 \cdots n_k$be positive coprime integers. (Any two of them must be relatively prime.) Then, for any combination of integers $a_1 \cdots a_k$, a **unique** x exists such that $x \equiv a_i \mod n_i$for all $0 < i \le k$.
 
@@ -106,7 +106,7 @@ Let $n_1, \ldots n_k$ be pairwise co-prime, i.e. $n_i$ and $n_j$ are co-prime fo
 
 ![crt](../img/assets/crt.jpg)
 
-#### Uniqueness of CRT Solution
+### Uniqueness of CRT Solution
 
 Not only do we know that there is a unique solution $x$, but we can actually write out its exact value! Here it is:
 
@@ -116,7 +116,7 @@ $$
 
 In this sum, $b_i = (\frac{N}{n_i}) \cdot (\frac{N}{n_i})^{-1} \mod n_i)$ , and $N$is the product of all primes $n_1, \cdots n_k$.  This sum is congruent to $a_i \mod n_i$for all valid values of $i$.
 
-#### Computation
+### Computation
 
 The Chinese Remainder Theorem often ties well together with the Extended Euclidean Algorithm, since we would need to find lots of inverse mods for each $b_i$. Also like the Extended Euclidean Algorithm, it's very hard to demonstrate the computation on a static webpage so here's another good video walkthrough!
 
@@ -134,11 +134,11 @@ The Chinese Remainder Theorem often ties well together with the Extended Euclide
 
 **Fermat's Little Theorem** (not to be confused with [Fermat's Last Theorem](https://www.youtube.com/watch?v=nUN4NDVIfVI)) makes the observation that **exponentiation is periodic** when modulo is done by a **prime number.** This makes it reasonable to compute obscenely large numbers, like $2^{65535}$, when in a mod space.
 
-#### The Formal Definition
+### The Formal Definition
 
 For prime $p$ and an integer $a \in \{1, 2, \cdots, p - 1\}$, $a^{p-1} \equiv 1 \pmod{p}$.
 
-#### An Alternative Definition
+### An Alternative Definition
 
 If we multiply both sides by $a$, we can actually drop the restriction to $a$ and allow it to be any integer. This version is sometimes more useful than the normal definition:
 

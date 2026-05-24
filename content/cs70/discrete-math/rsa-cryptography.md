@@ -22,12 +22,10 @@ This poses yet another problem: how can we choose these public and private keys 
  \- $x$is the original message; $y$is the encrypted message
 
 **Public Key:** $(N, e)$\
-**Private Key:** $d = e^{-1} \pmod{(p-1)(q-1)}$****
+**Private Key:** $d = e^{-1} \pmod{(p-1)(q-1)}$
 
 **Encryption:** $E(x) = x^e \pmod{N}$\
-**Decryption:** $D(y) = y^d \pmod{N}$****
-
-****
+**Decryption:** $D(y) = y^d \pmod{N}$
 
 ## Example
 

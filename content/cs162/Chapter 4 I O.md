@@ -23,7 +23,7 @@ UNIX I/O has several key ideas:
 
 High-level C libraries operate on **streams** (unformatted sequences of bytes with a position). When using high-level IO operations, the libraries automatically provide caching and write buffering to improve performance.
 
-### Reading and Writing
+## Reading and Writing
 
 To read or write using the high-level file API, we must first call `FILE* fopen(const char *filename, const char *mode)` to open the file.
 
@@ -47,7 +47,7 @@ void copy(const char *src, const char *dest) {
 }
 ```
 
-### Stream Operations
+## Stream Operations
 
 Streams can be accessed in the same manner as files. Some API Standard Streams include `stdin` (input stream), `stdout` (output stream), and `stderr` (error stream).
 
@@ -109,7 +109,7 @@ void copy(const char *src, const char *dest) {
 
 For an example of using `dup2` in the context of forks and pipes to execute processes, see [http://www.cs.loyola.edu/~jglenn/702/S2005/Examples/dup2.html](http://www.cs.loyola.edu/~jglenn/702/S2005/Examples/dup2.html).
 
-### High vs Low Level IO
+## High vs Low Level IO
 
 **High level streams are buffered in user memory:**
 
@@ -132,7 +132,7 @@ In the kernel, pipes are implemented as a fix-sized queue. This causes some issu
 - If the buffer is full and Process A tries to write, then the pipe blocks (process gets put to sleep).
 - If the buffer is empty and Process B tries to read, then the pipe also blocks.
 
-### Closing Pipes
+## Closing Pipes
 
 Just like files, pipes should be closed after use with `close(fileds[0])` for the read stream and `close(fileds[1])` for the write stream.
 

@@ -6,7 +6,7 @@ created: "February 23, 2021 10:04 AM"
 
 # Horn Formulas
 
-### The Problem: Boolean Expressions
+## The Problem: Boolean Expressions
 
 Suppose we have a boolean expression such as $(w \lor y \lor z) \land (y \implies w) \lor (\lnot u \land \lnot v \land \lnot z)$ and so on. 
 
@@ -14,7 +14,7 @@ We'd like to answer the question: are there any values of boolean variables that
 
 In the general case, this problem is NP-hard...
 
-### A Special Case
+## A Special Case
 
 There are some special cases, though, that can be solved with a greedy algorithm. These are called **Horn clauses:**
 
@@ -22,7 +22,7 @@ There are some special cases, though, that can be solved with a greedy algorithm
 2. $\implies x$ (x is true)
 3. $(\lnot u \lor \lnot v \lor \lnot y)$
 
-### Solving the Special Case
+## Solving the Special Case
 
 Suppose we have a collection of Horn clauses. We can use the following algorithm to calculate the answer:
 

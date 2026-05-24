@@ -3,9 +3,7 @@ title: "LaTeX Reference"
 weight: 5
 ---
 
-# 
-
-### Basics
+## Basics
 
 | Symbol | Description | LaTeX |
 | :--- | :--- | :--- |
@@ -19,7 +17,7 @@ weight: 5
 | $\infty$ | Infinity | `\infty` |
 | $\lim_{x \to \infty}$ | Limit | `\lim_{x \to \infty}` |
 
-### Propositional Logic
+## Propositional Logic
 
 | Symbol | Description | LaTeX |
 | :--- | :--- | :--- |
@@ -34,7 +32,7 @@ weight: 5
 | $\forall$ | For all | `\forall` |
 | $\oplus$ | Exclusive or \(xor\) | `\oplus` |
 
-### Sets
+## Sets
 
 | Symbol | Description | LaTeX |
 | :--- | :--- | :--- |
@@ -50,7 +48,7 @@ weight: 5
 | $\setminus$ | Set Division | `\setminus` |
 | $\subseteq$ | Subset \(inclusive\) | `\subseteq` |
 
-### Modular Arithmetic
+## Modular Arithmetic
 
 | Symbol | Description | LaTeX |
 | :--- | :--- | :--- |

@@ -73,7 +73,7 @@ $$
 T(n) = c \cdot n^d(\frac{1-(a/b^d)^{log_b(n)+1}}{1-a/b^d})
 $$
 
-which simplifies to $$c \cdot n^d (
+which simplifies to $O(n^d)$ since the geometric series converges to a constant when $a/b^d < 1$.
 
 **Balanced:** $a/b^d = 1$. 
 

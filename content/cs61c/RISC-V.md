@@ -79,7 +79,7 @@ For example: `add x1, x2, x3` will sum the values held in the registers `x2`, an
 
 ### Immediates
 
-**Immediates **** are used to provide numerical constants to instructions. We need to use a new opcode to use them: for example, `addi x3, x4, -10` adds the constant -10 value to x4 and stores it in x3.
+**Immediates** are used to provide numerical constants to instructions. We need to use a new opcode to use them: for example, `addi x3, x4, -10` adds the constant -10 value to x4 and stores it in x3.
 
 We can use this to copy registers: `addi x3, x4, 0` copies the value of `x4` to `x3`.
 

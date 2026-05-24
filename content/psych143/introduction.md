@@ -155,7 +155,7 @@ Children use evidence from their environment to adjust $H$:
 ## Critical Period Hypothesis
  According to the critical period hypothesis, there is a specific phase in life where humans have heightened sensitivity to environmental informantion needed to learn language. 
 An example of critical periods in the wild is imprinting in animals, where babies become attached to their mothers or caretakers shortly afterbirth.
-- Neuroplasticity hypothesis: if that part of the brain is not used for its purpose, it will be repurposed for another use.`
+- Neuroplasticity hypothesis: if that part of the brain is not used for its purpose, it will be repurposed for another use.
 - 
 - The cricital period hypothesis suggests that there is a ddiscontinuity between early exposure and late exposure, as learning ability sharply declines after the critical period ends.
 Evidence for this hypothesis is most prevalent in studies on children who were reintroduced to society later in life: specifically, lae learners in ASL are unable to learn the language to the fullest extent.

@@ -13,7 +13,7 @@ As languages get more high level, they tend to become easier to write but run mo
 
 An **interpreter** is a program that executes other programs. Higher level languages are less efficient to interpret since they optimize for readability or accessibility rather than performance.
 
-One alternative to interpreting is **translation*,*** which is when a high level language is converted into a lower level language. 
+One alternative to interpreting is **translation,** which is when a high level language is converted into a lower level language.
 
 Even machine code is worth interpreting for simulators and emulators (Apple silicon transition is a notable example).
 
@@ -63,7 +63,7 @@ Some tasks of the assembler:
     - Data segment, the binary representation of static data
     - Relocation information: code that needs to be processed later
     - Symbol table: list of file labels and static data
-    - Debugging information: [http://www.skyfree.org/linux/references/ELF_Format.pdf](http://www.skyfree.org/linux/references/ELF_Format.pdf) (created with `gcc -g` to better map assembly to original code)
+    - Debugging information: [ELF Format (archive.org)](https://web.archive.org/web/20231219125922/http://www.skyfree.org/linux/references/ELF_Format.pdf) (created with `gcc -g` to better map assembly to original code)
     
 
 ### Producing Machine Code

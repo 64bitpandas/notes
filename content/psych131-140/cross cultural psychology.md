@@ -18,7 +18,7 @@ Through cross-cultural research, we can:
 # Case Studies
 
 ## The Dictator Game
-Researchers asked individuals from several different cultures around the world: "If you were given $10, how much would you share with another person?"
+Researchers asked individuals from several different cultures around the world: "If you were given \$10, how much would you share with another person?"
 
 Cultures with higher market integration and religiosity tend to share more than others.
 

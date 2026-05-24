@@ -157,7 +157,7 @@ Let's look at the example from Discussion 6:
 #### Number of Passes
 Like hashing, our goal is to make the partitions small enough to fit in the buffer. But now that we have two tables, **we only need one of them to fit**! This is because we can put the smaller table into memory, then stream the larger table in one page at a time using one buffer frame.
 
-![np](<Sorting and Hashing/Pasted image 20230109172013.png|300>)
+![np|300](<Sorting and Hashing/Pasted image 20230109172013.png>)
 As you can see in the image above, as long as one of the tables fits in $B-2$ pages, we're all set for the Build and Probe stage.
 
 In each stage, of the Partitioning step, we create $B-1$ partitions, so we solve for the number of recursive passes $x$ in the following manner:

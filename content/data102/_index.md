@@ -36,7 +36,7 @@ See the [contributing guide](/contributing) for more details!
 
 For the most part, these notes should be pretty complete in terms of content, but could use some cleaning up (as well as more examples).
 
-#### Credits
+### Credits
 
 * [Ben Cuan](https://github.com/64bitpandas)
 

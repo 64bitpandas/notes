@@ -26,7 +26,7 @@ Rational agents follow the **principle of maximum expected utility (MEU):** they
 
 **Risk-seeking** agents prefer a lottery.
 
-### Maximum Expected Utility Equations
+## Maximum Expected Utility Equations
 
 - No evidence: $MEU(\emptyset) = \max_a EU(A=a) = \max_a \sum_s P(r_a = s) U(S)$
 - Given evidence: $MEU(E=e) = \max_a EU(A=a|E=e) = \max_a \sum_s P(r_a = s | E = e)U(s)$

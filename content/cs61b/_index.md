@@ -7,7 +7,7 @@ weight: 10
 
 # Welcome to my CS61B Guide!
 
-This is a **non-comprehensive** guide to data structures written with an intention to supplement learning and reviewing of Berkeley's [CS61B](https://inst.eecs.berkeley.edu/\~cs61b) material. Main topics include:
+This is a **non-comprehensive** guide to data structures written with an intention to supplement learning and reviewing of Berkeley's [CS61B](https://inst.eecs.berkeley.edu/~cs61b) material. Main topics include:
 
 * Object oriented programming basics
 * Abstract data types
@@ -18,7 +18,7 @@ This is a **non-comprehensive** guide to data structures written with an intenti
 
 This guide is written to be as easy to follow and digestible as possible😀I've included lots of diagrams, practice problems, and more intuitive explanations instead of the more straightforward approach most textbooks use. **This isn't a replacement for lectures and other course content.** You probably need to look at those first, and come here if something isn't sticking!
 
-### The 61B Concept Map
+## The 61B Concept Map
 
 ![](<img/assets/image (6).png>)
 
@@ -28,7 +28,7 @@ This guide is written to be as easy to follow and digestible as possible😀I've
 
 Mostly me; making unnecessarily detailed guides is my goto method of making sure I understand everything 😁 But you are welcome to use it as well for reviewing for 61B exams, touching up on data structures knowledge, or whatever you want!
 
-**Basic programming knowledge gained from** [**CS61A**](https://cs61a.org/) **or equivalent is assumed.** [[/cs61a|Click here]] for my notes for that!
+**Basic programming knowledge gained from** [**CS61A**](https://cs61a.org/) **or equivalent is assumed.** [Click here](/cs61a) for my notes for that!
 
 ## How to use this guide
 
@@ -44,9 +44,9 @@ This content was ported from my original [61B Notes](https://cs61b.bencuan.me), 
 There are also plenty of practice problems to try out! Here's an non-exhaustive list of pages with those if you are mostly interested in them and not the conceptual content.
 
 * [Access Control](/cs61b/oop/access-control)
-* [Dynamic Method Selection](/cs61b/oop/dynamic-method-selection.md)
+* [Dynamic Method Selection](/cs61b/oop/dynamic-method-selection)
 * [Generic Types](/cs61b/oop/generics)
-* [Asymptotics Practice](/cs61b/asymptotics/asymptotics-practice.md)
+* [Asymptotics Practice](/cs61b/asymptotics/asymptotics-practice)
 
 
 

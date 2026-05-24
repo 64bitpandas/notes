@@ -78,10 +78,10 @@ When the computer is booted, these steps need to be performed:
 
 Applications are known as **processes.** Each process has its own address space and **threads of execution** (sequences of code to run)**.** Each process is isolated (don't care about other processes) and run pseudo-simultaneously (switch between process quickly such that it is indistingishable to the user).
 
-Applications are started by another process (such as the shell) using a **syscall.** This loads the executable file from the disk and loads instructions+data into memory, stack, and heap. ****
+Applications are started by another process (such as the shell) using a **syscall.** This loads the executable file from the disk and loads instructions+data into memory, stack, and heap.
 
 - Linux: `fork()` and `execve` to execute file command
-- RISC-V: `ecall` ****
+- RISC-V: `ecall`
 
 # Virtual Memory
 

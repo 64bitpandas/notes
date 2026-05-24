@@ -17,7 +17,7 @@ Each thread has a private state stored in the **Thread Control Block (TCB).** Ad
 
 ![Untitled](Chapter-3-Threads/Untitled%201.png)
 
-### Thread States
+## Thread States
 
 Operating systems have a **thread scheduler** that manages multiple threads, and can switch between ready and running threads. Threads can have one of several states:
 
@@ -30,7 +30,7 @@ Operating systems have a **thread scheduler** that manages multiple threads, and
     The thread lifecycle, from initialization to completion.
     
 
-### Multithreaded Programs
+## Multithreaded Programs
 
 ![Untitled](Chapter-3-Threads/Untitled%203.png)
 
@@ -42,7 +42,7 @@ One common method of turning a single-threaded program into a multi-threaded pro
 
 # UNIX Thread Management
 
-### Fork-Join Parallelism
+## Fork-Join Parallelism
 
 The function `int pthread_create(pthread_t *restrict thread, const pthread_attr_t *restrict attr, void *(*start_routine)(void *), void *restrict arg)` can be used to create a thread.
 
@@ -60,7 +60,7 @@ If a child thread is complete, `int pthread_exit(void *retval)` can be called to
 
 A context switch can be forced using `pthread_yield`, which causes the thread to relinquish the CPU and get placed at the end of the run queue.
 
-### Race Conditions
+## Race Conditions
 
 Threads run in a nondeterministic order, so we must be careful to join them at the correct time. Here's what happens if we don't:
 

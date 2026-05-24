@@ -57,7 +57,7 @@ Hard drives are magnetic disks that contain tracks of data around a cylinder.
 
 HDD's are generally good for sequential reading, but bad for random reads.
 
-![Untitled](../../../CS186%20Notes%204a084a8a0e22428d9443c551eda9dfe0/Untitled%20Database%208925b4d3c6734c3fa260dd5d5e752782/Disks,%20Buffers,%20Files/Untitled%201.png)
+![Untitled](/cs186/Disks,%20Buffers,%20Files/Untitled%201.png)
 
 **Disk Latency = Queueing Time + Controller Time + Seek Time + Rotation Time + Transfer Time**
 
@@ -289,7 +289,7 @@ Messages over an unreliable network cannot guarantee entities to do something si
 
 ![Untitled](Chapter-9-File-Systems/Untitled%205.png)
 
-![Untitled](../../CS161%20Notes%2058b7c6378df74bef8c48f2d39dbe9a72/Notes%208cc979bb2e384250a5fa4b59ec87672e/Networking/Untitled%207.png)
+![Untitled](/cs161/img/Networking/Untitled%207.png)
 
 ## Remote Procedure Calls
 

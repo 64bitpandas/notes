@@ -26,7 +26,7 @@ We can then formally define the problem:
 - Constraints on z: $M_{1,1}(p_1) + \cdots + M_{n,1}(p_n) \ge z$, and so on for each column in the matrix from $1$ to $m$. (The matrix $M$ is $n \times m$.)
 - Constraints on the probabilities: $p_1 + p_2 + \cdots + pn = 1$ and $p_1, p_2, \cdots, p_n \ge 0$
 
-### Example (discussion 9)
+## Example (discussion 9)
 
 ![[/cs170/img/Zero-Sum-Games/Untitled 1.png]]
 

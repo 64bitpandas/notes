@@ -25,7 +25,7 @@ If we overwhelm the cache, though, performance will drastically decrease,
 
 Smaller containers are generally faster to access, but more expensive to produce.
 
-Cache **level** is the order of a particular cache in the level hierarchy: L1$ is closest to the processor, and is the smallest and fastest.
+Cache **level** is the order of a particular cache in the level hierarchy: `L1$` is closest to the processor, and is the smallest and fastest.
 
 There is usually one L1 cache for instructions, and L2 cache is used for data.
 
@@ -210,7 +210,7 @@ We would like to reduce the overhead of replacing values in the cache. Here are 
 
 **Capacity miss:** The cache cannot contain all of the blocks accessed by the program. These can be avoided by increasing the size of the cache.
 
-- sizeof(array) > cache size
+- `sizeof(array) > cache size`
 
 **Conflict miss (collision):** Multiple memory locations map to the same cache set. These could be avoided by increasing the associativity of the cache (these would never happen with a fully associative cache).
 

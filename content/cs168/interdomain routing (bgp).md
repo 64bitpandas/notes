@@ -57,7 +57,7 @@ Policy controls how routes are imported and exported.
 
 
 
-# BGP
+## BGP
 
 Essentially, BGP is very similar to Distance-Vector with some key differences:
  - BGP aggregates destinations using hierarchical addressing.

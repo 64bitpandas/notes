@@ -14,9 +14,9 @@ There are **two main types** of problems: those where **order matters** and thos
 
 Here's a sample problem: let's try to figure out the total number of unique 5-character strings we can make with the letters 'A' through 'E'. For instance, 'ABCDE' and 'DABBA' are both valid.
 
-Lots of these types of problems can be visualized using **slots,** where each slot is one character or option: ****
+Lots of these types of problems can be visualized using **slots,** where each slot is one character or option:
 
-****![](<../img/assets/image (19) (1).png>)****
+![](<../img/assets/image (19) (1).png>)
 
 To get the total number of ways to fill the slots, we can **multiply the number of ways each individual slot can be filled together.**
 
