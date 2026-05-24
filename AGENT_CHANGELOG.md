@@ -11,6 +11,7 @@ Commits:
 - [`a5b6a3b`](https://github.com/64bitpandas/notes/commit/a5b6a3b0210d3d254ff5369f0faceaf8c82624f2) — Phase 4: psych learning-progression reordering
 - [`47c4bcc`](https://github.com/64bitpandas/notes/commit/47c4bccd7fdace61287866e1c89201fcc8b39d38) — Phase 5: cross-course wiki links
 - [`d106caf`](https://github.com/64bitpandas/notes/commit/d106cafd8c2c4d2cd54224f349bdd4a2c85b9001) — Phase 6: add AGENT_CHANGELOG.md
+- [`0832ed7`](https://github.com/64bitpandas/notes/commit/0832ed775169ff4a3b3eafe21d1056a3c07da670) — Phase 8: fix BFS walk typo (GH #3)
 
 ## Phase 1 — Formatting and Structural Fixes
 
@@ -800,3 +801,13 @@ genetics/heritability/temperament.
 
 ### content/psych150/Temperament and Birth Order.md
 - Added `[[psych131-140/2-4 temperament]]` — developmental-psych Kagan inhibited/uninhibited treatment.
+
+## Phase 8 — GitHub Issue Fixes
+
+Addressed open issues on the GitHub repo. Issue #2 (B+ tree Q2a inaccuracy)
+was already resolved during Phase 3 (commit 704adf0) by changing the question's
+stated tree height from 5 to 2 to match the existing answer of 26 I/Os — an
+equally valid resolution to the one the reporter proposed.
+
+### content/cs61b/algorithms/searching/breadth-first-search-bfs.md
+- Changed "we won't add C or A because they are both marked." to "we won't add B or A because they are both marked." — fixes GH issue #3. At the step processing node C, the already-marked neighbors are A (start node) and B (marked when A's children were enqueued); C is the current node, not a neighbor it could try to add.
