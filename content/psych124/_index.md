@@ -1,5 +1,5 @@
 ---
-title: "Psych 124: Cultural and Evolutionary Approaches to Psychology"
+title: "Psych 124: The Evolution of Human Behavior"
 BookCollapseSection: true
 weight: 100
 ---
