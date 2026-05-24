@@ -1226,3 +1226,82 @@ and dual-inheritance content.
 #### content/psych150/Heritability of Personality.md
 - Extended the existing cross-references paragraph to additionally link to `[[anthro1/modern-evolutionary-theory]]` (population-level definition of evolution as the change in allele frequencies).
 
+
+## Phase 10 — Math 54, EE 16B, Psych 124, Table of Contents Pass
+
+Three new courses published (Math 54, EE 16B, Psych 124) plus a
+site-wide Table of Contents pass on course landing pages. EE 16B
+and Math 54 ship as embedded PDFs only (no OCR); Psych 124 went
+through the full `scripts/ocr_to_notes.py` pipeline against 18
+pre-split lecture PDFs, using a new per-PDF input mode added to
+the script. Combined per-course PDFs for the Phase 9 courses
+(anthro1, philosophy5) were dropped from the working tree to keep
+the repo lean.
+
+Commits:
+- [`f03dd33`](https://github.com/64bitpandas/notes/commit/f03dd33e2f263251570f2d07fe03370837d41a2b) — Wave 1: publish Math 54 final-exam study guide
+- [`525415a`](https://github.com/64bitpandas/notes/commit/525415a50cfab720dc76e8222ec8663c5e679be4) — Wave 2: per-PDF input mode for already-split lecture sets
+- [`2cdfa93`](https://github.com/64bitpandas/notes/commit/2cdfa93012ffa4677f3d3619f61ece89cf973bf4) — Wave 2: publish EE 16B as embedded section PDFs (no OCR)
+- [`6ac6f2d`](https://github.com/64bitpandas/notes/commit/6ac6f2d1d9c657f40187c6162a7fcdd283f36291) — Wave 2: add EE 16B to incomplete-notes index
+- [`63927a0`](https://github.com/64bitpandas/notes/commit/63927a04cf09de3b1f0bcd44b6966615423cb092) — Wave 3: drop anthro1 + philosophy5 combined PDFs
+- [`7d38dca`](https://github.com/64bitpandas/notes/commit/7d38dcaf73875d133bda6e3162cf4963b2a8d651) — Wave 4: psych124 OCR-transcribe 18 split lecture PDFs
+- [`b1e83eb`](https://github.com/64bitpandas/notes/commit/b1e83eb51f68b679a5267f034a37b4526f8dd199) — Wave 4: psych124 reorder sections by lecture date
+- [`38aaf27`](https://github.com/64bitpandas/notes/commit/38aaf27e348ed4af6db17685cdea4e355e9c263a) — Wave 4: psych124 strip OCR metadata and date headers
+- [`a839cdd`](https://github.com/64bitpandas/notes/commit/a839cdd2fcc4ab21693786eda43696cf7edd2731) — Wave 4: psych124 publish course with _index and nav entry
+- [`3917fd0`](https://github.com/64bitpandas/notes/commit/3917fd0a68aa7235813df045fbe9164d8206d705) — Wave 4: psych124 rename course title to "The Evolution of Human Behavior"
+- [`7b3ea71`](https://github.com/64bitpandas/notes/commit/7b3ea71422a1ed88f8fef3134bd86ea108d69bc7) — Wave 5: add Table of Contents to 12 course landing pages
+- [`8d84247`](https://github.com/64bitpandas/notes/commit/8d842473392abc3f54b84bed64958a34dce9d4f8) — Wave 5: add Table of Contents to psych124
+
+### Wave 1 — Math 54 Publication (`f03dd33`)
+
+One-page course bundle for Math 54 (Linear Algebra and Differential
+Equations) shipped as a single embedded PDF — a final-exam study
+guide rather than a full lecture set. Added `content/math54/_index.md`
+with the PDF embed and a navbar entry under "Incomplete Notes". No
+OCR; the PDF is the canonical artifact.
+
+### Wave 2 — EE 16B Publication (`525415a`, `2cdfa93`, `6ac6f2d`)
+
+EE 16B (Designing Information Devices and Systems II) shipped as 18
+section bundles, each with an embedded per-section PDF. The source
+material was already split into one PDF per topic, so no OCR pass
+was run — the markdown pages just frame and embed each PDF.
+
+- `525415a` extended `scripts/ocr_to_notes.py` (and/or sibling tooling) with a per-PDF input mode so a directory of already-split lecture PDFs can be turned into leaf bundles without re-splitting from a combined source.
+- `2cdfa93` published the course: `content/ee16b/_index.md` plus 18 `content/ee16b/<slug>/index.md` + `<slug>.pdf` leaf bundles.
+- `6ac6f2d` added `ee16b` to the "Incomplete Notes" list in `content/_index.md`.
+
+### Wave 3 — Combined PDF Cleanup (`63927a0`)
+
+Dropped `content/anthro1/anthro1-combined.pdf` and
+`content/philosophy5/philosophy5-combined.pdf` from the working tree.
+The per-section PDFs remain available as leaf-bundle resources;
+the combined bundles were redundant and bulky (anthro1 was ~108 MB).
+
+### Wave 4 — Psych 124 OCR (`7d38dca`, `b1e83eb`, `38aaf27`, `a839cdd`, `3917fd0`)
+
+Psych 124 (now titled "The Evolution of Human Behavior") was
+transcribed from 18 pre-split handwritten lecture PDFs using the
+same OCR pipeline as the Phase 9 courses, this time driven by the
+new per-PDF input mode from Wave 2.
+
+- `7d38dca` ran the OCR pipeline against all 18 split lecture PDFs, producing leaf bundles under `content/psych124/<slug>/index.md` + `<slug>.pdf`.
+- `b1e83eb` reordered the sections by lecture date. Since most pages did not contain OCR-able date headers, ordering follows the canonical lecture sequence supplied by the user: intro-to-evolution → culture-and-evolution → weird → cumulative-culture → evolutionary-thought → behavioral-immunity → the-startup-problem → olfaction → tool-use → language → reproduction → mating-systems → religion-psychology → power → patriarchy → norm-psychology → gods → war.
+- `38aaf27` stripped OCR metadata leakage — date headers and similar attachment-marker artifacts from the `auggie` invocations (same class of cleanup as Phase 9 Wave 1).
+- `a839cdd` published the course with `content/psych124/_index.md` and a navbar entry.
+- `3917fd0` renamed the course title from the bare `Psych 124` placeholder to `The Evolution of Human Behavior` in the section frontmatter and the navbar.
+
+### Wave 5 — Table of Contents Pass (`7b3ea71`, `8d84247`)
+
+Added a `## Table of Contents` section to course landing pages
+that were missing one, listing the course's subpages so the
+section index is browsable without relying solely on the sidebar.
+
+- `7b3ea71` added ToCs to 12 course landing pages in one sweep.
+- `8d84247` followed up with the same treatment for psych124 once it was published.
+
+Skipped intentionally:
+- `math54`, `mcbc61` — PDF-only with no subpages to list.
+- `cs162`, `cs168`, `cs170`, `cs186`, `data102` — already had ToCs.
+- `data100`, `psych143` — only one subpage each, so a ToC adds no value.
+
