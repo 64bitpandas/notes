@@ -811,3 +811,418 @@ equally valid resolution to the one the reporter proposed.
 
 ### content/cs61b/algorithms/searching/breadth-first-search-bfs.md
 - Changed "we won't add C or A because they are both marked." to "we won't add B or A because they are both marked." — fixes GH issue #3. At the step processing node C, the already-marked neighbors are A (start node) and B (marked when A's children were enqueued); C is the current node, not a neighbor it could try to add.
+
+## Phase 9 — OCR Project: Philosophy 5, Anthro 1
+
+Two new courses transcribed from handwritten lecture PDFs using
+`scripts/ocr_to_notes.py` + the auggie CLI + Claude Opus 4.7. The
+script reads a JSON page→section mapping, extracts pages with poppler
+(`pdfseparate`/`pdfunite`/`pdftoppm`), OCRs each PNG via `auggie
+--print --quiet --model opus4.7`, and writes Hugo leaf-bundle markdown
+alongside per-section and combined PDFs. After transcription, the
+two courses went through the same review process previously applied
+to the existing notes (artifact cleanup, formatting, spelling/grammar,
+content accuracy, cross-course wiki links).
+
+Commits:
+- [`fb4845b`](https://github.com/64bitpandas/notes/commit/fb4845b1c2693fd69f4e7ce05d1b800b52c12e77) — Phase A: OCR pipeline + navbar entries for 2 new courses
+- [`7c6764a`](https://github.com/64bitpandas/notes/commit/7c6764a705807b5199545312d7219aedf3dee529) — Phase A.2: swap OCR backend from Anthropic SDK to auggie CLI
+- [`bea5a4f`](https://github.com/64bitpandas/notes/commit/bea5a4fc85411122206d8a39339efdb44dcbf316) — Phase B: philosophy5 OCR transcription
+- [`1caf3c7`](https://github.com/64bitpandas/notes/commit/1caf3c7e663c0aecdf797f8bca80682b8d669390) — Phase B.1: philosophy5 leaf-bundle restructure
+- [`fb63a79`](https://github.com/64bitpandas/notes/commit/fb63a799d20c1ebe32ad13b96bfd359ab9d56968) — Phase D: anthro1 OCR transcription
+- [`93cd13a`](https://github.com/64bitpandas/notes/commit/93cd13ab758640280d26d992d5f4f822dfc42d92) — Wave 1: anthro1 OCR artifact cleanup
+- [`e6576de`](https://github.com/64bitpandas/notes/commit/e6576ded0882e442cd82aef02bf85b7e2cd61b95) — Wave 1: philosophy5 OCR artifact cleanup
+- [`ccdee33`](https://github.com/64bitpandas/notes/commit/ccdee33fcee67cd92d57294ed0b30fc4f1f21fc7) — Wave 3: philosophy5 spelling and grammar
+- [`ec29e65`](https://github.com/64bitpandas/notes/commit/ec29e65f2e1cab2171d58afc55d0e90cac7d27bf) — Wave 3: anthro1 spelling and grammar
+- [`422846c`](https://github.com/64bitpandas/notes/commit/422846cb9c056bd92e380cc37374e9a6a66bbddb) — Wave 4: anthro1 content accuracy
+- [`0ea9b37`](https://github.com/64bitpandas/notes/commit/0ea9b3734a7ce83267f9fec2757ec9baf4fe60b4) — Wave 6: cross-course wiki links between new and existing notes
+
+### Phase A — OCR Pipeline + Navbar Scaffolding (`fb4845b`)
+
+Built the transcription pipeline and added skeleton entries to the
+sidebar so the two new courses would show up under "Incomplete
+Notes". No PDFs from `old/` were staged in this commit — actual OCR
+runs happen in subsequent commits.
+
+#### scripts/ocr_to_notes.py
+- New file: PDF → Hugo page-bundle markdown via Claude vision OCR + poppler (`pdfseparate`, `pdfunite`, `pdftoppm`). Reads a JSON page→section mapping per course, extracts the requested pages as PNGs, sends them to the Anthropic API, and writes a markdown page per section plus a per-section PDF and a combined PDF.
+
+#### scripts/philosophy5.json
+- New file: 9-section page-range mapping for `old/Philosophy 5.pdf` (design-arguments, fine-tuning-argument, statistical-mechanics, scientific-realism, natural-kinds, humes-problem-of-induction, ethics-of-ai, values, epistemic-catastrophe).
+
+#### scripts/anthro1.json
+- New file: 16-section page-range mapping for `old/Anthro 1.pdf` (what-is-anthropology, evolution, traits, mitosis-and-meiosis, modern-evolutionary-theory, origin-of-new-species, biological-classification, geological-time-vertebrate-evolution, primates, primate-anatomy, hominids, paleoanthropology, humans, biocultural-evolution, human-skeletal-biology, bioarchaeology).
+
+#### content/philosophy5/_index.md
+- New file: section skeleton with frontmatter `title: "Philosophy 5"` and `weight: 95` (last in the sidebar).
+
+#### content/anthro1/_index.md
+- New file: section skeleton with frontmatter `title: "Anthro 1"` and `weight: 97`.
+
+#### content/_index.md
+- Added `philosophy5`, `anthro1` to the "Incomplete Notes" list at the bottom of the site index.
+
+### Phase A.2 — Switch OCR Backend to auggie CLI (`7c6764a`)
+
+Replaced the direct Anthropic SDK call inside `ocr_to_notes.py` with
+an `auggie --print --quiet --model opus4.7` subprocess invocation per
+page PNG. This drops the `ANTHROPIC_API_KEY` requirement and the
+`anthropic`/`pillow` Python dependencies; the script now needs only
+the stdlib + poppler + an authenticated `auggie` CLI on PATH.
+
+#### scripts/ocr_to_notes.py
+- Removed `import anthropic` and the `client = anthropic.Anthropic(...)` setup.
+- Removed image base64-encoding helper and the `client.messages.create(...)` call.
+- Added `subprocess.run(["auggie", "--print", "--quiet", "--model", "opus4.7", ...])` wrapper that pipes the prompt over stdin and reads transcribed markdown from stdout.
+- Net: −65 / +50 lines; same external interface (`python scripts/ocr_to_notes.py <course>`), no JSON-mapping changes needed.
+
+### Phase B — Philosophy 5 OCR Transcription (`bea5a4f`)
+
+Auto-transcribed 9 sections (~32 pages) from `old/Philosophy 5.pdf`.
+Each section originally shipped as a flat `slug.md` + `slug.pdf` pair
+inside `content/philosophy5/` with a sibling embedded PDF; the
+combined `philosophy5-combined.pdf` was embedded in `_index.md`.
+Diagrams were intentionally not transcribed in this first pass — body
+text only.
+
+#### content/philosophy5/_index.md
+- Embedded the combined `philosophy5-combined.pdf` (one-line change to the skeleton).
+
+#### content/philosophy5/design-arguments.md
+- New file: 143 lines covering the Watchmaker analogy, Paley's argument, likelihood arguments, and Bayesian formalizations. Section PDF embedded at the top.
+
+#### content/philosophy5/epistemic-catastrophe.md
+- New file: 63 lines on Russell's chicken and the limits of empirical justification.
+
+#### content/philosophy5/ethics-of-ai.md
+- New file: 274 lines covering moral status, value alignment, superintelligence, post-human civilization, and Chalmers' gradual-uploading argument.
+
+#### content/philosophy5/fine-tuning-argument.md
+- New file: 110 lines covering the Anthropic Principle, Observational Selection Effect, multiverse responses, and the Firing Squad objection.
+
+#### content/philosophy5/humes-problem-of-induction.md
+- New file: 248 lines covering Hume's problem, Goodman's grue, Reichenbach's pragmatic vindication, and Inference to the Best Explanation.
+
+#### content/philosophy5/natural-kinds.md
+- New file: 52 lines.
+
+#### content/philosophy5/scientific-realism.md
+- New file: 121 lines.
+
+#### content/philosophy5/statistical-mechanics.md
+- New file: 40 lines.
+
+#### content/philosophy5/values.md
+- New file: 111 lines.
+
+#### content/philosophy5/*.pdf
+- New per-section PDFs (`design-arguments.pdf`, `epistemic-catastrophe.pdf`, `ethics-of-ai.pdf`, `fine-tuning-argument.pdf`, `humes-problem-of-induction.pdf`, `natural-kinds.pdf`, `scientific-realism.pdf`, `statistical-mechanics.pdf`, `values.pdf`) extracted via `pdfseparate` + `pdfunite`, plus a combined `philosophy5-combined.pdf`.
+
+### Phase B.1 — Philosophy 5 Leaf-Bundle Restructure (`1caf3c7`)
+
+Per-section PDFs were 404ing because Hugo only publishes sibling
+files for leaf bundles (`<slug>/index.md`), not for flat `slug.md` +
+`slug.pdf` pairs at the section root. Moved each section to its own
+directory and patched the OCR script so future course runs produce
+the correct layout out of the box.
+
+#### content/philosophy5/<slug>.md → content/philosophy5/<slug>/index.md
+- Renamed all 9 markdown files to `index.md` inside per-slug directories: design-arguments, epistemic-catastrophe, ethics-of-ai, fine-tuning-argument, humes-problem-of-induction, natural-kinds, scientific-realism, statistical-mechanics, values.
+
+#### content/philosophy5/<slug>.pdf → content/philosophy5/<slug>/<slug>.pdf
+- Moved all 9 per-section PDFs into their matching slug directories so Hugo publishes them as leaf-bundle resources.
+
+#### scripts/ocr_to_notes.py
+- Changed the output-path logic so each section is written to `<course>/<slug>/index.md` + `<course>/<slug>/<slug>.pdf` instead of flat siblings (+8 / −4 lines).
+
+### Phase D — Anthro 1 OCR Transcription (`fb63a79`)
+
+Auto-transcribed 16 sections from `old/Anthro 1.pdf` directly into
+the leaf-bundle layout. Largest course of the batch — 2,717 markdown
+lines across the sections plus a ~108 MB combined PDF.
+
+#### content/anthro1/_index.md
+- Embedded the combined `anthro1-combined.pdf`.
+
+#### content/anthro1/what-is-anthropology/index.md
+- New file: 33 lines.
+
+#### content/anthro1/evolution/index.md
+- New file: 169 lines covering pre-Darwinian thinkers (da Vinci, Hooke, Steno, Malthus, Wallace), Darwin's finches and Origin of Species, fitness as differential reproductive success, and the progress fallacy.
+
+#### content/anthro1/traits/index.md
+- New file: 76 lines on Mendelian genotype/phenotype, alleles, dominance, monogenic vs polygenic traits, and polymorphism.
+
+#### content/anthro1/mitosis-and-meiosis/index.md
+- New file: 28 lines.
+
+#### content/anthro1/modern-evolutionary-theory/index.md
+- New file: 65 lines covering allele-frequency change, gene flow, genetic drift, and selection.
+
+#### content/anthro1/origin-of-new-species/index.md
+- New file: 62 lines on speciation modes and reproductive isolation.
+
+#### content/anthro1/biological-classification/index.md
+- New file: 78 lines covering Linnaean taxonomy, homologous/analogous structures, homoplasy, cladistics, and the biological species concept.
+
+#### content/anthro1/geological-time-vertebrate-evolution/index.md
+- New file: 247 lines tracing chordates → vertebrates → tetrapods → mammals through the geologic record.
+
+#### content/anthro1/primates/index.md
+- New file: 219 lines on primate suborders, infraorders, and taxonomic relationships.
+
+#### content/anthro1/primate-anatomy/index.md
+- New file: 256 lines covering dental formulas, locomotion, postorbital closure, sagittal crests, and sexual dimorphism.
+
+#### content/anthro1/hominids/index.md
+- New file: 199 lines covering orangutans, gorillas (folivorous, large size, fission-fusion social structure), chimps, and bonobos.
+
+#### content/anthro1/paleoanthropology/index.md
+- New file: 191 lines covering Sahelanthropus, Orrorin tugenensis, Ardipithecus, and the australopithecines (afarensis, africanus, garhi, robust forms).
+
+#### content/anthro1/humans/index.md
+- New file: 326 lines covering Homo habilis/rudolfensis/erectus/heidelbergensis/neanderthalensis/denisova/sapiens/floresiensis, and the Out-of-Africa vs. Multiregional debate.
+
+#### content/anthro1/biocultural-evolution/index.md
+- New file: 422 lines covering lactose tolerance, sickle cell, race as a social construct, cranial topology history (Retzius, Morton, Hrdlička), and modern population genetics.
+
+#### content/anthro1/human-skeletal-biology/index.md
+- New file: 228 lines covering bone remodeling, osteons, woven vs. lamellar bone, fracture repair (woven bone → bony callus), bone types, and forensic anthropology.
+
+#### content/anthro1/bioarchaeology/index.md
+- New file: 117 lines covering paleopathology indicators (porotic hyperostosis, enamel hypoplasia, Pott's disease in vertebrae, degenerative disease).
+
+#### content/anthro1/*/*.pdf
+- New per-section PDFs for all 16 sections, plus the combined `anthro1-combined.pdf`.
+
+### Wave 1 — OCR Artifact Cleanup
+
+Three sister commits, one per course. The same four classes of OCR
+artifact were stripped from every transcribed section:
+
+1. **`📎 Attached N image(s)`** preamble lines leaked from auggie's
+   per-image input echo.
+2. **`Request ID: ...`** auggie meta-output lines.
+3. **Duplicated paragraphs/bullets** from page-wrap OCR (where the
+   model occasionally re-emitted the bottom of one page as the top
+   of the next).
+4. **Heading hierarchy shifted up one level** so the top-of-section
+   heading is `h1` (previously transcribed as `h2` because the model
+   reserved h1 for the page title).
+
+#### Wave 1a — anthro1 (`93cd13a`)
+
+##### content/anthro1/bioarchaeology/index.md (−20 lines)
+- Stripped 📎 markers and Request-ID lines; de-duped repeated paragraphs.
+
+##### content/anthro1/biocultural-evolution/index.md (−58 lines)
+- Largest cleanup in the course — extensive page-wrap duplication around the lactose-tolerance and sickle-cell sections, plus several attachment-marker rows.
+
+##### content/anthro1/biological-classification/index.md (−4 lines)
+- Stripped 📎 markers.
+
+##### content/anthro1/evolution/index.md (+22 / −34 net)
+- Heading hierarchy shifted h2→h1 for "Charles Darwin" and "Modern Evolutionary Theory" sections; 📎 markers stripped; a few duplicated bullets removed.
+
+##### content/anthro1/geological-time-vertebrate-evolution/index.md (−24 lines)
+- Stripped 📎 markers and duplicated chordate-trait bullets (the `Notochord`/`nerve chord`/`pharyngeal slits`/`muscular tail` block appeared twice — duplication preserved here for traceability, fixed in Wave 3 for spelling).
+
+##### content/anthro1/hominids/index.md (+22 / −38 net)
+- Heading shifts (h2→h1 for top section), 📎 markers stripped, page-wrap duplicates removed.
+
+##### content/anthro1/human-skeletal-biology/index.md (−28 lines)
+- Stripped 📎 markers and duplicate paragraphs around the bone-remodeling section.
+
+##### content/anthro1/humans/index.md (−26 lines)
+- Stripped 📎 markers and duplicate hominin-species descriptions.
+
+##### content/anthro1/mitosis-and-meiosis/index.md (+3 / −7 net)
+- Stripped 📎 markers; heading promoted h2→h1.
+
+##### content/anthro1/modern-evolutionary-theory/index.md (−8 lines)
+- Stripped 📎 markers.
+
+##### content/anthro1/origin-of-new-species/index.md (+5 / −13 net)
+- Stripped 📎 markers; heading promoted h2→h1.
+
+##### content/anthro1/paleoanthropology/index.md (−16 lines)
+- Stripped 📎 markers and duplicate australopithecine entries.
+
+##### content/anthro1/primate-anatomy/index.md (−28 lines)
+- Stripped 📎 markers and dental-formula duplicates.
+
+##### content/anthro1/primates/index.md (+22 / −38 net)
+- Heading shifts, 📎 markers stripped, fission-fusion paragraphs de-duped.
+
+##### content/anthro1/traits/index.md (+11 / −19 net)
+- Stripped 📎 markers; heading promoted h2→h1; Mendelian-genotype bullets de-duped.
+
+##### content/anthro1/what-is-anthropology/index.md (+2 / −6 net)
+- Stripped 📎 markers; heading promoted h2→h1.
+
+#### Wave 1b — philosophy5 (`e6576de`)
+
+##### content/philosophy5/design-arguments/index.md (+16 / −38 net)
+- Stripped 📎 markers and Request-ID lines; heading hierarchy shifted; de-duped Paley/watchmaker paragraphs.
+
+##### content/philosophy5/epistemic-catastrophe/index.md (+7 / −20 net)
+- Stripped 📎 markers; heading promoted; Russell's-chicken paragraph de-duped.
+
+##### content/philosophy5/ethics-of-ai/index.md (+30 / −73 net)
+- Largest cleanup in the course — extensive page-wrap duplication across moral-status, value-alignment, and superintelligence sections; 📎 markers stripped throughout.
+
+##### content/philosophy5/fine-tuning-argument/index.md (+9 / −24 net)
+- Stripped 📎 markers; heading promoted; Anthropic-Principle paragraphs de-duped.
+
+##### content/philosophy5/humes-problem-of-induction/index.md (+25 / −61 net)
+- Stripped 📎 markers; heading hierarchy shifted; multiple page-wrap duplicates removed around the Goodman grue and Reichenbach sections.
+
+##### content/philosophy5/natural-kinds/index.md (+4 / −11 net)
+- Stripped 📎 markers; heading promoted.
+
+##### content/philosophy5/scientific-realism/index.md (+15 / −33 net)
+- Stripped 📎 markers; heading hierarchy shifted; de-duped realism/anti-realism paragraphs.
+
+##### content/philosophy5/statistical-mechanics/index.md (+2 / −9 net)
+- Stripped 📎 markers; heading promoted.
+
+##### content/philosophy5/values/index.md (+5 / −28 net)
+- Stripped 📎 markers; heading promoted; values/value-pluralism paragraphs de-duped.
+
+### Wave 3 — Spelling and Grammar
+
+#### Wave 3b — philosophy5 (`ccdee33`)
+
+Five surgical fixes across four of nine sections. `epistemic-catastrophe`,
+`natural-kinds`, `scientific-realism`, `statistical-mechanics`, and
+`values` needed no changes.
+
+##### content/philosophy5/design-arguments/index.md
+- "appeal to an auxiliary hypotheses" → "appeal to an auxiliary hypothesis" (singular/plural agreement).
+
+##### content/philosophy5/ethics-of-ai/index.md
+- "## Chalmer's argument of gradual uploading" → "## Chalmers' argument of gradual uploading" (apostrophe — Chalmers's name ends in -s).
+
+##### content/philosophy5/fine-tuning-argument/index.md
+- "## Observervational Selection Effect" → "## Observational Selection Effect" (typo in heading).
+- "There is no evidence of either hypotheses!" → "There is no evidence of either hypothesis!" (singular/plural agreement in the Firing Squad example).
+
+##### content/philosophy5/humes-problem-of-induction/index.md
+- "easy for them to reject each others' conclusions" → "easy for them to reject each other's conclusions" (apostrophe position — "each other" is singular).
+
+#### Wave 3c — anthro1 (`ec29e65`)
+
+22 surgical fixes across nine of 16 files. `mitosis-and-meiosis`,
+`modern-evolutionary-theory`, `origin-of-new-species`, `primates`,
+`primate-anatomy`, `traits`, and `what-is-anthropology` needed no
+changes.
+
+##### content/anthro1/bioarchaeology/index.md
+- "# [U] Bioarcheology" → "# [U] Bioarchaeology" (top-of-page heading typo).
+- "porotic hyperstosis" → "porotic hyperostosis" (OCR misread of the paleopathology term).
+- "circular deformation in vertabrae (Pot's disease)" → "circular deformation in vertebrae (Pott's disease)" (two corrections: `vertabrae`→`vertebrae` and `Pot's`→`Pott's` — Percival Pott, the 18th-century surgeon).
+
+##### content/anthro1/biocultural-evolution/index.md
+- "1842: Retizius — cephalic index" → "1842: Retzius — cephalic index" (proper-noun typo, Anders Retzius).
+
+##### content/anthro1/biological-classification/index.md
+- "homoplasty: evolutionary development of analogous structures" → "homoplasy: evolutionary development of analogous structures" (term typo).
+
+##### content/anthro1/evolution/index.md
+- "da Vinci, Robert Hook, Nicholas Steno" → "da Vinci, Robert Hooke, Nicholas Steno" (proper-noun typo).
+- "Alfred Russell Wallace: natural selection" → "Alfred Russel Wallace: natural selection" (proper-noun spelling — Wallace's middle name is `Russel` with one L).
+- "organisms evolves towards perfection" → "organisms evolve towards perfection" (subject-verb agreement).
+
+##### content/anthro1/geological-time-vertebrate-evolution/index.md
+- "nerve chord (precursor to brain and spinal cord)" → "nerve cord (precursor to brain and spinal cord)" — fixed twice (once per duplicated chordate-trait bullet block preserved from the Wave 1 OCR pass).
+- "Pre mammals (mamaliformes)" → "Pre mammals (mammaliformes)" (term typo).
+
+##### content/anthro1/hominids/index.md
+- "## Folivorus" → "## Folivorous" (term typo).
+- Two instances of "saggital crest" / "saggital crests" → "sagittal crest" / "sagittal crests" (anatomical-term typo).
+- "no saggital crest (round skull)" → "no sagittal crest (round skull)" — third occurrence in the chimps section.
+
+##### content/anthro1/human-skeletal-biology/index.md
+- "Woven bone → bony callous" → "Woven bone → bony callus" (medical-term typo; `callous` is the adjective, `callus` is the bone-repair structure).
+- "irregular bones → specialized, complex (pelvis, vertabrae)" → "irregular bones → specialized, complex (pelvis, vertebrae)".
+
+##### content/anthro1/humans/index.md
+- "sapien: wise" → "sapiens: wise" (Latin species name).
+- "Homo denisova – Siberia, East Asia, Ne Guinea" → "Homo denisova – Siberia, East Asia, New Guinea" (OCR misread of the place name).
+
+##### content/anthro1/paleoanthropology/index.md
+- "### Orrin tugenensis" → "### Orrorin tugenensis" (genus-name typo for the early hominid).
+- "most primitive australopithicine" → "most primitive australopithecine" (term typo).
+- "first australopithicene discovered — 'Taung baby'" → "first australopithecine discovered — 'Taung baby'" (different misspelling of the same term).
+
+### Wave 4 — Content Accuracy (`422846c`)
+
+Removed three empty stub headings that were transcribed from the
+PDF outline but never followed by body content in the source notes.
+Each was immediately followed by a sibling/parent heading, producing
+empty TOC entries.
+
+##### content/anthro1/biological-classification/index.md
+- Removed trailing empty `## Taxonomy of Humans` heading at end of file (no body content followed it).
+
+##### content/anthro1/geological-time-vertebrate-evolution/index.md
+- Removed empty `## Geological Time` heading immediately preceding `## Vertebrate Evolution` (the H2 had no content of its own; the section name is already in the page title).
+
+##### content/anthro1/human-skeletal-biology/index.md
+- Removed empty `### Suture closure` heading immediately preceding `### Tooth wear` (the H3 had no content of its own — likely a planned subsection in the source notes that was never written up).
+
+### Wave 6 — Cross-Course Wiki Links (`0ea9b37`)
+
+24 cross-course wikilinks across 15 files connecting the new
+courses (philosophy5, anthro1) into the existing graph
+(psych131-140, psych150, cs188, data102, astro-c10).
+Note: `mcbc61` is PDF-only with no markdown pages, so the suggested
+anthro1↔mcbc61 links were re-routed to `psych131-140` /
+`psych150`, which already contain Mendelian genetics, heritability,
+and dual-inheritance content.
+
+#### content/anthro1/biocultural-evolution/index.md
+- Added a paragraph under `## Biocultural Evolution` linking to `[[psych131-140/culture]]` (Dual Inheritance Theory), `[[psych131-140/nature and nurture]]` (broader nature/nurture/culture decomposition), and `[[psych131-140/2-3 genetics]]` (genotype/heritability machinery used by the sickle-cell polymorphism).
+
+#### content/anthro1/evolution/index.md
+- Extended the "Heritability (genetics)" bullet to link to `[[psych131-140/2-3 genetics]]` (behavioral/clinical-trait framing) and `[[psych131-140/nature and nurture]]`.
+
+#### content/anthro1/mitosis-and-meiosis/index.md
+- Added trailing paragraph linking meiosis to `[[psych131-140/2-3 genetics]]` (twin-study heritability).
+
+#### content/anthro1/modern-evolutionary-theory/index.md
+- Added a paragraph under "Evolution: the change in allele frequencies" linking to `[[psych150/Heritability of Personality|heritability]]` and `[[psych131-140/2-3 genetics]]`.
+
+#### content/anthro1/traits/index.md
+- Added a top-of-section paragraph linking to `[[psych131-140/2-3 genetics]]` for the allele/genotype/phenotype framing applied to mental-health traits.
+
+#### content/astro-c10/Cosmology.md
+- Extended the multiverse-anthropic-principle bullet to link to `[[philosophy5/fine-tuning-argument]]` for the full philosophical treatment including the Inverse Gambler's Fallacy and the Firing Squad objection.
+
+#### content/cs188/Machine Learning.md
+- Added a paragraph after the supervised/unsupervised distinction linking to `[[philosophy5/ethics-of-ai]]` (moral status, value alignment, post-human civilization) and `[[philosophy5/humes-problem-of-induction]]` (the inductive leap from training set to unseen-data predictions).
+
+#### content/philosophy5/design-arguments/index.md
+- Added a parenthetical under `P(LIFE | DESIGN) > P(LIFE | CHANCE)` linking to `[[data102/hypothesis testing]]` (same likelihood-ratio reasoning).
+
+#### content/philosophy5/ethics-of-ai/index.md
+- Added a parenthetical under "An artificial system that can perform tasks…" linking to `[[cs188/Machine Learning]]` and `[[cs188/Neural Networks]]` (the concrete techniques the ethical concerns apply to).
+
+#### content/philosophy5/fine-tuning-argument/index.md
+- Added a parenthetical under `# Anthropic Principle` linking to `[[astro-c10/Cosmology]]` (physics-first framing alongside the Drake equation).
+
+#### content/philosophy5/humes-problem-of-induction/index.md
+- Added a parenthetical after the "Still ampliative…" bullet linking to `[[data102/parameter estimation]]`, `[[data102/hypothesis testing]]` (formal statistical inference), and `[[cs188/Machine Learning]]` (the training-set-to-unseen-data inductive leap).
+
+#### content/psych131-140/2-3 genetics.md
+- Extended the "Allele" bullet to link to `[[anthro1/traits]]` for the dominant/recessive Mendelian basics in an anthropology context.
+
+#### content/psych131-140/culture.md
+- Extended the "Dual Inheritance Theory" definition to link to `[[anthro1/biocultural-evolution]]` for the lactose-tolerance / sickle-cell case studies.
+
+#### content/psych131-140/nature and nurture.md
+- Extended the "culture is a third influential factor" sentence to link to `[[anthro1/biocultural-evolution]]` for the biocultural framing.
+
+#### content/psych150/Heritability of Personality.md
+- Extended the existing cross-references paragraph to additionally link to `[[anthro1/modern-evolutionary-theory]]` (population-level definition of evolution as the change in allele frequencies).
+
