@@ -7,7 +7,7 @@ Stars are huge, opaque, luminous balls of gas held together by gravity.
 
 The inner parts of a star are so hot that they continuously emit radiation of all wavelengths, which is known as a **continuum.**
 
-![Untitled](Thermal%20Emitters/Untitled.png)
+![Untitled](Thermal-Emitters/Untitled.png)
 
 The shape of a thermal continuum is known as a Planck curve.
 
@@ -21,7 +21,7 @@ Although the inside of the star constantly emits radiation, the outer parts of t
 
 Additionally, depending on how hot the star is, the shape of the continuum (and the brightest wavelength at the peak) changes: **the hotter the object, the shorter the wavelength.** This ties into the whole energy thing: hotter = more energy, and shorter wavelength/higher frequency = more energy, so it makes sense for the two to be correlated.
 
-![Untitled](Thermal%20Emitters/Untitled%201.png)
+![Untitled](Thermal-Emitters/Untitled%201.png)
 
 This relationship can be formally described by **Wien’s Law,** which states that the wavelength and temperature have an inverse relationship:
 

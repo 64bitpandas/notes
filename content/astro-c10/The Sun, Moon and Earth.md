@@ -6,7 +6,7 @@ weight: 6
 
 How do you predict where the moon will be in the sky?
 
-![Untitled](The%20Sun,%20Moon%20and%20Earth/Untitled.png)
+![Untitled](The-Sun-Moon-and-Earth/Untitled.png)
 
 What phase would an astronaut on the surface of the moon see the Earth as?
 
