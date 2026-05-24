@@ -82,7 +82,7 @@ weight: 20
 
 basically reiterated Darwin
 
-1. Heritability (genetics)
+1. Heritability (genetics) — the same concept formalized for behavioral and clinical traits in [[psych131-140/2-3 genetics]], with the broader framing discussed in [[psych131-140/nature and nurture]]
 2. Individual Variations (Recombination, degradation)
 3. Overreproduction / biased reproduction
 

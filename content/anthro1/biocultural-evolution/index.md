@@ -330,6 +330,8 @@ health differences are not biological: due to social inequalities
 
 ## Biocultural Evolution
 
+(For the psychology-side framing of this idea, see [[psych131-140/culture]] — which develops Dual Inheritance Theory — and [[psych131-140/nature and nurture]] for the broader nature/nurture/culture decomposition. The sickle-cell polymorphism below uses the same genotype/heritability machinery as [[psych131-140/2-3 genetics]].)
+
 - Culture is a human adaptive strategy
 - Example: sickle cell anemia
   - Alteration in structure of hemoglobin

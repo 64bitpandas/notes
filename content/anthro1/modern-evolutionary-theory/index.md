@@ -21,6 +21,8 @@ Tuesday, February 4, 2020 12:43 PM
 
 **Evolution: the change in allele frequencies**
 
+(Allele-frequency variation in a population is exactly what behavioral-genetics studies operationalize as [[psych150/Heritability of Personality|heritability]]; the same statistic applied to clinical traits is in [[psych131-140/2-3 genetics]].)
+
 ## Gene Flow
 
 ### Mixing of population genes

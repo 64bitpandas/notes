@@ -127,7 +127,7 @@ How likely is it that the universe could have sustained life?
     - The cosmological constant needed to be exactly right so that the universe didn’t immediately implode or not become dense enough to form stars and galaxies.
     - The strength of the fundamental forces needed to be just right.
     - The masses of particles needed to be exactly right to form the elements.
-- It’s possible that the universe was designed specifically for us (anthropic principle), but it’s also possible that our universe is one of many (possibly even infinite) multiverses, and we just happen to exist on one that can support life.
+- It’s possible that the universe was designed specifically for us (anthropic principle), but it’s also possible that our universe is one of many (possibly even infinite) multiverses, and we just happen to exist on one that can support life. (See [[philosophy5/fine-tuning-argument]] for the full philosophical treatment, including the Inverse Gambler's Fallacy and the Firing Squad objection to the weak anthropic principle.)
 
 How likely is it for intelligent life to exist outside of Earth?
 

@@ -9,6 +9,8 @@ weight: 30
 
 # Traits
 
+(See [[psych131-140/2-3 genetics]] for the same allele / genotype / phenotype framing applied to mental-health traits, including the polymorphism concept used below.)
+
 - **Aa** — Allele (each letter), Monogenic trait (the pair)
 - **Genotype** vs **Phenotype**
   - Genotype: actual genetic material — possible combinations of alleles (Aa, AA, aa)

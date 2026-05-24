@@ -30,7 +30,7 @@ Cultural learning is enabled by the two engines of imitation and innovation (Leg
 
 ## Culture as a Biological Adaptation
 
-**Dual Inheritance Theory:** human offspring are influenced by their ancestors not only genetically, but also culturally. (Biology and culture are intertwined and influence one another.) We are *biologically predisposed* to culture and learning.
+**Dual Inheritance Theory:** human offspring are influenced by their ancestors not only genetically, but also culturally. (Biology and culture are intertwined and influence one another.) We are *biologically predisposed* to culture and learning. (See [[anthro1/biocultural-evolution]] for the anthropological case studies — lactose tolerance, sickle-cell — that demonstrate this gene-culture interaction in action.)
 
 This leads to **cumulative culture** where human culture changes and improves over time. Tools, artifacts, and ideas from other species remain constant over thousands or even millions of years.
 

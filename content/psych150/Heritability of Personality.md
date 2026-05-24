@@ -3,7 +3,7 @@ title: "Heritability of Personality"
 weight: 40
 ---
 
-**Heritability** is the degree to which variability in a characteristic can be explained by genetic variability in the population. The same concept applied to mental-health symptoms is discussed in [[psych131-140/2-3 genetics]]; the broader nature-vs-nurture framing is in [[psych131-140/nature and nurture]].
+**Heritability** is the degree to which variability in a characteristic can be explained by genetic variability in the population. The same concept applied to mental-health symptoms is discussed in [[psych131-140/2-3 genetics]]; the broader nature-vs-nurture framing is in [[psych131-140/nature and nurture]]. The population-level definition of evolution as the change in allele frequencies — the substrate this statistic measures — is in [[anthro1/modern-evolutionary-theory]].
 
 ![[/psych150/img/Pasted-image-20230208112529.png|500]]
 Identical twins have higher heritability factors compared to fraternal twins, suggesting some relationship between genetics and personality even in the same environment.

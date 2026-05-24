@@ -11,7 +11,7 @@ Almost any characteristic is influenced by a mix of both nature and nurture. Eve
 
 However, some characteristics are more influenced by nurture, and others more by nature.
 
-Some scientists argue that **culture** is a third influential factor that combines with both nature and nurture to further influence our development.
+Some scientists argue that **culture** is a third influential factor that combines with both nature and nurture to further influence our development. (The biocultural framing of this third factor, with case studies like lactose tolerance and sickle-cell, is developed in [[anthro1/biocultural-evolution]].)
 
 
 ### Cultural Inheritance

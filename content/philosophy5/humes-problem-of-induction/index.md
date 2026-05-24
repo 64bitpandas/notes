@@ -84,6 +84,8 @@ Since induction worked well in the past, we can expect it to work well in the fu
     - Still ampliative: doesn't address biggest problem (uniformity of nature assumption)
         - Still no independent justification
 
+(This probabilistic weakening is exactly what formal statistical inference does — see [[data102/parameter estimation]] and [[data102/hypothesis testing]]. The same inductive leap from a finite sample to a general rule also underwrites [[cs188/Machine Learning]], where models generalize from a training set to unseen data.)
+
 # Inference to the Best Explanation (IBE)
 
 - Scientific inference is much more complex than induction

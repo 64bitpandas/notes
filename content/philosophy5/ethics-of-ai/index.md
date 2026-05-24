@@ -140,6 +140,8 @@ Wednesday, April 22, 2020    11:40 AM
 
 An artificial system that can perform tasks associated with human intelligence ← very broad definition
 
+(The concrete techniques most of these ethical concerns apply to are covered in [[cs188/Machine Learning]] and [[cs188/Neural Networks]].)
+
 - **Domain Specific AI:** can only do one specific task
     - self driving cars
     - chess program

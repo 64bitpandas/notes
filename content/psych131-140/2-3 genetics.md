@@ -3,7 +3,7 @@ title: "Genetics"
 weight: 40
 ---
 **Genotype:** the physical structure of the gene
- - Allele: two or more forms of a gene for a specific trait
+ - Allele: two or more forms of a gene for a specific trait (see [[anthro1/traits]] for the dominant/recessive Mendelian basics in an anthropology context)
  - Polymorphism: presence of two or more variants of a sequence (important because expressions of mental disorders often come in multiple forms)
 **Phenotype:** any assessable characteristic
 **Endophenotype:** A heritable intermediate phenotype associated with a disease. Biological and behavioral markers of genetic vulnerability

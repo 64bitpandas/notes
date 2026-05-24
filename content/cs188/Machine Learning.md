@@ -9,6 +9,8 @@ So far, we’ve used Bayes’ Nets, Markov Decision Processes, etc. to solve mod
 
 This is where machine learning comes in: the process of improving models through experience. There are two different categories of algorithms: **supervised learning,** where relationships are inferred between given input and output data to predict outputs for new inputs, and **unsupervised learning,** where no outputs are given and the algorithm recognizes structures or patterns in the inputs. ****
 
+(For the philosophical and societal implications of these systems — moral status, value alignment, post-human civilization — see [[philosophy5/ethics-of-ai]]. The inductive leap from training set to predictions on unseen data is the modern instance of [[philosophy5/humes-problem-of-induction]].)
+
 # Naive Bayes
 
 Naive Bayes is an example of a classification algorithm that sorts data into categories.

@@ -77,6 +77,8 @@ The Cosmological Argument suggests that the Brute Event causing the universe to 
 
 P(LIFE | DESIGN) > P(LIFE | CHANCE)
 
+(The same likelihood-ratio reasoning is the basis of formal [[data102/hypothesis testing]].)
+
 - Likelihood argument is pretty weak — only somewhat affects preconceived notions. Does not suggest plausibility or probability.
 
 *prior confidence & very easy to skew by*

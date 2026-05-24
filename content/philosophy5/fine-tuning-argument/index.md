@@ -41,6 +41,8 @@ Can use likelihood argument to support Design
 
 # Anthropic Principle
 
+(The same principle is introduced in a physics-first framing in [[astro-c10/Cosmology]] alongside the Drake equation.)
+
 If there exists a universe unsuitable for life, we would not be observing it.
 
 Our existence explains why the physical constants are the way we are. (Strong Anthropic Principle)
