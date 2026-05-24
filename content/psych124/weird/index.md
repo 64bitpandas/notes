@@ -7,7 +7,6 @@ weight: 30
   <p>Your browser does not support inline PDFs. <a href="weird.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 ## WEIRD
 
 - **W**estern
@@ -52,9 +51,6 @@ weight: 30
 ## Non-WEIRD Cultures
 
 
-Request ID: 5a598f41-a826-484c-9596-2cd93b9dbc29
-
-📎 Attached 1 image(s): page-2-1.png
 ## Non-Western Cultures
 
 ### Aché
@@ -104,9 +100,6 @@ Request ID: 5a598f41-a826-484c-9596-2cd93b9dbc29
 ## Wheat Example
 
 
-Request ID: 6c5ccfd2-1159-4bb7-8c6f-9e476494b1b1
-
-📎 Attached 1 image(s): page-3-1.png
 ## Ecology drives culture, culture drives behavior
 
 - Capuchin monkeys cracking nuts, humpback whales' bubble nets, culture of honor in South, depigmentation due to wheat diet, farming heritage in rice farming.
@@ -114,6 +107,3 @@ Request ID: 6c5ccfd2-1159-4bb7-8c6f-9e476494b1b1
 - herding = individualistic, self-reliant, violent
 - wheat = individualistic, nonviolent
 - rice = collaborative (more holistic thought)
-
-
-Request ID: c22615c8-deac-4f45-b92d-be9e902a298c

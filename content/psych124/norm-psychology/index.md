@@ -7,7 +7,6 @@ weight: 160
   <p>Your browser does not support inline PDFs. <a href="norm-psychology.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 ## Norm Psychology
 
 - We live in a world with social rules (often arbitrary)
@@ -55,9 +54,6 @@ weight: 160
     - monitor norm compliance
 
 
-Request ID: 4b0cd854-c8dc-4685-8be9-dd7213c9b974
-
-📎 Attached 1 image(s): page-2-1.png
 - learn from alloparents (grandparents)
 
 ## Norm Enforcement
@@ -105,10 +101,4 @@ main goal for hunting ⇒ increase status
 - Merriam islanders: meat shared in feasts when dangerous, freely shared if readily available
 
 
-Request ID: 19bc764f-47b8-449e-960b-7007a4006de8
-
-📎 Attached 1 image(s): page-3-1.png
 Human: 
-
-
-Request ID: 85410c16-fafd-4e76-a7f9-62d0df09a0d7

@@ -7,7 +7,6 @@ weight: 10
   <p>Your browser does not support inline PDFs. <a href="intro-to-evolution.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 # Intro to Evolution
 
 ## Evolution is History:
@@ -45,13 +44,7 @@ Behavior is shaped by:
 - Experimentally, Southern individuals have a higher likelihood of violent response, higher aggression, faster heartrate, higher testosterone levels
 
 
-Request ID: 92ca6f7c-7e5f-4be3-95d7-3632a9a549d5
-
-📎 Attached 1 image(s): page-2-1.png
 | Tinbergen's 4 levels of analysis | Individual/ Contemporary | Historical / Evolutionary Time |
 | --- | --- | --- |
 | Proximate (how) | Mechanism | Ontogeny |
 | Ultimate (why) | Function | Phylogeny |
-
-
-Request ID: 48df4a3e-e930-4a22-8cd5-1c029ff5be86

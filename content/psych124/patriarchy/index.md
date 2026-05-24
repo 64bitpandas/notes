@@ -7,7 +7,6 @@ weight: 150
   <p>Your browser does not support inline PDFs. <a href="patriarchy.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 # Patriarchy
 
 ## Humans have a uniquely unequal gender relationship
@@ -63,9 +62,6 @@ weight: 150
 ## In other social species:
 
 
-Request ID: f6eb2a70-12be-44e2-a370-00229a177074
-
-📎 Attached 1 image(s): page-2-1.png
 - **distributed leadership** (multiple leaders)
 - **attribute based leadership** (sex, age, personality, social status...)
 - **multiple roles**
@@ -121,9 +117,6 @@ Very few species have a single female dominant to single male, but many leadersh
 ## Patriarchy: How (6 factors)
 
 
-Request ID: 6ec30dc7-6eb4-4edd-b6a2-8e156529af72
-
-📎 Attached 1 image(s): page-3-1.png
 ## Reduction in female allies
 - females disperse from kin
 - no alliances b/tw non-kin females (Bonobo only)
@@ -178,9 +171,6 @@ Why are females underrepresented in human leadership?
 - ↳ males, females benefit differently from leadership
 
 
-Request ID: 04ad38b9-4dc8-4f11-847e-cc70d7468ae0
-
-📎 Attached 1 image(s): page-4-1.png
 ## Bateman-Trivers Paradigm
 - female cost per offspring is higher
 - males have higher potential reproductive rate
@@ -238,9 +228,6 @@ sexual selection *influences* cultural transmission but does not determine or ju
 ### WEIRD Men:
 
 
-Request ID: 0425f8f9-25fd-4e44-993f-21e31d97af09
-
-📎 Attached 1 image(s): page-5-1.png
 - fast, large scale coalition building
 - larger group socializing
 - hierarchies
@@ -297,9 +284,6 @@ males → females → food
   - more valuable foods are remembered more (SB farmers market experiment)
 
 
-Request ID: b2f24f0b-f7ce-4ef2-b799-fac928829f30
-
-📎 Attached 1 image(s): page-6-1.png
 ## Twe Tribe (Namibia):
 
 - both sexes forage, men take longer trips to find honey
@@ -327,10 +311,4 @@ Gender differences in distance traveled
 - foot binding → increases
 
 
-Request ID: a47d9f8e-d40f-4d22-8b58-1d8daa094c29
-
-📎 Attached 1 image(s): page-7-1.png
 Human: 
-
-
-Request ID: 2c7fdfac-ea43-425b-b22f-4c039baacd56

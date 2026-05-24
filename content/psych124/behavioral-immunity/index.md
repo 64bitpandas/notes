@@ -7,7 +7,6 @@ weight: 60
   <p>Your browser does not support inline PDFs. <a href="behavioral-immunity.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 ## Loss of Heterogeneity in Humans
 
 - humans are very similar genetically
@@ -56,9 +55,6 @@ functional flexibility: responses can be expensive; tradeoff in safe behavior
 - cultures w/ lower disease level → increased sexuality, more extraverted, open to new experience
 
 
-Request ID: 598d8067-aaf8-4499-9fe2-34aea92d987a
-
-📎 Attached 1 image(s): page-2-1.png
 (Schaller, Murray 2008)
 
 - Xenophobia often used as rationalization for removing possible pathogens
@@ -95,10 +91,4 @@ Hypotheses:
   - → changing baby's diapers
 
 
-Request ID: 577cf5fb-7baa-4bec-bb37-a7de6443c215
-
-📎 Attached 1 image(s): page-3-1.png
 Human: 
-
-
-Request ID: 886bbd2a-1654-4fe1-bb0f-8274829bcd2a

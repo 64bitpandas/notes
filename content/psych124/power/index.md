@@ -7,7 +7,6 @@ weight: 140
   <p>Your browser does not support inline PDFs. <a href="power.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 ## Dominance and Power
 
 ### Primate Origins
@@ -57,9 +56,6 @@ Dominance:
     - others avoid to reduce aggression
 
 
-Request ID: e7d22405-a128-455c-b793-6f7252b8ef51
-
-📎 Attached 1 image(s): page-2-1.png
 ## Credibility Enhancing Displays
 
 Expensive, honest display of sacrificial actions for beliefs
@@ -88,10 +84,4 @@ Semai: prestige-based culture, individualistic: seniors have power by persuading
   - can be maladaptive: celebrity suicide
 
 
-Request ID: 2554a23d-b622-4d74-8d5d-887e1936b656
-
-📎 Attached 1 image(s): page-3-1.png
 Human: Continue.
-
-
-Request ID: 47686c02-0c70-441b-afde-94cc0b5de109

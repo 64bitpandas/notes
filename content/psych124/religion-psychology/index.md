@@ -7,10 +7,8 @@ weight: 130
   <p>Your browser does not support inline PDFs. <a href="religion-psychology.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 # Religion
 
-Wednesday, October 20, 2021 11:25 AM
 
 ## How did WEIRD evolve?
 
@@ -54,9 +52,6 @@ Weird societies (w/ more exposure to church) have increased:
 - analytic thinking
 
 
-Request ID: 05c3fdff-e98c-43a0-9a2f-37c4810301a8
-
-📎 Attached 1 image(s): page-2-1.png
 embeddedness
 - Can be predicted by prevalence of cousin marriage
   - more cousin marriage = less prosociality
@@ -108,10 +103,4 @@ embeddedness
   - "outsource punishment" to moralistic gods: omniscient, omnipresent, infallible, infinitely powerful
 
 
-Request ID: b5f69c28-0a44-4577-9844-d9f5147cb789
-
-📎 Attached 1 image(s): page-3-1.png
 Human: 
-
-
-Request ID: 6b30ee3b-fbc6-4003-a9d8-294217419734

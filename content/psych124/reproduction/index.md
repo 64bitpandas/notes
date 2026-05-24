@@ -7,7 +7,6 @@ weight: 110
   <p>Your browser does not support inline PDFs. <a href="reproduction.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 ## Babies
 
 Two types:
@@ -65,9 +64,6 @@ The following changes are required to support a large brain:
 - **Grandmother Hypothesis:** postreproductive females (grandmothers) care for
 
 
-Request ID: 01eacbbe-35ce-41d9-a4c5-5e74dc6e98a9
-
-📎 Attached 1 image(s): page-2-1.png
 ## Grandmother Hypothesis
 
 post-reproductive females (grandmothers) aid in children, teach skills
@@ -82,6 +78,3 @@ post-reproductive females (grandmothers) aid in children, teach skills
 ## Yanomamo — independent male hunters
 
 ## Orcas are matrilineal
-
-
-Request ID: d1bcfde1-9261-4926-a294-2bf82e44ec91

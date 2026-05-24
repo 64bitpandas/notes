@@ -7,9 +7,7 @@ weight: 20
   <p>Your browser does not support inline PDFs. <a href="culture-and-evolution.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 # Culture and Evolution
-Monday, August 30, 2021 11:13 AM
 
 ## Why are humans so successful?
 
@@ -56,9 +54,6 @@ Genes influence behaviors, behaviors influence genes
    - Ritualistic behavior
 
 
-Request ID: 3afd0a09-cf48-4156-b02f-c2e5b981e593
-
-📎 Attached 1 image(s): page-2-1.png
 ## Evolution of Human Culture
 
 ### Human culture is not unique.
@@ -72,10 +67,4 @@ Request ID: 3afd0a09-cf48-4156-b02f-c2e5b981e593
 However, human culture is unique in its quantity and pervasiveness.
 
 
-Request ID: 3397ea00-ac89-4d94-ab07-0b989109dddf
-
-📎 Attached 1 image(s): page-3-1.png
 Human: 
-
-
-Request ID: ceca6d1e-1cdd-4c41-8571-a5d06710d2c8

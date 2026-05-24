@@ -7,7 +7,6 @@ weight: 90
   <p>Your browser does not support inline PDFs. <a href="tool-use.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 ## Culture and Tool Use
 
 | hammerstones → flakes | hand axes | 300k–250k |
@@ -49,9 +48,6 @@ Human ability to reason ("how" pathway) increased
 - foundation for left-hemisphere language processing
 
 
-Request ID: 466f2549-bf35-45ff-ba6e-058f396564f2
-
-📎 Attached 1 image(s): page-2-1.png
 ## Hierarchical Planning
 
 Reminder: human tool use is **not** unique!
@@ -98,10 +94,4 @@ Life:
   - Kingdom Animalia
 
 
-Request ID: 98922e15-58f8-46ce-b0a4-81f3cae7854b
-
-📎 Attached 1 image(s): page-3-1.png
 Human: 
-
-
-Request ID: ccfd2fd2-3bf4-4628-bd12-908d290b7a5d

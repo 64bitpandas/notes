@@ -7,7 +7,6 @@ weight: 50
   <p>Your browser does not support inline PDFs. <a href="evolutionary-thought.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 # Evolutionary Thought
 
 ## History of Evolutionary Thought
@@ -40,9 +39,6 @@ weight: 50
 - decrease in variation in size
 
 
-Request ID: 78496e37-8980-4883-b0ce-ea215a1d0dee
-
-📎 Attached 1 image(s): page-2-1.png
 ## Evolution is not progress.
 
 Success is local and temporary; environments are constantly changing.
@@ -84,11 +80,5 @@ Hamilton's Rule: rB > C
 ↳ altruism makes sense when rB > C, since it increases inclusive fitness
 
 
-Request ID: ca7b9726-7e00-45b8-b17f-43c54cbc35d1
-
-📎 Attached 1 image(s): page-3-1.png
 - example: nepotism
 - honeybees maximize inclusive fitness by helping queen reproduce, create sister workers (more closely related)
-
-
-Request ID: c769f70e-293c-492e-be64-5bfc7c259ac2

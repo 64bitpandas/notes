@@ -7,7 +7,6 @@ weight: 70
   <p>Your browser does not support inline PDFs. <a href="the-startup-problem.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 ## The Start-Up Problem
 
 We need cumulative culture to be successful. When/how did this accumulate in the first place?
@@ -46,9 +45,6 @@ Larger social groups → Pair bonding strategies → Expanded kin → Childcare 
   - Invented mechanisms to efficiently force-thrust. No longer needed to support
 
 
-Request ID: 19e73225-060b-49f5-9ac9-eb81f2116ca3
-
-📎 Attached 1 image(s): page-2-1.png
 large teeth, etc.
 - endurance hunting: chasing prey for up to 8 hours to take down animals who sprint / not adapted for long periods of movement
   - running in heat, accurate tracking
@@ -66,10 +62,4 @@ Humans not adapted for raw food: control of fire to cook food
 - adap
 
 
-Request ID: 6673fb1f-ea4a-451d-9078-251d54928fbc
-
-📎 Attached 1 image(s): page-3-1.png
 Human: 
-
-
-Request ID: 716fe9e8-5d5f-484d-916c-5e99a98bcdd4

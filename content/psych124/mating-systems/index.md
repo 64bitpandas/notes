@@ -7,7 +7,6 @@ weight: 120
   <p>Your browser does not support inline PDFs. <a href="mating-systems.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 ## Mating Systems
 
 - Monogamy: 1 woman 1 man — rarest in humans
@@ -70,9 +69,6 @@ Agriculture changes balance of economy + labor: farming women contribute small a
     - find long term wife to ensure paternity
 
 
-Request ID: ee933589-fd0d-4833-9088-44146b09757b
-
-📎 Attached 1 image(s): page-2-1.png
 ## Economics of Reproduction
 
 To increase reproductive success:
@@ -127,9 +123,6 @@ Only 0.7% of societies have all 5 traits
 - arranged marriage
 
 
-Request ID: 26fceae1-7ff6-4144-b797-8c6e67355c60
-
-📎 Attached 1 image(s): page-3-1.png
 - 1 in 10 marry a relative
 - property owned by family, not individual
 - spouses are paid for (dowry, brideprice)
@@ -142,6 +135,3 @@ Request ID: 26fceae1-7ff6-4144-b797-8c6e67355c60
 - cousins (minor)
 - extended family (major)
 - common ancestor (maximal lineage)
-
-
-Request ID: 8629b607-84b1-4fcf-a1c4-723a9af22f50

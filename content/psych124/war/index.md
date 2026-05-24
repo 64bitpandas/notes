@@ -7,7 +7,6 @@ weight: 180
   <p>Your browser does not support inline PDFs. <a href="war.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 ## War
 
 - First evidence: 15,000 – 8,000 years ago (agriculture)
@@ -55,9 +54,6 @@ weight: 180
 - Selection for militants
 
 
-Request ID: e45f0c17-b2db-4557-bfae-3cc2d4a41dbb
-
-📎 Attached 1 image(s): page-2-1.png
 ### Example: Steppe vs Forest
 
 **Steppe**
@@ -90,10 +86,4 @@ Request ID: e45f0c17-b2db-4557-bfae-3cc2d4a41dbb
 - lots of steppe-forest boundaries
 
 
-Request ID: 79b41eb1-9700-40e6-bb94-d0c036932224
-
-📎 Attached 1 image(s): page-3-1.png
 Human: 
-
-
-Request ID: 65da65a8-415a-4eca-b405-39db8fb0836b

@@ -7,7 +7,6 @@ weight: 170
   <p>Your browser does not support inline PDFs. <a href="gods.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 ## Spirits for Norm Enforcement
 
 - Mentawai society: Sikameinan water spirit enforces meat sharing norms
@@ -60,9 +59,6 @@ Belief ⇄ Ritual (belief motivates ritual; ritual enforces belief)
 #### Function:
 
 
-Request ID: 96889228-7ecc-4c8f-a3e0-3a4b1ab7704a
-
-📎 Attached 1 image(s): page-2-1.png
 - food-sharing decreases variance, increases nutrition
 
 ## Agriculture
@@ -87,10 +83,4 @@ Request ID: 96889228-7ecc-4c8f-a3e0-3a4b1ab7704a
     - CREDs used to control population behavior
 
 
-Request ID: bbf6a168-190d-4869-a849-5e69448332b1
-
-📎 Attached 1 image(s): page-3-1.png
 Human: Continue or explain why you are stopping
-
-
-Request ID: 97947a74-9529-4f03-bb12-c7f067338321

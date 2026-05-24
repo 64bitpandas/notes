@@ -7,7 +7,6 @@ weight: 100
   <p>Your browser does not support inline PDFs. <a href="language.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 ## Language as an Evolutionary Process
 
 - language evolves like organisms
@@ -56,9 +55,6 @@ The relative loudness of speech that is determined by how open the mouth is
   → disadvantageous to mess with common words (mutations "lethal")
 
 
-Request ID: 5ae7a00e-dead-429c-86cb-d9d2590e1fe1
-
-📎 Attached 1 image(s): page-2-1.png
 → also seen in grammatical rules: old English had more past tense representations, which have mostly gone extinct other than some commonly used, irregular verbs. More common = more irregular (177 → 145 → 98 irregular verbs, old → middle → modern)
 
 ### Language must be learnable
@@ -103,10 +99,4 @@ Humans have all 13 features; other species have a few
 - Bees — waggle dance
 
 
-Request ID: b0abeffd-7f0f-42f2-8683-8d00e4a96d73
-
-📎 Attached 1 image(s): page-3-1.png
 Human: Continue
-
-
-Request ID: c9d80570-5f19-4744-87c6-8c76339cac05

@@ -7,7 +7,6 @@ weight: 40
   <p>Your browser does not support inline PDFs. <a href="cumulative-culture.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 # Cumulative Culture
 
 ## Why do humans have so much cumulative culture?
@@ -54,9 +53,6 @@ Phylogeny: we are haplorhines (Old World Monkeys), diurnal + group oriented
     - Fiji: use social tolerance
 
 
-Request ID: 91f488a0-33bb-4890-9896-85f7c41dd163
-
-📎 Attached 1 image(s): page-2-1.png
 - Fiji: ...
   - Vanuatu: no verbal communication in teaching
   - assumption: children learn first through observation
@@ -92,10 +88,4 @@ Polynesian islands: brain size correlated w/ population size
 ★ **Summary:** culture can be lost in small, isolated cultures
 
 
-Request ID: 4812ab0f-91d2-4c73-9a63-ac41c571d061
-
-📎 Attached 1 image(s): page-3-1.png
 Human: 
-
-
-Request ID: 730e6666-f29d-4400-882b-b3e5e0188631

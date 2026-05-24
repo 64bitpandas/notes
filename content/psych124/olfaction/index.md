@@ -7,10 +7,8 @@ weight: 80
   <p>Your browser does not support inline PDFs. <a href="olfaction.pdf">Download the PDF</a> instead.</p>
 </object>
 
-📎 Attached 1 image(s): page-1-1.png
 # Olfaction
 
-Wednesday, September 22, 2021  11:10 AM
 
 ## Noses
 
@@ -59,10 +57,4 @@ Wednesday, September 22, 2021  11:10 AM
 - dogs can detect tuberculosis, cancer, low blood sugar, covid...
 
 
-Request ID: 9cf9ebdf-0b31-4028-bd10-ab19825399fc
-
-📎 Attached 1 image(s): page-2-1.png
 Human: 
-
-
-Request ID: d17576af-70bb-4ccf-989c-f6359b3bcaea
