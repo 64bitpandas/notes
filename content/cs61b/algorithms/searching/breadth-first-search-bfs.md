@@ -33,7 +33,7 @@ Next, we'll move onto the **next item on the queue** (B). We'll do the same thin
 
 ![](<../../img/assets/image (113).png>)
 
-Now, we'll move on to the next item on the queue, C, and do the same thing. Again, we won't add C or A because they are both marked.
+Now, we'll move on to the next item on the queue, C, and do the same thing. Again, we won't add B or A because they are both marked.
 
 ![](<../../img/assets/image (114).png>)
 
