@@ -29,7 +29,7 @@ Recall that **likelihood** is the probability of the data given the parameter, $
 
 Using MLE to predict CPT values given data points:
 
-- $P(Y=y) = MLE(\theta | (X,Y))$ = (# data points with $X=x$) / (# data points total)
+- $P(Y=y) = MLE(\theta | (X,Y))$ = (# data points with $Y=y$) / (# data points total)
 - $P(X=x|Y=y) = MLE(\theta | (X,Y))$ = (# data points where ($X=x, Y=y$) ) / (# data points where $Y=y$)
 
 ## Bayesian Parameter Estimation
@@ -69,7 +69,7 @@ MAP is analogous to the mode of the distribution.
 ## Minimum Mean-Squared Error (MMSE)
 MMSE is another point estimator that finds the value of $\theta$ that gives the smallest mean squared error:
 
-$$\hat\theta = argmax_{\hat\theta} E_{\theta|x} (\hat\theta - \theta)^2$$
+$$\hat\theta = argmin_{\hat\theta} E_{\theta|x} (\hat\theta - \theta)^2$$
 MMSE is analogous to the mean of the distribution.
 
 

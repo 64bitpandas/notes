@@ -82,7 +82,7 @@ Theorem Proof Example: is the following statement correct?
 - Since $A \implies B \iff \lnot A \lor B:$
 - $\lnot(A \land B) \lor C \models \lnot A \lor C \lor \lnot B \lor C$
 - Using De Morgan’s Laws, $\lnot(A \land B) \iff \lnot A \lor \lnot B$.
-- $\lnot A \lor \lnot B  \lor C \models \lnot A \lor \lnot B \lor \lnot C$
+- $\lnot A \lor \lnot B  \lor C \models \lnot A \lor \lnot B \lor C$
 - Since both sides are completely equivalent, in all models where $\alpha$ is true, $\beta$ must also be true.
 
 # Propositional Logic

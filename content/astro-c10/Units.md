@@ -14,11 +14,11 @@ How long does it take for light to travel from the Sun to Earth?
 
 ## SI Unit Prefixes
 
-| k | kilo- | $10^3$ | 1m = 1000km |
+| k | kilo- | $10^3$ | 1km = 1000m |
 | --- | --- | --- | --- |
 | c | centi- | $10^{-2}$ | 100cm = 1m |
 | m | milli- | $10^{-3}$ | 10mm = 1cm |
 | M | mega- | $10^6$ | 1Mm = 1000km |
 | G | giga- | $10^9$ | 1Gm = 1000Mm |
 | $\mu$ | micro- | $10^{-6}$ | 1 $\mu$m = 1000nm |
-| n | nano- | $10^{-9}$ | 1 nm = 1000 $\mu$m |
+| n | nano- | $10^{-9}$ | 1000 nm = 1 $\mu$m |

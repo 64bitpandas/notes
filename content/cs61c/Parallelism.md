@@ -51,7 +51,7 @@ Intrinsics allow direct access to assembly instructions
 
 Speedup = $\frac{1}{(1-F) + F/S}$ where $E$ accelerates a fraction $F < 1$ of the task by a factor of $S > 1$.
 
-For example, if we can double the speed of executing half the problem, $F = S = 0.5$ and the overall speedup is $1.33$.
+For example, if we can double the speed of executing half the problem, $F = 0.5, S = 2$ and the overall speedup is $1.33$.
 
 One consequence of Amdahl's law is that in order to achieve a linear speedup with respect to the number of processors, almost none of the original computation can be scalar! 
 

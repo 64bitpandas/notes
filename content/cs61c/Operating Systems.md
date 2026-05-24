@@ -303,7 +303,7 @@ TCP/IP (Transmission Control Protocol, Internet Protocol) is the basis of the in
 
 ### UDP
 
-UDP (Universal Datagram Protocol) is, as named, datagram-based. 
+UDP (User Datagram Protocol) is, as named, datagram-based.
 
 - UDP is **out of order and unreliable.** Datagrams can arrive in any order.
 - UDP is used for realtime communications since it eliminates the need for multiple handshakes and pauses.

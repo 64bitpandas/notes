@@ -39,7 +39,7 @@ We have already established that $d+1$points only have one unique degree $d$poly
 First, let's find a polynomial that is degree $d$ and is equal to $1$at point $x_1$, but $0$everywhere else.  This isn't too hard to do: we can use $(x-x_2)(x-x_3)\cdots(x-x_{d+1})$. Note here that we skipped $x_1$because adding that term would make the polynomial degree $d+1$! However, this alone would result in a number other than 1 at $x_1$, so we can normalize it by dividing by all $(x_1-x_j)$:
 
 $
-\Delta_1(x) = \frac{\prod_{j \ne 1} (x - x_j)}{\prod_{j \ne i} (x_1 - x_j)}
+\Delta_1(x) = \frac{\prod_{j \ne 1} (x - x_j)}{\prod_{j \ne 1} (x_1 - x_j)}
 $
 
 Why are we doing this though? Well, you can think of it like creating a **basis** of polynomials so that we can take a linear combination of all of them to get the original. Since $\Delta_1(x_1) = 1$, we can multiply it by $y_1$ to ensure that it passes through the original point. Combining all of the delta polynomials for all $d+1$original points yields

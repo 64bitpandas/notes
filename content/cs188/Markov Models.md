@@ -48,7 +48,7 @@ The belief distribution at time $i$ describes the current state given all of the
 $B(S_t) = P(S_t | \textnormal{all evidence up to t)} = P(S_t|e_{0:t}) = \frac{P(e_t | S_t)P(S_t | e_{0:t-1})}{P(e_t|e_{0:t-1})}$
 
 - Time elapse: $B’(S_{t+1}) = \sum_{s_t} P(s_{t+1}|s_t)B(s_t)$
-- Observation update: $B(S_{t}1) = \alpha \times P(e_{t+1} | s_{t+1}) B’(s_{t+1})$
+- Observation update: $B(S_{t+1}) = \alpha \times P(e_{t+1} | s_{t+1}) B’(s_{t+1})$
     - Need to normalize by probability of evidence given past evidence.
     
 

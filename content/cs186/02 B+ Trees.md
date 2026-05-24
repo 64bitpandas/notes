@@ -149,7 +149,7 @@ We can see that this pattern continues- for every additional layer, we add $2d+1
 
 {{< tabs "q2" >}}
 {{< tab "Question 2a" >}}
-Suppose we have a Alternative 2 clustered index built on `members` with a height of 5.
+Suppose we have a Alternative 2 clustered index built on `members` with a height of 2.
 How many I/Os on average would it take to run the query `SELECT * FROM clubs WHERE members > 60`? Assume the following:
  - 20 leaf pages satisfy this predicate.
  - 100 records satisfy this predicate.

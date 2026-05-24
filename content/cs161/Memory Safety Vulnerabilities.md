@@ -88,4 +88,4 @@ Example: `printf("%d\n");` without a second integer argument will cause printf t
 **Defending Against String Format Vulnerabilities:**
 
 - Hard-code all string formats so user can't exploit with input
-- Sanitize inputs to remove all formatting the quick brown fox jumps over the lazy dog.
+- Sanitize inputs to remove all formatting

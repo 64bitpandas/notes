@@ -91,7 +91,7 @@ We need to pick a subset of items such that we maximize the values while still s
 3. **Base Case:** $f(0, u) = 0$ (out of items), $f(i, 0) = 0$ (out of weight capacity)
 4. **Order:** For $i$ from 1 to $n$ and $u$ from $1$ to $w$, calculate `max(f(i-1, u), f(i-1, u-w_i) + v_i)`.
 
-This algorithm is NP-complete and can be computed in $O(n(\log_2(max(v_i)) + \log_2(W))$.
+This algorithm is NP-complete and can be computed in $O(n \cdot W)$.
 
 ### Knapsack with Repetition
 
@@ -106,7 +106,7 @@ The main difference is that subproblems now cannot reduce the number of items in
 3. Base case: $K(0) = 0$: if we have no capacity, there is nothing more we can store.
 4. Order: We can solve in increasing order of weight $w$. 
 
-This algorithm takes $O(n \cdot W)$ because every evaluation of $K(w)$ requires iterating through the entire list of weights. We do this $n$ number of times (one for each possible max weight).
+This algorithm takes $O(n \cdot W)$ because every evaluation of $K(w)$ requires iterating through the entire list of weights. We do this $W$ number of times (one for each possible max weight).
 
 ## Chain Matrix Multiplication
 

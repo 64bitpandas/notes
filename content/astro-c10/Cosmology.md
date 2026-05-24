@@ -51,7 +51,7 @@ What is the Cosmological Constant?
     - If $\Lambda = 0$:
         - If $\Omega_M$ (mass density of the universe) $> 1$, then a Big Crunch would occur.
         - If $\Omega_M = 1$ (flat universe), then expansion would continue up to infinity.
-        - If $\Omega_M > 1$, expansion would never stop, approaching a constant nonzero value.
+        - If $\Omega_M < 1$, expansion would never stop, approaching a constant nonzero value.
 
 Implications of the expansion of the universe:
 
@@ -114,10 +114,10 @@ What is the Theory of Everything?
 - Shortly after the big bang, three of the four forces (electromagnetism,
 strong nuclear, and weak nuclear) should have been unified into the “grand unified
 theory (GUT)” force — they would have been symmetric. As the temperature fell
-below about 1029 K (around t = 10−37 s), the strong and electroweak forces should
+below about $10^{29}$ K (around $t = 10^{-37}$ s), the strong and electroweak forces should
 have broken off and become different manifestations of the GUT force; the symmetry
 of the Universe should have been broken.
-- If the universe somehow cooled below the critical temperature of 10­29K while the Grand Unified Force was still unbroken, then we could say that the universe is *supercooled*, similarly to how an undisturbed bottle of water below the freezing point only freezes if moved. If the universe acted in a similar way, a disturbance in the supercooled state could have prompted it to rapidly expand and cool down to the “normal” state.
+- If the universe somehow cooled below the critical temperature of $10^{29}$ K while the Grand Unified Force was still unbroken, then we could say that the universe is *supercooled*, similarly to how an undisturbed bottle of water below the freezing point only freezes if moved. If the universe acted in a similar way, a disturbance in the supercooled state could have prompted it to rapidly expand and cool down to the “normal” state.
 
 ## Anthropic Principle and the Drake Equation
 

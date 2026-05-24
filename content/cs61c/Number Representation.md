@@ -17,7 +17,7 @@ There are also other common bases, where we multiply each digit by a different v
 
 Integers can either be **unsigned** (positive only) or **signed** (positive or negative).
 
-In an unsigned integer, the left-most bit is reserved as the **sign bit** where **0 is positive** and **1 is negative.**
+In a signed integer, the left-most bit is reserved as the **sign bit** where **0 is positive** and **1 is negative.**
 
 There are some helpful properties we'd like signed numbers to follow:
 

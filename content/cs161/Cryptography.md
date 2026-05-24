@@ -143,7 +143,7 @@ A **hash function** $H(M)$ takes in an arbitrary length message $M$ and outputs 
 - **One-way**: infeasible to find the original message given the hash
     - Formally, for all polynomial time attacks `Adv(k)`, the probability of `Adv(y) = x` given that `y = H(x)` is negligible (exponentially small)
     - $H(x) = 1$ is **not** a one-way function because it is trivial to solve for an $x$ that works (even if it may not be the original x, it doesn't matter)
-- **Second Preimage Resistance:** given an input, it is infeasible to find a different output with the same hash.
+- **Second Preimage Resistance:** given an input, it is infeasible to find a different input with the same hash.
 - **Resistant to collision:** Unfeasible to find a pair of inputs $x' \ne x$ such that $H(x') = H(x)$
     - By the Birthday Problem, finding a collision on an $n$ bit output only requires $2^{\frac{n}{2}}$ on average
     - Implies second preimage resistance (weaker condition)
@@ -409,7 +409,7 @@ The ledger is:
 
 1. publicly visible,
 2. append only,
-3. mutable.
+3. immutable.
 
 Bitcoin uses a hash chain (also known as a blockchain). Each transaction has a collision-resistant hash, and each block's hash includes the hash of the previous block.
 

@@ -56,7 +56,7 @@ $$
 - Define $V(s) = w \cdot f(s)$
 
 **SARSA variation:** use the action performed by the current policy to learn the Q-value.
-$$Q(s,a) \leftarrow (1-\alpha)Q(s,a) + \alpha(R(s,a,s') + \max_a Q(s', a))$$
+$$Q(s,a) \leftarrow (1-\alpha)Q(s,a) + \alpha(R(s,a,s') + \gamma Q(s', a'))$$
  - only converges if $\alpha$ approaches $0$ over time, and if trajectories include all states
 
 ## Exploration vs Exploitation

@@ -77,7 +77,7 @@ As an improvement, we can choose $(s,t)$ paths according to BFS, taking the fewe
 
 # Cut Bound Flows
 
-A $(s, t)$ weight in a graph is a pair $(L, R)$ such that $s \in L, t \in R, L \cup R = V, L \cap R = \emptyset$. In other words, this is a cut in the graph.
+A $(s, t)$ cut in a graph is a pair $(L, R)$ such that $s \in L, t \in R, L \cup R = V, L \cap R = \emptyset$. In other words, this is a cut in the graph.
 
 Define the capacity of a cut $(L, R)$ to be the amount of flow that exits $L$ and enters $R$.
 

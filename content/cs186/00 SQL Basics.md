@@ -157,7 +157,7 @@ For this section, we will use the following tables as examples:
 ### Cartesian Product
 By default, if a join (`SELECT ... FROM a, b...`) is done in SQL without specifying a type, a **cross product** (Cartesian product) is calculated. Every row in table `a` (the left table) is combined with every row in table `b` to create $R_a * R_b$ rows ($R_a$ = number of rows in table `a`). 
 
-In the example below, since `clubs` had $2$ rows and `members` had $4$ rows, we should expect the result to have $3 \times 4 = 12$ rows. Note that most of these rows are pretty useless, since there is no correlation between the member and the club they were joined with.
+In the example below, since `clubs` had $3$ rows and `members` had $4$ rows, we should expect the result to have $3 \times 4 = 12$ rows. Note that most of these rows are pretty useless, since there is no correlation between the member and the club they were joined with.
 ![|500](SQL%20Basics/Pasted%20image%2020230107122726.png)
 
 ### Inner Join

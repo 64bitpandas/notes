@@ -24,7 +24,7 @@ So for the problem above, we get that there are 5 ways to fill each slot, and 5 
 
 ## **The Second Rule: When the order doesn't matter**
 
-In order to tackle these types of problems, we'll need to introduce the **combinatorial** $\binom{n}{k} = \frac{n!}{k!(n-k)!}$. When you see this, it means "the number of ways we can choose $n$things from $k$total elements if order doesn't matter".
+In order to tackle these types of problems, we'll need to introduce the **combinatorial** $\binom{n}{k} = \frac{n!}{k!(n-k)!}$. When you see this, it means "the number of ways we can choose $k$things from $n$total elements if order doesn't matter".
 
 
 

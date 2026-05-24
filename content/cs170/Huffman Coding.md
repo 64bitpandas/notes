@@ -17,7 +17,7 @@ One strategy is a greedy algorithm which assigns more frequently seen characters
 
 On first glance, that doesn't seem to be any improvement (since C and D now use 3 rather than 2 bits). However, we can calculate the total improvement:
 
-$.4n \cdot 1 + .3n \cdot 2 + .2n \cdot 3 + .1 \cdot 3 = 1.9n$, a slight improvement over the original $2n$.
+$.4n \cdot 1 + .3n \cdot 2 + .2n \cdot 3 + .1n \cdot 3 = 1.9n$, a slight improvement over the original $2n$.
 
 ## Prefix-Free Codes and Trees
 
@@ -78,7 +78,7 @@ O(n * cost(deletemin) + n cost(insert)) = O(nlogn)
 The amount of information $I(p)$ known from the outcome of a random event with probability $p$ is:
 
 - 1 bit if $p = 0.5$ (intuitively, since two outcomes are equally likely).
-- More than 1 bit if $p \ne 0.5$:
+- More than 1 bit if $p < 0.5$:
     - For example, if we flip 2 fair coins, and they both come up heads, $p = 0.25$. We need 2 bits to store this information (1 for each coin).
     - More formally, $I(p_1 \cdot p_2)$ = $I(p_1) + I(p_2)$.
 

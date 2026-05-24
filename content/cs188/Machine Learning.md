@@ -35,7 +35,7 @@ Given existing data points $X = \{X_1, \cdots, X_n\}$ and labels $Y$, predict $P
 
 Using MLE to predict CPT values given data points:
 
-- $P(Y=y) = MLE(\theta | (X,Y))$ = (# data points with $X=x$) / (# data points total)
+- $P(Y=y) = MLE(\theta | (X,Y))$ = (# data points with $Y=y$) / (# data points total)
 - $P(X=x|Y=y) = MLE(\theta | (X,Y))$ = (# data points where ($X=x, Y=y$) ) / (# data points where $Y=y$)
 
 ## Laplace Smoothing

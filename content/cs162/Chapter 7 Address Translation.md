@@ -74,7 +74,7 @@ To get acquainted with the numbers we'll be working with, here are a few typical
 - Page sizes are usually around 4KB ($2^{12}$).
 - Address spaces are either $2^{32}$ for 32-bit systems, or $2^{64}$ for 64-bit systems.
 
-A simple page table will have one entry per page. So in a 32-bit system, we'd have $2^{32}/{2^{12}} = 2^{20}$ number of entries, which is about 16MB of memory assuming each entry is 32 bits long.
+A simple page table will have one entry per page. So in a 32-bit system, we'd have $2^{32}/{2^{12}} = 2^{20}$ number of entries, which is about 4MB of memory assuming each entry is 32 bits long.
 
 And for a 64-bit system, the amount of memory needed to store the page table gets absolutely ludicrous (on the order of exabytes)! Luckily, there is a solution:
 

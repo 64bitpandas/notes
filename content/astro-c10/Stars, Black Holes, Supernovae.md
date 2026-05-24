@@ -26,7 +26,7 @@ Fusion occurs when $T > 10^7 K$ and $M > 0.08\ M_{\circledcirc}$.
 
 For main sequence stars, luminosity is roughly proportional to $M^4$ (the mass of the star).
 
-The time a star lives is approximately proportional to $\frac{1}{R^3}$ (L = energy over time, $E=mc^2$, solve for $t$).
+The time a star lives is approximately proportional to $\frac{1}{M^3}$ (L = energy over time, $E=mc^2$, solve for $t$).
 
 ### The Hertzsprung-Russell Diagram
 
@@ -68,7 +68,7 @@ What does the life of a star look like?
 - The nuclear reactions provide mechanical balance (hydrostatic equilibrium) between fusion pressure and gravity, meaning that stars’ temperatures and luminosities don’t actually change that much while it remains on the main sequence.
 - For main sequence stars, luminosity is roughly proportional to $M^4$ (the mass of the star). More massive stars burn out faster.
 
-    The time a star lives is approximately proportional to $\frac{1}{R^3}$ (L = energy over time, $E=mc^2$, solve for $t$ to get approximately how long the star will live for).
+    The time a star lives is approximately proportional to $\frac{1}{M^3}$ (L = energy over time, $E=mc^2$, solve for $t$ to get approximately how long the star will live for).
 
 - As stars grow older, the hydrogen that they burn turns into heavier and heavier elements until the fusion pressure pushes outwards, causing the star to expand into a red giant. Red giants have cooler surface temperatures, but become many times larger than original. This is when stars move up and to the right in a H-R diagram (lower temp, higher luminosity).
     - Some smaller stars will eventually become white dwarfs, which are about the size of Earth but extremely dense and made up of heavy elements.

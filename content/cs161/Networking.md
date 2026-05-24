@@ -350,7 +350,7 @@ For performance reasons, **DNS uses UDP.** It is designed to be lightweight and 
 
 **Kaminsky attack:** Glue records are cached, so it's possible to poison the cache by making bad additional records and making recursive resolvers store them. (i.e. attacker f
 
-- Solution: randomize the source port (adds 32 bits to guess)
+- Solution: randomize the source port (adds 16 bits to guess)
 - Solution: **glue validation:** don't cache glue records
 
 ## DNSSEC

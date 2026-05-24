@@ -87,7 +87,7 @@ $$
 If we recall the geometric sum formula,
 
 $$
-\sum_{i=0}^{log_2(n)} 2^i = \frac{2^{log_2(n)} - 1}{2 - 1} \le 2n
+\sum_{i=0}^{log_2(n)} 2^i = \frac{2^{log_2(n)+1} - 1}{2 - 1} \le 2n
 $$
 
 Plugging this back into the original runtime equation yields a runtime

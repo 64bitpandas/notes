@@ -82,7 +82,7 @@ Recall that if the total available bandwidth is $C$ and each flow $i$ has a band
 1. Find $C/N = 15/4$.
 2. See that $r_A = 3$, which is less than $C/N$. So $a_A = 3$ and the new average is $12/3 = 4$.
 3. See that $r_B = 4 = C/N$, so $a_B = 4$ and the new average is $8/2 = 4$.
-4. See that $r_C = 5 > C/N$, so give it $a_C = C/N = 4$ and the new average is $4/1 = 1$.
+4. See that $r_C = 5 > C/N$, so give it $a_C = C/N = 4$ and the new average is $4/1 = 4$.
 5. Give the remaining 4Mbps to the last flow, so $a_D = 4$.
 
 #### 4.2

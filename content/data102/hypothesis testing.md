@@ -74,7 +74,7 @@ In the below example, we would set the B-H threshold to around .008, since that'
 
 **Proof of Benjamini-Hochberg**: why does B-H control FDR?
 
-Recall that $FDR = E[FDP] = E[P(R=0|D=1)$.
+Recall that $FDR = E[FDP] = E[P(R=0|D=1)]$.
 Using Bayes' rule we can expand $P(R=0|D=1) = \frac{P(D=1|R=0)P(R=0)}{P(D=1)}$.
 
 Define the following quantities:

@@ -14,7 +14,7 @@ In direct proofs, we can use the **definitions** directly to show that something
 
 **Direct Proof Form:**
 
-* **Goal:** $P \iff Q$
+* **Goal:** $P \implies Q$
 * **Assume P.**
 * Do a bunch of steps using the definitions and assumptions created by the values and operators used.
 * **Therefore Q.**

@@ -132,7 +132,7 @@ $
 \sum_{i=1}^{n}4^i
 $
 
-And if you remember your power series, you'll know that this sum is equal to $4^{n+1}-1$ which simplifies into the final answer.
+And if you remember your power series, you'll know that this sum is equal to $\frac{4^{n+1}-4}{3}$ which simplifies into the final answer.
 
 ![an image that makes you long for TreeCapacitator](<../img/assets/image (49).png>)
 {{< /tab >}}

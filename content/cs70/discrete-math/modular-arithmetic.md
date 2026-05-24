@@ -18,7 +18,7 @@ This is an important concept in many aspects of computer science, namely [crypto
 
 * More formally: **x is congruent to y modulo m:** $x \equiv y \pmod{m}$
 
-**Important Notation Distinction:** $x \pmod{m}$ is the **class of numbers** that follow the mod rule $m$. It can be used to write equivalences ($10 \equiv 21 \pmod{11}$). However, $\mod(x, m)$is just a number (the remainder when dividing x by m). $\mod(x,m) = x - \lfloor{\frac{x}{y}}\rfloor \cdot y$
+**Important Notation Distinction:** $x \pmod{m}$ is the **class of numbers** that follow the mod rule $m$. It can be used to write equivalences ($10 \equiv 21 \pmod{11}$). However, $\mod(x, m)$is just a number (the remainder when dividing x by m). $\mod(x,m) = x - \lfloor{\frac{x}{m}}\rfloor \cdot m$
 
 **Greatest Common Denominator (GCD Mod Corollary):** Modular arithmetic can be used to identify an important property of the GCD, which is that $GCD(x,y) = GCD(x \mod y, y)$.
 
