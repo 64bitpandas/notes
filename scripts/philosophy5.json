@@ -1,0 +1,18 @@
+{
+  "course": {
+    "slug": "philosophy5",
+    "title": "Philosophy 5: Science and Human Understanding",
+    "navbar_weight": 200
+  },
+  "sections": [
+    { "pages": "26-29",   "title": "Design Arguments",                "filename": "design-arguments",            "weight": 10 },
+    { "pages": "97-98",   "title": "Fine Tuning Argument",            "filename": "fine-tuning-argument",        "weight": 20 },
+    { "pages": "99-104",  "title": "Hume's Problem of Induction",     "filename": "humes-problem-of-induction",  "weight": 30 },
+    { "pages": "106-107", "title": "Natural Kinds",                   "filename": "natural-kinds",               "weight": 40 },
+    { "pages": "108-110", "title": "Scientific Realism",              "filename": "scientific-realism",          "weight": 50 },
+    { "pages": "111-112", "title": "Epistemic Catastrophe",           "filename": "epistemic-catastrophe",       "weight": 60 },
+    { "pages": "113",     "title": "Statistical Mechanics",           "filename": "statistical-mechanics",       "weight": 70 },
+    { "pages": "114-116", "title": "Values",                          "filename": "values",                      "weight": 80 },
+    { "pages": "117-125", "title": "Ethics of Artificial Intelligence","filename": "ethics-of-ai",               "weight": 90 }
+  ]
+}

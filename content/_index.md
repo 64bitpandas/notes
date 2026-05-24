@@ -53,6 +53,8 @@ These are notes that I've published as-is, and are at various levels of complete
  - [Psych 131/140: Developmental Psychology](/psych131-140/)
  - [Psych 143: Language Acquisition](/psych143/)
  - [Psych 150: Personality Psychology](/psych150/)
+ - [Philosophy 5: Science and Human Understanding](/philosophy5/)
+ - [Anthro 1: Introduction to Biological Anthropology](/anthro1/)
 
 
 ## Other

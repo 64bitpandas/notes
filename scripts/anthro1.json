@@ -1,0 +1,25 @@
+{
+  "course": {
+    "slug": "anthro1",
+    "title": "Anthro 1: Introduction to Biological Anthropology",
+    "navbar_weight": 220
+  },
+  "sections": [
+    { "pages": "17",      "title": "What is Anthropology?",                    "filename": "what-is-anthropology",                "weight": 10 },
+    { "pages": "23-26",   "title": "Evolution",                                "filename": "evolution",                           "weight": 20 },
+    { "pages": "27-28",   "title": "Traits",                                   "filename": "traits",                              "weight": 30 },
+    { "pages": "29",      "title": "Mitosis and Meiosis",                      "filename": "mitosis-and-meiosis",                 "weight": 40 },
+    { "pages": "30-31",   "title": "Modern Evolutionary Theory",               "filename": "modern-evolutionary-theory",          "weight": 50 },
+    { "pages": "32-33",   "title": "Origin of New Species",                    "filename": "origin-of-new-species",               "weight": 60 },
+    { "pages": "34",      "title": "Biological Classification",                "filename": "biological-classification",           "weight": 70 },
+    { "pages": "36-41",   "title": "Geological Time and Vertebrate Evolution", "filename": "geological-time-vertebrate-evolution","weight": 80 },
+    { "pages": "42-44",   "title": "Primates",                                 "filename": "primates",                            "weight": 90 },
+    { "pages": "45-49",   "title": "Hominids",                                 "filename": "hominids",                           "weight": 100 },
+    { "pages": "50-56",   "title": "Primate Anatomy",                          "filename": "primate-anatomy",                    "weight": 110 },
+    { "pages": "72-75",   "title": "Paleoanthropology",                        "filename": "paleoanthropology",                  "weight": 120 },
+    { "pages": "78-82",   "title": "Humans",                                   "filename": "humans",                             "weight": 130 },
+    { "pages": "89-95",   "title": "Human Skeletal Biology",                   "filename": "human-skeletal-biology",             "weight": 140 },
+    { "pages": "96-99",   "title": "Bioarchaeology",                           "filename": "bioarchaeology",                     "weight": 150 },
+    { "pages": "100-111", "title": "Biocultural Evolution",                    "filename": "biocultural-evolution",              "weight": 160 }
+  ]
+}
