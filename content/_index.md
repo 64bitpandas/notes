@@ -72,17 +72,17 @@ These are notes that I've published as-is, and are at various levels of complete
 
 ### Missing Notes
 
-This is a list of courses I've taken and do not have published notes for. You can [contact me](https://bencuan.me/contact) if you'd like to discuss these courses.
-- Sociology 3AC: notes are incomplete, and the risk of the material being taken out of context outweights me publishing the sparse content I do have available at the moment. This course is on the top of my list to re-review and release in the future.
-- Math 54: notes are lost to time due to a failed backup 😭 I had these on OneNote, but the notebook is now missing. If I find it in an old backup drive somewhere I'll post them.
-- Psychology 1: currently in a physical notebook. If I have the opportunity to, I'll dig it up and scan the pages in-- I recall spending a lot of time and care on these notes, and they mean a lot to me since this was the class that got me to major in psychology in the first place.
-- Data 8/CS61A: both taken during my first semester at Berkeley before I figured out how to take decent notes, so I don't have anything worth publishing.
-- Stat/Data 140: the [textbook](https://textbook.prob140.org/notebooks-md/1_00_Fundamentals.html) and assignments are so good that I didn't feel the need to write many notes other than solving the provided homework/discussion problems.
-- Psych 101: I didn't take very good notes during this class, and it seems like everyone uses Python instead of R these days anyways, so it's very unlikely that I will revisit this.
-- Psych 114: Although this was one of my favorite classes, I took notes over the provided slide deck PDF's. I may publish them eventually if I get around to asking for (and receiving) permission, since this would be up to the professor's discretion.
-- ISF 100J: this class was at 8am or something during my last semester of senior year, and had a no-laptop policy. I was nowhere near awake enough to take notes for it as a result, though the content was pretty interesting (tracing back the history of computers to when it was a profession rather than an object).
-- Music 158A: this class was too hands-on to take any meaningful notes. But I do have a [cool final project](https://github.com/64bitpandas/RoomOfSounds) to show from it!
-- Psych C126/127: taken during the 'everything is a mess' semester immediately after covid (fall 2020) so I have really sparse notes for these.
+This is a list of courses I've taken and do not have publicly available notes for. You can [contact me](https://bencuan.me/contact) if you'd like to discuss these courses.
+- **Sociology 3AC:** notes are incomplete, and the risk of the material being taken out of context outweights me publishing the sparse content I do have available at the moment. This course is on the top of my list to re-review and release in the future.
+- **Math 54:** notes are lost to time due to a failed backup 😭 I had these on OneNote, but the notebook is now missing. If I find it in an old backup drive somewhere I'll post them.
+- **Psychology 1:** currently in a physical notebook. If I have the opportunity to, I'll dig it up and scan the pages in-- I recall spending a lot of time and care on these notes, and they mean a lot to me since this was the class that got me to major in psychology in the first place.
+- **Data 8/CS61A:** both taken during my first semester at Berkeley before I figured out how to take decent notes, so I don't have anything worth publishing.
+- **Stat/Data 140:** the [textbook](https://textbook.prob140.org/notebooks-md/1_00_Fundamentals.html) and assignments are so good that I didn't feel the need to write many notes other than solving the provided homework/discussion problems.
+- **Psych 101:** I didn't take very good notes during this class, and it seems like everyone uses Python instead of R these days anyways, so it's very unlikely that I will revisit this.
+- **Psych 114:** Although this was one of my favorite classes, I took notes over the provided slide deck PDF's. I may publish them eventually if I get around to asking for (and receiving) permission, since this would be up to the professor's discretion.
+- **ISF 100J:** this class was at 8am or something during my last semester of senior year, and had a no-laptop policy. I was nowhere near awake enough to take notes for it as a result, though the content was pretty interesting (tracing back the history of computers to when it was a profession rather than an object).
+- **Music 158A:** this class was too hands-on to take any meaningful notes. But I do have a [cool final project](https://github.com/64bitpandas/RoomOfSounds) to show from it!
+- **Psych C126/127:** taken during the 'everything is a mess' semester immediately after covid (fall 2020) so I have really sparse notes for these.
 
 # Basic Principles
 
