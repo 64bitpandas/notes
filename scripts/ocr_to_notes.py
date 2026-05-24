@@ -10,7 +10,8 @@
 
 Reads a JSON mapping describing which page ranges become which sections,
 extracts pages with poppler, OCRs each page with Claude vision, and writes
-per-section markdown + section PDFs + a combined PDF into content/<slug>/.
+each section as a Hugo leaf bundle (content/<slug>/<filename>/index.md +
+<filename>.pdf) plus a combined PDF at content/<slug>/<slug>-combined.pdf.
 """
 from __future__ import annotations
 
@@ -187,7 +188,9 @@ def process_section(
         png_paths.append(extract_page_png(pdf, p, section_dir))
         page_pdfs.append(section_dir / f"page-{p}.pdf")
 
-    section_pdf = course_dir / f"{section['filename']}.pdf"
+    bundle_dir = course_dir / section["filename"]
+    bundle_dir.mkdir(parents=True, exist_ok=True)
+    section_pdf = bundle_dir / f"{section['filename']}.pdf"
     if section_pdf.exists():
         section_pdf.unlink()
     if len(page_pdfs) == 1:
@@ -199,7 +202,7 @@ def process_section(
     for png in png_paths:
         ocr_chunks.append(ocr_page(png))
 
-    md_path = course_dir / f"{section['filename']}.md"
+    md_path = bundle_dir / "index.md"
     body = (
         "---\n"
         f"title: \"{section['title']}\"\n"
@@ -261,7 +264,8 @@ def main() -> None:
 
     print(f"\nGenerated {len(sections)} section(s) for {slug}:")
     for section in sections:
-        print(f"  - {section['filename']}.md  +  {section['filename']}.pdf")
+        fn = section["filename"]
+        print(f"  - {fn}/index.md  +  {fn}/{fn}.pdf")
     print(f"Combined: {combined_pdf}")
 
 
