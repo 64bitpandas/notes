@@ -136,8 +136,6 @@ Entire skeleton renewed every 10 years
 - metamorphosis — changes in appearance of bones → lots of variation, especially in adults
     - epiphyseal fusion
 
-### Suture closure
-
 ### Tooth wear
 
 - for any refined foods that grind enamel

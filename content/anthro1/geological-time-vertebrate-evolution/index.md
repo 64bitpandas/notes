@@ -9,8 +9,6 @@ weight: 80
 
 *Tuesday, February 11, 2020 — 12:56 PM*
 
-## Geological Time
-
 ## Vertebrate Evolution
 
 - Chordates (Cambrian Period, 560 Ma)

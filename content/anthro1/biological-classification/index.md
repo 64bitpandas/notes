@@ -70,5 +70,3 @@ Hierarchy: Life → Domain → Kingdom → Phylum → Class → Order → Family
 - interbreeding capability is irrelevant
 
 ↳ Species are often blurred lines and is a human construct. Species do not always conform to the past/future.
-
-## Taxonomy of Humans
