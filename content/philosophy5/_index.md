@@ -4,4 +4,4 @@ weight: 200
 BookCollapseSection: true
 ---
 
-<!-- Combined PDF will be embedded here by scripts/ocr_to_notes.py during the OCR run. -->
+<embed src="philosophy5-combined.pdf" type="application/pdf" width="100%" height="600px" />
