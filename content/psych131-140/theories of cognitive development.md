@@ -1,3 +1,7 @@
+---
+title: "Theories of Cognitive Development"
+weight: 70
+---
 # Mental Representation
 
 

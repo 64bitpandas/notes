@@ -1,3 +1,7 @@
+---
+title: "Trait Theory"
+weight: 20
+---
 
 Using the psycholexical (trait) approach, researchers study the personality characteristics important in a culture by studying the lexicon for personality traits.
 

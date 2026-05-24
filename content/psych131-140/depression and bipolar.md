@@ -1,3 +1,7 @@
+---
+title: "Depression and Bipolar"
+weight: 150
+---
 
 # Depression
 Depression as a symptom:

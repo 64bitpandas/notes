@@ -1,3 +1,7 @@
+---
+title: "Genetics"
+weight: 40
+---
 **Genotype:** the physical structure of the gene
  - Allele: two or more forms of a gene for a specific trait
  - Polymorphism: presence of two or more variants of a sequence (important because expressions of mental disorders often come in multiple forms)

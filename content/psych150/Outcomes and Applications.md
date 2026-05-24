@@ -1,3 +1,7 @@
+---
+title: "Outcomes and Applications"
+weight: 80
+---
 ## Outcomes
 
 ### Mortality

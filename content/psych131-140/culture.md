@@ -1,3 +1,7 @@
+---
+title: "Culture"
+weight: 120
+---
 
 ## How do human-unique psychological capacities develop?
 Three methods to answering this question:

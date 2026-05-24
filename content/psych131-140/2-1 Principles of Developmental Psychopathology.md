@@ -1,3 +1,7 @@
+---
+title: "Principles of Developmental Psychopathology"
+weight: 10
+---
 
 # Impact of Mental Disorders
 

@@ -1,3 +1,7 @@
+---
+title: "Cross-Cultural Psychology"
+weight: 130
+---
 # Why is cross-cultural research important?
 As a species, humans are unique in the following:
  - We have very complex culture.

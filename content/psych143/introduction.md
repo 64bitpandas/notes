@@ -1,3 +1,7 @@
+---
+title: "Introduction"
+weight: 10
+---
 ## Why study language development?
 Language learning is an astonishing feat of human development. By the age of 18 months, young children can already form simple sentences and communicate thought. As our language skills grow increasingly complex over age, it develops into a skill that is unique to humans and forms the foundation of modern society.  
 

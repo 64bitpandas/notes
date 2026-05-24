@@ -1,3 +1,7 @@
+---
+title: "Autism"
+weight: 160
+---
 ## Symptoms
  - Deficits in social communication and interaction
 	 - avoids social contact

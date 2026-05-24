@@ -1,3 +1,7 @@
+---
+title: "Temperament and Birth Order"
+weight: 30
+---
 Derryberry & Reed 2002: can having high attentional control buffer (protect) highly anxious people from getting stuck on threat-related information?
 - IV: trait anxiety
 - DV: attentional bias

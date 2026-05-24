@@ -1,3 +1,7 @@
+---
+title: "Substance Use Disorder"
+weight: 200
+---
 ## Symptoms
 
 **Impaired control:**

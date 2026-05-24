@@ -1,3 +1,7 @@
+---
+title: "ADHD"
+weight: 170
+---
 ## DSM Criteria
 Age of onset: <= 12 years
 Pervasiveness: symptoms present in >=2 settings

@@ -1,3 +1,7 @@
+---
+title: "Nature and Nurture"
+weight: 30
+---
 **What influences our development?**
 
   - **Nature:** innate characteristics and genes inherited biologically

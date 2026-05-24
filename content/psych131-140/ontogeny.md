@@ -1,3 +1,7 @@
+---
+title: "Ontogeny"
+weight: 50
+---
 **Ontogeny** refers to the development of an individual from life to death. The study of ontogeny is also known as **life history theory** or the cycle of life, which describes the stages of growth and reproduction within one's lifespan.
 
 Within the animal kingdom, there is extreme diversity between life histories of different species. However, **no animal grows and reproduces at the same time.** The reproductive period can only begin after growth ends.

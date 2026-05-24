@@ -1,3 +1,7 @@
+---
+title: "Transference"
+weight: 60
+---
 ## Definition
 Transference is the process by which the representation of a significant other is applied to a new person who is similar to that person in some manner.
  - In other words, when we meet someone new who reminds us of someone we know well, we assume the new person also shares other attributes of the known person. We then think we know everything about them.

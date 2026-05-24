@@ -1,3 +1,7 @@
+---
+title: "Schizophrenia"
+weight: 210
+---
 ## Symptoms
  - Delusions (beliefs that are false, and not amenable to change)
  - Hallucinations (perceptions that are not associated with an external stimulus, and cannot be experienced by others)

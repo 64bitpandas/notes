@@ -1,3 +1,7 @@
+---
+title: "Inference"
+weight: 110
+---
 **Inference** is the act or process of reaching a conclusion about something from known facts or evidence.
 
 For example, based on perceiving that the ground is wet, one can infer that it likely rained that day.

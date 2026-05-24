@@ -1,3 +1,7 @@
+---
+title: "Intro to Personality"
+weight: 10
+---
 ## What is personality?
 Personality encapsulates the characteristics of a person that describe and explain consistent patterns of feeling, thinking, and behaving.
 

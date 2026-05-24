@@ -1,3 +1,7 @@
+---
+title: "Eating Disorders"
+weight: 190
+---
 ## Types of Disorders
 **Anorexia Nervosa (AN):** 
  - Restriction of energy intake: significantly lower body weight than expected

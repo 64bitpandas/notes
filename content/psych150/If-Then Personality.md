@@ -1,3 +1,7 @@
+---
+title: "If-Then Personality"
+weight: 70
+---
 ## The Paradox of personality
 By definition, personality should be stable and coherent; however, we don't really observe this in reality. (For example, tipping behavior cannot be predicted from agreeableness/generosity, and may change depending on the restaurant.)
 

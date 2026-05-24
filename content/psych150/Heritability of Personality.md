@@ -1,3 +1,7 @@
+---
+title: "Heritability of Personality"
+weight: 40
+---
 
 **Heritability** is the degree to which variability in a characteristic can be explained by genetic variability in the population.
 

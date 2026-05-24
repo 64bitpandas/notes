@@ -1,3 +1,7 @@
+---
+title: "Emotional Development"
+weight: 80
+---
 ## Definitions
 
 An **emotion** is a state of feeling that has physiological, situational, subjective, and cognitive components and desire to take action.

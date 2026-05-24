@@ -1,3 +1,7 @@
+---
+title: "Methods and Assessment of Mental Health Problems"
+weight: 20
+---
 ## Scientific method
 1. Determine an interesting and answerable question
 2. Formulate hypothesis regarding the question

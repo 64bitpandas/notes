@@ -1,3 +1,7 @@
+---
+title: "Theory of Mind"
+weight: 90
+---
 ![[cross cultural psychology#Theory of Mind]]
 
 Theory of mind is the ability to separate our own mental states from the (possibly conflicting) mental states of others. Specifically, theory of mind involves understanding how mental processes such as intentions, beliefs, perceptions, and emotions influence behavior.

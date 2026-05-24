@@ -1,3 +1,7 @@
+---
+title: "Attachment"
+weight: 50
+---
 Attachment provides an internal working model (blueprint for behavior) for:
 1. Proper caregiving behaviors
 2. How we expect infants to react to caregiving

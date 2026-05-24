@@ -1,3 +1,7 @@
+---
+title: "Metacognition"
+weight: 100
+---
 Metacognition is **cognition about cognition:** a collection of related skills that allow us to reflect upon our own thinking 
  - knowledge about how the mind works
  - monitoring the quality of our own thoughts

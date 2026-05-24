@@ -1,3 +1,7 @@
+---
+title: "Temperament"
+weight: 60
+---
 ## What is temperament?
 Temperament is defined as the constitutionally-based individual differences in emotional, motor, and attentional reactivity and self-regulation.
 
