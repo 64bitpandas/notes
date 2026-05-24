@@ -1,6 +1,7 @@
 ---
 title: "CS 168: The Internet"
 BookCollapseSection: true
+weight: 50
 ---
 
 ## CS168 Notes

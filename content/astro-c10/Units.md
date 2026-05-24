@@ -2,8 +2,6 @@
 weight: 1
 ---
 
-# Units
-
 ## Distances and Measurements
 
 How big is 1 Astronomical Unit (AU)?

@@ -2,8 +2,6 @@
 weight: 6
 ---
 
-# The Sun, Moon and Earth
-
 ## The Moon
 
 How do you predict where the moon will be in the sky?

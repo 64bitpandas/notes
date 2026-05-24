@@ -2,8 +2,6 @@
 weight: 7
 ---
 
-# Planetary Systems
-
 ## Models of the Solar System
 
 What is prograde and retrograde motion?

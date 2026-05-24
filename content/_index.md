@@ -34,7 +34,7 @@ These are reasonably high-quality notes that I've spent additional time editing,
  - [CS 162: Operating Systems](/cs162/): course notes available for most topics. Based on the Fall 2021 offering
  - [CS 168: Intro to the Internet](/cs168/): course notes available for most topics. Based on the Fall 2022 offering
  - [Data 102: Data, Inference, Decisions](/data102/): course notes available for most topics. Based on the Fall 2022 offering
- - [Astronomy C10: Introduction to General Astronomy](/astro-c10/)
+ - [Astronomy C10: Introduction to General Astronomy](/astro-c10/): course notes available for most topics. Based on the Spring 2022 offering
 
 ### Other
 

@@ -2,8 +2,6 @@
 weight: 10
 ---
 
-# The Expansion of the Universe
-
 Based on redshifts Vesto Slipher discovered, it appeared that many of the spiral nebulae are moving away from us.
 - Hubble used these redshifts to derive distances to stars: redshift is proportional to distance. The more distant the stars, the greater the redshift.
 

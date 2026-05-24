@@ -2,7 +2,6 @@
 weight: 11
 ---
 
-# Cosmology
 
 Cosmology is the study of the structure and evolution of the universe as a whole.
 

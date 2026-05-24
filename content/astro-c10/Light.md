@@ -2,8 +2,6 @@
 weight: 2
 ---
 
-# Light
-
 Unlike other physical sciences, astronomers don’t have access to the objects they study: it’s nearly impossible with current technology to actually go to nearby stars or planets for casual observation!
 
 Nonetheless, the universe is the ultimate astronomy laboratory, and conveys tangible information in the form of light.

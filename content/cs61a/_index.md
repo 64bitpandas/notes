@@ -1,6 +1,7 @@
 ---
 title: "CS 61A: Computer Programs"
 BookCollapseSection: true
+weight: 60
 ---
 
 ## Introduction

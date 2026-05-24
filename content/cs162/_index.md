@@ -1,6 +1,7 @@
 ---
 title: "CS 162: Operating Systems"
 BookCollapseSection: true
+weight: 40
 ---
 
 ## CS162 Notes

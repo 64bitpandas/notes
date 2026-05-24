@@ -2,8 +2,6 @@
 weight: 5
 ---
 
-# Telescopes
-
 ## Angular Resolution
 
 The angular resolution of a telescope is given by

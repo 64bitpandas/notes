@@ -2,8 +2,6 @@
 weight: 9
 ---
 
-# Galaxies
-
 How big are galaxies?
 
 - hundreds of billions of stars, 50,000+ light years across
