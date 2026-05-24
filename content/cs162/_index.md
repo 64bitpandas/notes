@@ -4,8 +4,6 @@ BookCollapseSection: true
 weight: 40
 ---
 
-## CS162 Notes
-
 Here are my notes for the Fall 2021 offering of [CS162](https://cs162.org/), Berkeley's OS course, based on Anderson and Dahlin's textbook "Operating Systems: Principles and Practice". 
 
 ## Table of Contents

@@ -4,8 +4,6 @@ BookCollapseSection: true
 weight: 50
 ---
 
-## CS168 Notes
-
 Here are my notes for the Fall 2022 offering of [CS168](https://cs168.io), Berkeley's Introduction to the Internet course.
 
 ## Table of Contents

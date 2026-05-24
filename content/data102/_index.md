@@ -1,10 +1,8 @@
 ---
 title: "Data 102: Inference"
 BookCollapseSection: true
-weight: 50
+weight: 
 ---
-
-## Data102 Notes
 
 Here are my notes for the Fall 2022 offering of [Data 102](https://data102.org/), Berkeley's Inference for Data Science course.
 
