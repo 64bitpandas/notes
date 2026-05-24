@@ -22,22 +22,23 @@ Here are the courses that I currently offer notes for, and their statuses.
 ### Full Course Guides
 
 The highest-quality, most complete sets of course notes.
- - [CS 61B: Data Structures and Algorithms](https://notes.bencuan.me/cs61b/): full guide available for all course content, based on the Spring 2020 offering
- - [CS 70: Discrete Math](https://notes.bencuan.me/cs70/): full guide available for discrete math; partial index available for probability. Based on the Fall 2020 offering
- - [CS 186: Intro to Databases](https://notes.bencuan.me/cs186/): full guide available for all topics except NoSQL and FD's/Normalization. Based on the Fall 2022 offering
+ - [CS 61B: Data Structures and Algorithms](/cs61b/): full guide available for all course content, based on the Spring 2020 offering
+ - [CS 70: Discrete Math](/cs70/): full guide available for discrete math; partial index available for probability. Based on the Fall 2020 offering
+ - [CS 186: Intro to Databases](/cs186/): full guide available for all topics except NoSQL and FD's/Normalization. Based on the Fall 2022 offering
 
 
-### Curated Notes 
+### Curated Notes
 
 These are reasonably high-quality notes that I've spent additional time editing, curating, and re-organizing.
 
- - [CS 162: Operating Systems](https://notes.bencuan.me/cs162/): course notes available for most topics. Based on the Fall 2021 offering
- - [CS 168: Intro to the Internet](https://notes.bencuan.me/cs168/): course notes available for most topics. Based on the Fall 2022 offering
- - [Data 102: Data, Inference, Decisions](https://notes.bencuan.me/data102/): course notes available for most topics. Based on the Fall 2022 offering
+ - [CS 162: Operating Systems](/cs162/): course notes available for most topics. Based on the Fall 2021 offering
+ - [CS 168: Intro to the Internet](/cs168/): course notes available for most topics. Based on the Fall 2022 offering
+ - [Data 102: Data, Inference, Decisions](/data102/): course notes available for most topics. Based on the Fall 2022 offering
+ - [Astronomy C10: Introduction to General Astronomy](/astro-c10/)
 
 ### Other
 
- - [CS 61A: Structure and Interpretation of Computer Programs](https://notes.bencuan.me/cs61a/): resource index and meta-guide available. No course notes.
+ - [CS 61A: Structure and Interpretation of Computer Programs](/cs61a/): resource index and meta-guide available. No course notes.
 
 
 

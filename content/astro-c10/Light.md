@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 2
 ---
 
 # Light
@@ -59,6 +59,15 @@ The spectrum of light is actually one small portion of the entire electromagneti
 ![Untitled](Light/Untitled%203.png)
 
 Shorter wavelengths, like X-rays, carry more energy (and are therefore more harmful to humans). Longer wavelengths, like infrared radiation or radio waves, travel longer distances but carry less energy.
+
+The major bands of the electromagnetic spectrum, by wavelength, are:
+
+- $\gamma$ (gamma) rays: $\lambda$ < 0.01 nm (no limit)
+- Xrays: about 0.01 - 10 nm
+- Ultraviolet (UV): about 10 - 400 nm
+- Visible (optical): about 400 - 750 nm
+- Infrared (IR): about 750 nm-1mm (1000000 nm)
+- Radio: $\lambda$ > 1mm (no limit)
 
 ## Particle-Wave Duality
 

@@ -1,14 +1,16 @@
 ---
-weight: 8
+weight: 10
 ---
 
-
+# The Expansion of the Universe
 
 Based on redshifts Vesto Slipher discovered, it appeared that many of the spiral nebulae are moving away from us.
 - Hubble used these redshifts to derive distances to stars: redshift is proportional to distance. The more distant the stars, the greater the redshift.
 
 - Planets, the solar system, our galaxy, etc. are **not** expanding because they are held together gravitationally. The expansion of empty space is a much smaller force compared to gravity.
 - Starting about 10 milion light years, objects sufficiently far apart begin to move away from one another.
+
+## Hubble's Law
 
 Hubble’s Law (Hubble-Lemaitre Law)
 
@@ -21,6 +23,7 @@ $$
     - Mpc = megaparsec = $32.6 \times 10^6$ light years
     - Currently contested
 - $d$ = distance
+- Hubble’s constant (or parameter) is constant throughout space, but not time. It has been seen to decrease over time.
 
 How to measure distances using Hubble’s Law:
 
@@ -34,8 +37,7 @@ Most elliptical galaxies formed very early on. However, some formed recently due
 
 Active galaxies: have extremely luminous centers (by $L = 4 \pi d^2 b$) that are so bright that they cannot be caused by stars alone.
 
-Quasars: quasi-stellar radio sources that appear very bright at radio wavelengths (unusual).
+## Accelerating Expansion and Dark Energy
 
-Quasars appear extremely redshifted and are much more luminous (10-1000x as much as galaxies with comparable redshift). The fact that they were so luminous made it difficult for early astronomers to believe that they were so distant (alternative hypothesis: quasars are in our own galaxy and are being shot out at rapid speeds).
-
-The apparent brightness of soem quasars can vary by factor of 100 over the span of months to years, implying that the region of emission can’t be any larger than a couple light-years (or weeks or months, depending on the period).
+- Not only is the universe expanding, but the rate of expansion is accelerating.
+    - The main conclusion of the studies of distant Type Ia supernovae is that the expansion of the Universe is now accelerating, rather than decelerating as expected. The acceleration implies that there must be gravitationally repulsive “dark energy” in the Universe.
