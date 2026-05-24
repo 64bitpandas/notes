@@ -48,6 +48,7 @@ These are notes that I've published as-is, and are at various levels of complete
  - [CS 61C: Computer Architecture](/cs61c/): nearly complete but unedited notes.
  - [CS 161: Computer Security](/cs161/): nearly complete but unedited notes.
  - [CS 170: Efficient Algorithms and Intractable Problems](/cs170/): nearly complete but unedited notes.
+ - [CS 184: Computer Graphics](/cs184/): nearly complete but unedited notes.
  - [CS 188: Artificial Intelligence](/cs188/): nearly complete but unedited notes.
  - [Psych 124: The Evolution of Human Behavior](/psych124/): handwritten notes available with OCR transcription.
  - [Psych 131/140: Developmental Psychology](/psych131-140/): fairly incomplete, fused notes from two separate developmental psychology courses.
