@@ -77,11 +77,11 @@ Solitary
 
 # Gorillas (African Apes)
 
-## Folivorus
+## Folivorous
 - large digestive systems
 - shearing crests on molars
 - large mandibles
-- saggital crest
+- sagittal crest
 
 ## Large Size
 - limited movement
@@ -95,7 +95,7 @@ Solitary
 - defends/abducts females from other groups
 - high sexual dimorphism
   - males: 2-3x larger
-  - larger saggital crests + canines
+  - larger sagittal crests + canines
   - fat pads for chest pounding
   - silverbacks = status symbols
 
@@ -107,7 +107,7 @@ Solitary
 - central/west Africa
 - confined to equatorial forests (alongside all other African apes)
 - separated from bonobos by Congo river
-- no saggital crest (round skull)
+- no sagittal crest (round skull)
 
 # Fission-fusion social structure
 

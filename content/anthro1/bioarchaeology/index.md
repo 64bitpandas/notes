@@ -5,7 +5,7 @@ weight: 150
 
 <embed src="bioarchaeology.pdf" type="application/pdf" width="100%" height="600px" />
 
-# [U] Bioarcheology
+# [U] Bioarchaeology
 
 ## Definition:
 
@@ -55,7 +55,7 @@ physiological disruption of poor living environment
 ### e.g. iron deficiency anemia
 
 - caused by poor diet or parasites (less common → more common)
-- reaction ⇒ porotic hyperstosis
+- reaction ⇒ porotic hyperostosis
     - bone becomes spongy, trabecular increases
 
 ## Enamel Hypoplasia
@@ -82,7 +82,7 @@ physiological disruption of poor living environment
 - transmitted by airborne droplets from birds, cows
 - original start - domestication of animals
 - destructive in bones after a long time (dormant in lungs)
-  - circular deformation in vertabrae (Pot's disease)
+  - circular deformation in vertebrae (Pott's disease)
 
 ## Degenerative disease
 

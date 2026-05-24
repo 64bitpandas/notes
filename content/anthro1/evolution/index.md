@@ -34,7 +34,7 @@ weight: 20
 ## Fossils
 
 - Many misconceptions early on, thought they were from Bible
-- da Vinci, Robert Hook, Nicholas Steno
+- da Vinci, Robert Hooke, Nicholas Steno
     - Suggested that fossils were extinct animals
     - Sequence — top = young, bottom = old
     - Still used Bible to explain extinction (disasters caused)
@@ -55,7 +55,7 @@ weight: 20
 - **Thomas Malthus**: demographer, examined population increase
   - natural forces would balance population growth
   - overproduction is contracted by nature
-- Alfred Russell Wallace: natural selection, spiritualist
+- Alfred Russel Wallace: natural selection, spiritualist
 
 # Charles Darwin
 
@@ -103,7 +103,7 @@ basically reiterated Darwin
     - evolution changes based on the circumstances
     - which features get reproduced more than others?
     - **fitness: differential reproductive success**
-- Progress fallacy: evolution is hierarchical, organisms evolves towards perfection
+- Progress fallacy: evolution is hierarchical, organisms evolve towards perfection
     - Reality: evolution has nothing to do w/ social progress
     - Not hierarchical — branches out in all directions
     - over time — more diverse + specialized, NOT better/complex

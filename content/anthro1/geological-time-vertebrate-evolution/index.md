@@ -20,13 +20,13 @@ weight: 80
 
 - Organisms with the earliest vertebrate traits
   - Notochord (stiff rod)
-  - nerve chord (precursor to brain and spinal cord)
+  - nerve cord (precursor to brain and spinal cord)
   - pharyngeal slits (respiration)
   - muscular tail (aid in digestion)
 
 - Organisms with the earliest vertebrate traits
   - Notochord (stiff rod)
-  - nerve chord (precursor to brain and spinal cord)
+  - nerve cord (precursor to brain and spinal cord)
   - pharyngeal slits (respiration)
   - muscular tail (aid in digestion)
 
@@ -103,7 +103,7 @@ Environment: new environment outside of water; better support for life
 
 ## Middle Triassic: 230 mya
 
-- Pre mammals (mamaliformes)
+- Pre mammals (mammaliformes)
 - rodent-like
 - fur
 - bigger brains

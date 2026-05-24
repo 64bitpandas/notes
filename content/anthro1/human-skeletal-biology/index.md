@@ -83,7 +83,7 @@ Entire skeleton renewed every 10 years
 
 - Macrodamage: fracture
 - Microdamage: small damages → tiny fractures/microcracks
-  - Woven bone → bony callous
+  - Woven bone → bony callus
   - If accumulated, would break bone
 
 - woven bone → bony callus
@@ -100,7 +100,7 @@ Entire skeleton renewed every 10 years
 - long bones → levers (femur)
 - flat bones → skull, shoulder
 - short bones → tight, cube-like (wrist, ankle)
-- irregular bones → specialized, complex (pelvis, vertabrae)
+- irregular bones → specialized, complex (pelvis, vertebrae)
 
 ## [T] Forensic Anthropology
 

@@ -277,7 +277,7 @@ not supposed to drink milk after weaning
   - Americanus, Europeaus, Asiaticus, Afer — still used to this day
 - *Cranial topology:*
   - 1775: Blumenbach — anatomist, categorized skulls, 5 races
-  - 1842: Retizius — cephalic index (thought skull shape was non-adaptive)
+  - 1842: Retzius — cephalic index (thought skull shape was non-adaptive)
   - 1839: Morton — cranial volume associated w/ intellect
   - 1903: Hrdlička — founder of Smithsonian, AJPA
 

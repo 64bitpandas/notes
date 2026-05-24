@@ -32,7 +32,7 @@ Similar structures across species
 ### Analogous Structures
 
 Similar structures due to function, but not ancestry (superficial, independent)
-- homoplasty: evolutionary development of analogous structures
+- homoplasy: evolutionary development of analogous structures
 
 ### Evolutionary Systematics
 

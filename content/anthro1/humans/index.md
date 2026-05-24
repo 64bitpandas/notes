@@ -25,7 +25,7 @@ Thursday, March 12, 2020   1:25 PM
 - antecessor: explorer
 - heidelbergensis: Heidelberg, Germany
 - neanderthalensis: Neander Valley, Germany
-- sapien: wise
+- sapiens: wise
 
 ## Homo rudolfensis
 
@@ -149,7 +149,7 @@ Environment Change → Bipedalism → Tools → Larger brain size
 - Homo heidelbergensis – Europe, Africa, 450 to 200 kya
 - Homo sapiens ssp. Denisova – 50,000 – ?
 - Homo neanderthalensis – Europe, Western Asia, 250 to 29 kya
-- Homo denisova – Siberia, East Asia, Ne Guinea, 200 kya – 20 kya
+- Homo denisova – Siberia, East Asia, New Guinea, 200 kya – 20 kya
 - Homo sapiens – Worldwide, 190 kya to present
 - Homo floresiensis – Flores Island, 800 kya?? – 50k
 

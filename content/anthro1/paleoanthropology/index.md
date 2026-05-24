@@ -35,7 +35,7 @@ weight: 120
 - U-shaped teeth (like chimps)
 - Foramen magnum closer to center (bipedal?)
 
-### Orrin tugenensis
+### Orrorin tugenensis
 
 - Thick tooth enamel (ape-like)
 - Ape-like canine but small teeth
@@ -96,7 +96,7 @@ weight: 120
 - Small canines
 - Large premolars, molars
 - Similar size + dimorphism to chimps
-- most primitive australopithicine
+- most primitive australopithecine
 - Bipedal
   - short broad pelvis, bowl-shaped
   - angled femurs
@@ -109,7 +109,7 @@ weight: 120
 ## Australopithecus africanus
 
 - 3.5 – 2.5 mya
-- first australopithicene discovered — "Taung baby" – Raymond Dart, 1925
+- first australopithecine discovered — "Taung baby" – Raymond Dart, 1925
 - South Africa — Sterkfontein, Makapansgat sites
 - found in caves
 
