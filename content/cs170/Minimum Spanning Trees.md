@@ -11,6 +11,8 @@ Given an undirected graph $G$ with positive edge weights, find a subset $T \subs
 - All vertices are connected.
 - The sum of edge weights in $T$ is minimized.
 
+For step-by-step worked examples of the two classical algorithms, see [[cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm]] and [[cs61b/algorithms/minimum-spanning-trees/prims-algorithm]].
+
 We can notice that $T$ is actually a **tree**!
 
 ### Tree Properties

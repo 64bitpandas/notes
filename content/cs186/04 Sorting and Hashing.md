@@ -4,7 +4,7 @@ weight: 40
 ---
 
 ## Introduction
-When dealing with disk operations, traditional sorting algorithms tend to create lots of random accesses and can be quite slow. We’ll explore a few strategies for creating optimized algorithms for sorting databases that work around our limited memory and buffer management abilities.
+When dealing with disk operations, traditional sorting algorithms tend to create lots of random accesses and can be quite slow. We’ll explore a few strategies for creating optimized algorithms for sorting databases that work around our limited memory and buffer management abilities. (For the in-memory hashing fundamentals — hash codes, load factor, separate chaining — see [[cs61b/abstract-data-types/hashing]].)
 
 ## Relevant Materials
  - [Note 6: Sorting](https://notes.bencuan.me/cs186/coursenotes/n06-Sorting.pdf)

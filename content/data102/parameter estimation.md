@@ -14,6 +14,8 @@ As an example, let's say we are trying to quantify how good a product is based o
 ## Maximum Likelihood Estimation (MLE)
 [http://prob140.org/textbook/content/Chapter_20/01_Maximum_Likelihood.html](http://prob140.org/textbook/content/Chapter_20/01_Maximum_Likelihood.html)
 
+MLE also shows up in the CS 188 ML pipeline for fitting CPTs from data — see [[cs188/Machine Learning]] (Naive Bayes section). For the broader probability background, see [[cs70/probability/probability-overview]].
+
 
 In a Frequentist approach, $\theta$ is fixed, so our goal is to find the best estimate for $\theta$ using the data given.
 

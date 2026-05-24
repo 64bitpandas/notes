@@ -9,7 +9,7 @@ The internet is built upon the fact that stuff needs to go from point A to point
 
 One of the ways we can make sure our top-secret messages can't get intercepted is to **encrypt** them- mix them up to become incomprehensible using some secret code, then decrypt it at the other end. This has a major problem though- how can you agree to use the same secret code as someone else if you've never met them before?
 
-**RSA** (named after creators Rivest, Shamir, Adleman) is an encryption scheme that takes advantage of **public keys** to solve this very problem. In the RSA system, everyone broadcasts their public key all over. When encrypting a message, the sender can lock their message using their **private key** paired with the _sender's_ public key, such that only the sender themselves can unlock the message using their own private key.
+**RSA** (named after creators Rivest, Shamir, Adleman) is an encryption scheme that takes advantage of **public keys** to solve this very problem. In the RSA system, everyone broadcasts their public key all over. When encrypting a message, the sender can lock their message using their **private key** paired with the _sender's_ public key, such that only the sender themselves can unlock the message using their own private key. (For how RSA fits into a real security stack — alongside hybrid encryption, signatures, and TLS — see [[cs161/Cryptography]].)
 
 This poses yet another problem: how can we choose these public and private keys so that they work nicely with each other? Well, we can use modular arithmetic of course!! :smile:
 

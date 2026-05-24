@@ -8,6 +8,8 @@ weight: 20
 3. Develop method for testing the hypothesis
 4. Use resulting data to draw a conclusion
 
+For the statistical machinery behind step 4 (null vs. alternative hypotheses, p-values, false-positive control), see [[data102/hypothesis testing]].
+
 
 Example: humans typically have a fear of public speaking. 
 1. Question: Is concern for reputation something that is unique to humans?

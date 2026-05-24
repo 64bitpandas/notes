@@ -10,7 +10,7 @@ weight: 1
 
 ## One sentence overview
 
-Visit vertices in order of best-known distance from source; on visit, relax every edge from the visited vertex.
+Visit vertices in order of best-known distance from source; on visit, relax every edge from the visited vertex. (For the formal correctness/runtime analysis, see [[cs170/Graphs]]; in [[cs188/Search Problems]], the same algorithm appears as Uniform Cost Search.)
 
 ## Detailed Breakdown
 

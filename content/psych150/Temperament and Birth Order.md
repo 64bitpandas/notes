@@ -8,7 +8,7 @@ Derryberry & Reed 2002: can having high attentional control buffer (protect) hig
 - Moderator: attentional control
 - Finding/result: for an uncued trial, the highly anxious with low attentional control were much slower than those with low anxiety. There was no significant difference found in the other trials. This suggests that in cases where anxiety is high, attentional control does moderate attention.
 
-**Temperament:** the nature part of personality: core aspects that are biologically defined
+**Temperament:** the nature part of personality: core aspects that are biologically defined (see [[psych131-140/2-4 temperament]] for the developmental-psych treatment, including the same Kagan inhibited/uninhibited distinction).
 - Inhibited vs uninhibited temperaments (emotionality) in infants is systematically definable and has predictive power.
 	- 20% of infants were clearly inhibited, 40% were clearly uninhibited, and 20% are in between. 
 	- Predictive of adolescent and adult behavior, but only to a degree (due to moderating effect on environmental factors, parenting, etc). Inhibited children had a greater stress response when encountering novel stimuli.

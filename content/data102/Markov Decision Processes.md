@@ -3,7 +3,7 @@ weight: 120
 ---
 ## What is a Markov Decision Process?
 
-A Markov Decision Process is a Markov model that solves **nondeterministic search problems** (where an action can result in multiple possible successor states).
+A Markov Decision Process is a Markov model that solves **nondeterministic search problems** (where an action can result in multiple possible successor states). See [[cs188/Markov Decision Processes]] for the AI-search framing, and [[cs70/probability/markov-chains]] for the underlying Markov-chain theory.
 
 A MDP is defined by:
 

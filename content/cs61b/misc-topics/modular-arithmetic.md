@@ -4,6 +4,8 @@
 >
 > Make sure you're comfortable working with binary numbers (adding, subtracting, converting to decimal) before continuing.
 
+For the mathematical foundations of modular arithmetic (congruences, inverses, GCD), see [[cs70/discrete-math/modular-arithmetic]].
+
 ## Integer Types
 
 This is an excerpt from the chart in [Java Objects](/cs61b/oop/objects.md). Go there to review primitive types first!

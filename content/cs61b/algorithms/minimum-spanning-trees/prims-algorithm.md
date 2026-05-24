@@ -9,7 +9,7 @@ weight: 2
 
 ## Conceptual Overview
 
-Prim's algorithm is an optimal way to construct a **minimum spanning tree**. It basically starts from an arbitrary vertex, then considers all its immediate neighbors and picks the edge with smallest weight to be part of the MST. **Note:** this creates a cut in the graph, where the two nodes in the MST being constructed are in one set, and every other vertex of the graph is in another set.
+Prim's algorithm is an optimal way to construct a **minimum spanning tree**. It basically starts from an arbitrary vertex, then considers all its immediate neighbors and picks the edge with smallest weight to be part of the MST. (For the cut-property correctness argument and the unified greedy view of MST algorithms, see [[cs170/Minimum Spanning Trees]].) **Note:** this creates a cut in the graph, where the two nodes in the MST being constructed are in one set, and every other vertex of the graph is in another set.
 
 Now, the edges taken into consideration include all immediate neighbors of every node in the MST. Add the edge that has the smallest weight to the MST. Repeat until every vertex has been visited. The result is an MST for the graph.
 

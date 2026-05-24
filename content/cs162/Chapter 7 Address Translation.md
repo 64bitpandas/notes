@@ -10,7 +10,7 @@ Every modern computer has physical memory inside of it, that might look somethin
 
 Physical RAM modules typically contain anywhere from 4 to 128GB of memory (well, at the time of writing). However, there are only a few sticks of RAM, and possibly hundreds of processes that need to access them at the same time!
 
-This is where memory management comes in. This chapter will cover several methods to do so, such as **address translation** (virtual memory) and **paging** (breaking memory into chunks).
+This is where memory management comes in. This chapter will cover several methods to do so, such as **address translation** (virtual memory) and **paging** (breaking memory into chunks). (For the hardware/architecture view of the same memory hierarchy and a quick-reference on the C-level memory model, see [[cs61c/Operating Systems]] and [[cs61c/Memory Management]].)
 
 # Address Translation
 

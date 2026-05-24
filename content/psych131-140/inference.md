@@ -10,7 +10,7 @@ For example, based on perceiving that the ground is wet, one can infer that it l
 Logical inferences relate two or more mental representations with structure and reasoning. 
 
 ### Disjunctive Syllogism
-If $A \lor B$, and $\lnot A$, then $B$ must necessarily be true.
+If $A \lor B$, and $\lnot A$, then $B$ must necessarily be true. (This is the same rule formalized in [[cs70/discrete-math/propositional-logic]].)
 
 **Call's cup task:** Suppose a researcher puts a prize in one of two cups, and shows that one of them is empty. Using logical reasoning, we can deduce that the prize must be in the other cup.
 * This has been studied in other animals using both visual and auditory inference. For instance, if the researcher shakes a cup and it makes no sound, chimpanzees can deduce that the prize must be in the other cup.
@@ -43,7 +43,7 @@ A researcher has two populations, one of mostly red balls and one of mostly blue
  - ability to distinguish between population and sample
  - Rakoczy et al 2014: chimpanzees have statistical inference abilities and will choose to sample from a population with the highest proportion of treats.
 
-Statistical inference is an example of **inductive inference:** the ability to generalize outcomes to explain other aspects of reality. (example: generalize sample to population)
+Statistical inference is an example of **inductive inference:** the ability to generalize outcomes to explain other aspects of reality. (example: generalize sample to population) For the formal statistical framework, see [[data102/hypothesis testing]] and [[data102/parameter estimation]].
 
 Kushnir, Xu, Wellman 2010: children can infer that the less prevalent something is in a population, the stronger the preference for that thing if it is chosen consistently 
 

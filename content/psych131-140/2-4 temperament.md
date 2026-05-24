@@ -3,7 +3,7 @@ title: "Temperament"
 weight: 60
 ---
 ## What is temperament?
-Temperament is defined as the constitutionally-based individual differences in emotional, motor, and attentional reactivity and self-regulation.
+Temperament is defined as the constitutionally-based individual differences in emotional, motor, and attentional reactivity and self-regulation. See [[psych150/Temperament and Birth Order]] for the personality-psych treatment of the same construct, and [[psych150/Trait Theory]] for how temperament relates to adult personality.
 
  - Biologically based and influenced by maturation, heredity, experience
  - Consistent across situations

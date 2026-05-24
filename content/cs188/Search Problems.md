@@ -39,13 +39,13 @@ State spaces can be represented with a **state space graph**, where nodes are po
 
 ![[/cs188/img/Search-Problems/Untitled 2.png]]
 
-BFS: queue
+BFS: queue (see [[cs61b/algorithms/searching/breadth-first-search-bfs]] for an introductory walkthrough, and [[cs170/Graphs]] for the runtime analysis)
 
 - Takes $O(b^s)$ time where $s$ is the depth of the shallowest solution
 - Takes $O(b^s)$ space since the entire bottom tier needs to be loaded
 - Is complete (if a solution exists, then $s$ must be finite), but not optimal (if the costs are not equal)
 
-DFS: stack (expand deepest node first)
+DFS: stack (expand deepest node first; see [[cs61b/algorithms/searching/depth-first-search-dfs]])
 
 - Takes linear space (only one path in memory at a time)
 - But can take exponential time $O(b^m)$ where $b$ is branching factor and $m$ is depth

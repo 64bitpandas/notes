@@ -5,7 +5,7 @@ weight: 110
 
 ## Introduction
 
-The OS is a large piece of software that acts as a layer between hardware and user programs. Some of its functions include:
+The OS is a large piece of software that acts as a layer between hardware and user programs. Some of its functions include: (For a much deeper treatment of every topic on this page — processes, threads, scheduling, virtual memory, file systems — see the CS 162 notes, starting with [[cs162/Chapter 1 OS Basics]].)
 
 - Loading on boot
 - Managing IO devices via drivers

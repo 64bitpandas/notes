@@ -4,7 +4,7 @@ title: "TCP"
 ---
 
 ## The Transport Layer
-The transport layer (L4) is built directly on top of the networking layer. Many different protocols exist on the transport layer, most notably TCP and UDP.
+The transport layer (L4) is built directly on top of the networking layer. Many different protocols exist on the transport layer, most notably TCP and UDP. (For the security perspective — TCP injection, RST attacks, and how TLS sits on top of TCP — see [[cs161/Networking]].)
 
 The goal of the transport layer is to bridge the gap between the abstractions application designers want, and the abstractions that networks can easily support. By providing a common implementation, the transport layer makes development easier.
 

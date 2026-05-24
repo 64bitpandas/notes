@@ -8,7 +8,7 @@ weight: 940
 
 ## What's a graph?
 
-Formally, a graph is a **set of vertices with a set of edges connecting them.** A graph can be defined as $G = (V, E)$ where $V = \{A, B, \cdots V_n\}$ and $E = \{\{A, B\}, \{B, C\} \cdots \}$
+Formally, a graph is a **set of vertices with a set of edges connecting them.** A graph can be defined as $G = (V, E)$ where $V = \{A, B, \cdots V_n\}$ and $E = \{\{A, B\}, \{B, C\} \cdots \}$ (For algorithmic treatments of the same structures — BFS/DFS, SCCs, MSTs, shortest paths — see [[cs170/Graphs]].)
 
 For an **ordered graph** where vertices are numbered, $E$could be represented as a set of ordered pairs instead: $E = \{(A, B), (B, C) \cdots \}$
 

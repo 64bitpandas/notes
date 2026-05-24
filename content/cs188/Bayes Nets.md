@@ -5,6 +5,8 @@ weight: 50
 
 # Probability Review
 
+For the underlying probability theory (independence, conditional probability, distributions), see [[cs70/probability/probability-overview]]. For Bayesian parameter estimation on the resulting CPTs, see [[data102/parameter estimation]].
+
 # Bayes Nets
 
 Bayes Nets consist of:

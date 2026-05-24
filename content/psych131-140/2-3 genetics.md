@@ -14,7 +14,7 @@ Example: schizophrenia
  - Endophenotype: abnormal eye tracking
 
 
-**Heritability:** If a disorder has an X% heritability, X% of the variability in disorder-related symptoms within the population can be attributed to genetics.
+**Heritability:** If a disorder has an X% heritability, X% of the variability in disorder-related symptoms within the population can be attributed to genetics. The same construct applied to personality traits is discussed in [[psych150/Heritability of Personality]].
  - Heritability estimate: $h^2 = 2(r_{mz} - r_{dz})$ where $r_{mz}$ is monozygotic twin correlation and $r_{dz}$ is dizygotic twin correlation
 	 - ADHD, autism have high (>80%) heritability estimates
 	

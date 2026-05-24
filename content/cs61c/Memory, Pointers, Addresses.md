@@ -7,7 +7,7 @@ weight: 30
 
 **All data is in memory.** Each memory has an **address** and a **value**.
 
-**Pointers are an abstraction of a data address.**
+**Pointers are an abstraction of a data address.** (Because C does no bounds checking on pointer arithmetic, the model described here is the direct enabler of the attacks studied in [[cs161/Memory Safety Vulnerabilities]].)
 
 - Use `*` to get a value from a pointer.
 - Use `&` to get the address of a value.

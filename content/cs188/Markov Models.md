@@ -7,7 +7,7 @@ A Markov Model is basically a Bayes net that is an infinitely long chain (”tim
 
 Typically, each node is a random variable that represents a specific point in time.
 
-Markov models follow the **memoryless property,** which states that the random variable for time step $i+1$ is independent of all other variables except the random variable at time step $i$.
+Markov models follow the **memoryless property,** which states that the random variable for time step $i+1$ is independent of all other variables except the random variable at time step $i$. (For the probability-theory foundation of this construction, see [[cs70/probability/markov-chains]].)
 
 Additionally, Markov Models are **stationary:** for all values of $i$, $P(S_{i+1}|S_i)$ are all the same. This means that a Markov Model can be represented with only two CPT’s: one for $P(S_0)$ and one for everything else.
 
@@ -70,7 +70,7 @@ $$
 
 ## Particle Filtering
 
-Particle filtering is the Bayes Net sampling equivalent for Hidden Markov Models: when it becomes too expensive to do exact inference, we can instead approximate the probability distribution.
+Particle filtering is the Bayes Net sampling equivalent for Hidden Markov Models: when it becomes too expensive to do exact inference, we can instead approximate the probability distribution. (For more on the underlying sampling techniques, see [[data102/sampling]].)
 
 Here’s how the simulation goes:
 

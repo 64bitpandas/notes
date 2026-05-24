@@ -8,7 +8,7 @@ So far, we've established the fact that the disk is slow, and memory is fast- an
 
 Since memory is limited, we need to figure out a clever way to re-use information once it's read into memory, while still allowing new information to come in when needed. This way, we can minimize the number of times we need to read the disk in order to find something.
 
-The system that does this is the **buffer manager.** It employs a **page replacement policy** to decide which pages to evict when the buffer is full and a new page is read from disk.
+The system that does this is the **buffer manager.** It employs a **page replacement policy** to decide which pages to evict when the buffer is full and a new page is read from disk. The same LRU/clock policies appear in hardware caches ([[cs61c/Caching]]) and OS page caches ([[cs162/Chapter 8 Caching]]).
 
 ## Relevant Materials
  - [Note 5](https://notes.bencuan.me/cs186/coursenotes/n05-BufferMgmt.pdf)

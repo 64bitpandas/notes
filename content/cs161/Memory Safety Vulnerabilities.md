@@ -5,9 +5,11 @@ weight: 30
 
 # Buffer Overflow Attacks
 
+(For the underlying C memory model — pointers, addresses, stack layout — see [[cs61c/Memory, Pointers, Addresses]] and [[cs61c/Memory Management]]. Most of these attacks exploit unchecked pointer arithmetic on the runtime stack.)
+
 ## out-of-bounds write
 
-Overwriting bytes in a later position by making the current value much larger than anticipated. 
+Overwriting bytes in a later position by making the current value much larger than anticipated.
 
 - This works because C doesn't check memory boundaries.
 - Vulnerable code: `gets()` writes bytes until it encounters a newline. If there's no newline, then it may overwrite far more than intended.

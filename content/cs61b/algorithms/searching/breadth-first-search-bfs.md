@@ -2,7 +2,7 @@
 title: "Breadth First Search (DFS)"
 ---
 
-Breadth First Search (BFS), like [Depth First Search (DFS)](depth-first-search-dfs.md), is a method of **traversing a graph.** BFS simply traverses in a different order, but otherwise is very similar to DFS.
+Breadth First Search (BFS), like [Depth First Search (DFS)](depth-first-search-dfs.md), is a method of **traversing a graph.** BFS simply traverses in a different order, but otherwise is very similar to DFS. (See [[cs170/Graphs]] for the formal $O(|V|+|E|)$ runtime analysis, and [[cs188/Search Problems]] for how BFS is used as an AI search strategy.)
 
 The main difference is that BFS **visits all children before any subgraphs.** In a tree, we call this **level order.**
 

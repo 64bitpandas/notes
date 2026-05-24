@@ -48,7 +48,7 @@ void postOrder(Node x) {
 
 Graphs are a little more complicated to traverse due to the fact that they could have **cycles** in them, unlike trees. This means that we need to **keep track of all the nodes already visited** and add to that list whenever we encounter a new node.
 
-Depth First Search is great for determining if everything in a graph is connected.
+Depth First Search is great for determining if everything in a graph is connected. (See [[cs170/Graphs]] for the use of DFS in finding strongly connected components and topological sorts, and [[cs188/Search Problems]] for DFS as an AI search strategy.)
 
 Here's an outline of how this might go:
 

@@ -26,6 +26,8 @@ Given existing data points $X = \{X_1, \cdots, X_n\}$ and labels $Y$, predict $P
 
 [http://prob140.org/textbook/content/Chapter_20/01_Maximum_Likelihood.html](http://prob140.org/textbook/content/Chapter_20/01_Maximum_Likelihood.html)
 
+For a fuller statistical treatment (including the Bayesian/MAP counterpart), see [[data102/parameter estimation]].
+
 **Goal:** Given an iid sample of $N$ points $x_1, \cdots, x_N$, and a distribution described by a parameter $\theta$, what’s the value of $\theta$ that gives the highest probability of this set of points occurring in the probability distribution? (i.e. we want to maximize likelihood value)
 
 - Formal definition: find $\theta$ that maximizes $L(\theta) = \prod_{i=1}^N P_\theta(x_i)$, where $P_\theta$ is the probability of one data point $x_i$ occurring given a value of $\theta$.

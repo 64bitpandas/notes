@@ -7,6 +7,8 @@ weight: 992
 
 So far, we've explored a whole bunch of ways we can store items, but they aren't really optimized for general searching. What if we could get searching in $\Theta(1)$ time??? Wouldn't that be nice!
 
+See also: [[cs186/04 Sorting and Hashing]] (external hashing for databases that don't fit in memory), [[cs70/probability/hashing-and-the-union-bound]] (the probability of collisions and the birthday problem), and [[cs161/Cryptography]] (cryptographic hash functions used for integrity).
+
 Let's try something: **putting all of our data in a massive array.** Let's say that we know all our data falls into the range from 0 to 10,000 and make an array of 10,000 length to hold stuff.
 
 ![](<../img/assets/image (86).png>)

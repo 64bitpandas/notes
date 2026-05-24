@@ -7,7 +7,7 @@ weight: 950
 
 Modular arithmetic is "clock math" - that is, when numbers wrap around back to 0 if they get too big. You could think about it like a **remainder:** $21 \pmod{10}$ for example can be read as "what is the remainder of 21 when it is divided by 10?" (it's 1, by the way.)
 
-This is an important concept in many aspects of computer science, namely [cryptography](/cs70/discrete-math/rsa-cryptography.md) and [error correction](/cs70/discrete-math/polynomials.md) among many others.
+This is an important concept in many aspects of computer science, namely [cryptography](/cs70/discrete-math/rsa-cryptography.md) and [error correction](/cs70/discrete-math/polynomials.md) among many others. It also underlies fixed-width integer arithmetic in machine code — see [[cs61b/misc-topics/modular-arithmetic]] — and the symmetric/asymmetric primitives studied in [[cs161/Cryptography]].
 
 ## Key Ideas
 

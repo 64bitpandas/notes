@@ -6,7 +6,7 @@ title: "Chapter 8: Caching"
 
 At this point, we've solved nearly all of the problems with base and bound memory translation. But there is one major problem left— all of this additional complexity adds lots of memory accesses, which might make things very inefficient! This is where **caching** comes in.
 
-Since programs only care about a very small subset of the total information available, if we identify this subset and place it into more local memory, then we can efficiently perform most memory accesses.
+Since programs only care about a very small subset of the total information available, if we identify this subset and place it into more local memory, then we can efficiently perform most memory accesses. (For the hardware-level treatment — cache lines, associativity, AMAT — see [[cs61c/Caching]]; for the database analog, see [[cs186/03 Buffer Management]].)
 
 Caches give the benefits of speed from the fastest types of memory while still having the capacity of the largest memory. Ideally, caches are implemented such that they are invisible to programmers: they will automatically move memory between locations.
 

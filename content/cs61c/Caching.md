@@ -13,7 +13,7 @@ Over time, the processor-DRAM latency gap has been increasing, such that instruc
 
 Since programs only care about a very small subset of the total information available, if we identify this subset and place it into more local memory, then we can efficiently perform most memory accesses.
 
-This process is called **caching.**
+This process is called **caching.** The same principle reappears at higher levels of the system stack: see [[cs162/Chapter 8 Caching]] for caching in the OS (TLBs, page caches) and [[cs186/03 Buffer Management]] for the database buffer pool, which is essentially a cache between disk and memory.
 
 Caches give the benefits of speed from the fastest types of memory while still having the capacity of the largest memory. Ideally, caches are implemented such that they are invisible to programmers: they will automatically move memory between locations.
 

@@ -3,7 +3,7 @@ weight: 20
 ---
 
 ## Hypothesis Testing
-Hypothesis testing is a form of [[binary decision making]] (do we accept or reject the null hypothesis?).
+Hypothesis testing is a form of [[binary decision making]] (do we accept or reject the null hypothesis?). For an example of NHST applied in a clinical-research setting, see [[psych131-140/2-2 methods and assessment of mental health problems]].
 
 1. Formulate null hypothesis, alternate hypothesis, and test statistic
 2. Compute value of test statistic based on data

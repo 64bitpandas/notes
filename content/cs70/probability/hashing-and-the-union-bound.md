@@ -2,7 +2,7 @@
 weight: 30
 ---
 
-A hash function assigns a value to each member in a set. It's often useful to determine the probability of collisions: where two different items are assigned the same hash value.
+A hash function assigns a value to each member in a set. It's often useful to determine the probability of collisions: where two different items are assigned the same hash value. (For the data-structures use of hashing — hash tables, separate chaining, dynamic resizing — see [[cs61b/abstract-data-types/hashing]].)
 
 [http://prob140.org/textbook/content/Chapter\_01/03\_Collisions\_in\_Hashing.html](http://prob140.org/textbook/content/Chapter\_01/03\_Collisions\_in\_Hashing.html)
 

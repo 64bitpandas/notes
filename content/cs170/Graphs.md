@@ -6,7 +6,7 @@ created: "February 2, 2021 9:11 AM"
 
 # Graph Representations
 
-A graph is a pair $(V,E)$ where $V$ is the vertex set and $E \subseteq V \times V$ is the edge set.
+A graph is a pair $(V,E)$ where $V$ is the vertex set and $E \subseteq V \times V$ is the edge set. (For an introductory data-structures treatment, see [[cs61b/abstract-data-types/graphs]]; for the discrete-math/combinatorial properties used in proofs, see [[cs70/discrete-math/graphs]].)
 
 There are 2 main ways to represent graphs for an algorithm:
 

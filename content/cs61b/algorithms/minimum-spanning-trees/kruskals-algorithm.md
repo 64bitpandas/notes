@@ -10,7 +10,7 @@ weight: 1
 
 ## Conceptual Overview
 
-Kruskal's algorithm is another optimal way to construct a **minimum spanning tree**. It's benefits are that it is conceptually very simple, and easy to implement. The idea is that first we sort all the edges of the graph in order of increasing weight. Then, add the smallest edge to the MST we are constructing unless this creates a cycle in the MST. Repeat until V - 1 edges total.
+Kruskal's algorithm is another optimal way to construct a **minimum spanning tree**. It's benefits are that it is conceptually very simple, and easy to implement. The idea is that first we sort all the edges of the graph in order of increasing weight. Then, add the smallest edge to the MST we are constructing unless this creates a cycle in the MST. Repeat until V - 1 edges total. (For the correctness proof via the cut property and a more general greedy-MST framework, see [[cs170/Minimum Spanning Trees]].)
 
 ## Detailed Breakdown
 

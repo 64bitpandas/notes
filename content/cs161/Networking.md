@@ -9,7 +9,7 @@ A **network** is a set of connected machines that can communicate with each othe
 
 - A **protocol** is a shared agreement on syntax (structure, format, order of messages) and semantics (what actions to take when a message is received)
 
-The Internet is a **global network of computers** (also known as a network of networks).
+The Internet is a **global network of computers** (also known as a network of networks). (For a full networking course's treatment of every layer below — including how TCP, BGP, and DNS actually work — see [[cs168/internet organization and layers]]. This page focuses on the *security* properties and attacks at each layer.)
 
 # The OSI Model
 
@@ -141,7 +141,7 @@ Networks are divided up into **subnets.** Subnets are denoted by a prefix follow
 
 ### BGP
 
-**Border Gateway Protocol:** used for communicating between different **autonomous systems** on the Internet.
+**Border Gateway Protocol:** used for communicating between different **autonomous systems** on the Internet. (For the policy-vs-shortest-path tradeoffs, customer/provider/peer relationships, and convergence behavior, see [[cs168/interdomain routing (bgp)]].)
 
 - Every AS handles internal routing, has a unique autonomous system number (ASN), is comprised of one or more local networks, and can forward packets to connected AS's.
 - In BGP, every router announces what networks it can provide and the path to those networks. It attempts to use preferred routes (no loops, fastest)
@@ -156,7 +156,7 @@ Networks are divided up into **subnets.** Subnets are denoted by a prefix follow
 
 ### TCP
 
-A **stream protocol** to send a bunch of packets in order, reliably.
+A **stream protocol** to send a bunch of packets in order, reliably. (For the full mechanics — sequence numbers, sliding windows, retransmission, congestion control — see [[cs168/TCP]] and [[cs168/congestion control]].)
 
 TCP provides a **reliable in-order bytestream** abstraction where bytes can go in on one end, and come out at the other end accurately. A bytestream can be thought of as a pipe between the sender and receiver.
 

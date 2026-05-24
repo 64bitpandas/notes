@@ -49,3 +49,5 @@ Here are some cool things you can do with graphs:
 ## More on Graphs
 
 [Depth First Search (DFS)](/cs61b/algorithms/searching/depth-first-search-dfs.md), [Breadth First Search (BFS)](/cs61b/algorithms/searching/breadth-first-search-bfs.md), [Minimum Spanning Trees](/cs61b/algorithms/minimum-spanning-trees/), [Shortest Paths](/cs61b/algorithms/shortest-paths/), [Dijkstra's Algorithm](/cs61b/algorithms/shortest-paths/dijkstras-algorithm.md), [A\* Search](/cs61b/algorithms/shortest-paths/a-search.md), [Prim's Algorithm](/cs61b/algorithms/minimum-spanning-trees/prims-algorithm.md), and [Kruskal's Algorithm](/cs61b/algorithms/minimum-spanning-trees/kruskals-algorithm.md) all rely on graphs. Graphs are a super useful concept!!!
+
+See also: [[cs170/Graphs]] (algorithmic treatment with traversal, SCCs, topological sort), [[cs70/discrete-math/graphs]] (theoretical/combinatorial properties), and [[cs188/Search Problems]] (graphs as state spaces for AI search).

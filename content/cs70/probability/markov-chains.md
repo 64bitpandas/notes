@@ -7,3 +7,5 @@ Markov Chains are a type of **stochastic process** (a collection of random varia
 Markov chains are often used to model transitions between discrete states.
 
 [http://prob140.org/textbook/content/Chapter\_10/00\_Markov\_Chains.html](http://prob140.org/textbook/content/Chapter\_10/00\_Markov\_Chains.html)
+
+See also: [[cs188/Markov Models]] (treats Markov chains as time-series Bayes nets) and [[cs188/Markov Decision Processes]] (extends Markov chains with actions and rewards).

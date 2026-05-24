@@ -5,7 +5,7 @@ weight: 70
 
 # Utility
 
-Utilities are values that determine the relative benefit of a particular state: the higher the utility, the better.
+Utilities are values that determine the relative benefit of a particular state: the higher the utility, the better. For the statistical-decision-theory perspective on the same idea (loss functions, estimators, Bayes vs. minimax risk), see [[data102/decision theory]].
 
 Rational agents follow the **principle of maximum expected utility (MEU):** they always choose whichever actions maximize expected utility. Rational agents must also have **rational preferences** and therefore follow the **axioms of rationality:**
 

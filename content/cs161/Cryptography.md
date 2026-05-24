@@ -5,7 +5,7 @@ weight: 60
 
 ## What is Cryptography?
 
-Cryptography is the study of secure communication over insecure channels, and often involves providing guarantees on the security of resources in the presence of an attacker.
+Cryptography is the study of secure communication over insecure channels, and often involves providing guarantees on the security of resources in the presence of an attacker. (For the number-theory foundations behind RSA and Diffie–Hellman — modular exponentiation, Fermat's little theorem, multiplicative inverses — see [[cs70/discrete-math/modular-arithmetic]] and [[cs70/discrete-math/rsa-cryptography]].)
 
 **The Cast**
 

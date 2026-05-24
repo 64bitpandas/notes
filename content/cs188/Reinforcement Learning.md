@@ -5,7 +5,7 @@ weight: 110
 
 ## Introduction
 
-Reinforcement Learning (RL) is an example of **online planning,** where agents have no prior knowledge of rewards or transitions and must explore an environment before using an estimated policy.
+Reinforcement Learning (RL) is an example of **online planning,** where agents have no prior knowledge of rewards or transitions and must explore an environment before using an estimated policy. The Data 102 treatment of the same material, with more emphasis on the statistical-inference side, is at [[data102/Reinforcement Learning]] (see also [[data102/bandits]] for exploration/exploitation tradeoffs).
 
 - Model-based learning: attempts to estimate transition and reward functions with samples attained during exploration before solving MDP with estimates using value or policy iteration
 - Model-free learning: attempts to estimate values/Q-values of states directly without constructing a reward or transition model in MDP
