@@ -16,7 +16,7 @@ If you made your own notes/resources for any Berkeley course you've taken would 
 
 # AI Transparency
 
-I took these courses before ChatGPT and other LLM's took off, so they are written entirely by hand. All mistakes are of my own accord; though you should [contact me](https://bencuan.me/contact) if you do find anything fishy.
+I took these courses before ChatGPT and other LLM's took off, so they are written entirely by hand. All mistakes are of my own accord; though you should [open an issue](https://github.com/64bitpandas/notes/issues) if you do find anything fishy.
 
 I used LLM assistance (specifically Claude Opus 4.7) to help with web design, formatting, and light editing to transform my original Markdown notes into the friendlier form you see on this site. In an effort to be transparent about what parts are human-written vs. AI-generated, I logged every content-touching LLM edit to [AGENT_CHANGELOG.md](https://github.com/64bitpandas/notes/blob/main/AGENT_CHANGELOG.md). 
 
