@@ -4,6 +4,34 @@
       <img src="{{ "svg/menu.svg" | relURL }}" class="book-icon" alt="Menu" />
     </label>
     <h1 id="page-title"><a href="{{ "" | absLangURL }}"><img src="{{ "favicon.png" | relURL }}" class="title-icon" alt="" />{{ .Site.Params.Title }}</a></h1>
+    <script>
+      (function () {
+        const icon = document.querySelector("#page-title .title-icon");
+        if (!icon) return;
+        const MAX_TILT = 30;
+        const HOVER_SCALE = 1.15;
+        const onMove = (e) => {
+          const rect = icon.getBoundingClientRect();
+          const px = (e.clientX - rect.left) / rect.width;
+          const py = (e.clientY - rect.top) / rect.height;
+          const rotY = (px - 0.5) * 2 * MAX_TILT;
+          const rotX = (0.5 - py) * 2 * MAX_TILT;
+          icon.style.setProperty("--tilt-x", rotX.toFixed(2) + "deg");
+          icon.style.setProperty("--tilt-y", rotY.toFixed(2) + "deg");
+          icon.style.setProperty("--tilt-scale", HOVER_SCALE);
+        };
+        const onLeave = () => {
+          icon.classList.remove("tilting");
+          icon.style.setProperty("--tilt-x", "0deg");
+          icon.style.setProperty("--tilt-y", "0deg");
+          icon.style.setProperty("--tilt-scale", 1);
+        };
+        const onEnter = () => icon.classList.add("tilting");
+        icon.addEventListener("mouseenter", onEnter);
+        icon.addEventListener("mousemove", onMove);
+        icon.addEventListener("mouseleave", onLeave);
+      })();
+    </script>
     <div class="spacer"></div>
     <div id="search-icon" class="quartz-search">
       <p>{{ i18n "search" }}</p>

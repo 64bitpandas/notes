@@ -278,6 +278,19 @@ sup > a {
     height: 1.5em;
     width: auto;
     margin: 0;
+    --tilt-x: 0deg;
+    --tilt-y: 0deg;
+    --tilt-scale: 1;
+    transform-origin: center center;
+    transform: perspective(600px)
+      rotateX(var(--tilt-x))
+      rotateY(var(--tilt-y))
+      scale(var(--tilt-scale));
+    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: transform;
+  }
+  .title-icon.tilting {
+    transition: transform 0.08s linear;
   }
 }
 
