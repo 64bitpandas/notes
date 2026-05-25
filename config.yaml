@@ -104,7 +104,11 @@ params:
 
   # Site description and title
   description:
-    Notes, hosted by bencuan
+    an archive of my UC Berkeley course notes
+
+  # Default OpenGraph / social-share image (relative to baseURL)
+  images:
+    - img/og-image.png
 
   
   # Footer links
